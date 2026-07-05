@@ -1,0 +1,25 @@
+model,sample_size,setting,runs,used_eval_size,full_eval_size_reference,evaluation_scope
+CodeBERT,200,D1_to_D1,5,40,40,Full evaluation
+LLM_RAG,200,D1_to_D1,5,40,40,Full evaluation
+Prompt_LLM,200,D1_to_D1,5,40,40,Full evaluation
+TFIDF_LR,200,D1_to_D1,5,40,40,Full evaluation
+CodeBERT,1500,D1_to_D1,5,300,300,Full evaluation
+LLM_RAG,1500,D1_to_D1,5,300,300,Full evaluation
+Prompt_LLM,1500,D1_to_D1,5,300,300,Full evaluation
+TFIDF_LR,1500,D1_to_D1,5,300,300,Full evaluation
+CodeBERT,5000,D1_to_D1,5,1000,1000,Full evaluation
+LLM_RAG,5000,D1_to_D1,5,300,1000,"Stratified capped inference subset, max 300"
+Prompt_LLM,5000,D1_to_D1,5,300,1000,"Stratified capped inference subset, max 300"
+TFIDF_LR,5000,D1_to_D1,5,1000,1000,Full evaluation
+CodeBERT,200,D1_to_D2,5,200,200,Full evaluation
+LLM_RAG,200,D1_to_D2,5,200,200,Full evaluation
+Prompt_LLM,200,D1_to_D2,5,200,200,Full evaluation
+TFIDF_LR,200,D1_to_D2,5,200,200,Full evaluation
+CodeBERT,1500,D1_to_D2,5,1500,1500,Full evaluation
+LLM_RAG,1500,D1_to_D2,5,300,1500,"Stratified capped inference subset, max 300"
+Prompt_LLM,1500,D1_to_D2,5,300,1500,"Stratified capped inference subset, max 300"
+TFIDF_LR,1500,D1_to_D2,5,1500,1500,Full evaluation
+CodeBERT,5000,D1_to_D2,5,5000,5000,Full evaluation
+LLM_RAG,5000,D1_to_D2,5,300,5000,"Stratified capped inference subset, max 300"
+Prompt_LLM,5000,D1_to_D2,5,300,5000,"Stratified capped inference subset, max 300"
+TFIDF_LR,5000,D1_to_D2,5,5000,5000,Full evaluation

@@ -1,0 +1,29 @@
+
+You are a software engineering researcher performing binary classification of developer comments.
+
+Classification task:
+Determine whether the TARGET developer comment contains Self-Admitted Technical Debt (SATD).
+
+Definition of SATD:
+A comment is SATD if the developer explicitly acknowledges a known limitation, shortcut, workaround, incomplete implementation, temporary solution, poor design decision, technical compromise, future refactoring need, defect left for later, missing test, missing documentation, or similar debt-related concern.
+
+Retrieved evidence:
+The retrieved examples are supporting evidence only. They may be useful or noisy. Do not blindly copy their labels.
+
+{retrieved_examples}
+
+Decision rules:
+1. Base the final decision primarily on the TARGET comment.
+2. Use retrieved examples only when they are semantically similar.
+3. Predict SATD only when the TARGET comment explicitly admits a current technical limitation, shortcut, workaround, or deferred improvement.
+4. If ambiguous, predict NON_SATD.
+5. Return exactly one label and nothing else.
+
+Allowed labels:
+SATD
+NON_SATD
+
+TARGET developer comment:
+{text}
+
+Final label:

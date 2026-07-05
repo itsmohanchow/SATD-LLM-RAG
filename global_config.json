@@ -1,0 +1,33 @@
+{
+    "seeds": [
+        13,
+        21,
+        42,
+        87,
+        100
+    ],
+    "dataset_sizes": [
+        200,
+        1500,
+        5000
+    ],
+    "test_size": 0.2,
+    "codebert_model": "microsoft/codebert-base",
+    "codebert_max_len": 128,
+    "codebert_epochs": 3,
+    "codebert_learning_rate": 2e-05,
+    "codebert_batch_size": 16,
+    "codebert_weight_decay": 0.01,
+    "llm_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "llm_eval_cap": 300,
+    "llm_decoding": "greedy",
+    "llm_do_sample": false,
+    "llm_max_new_tokens": 8,
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "rag_top_k": 3,
+    "rag_index": "FAISS IndexFlatIP",
+    "rag_similarity": "inner product over normalized embeddings",
+    "python_version": "3.12.13",
+    "torch_version": "2.11.0+cu128",
+    "cuda_available": true
+}
