@@ -1,0 +1,41 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score
+TFIDF_LR,200,100,D1_to_D1,0,"// That's it, we have a match!",0,1,0.5219807743690319
+TFIDF_LR,200,100,D1_to_D1,1,// First sort so that Events from one folder stick together,0,0,0.37660779618777185
+TFIDF_LR,200,100,D1_to_D1,2,//{{{ isScriptRunning() method,0,0,0.25237153537756146
+TFIDF_LR,200,100,D1_to_D1,3,"// FIXME: implement this, low priority",1,1,0.638196001665561
+TFIDF_LR,200,100,D1_to_D1,4,// Nothing more to do.,0,1,0.5303330328903603
+TFIDF_LR,200,100,D1_to_D1,5,// TODO correct URL?,1,1,0.90409100085268
+TFIDF_LR,200,100,D1_to_D1,6,// call a target,0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,7,// Loop over the entries in the zip stream. //,0,1,0.5948372155221945
+TFIDF_LR,200,100,D1_to_D1,8,//}}},0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,9,"/** * The SSLManager handles the KeyStore information for JMeter. Basically, it * handles all the logic for loading and initializing all the JSSE parameters * and selecting the alias to authenticate against if it is available. * SSLManager will try to automatically select the client certificate for you, * but if it can't make a decision, it will pop open a dialog asking you for * more information. * * TODO: does not actually prompt * */",1,1,0.6987002802996687
+TFIDF_LR,200,100,D1_to_D1,10,//}}},0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,11,//TODO: Should next and return also catch here?,1,1,0.6670421628599038
+TFIDF_LR,200,100,D1_to_D1,12,//}}},0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,13,"// API expects null not empty array, see http://docs.oracle.com/javase/6/docs/api/javax/net/ssl/X509KeyManager.html",0,0,0.340829895884123
+TFIDF_LR,200,100,D1_to_D1,14,// number of positional parameters in abbreviation expansion,0,0,0.492535686607551
+TFIDF_LR,200,100,D1_to_D1,15,// TODO (@author fdietz): make i18n!,1,1,0.5991524180779817
+TFIDF_LR,200,100,D1_to_D1,16,//{{{ removeLeftOfScrollBar() method,0,0,0.25237153537756146
+TFIDF_LR,200,100,D1_to_D1,17,//TODO (@author fdietz): i18n,1,1,0.6075905593141234
+TFIDF_LR,200,100,D1_to_D1,18,// i18n[ColorPropertiesPanel.objectTreeBackgroundColorChooserDialogTitle=Select Background Color for // Object Tree],0,0,0.3827619183809296
+TFIDF_LR,200,100,D1_to_D1,19,/* * TODO add tests to check for: - name clash - long option abbreviations * (match shortest unique abbreviation) */,1,1,0.6551605361595793
+TFIDF_LR,200,100,D1_to_D1,20,// FIXME: ugly cast to ContactModel,1,1,0.6506405541846033
+TFIDF_LR,200,100,D1_to_D1,21,//$NON-NLS-1$,0,0,0.197344995289909
+TFIDF_LR,200,100,D1_to_D1,22,/* * TODO: Is this required? Why would the fig already be dashed? * * @see org.tigris.gef.presentation.FigEdge#setFig( * org.tigris.gef.presentation.Fig) */,1,1,0.5695272366233666
+TFIDF_LR,200,100,D1_to_D1,23,// FIXME: Can get optimized for IEqlNode,1,1,0.5457721256788506
+TFIDF_LR,200,100,D1_to_D1,24,//{{{ setScreenLineCount() method,0,0,0.25237153537756146
+TFIDF_LR,200,100,D1_to_D1,25,/* (non-Javadoc) * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow) */,0,0,0.2619828702762469
+TFIDF_LR,200,100,D1_to_D1,26,"// TODO: I think we need to make sure the keys are actually cloned, // whereas the stroke instances are always immutable so they're OK",1,1,0.6287258709993565
+TFIDF_LR,200,100,D1_to_D1,27,// Hack to allow automated tests to find when test has ended //transient boolean testEnded = false;,1,0,0.47240060101216846
+TFIDF_LR,200,100,D1_to_D1,28,"// actual type does not exactly match method return type, re-get converter // FIXME: when the only autoconversions are primitives, this won't be needed",1,1,0.6660816264311373
+TFIDF_LR,200,100,D1_to_D1,29,/* TODO: link to the Signal. */,1,1,0.8833307469962383
+TFIDF_LR,200,100,D1_to_D1,30,// TODO: should not be using assert here but I don't want to change to // IllegalStateException at lead up to a release as I don't know how // much testing is done with assert on.,1,1,0.782475947954002
+TFIDF_LR,200,100,D1_to_D1,31,// FIXME remove method // toolbarPane.add(c);,1,0,0.4041838142487698
+TFIDF_LR,200,100,D1_to_D1,32,"/** * TODO: move to IOUtilities * * @see net.sourceforge.squirrel_sql.client.update.UpdateUtil#createZipFile(FileWrapper, FileWrapper[]) */",1,1,0.5076358328540875
+TFIDF_LR,200,100,D1_to_D1,33,// TODO: find a way to avoid the cost of creating a String here -- // probably a new PatternMatcherInput working on a byte[] would do // better.,1,1,0.5904604497790509
+TFIDF_LR,200,100,D1_to_D1,34,// If this also does not work // -> fall back to no charset specified,0,1,0.6392050639845792
+TFIDF_LR,200,100,D1_to_D1,35,/* Everything fine... */,0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,36,//Empty body,0,0,0.3535125115751142
+TFIDF_LR,200,100,D1_to_D1,37,// TODO: This looks backwards. Left over from issue 2034?,1,1,0.7056776730142874
+TFIDF_LR,200,100,D1_to_D1,38,// TODO: what shall we do with the exception?,1,1,0.6958655507890625
+TFIDF_LR,200,100,D1_to_D1,39,//}}},0,0,0.3535125115751142

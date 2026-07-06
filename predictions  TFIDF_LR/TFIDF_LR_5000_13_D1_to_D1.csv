@@ -1,0 +1,1001 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score
+TFIDF_LR,5000,13,D1_to_D1,0,// FIXME: use other fields too,1,1,0.7716289282376106
+TFIDF_LR,5000,13,D1_to_D1,1,// TODO : YUCK!!! fix after HHH-1907 is complete,1,1,0.7485112532276229
+TFIDF_LR,5000,13,D1_to_D1,2,"// using IOChannel may not be the most performant way, but it's easy.",1,1,0.6564848587653931
+TFIDF_LR,5000,13,D1_to_D1,3,// There shall not be a dependency from ... to ...,1,1,0.7441862779163754
+TFIDF_LR,5000,13,D1_to_D1,4,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,5,// this will throw an error if there's something wrong.,0,1,0.5458740991130132
+TFIDF_LR,5000,13,D1_to_D1,6,// SSS FIXME: What is the difference between ClassVarAsgnNode & ClassVarDeclNode,1,1,0.7724919273857905
+TFIDF_LR,5000,13,D1_to_D1,7,// Category.getRoot().getLoggerRepository().setThreshold(Level.OFF); // TODO: Find the proper implementation in java.util.logging API,1,1,0.6046447910137027
+TFIDF_LR,5000,13,D1_to_D1,8,// TODO these assertions should be separate tests,1,1,0.9193912675932583
+TFIDF_LR,5000,13,D1_to_D1,9,// Struct methods,0,0,0.20549764860106498
+TFIDF_LR,5000,13,D1_to_D1,10,"// SampleEvent is not passed JMeterVariables, because they don't make sense for Proxy Recording // TODO - is this the correct threadgroup name?",1,1,0.9270092595398719
+TFIDF_LR,5000,13,D1_to_D1,11,// Need to calculate this... just fudging here for now.,1,1,0.8269339029780229
+TFIDF_LR,5000,13,D1_to_D1,12,//$NON-NLS-1$ //$NON-NLS-1$,0,0,0.02959412147452293
+TFIDF_LR,5000,13,D1_to_D1,13,// TODO implement validation,1,1,0.972272604594573
+TFIDF_LR,5000,13,D1_to_D1,14,// will be null for HEAD,0,0,0.27366967060710357
+TFIDF_LR,5000,13,D1_to_D1,15,// If variables were added then we may need to grow the dynamic scope to match the static // one. // FIXME: Make this so we only need to check this for blockScope != null. We cannot // currently since we create the DynamicScope for a LocalStaticScope before parse begins. // Refactoring should make this fixable.,1,1,0.8728897784702452
+TFIDF_LR,5000,13,D1_to_D1,16,// it doesn't handle special cases,0,0,0.2704530141904323
+TFIDF_LR,5000,13,D1_to_D1,17,//private Hashtable properties = new Hashtable();,0,0,0.18228319792976735
+TFIDF_LR,5000,13,D1_to_D1,18,// Find the pattern between padIdxStart & padIdxTmp in str between // strIdxStart & strIdxEnd,0,0,0.3066773697436931
+TFIDF_LR,5000,13,D1_to_D1,19,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,20,// no existing clob to re-use,0,0,0.27057605540192575
+TFIDF_LR,5000,13,D1_to_D1,21,// TODO: Remove listeners for add/remove events,1,1,0.7128712236854275
+TFIDF_LR,5000,13,D1_to_D1,22,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,23,// selectedIndex = cbFieldName.getSelectedIndex(); // DefaultComboBoxModel comboModel = // (DefaultComboBoxModel) cbFieldName.getModel(); // FieldDetails fd = (FieldDetails) comboModel.getElementAt(selectedIndex); // // cbFieldName.setSelectedItem(fd.getFieldName()); // cbFieldType.setSelectedItem(fd.getFieldType()); // tfFieldDefault.setText(fd.getDefault()); // chAutoIncrement.setSelected(fd.IsAutoIncrement()); // chNotNull.setSelected(fd.IsNotNull());,0,0,0.2071021183604741
+TFIDF_LR,5000,13,D1_to_D1,24,/* TODO: Should there really be () here? */,0,1,0.9874283323773719
+TFIDF_LR,5000,13,D1_to_D1,25,// Give up if we are already on the graph. This is a bit inconistent // with canAddNode above.,0,1,0.6092875384692689
+TFIDF_LR,5000,13,D1_to_D1,26,// Allow for short/negative times,0,0,0.28090343498832315
+TFIDF_LR,5000,13,D1_to_D1,27,// So we know which button is selected,0,0,0.35185039736399126
+TFIDF_LR,5000,13,D1_to_D1,28,// FIXME: need a locale as well as a timezone,1,1,0.5674412246521852
+TFIDF_LR,5000,13,D1_to_D1,29,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,30,"//fireTreeNodesChanged(this, path, childIndices, children);",0,0,0.35130621345301477
+TFIDF_LR,5000,13,D1_to_D1,31,"// We not sure the encoding supports this code point, so we write it as a character entity reference.",0,1,0.5845360055878589
+TFIDF_LR,5000,13,D1_to_D1,32,/* * @see java.awt.event.MouseMotionListener#mouseMoved(java.awt.event.MouseEvent) */,0,0,0.08824227659766584
+TFIDF_LR,5000,13,D1_to_D1,33,// have to do this hack until VFSPath class is written,1,1,0.7497520850799461
+TFIDF_LR,5000,13,D1_to_D1,34,"// TODO: remove when code below in characters() is removed // private static final String RETURNSTRING = ""\n "";",1,1,0.8275844207487691
+TFIDF_LR,5000,13,D1_to_D1,35,// make sure that elapsed time in ms works,0,0,0.41496545193859175
+TFIDF_LR,5000,13,D1_to_D1,36,// ? is there an xml api for this ?,0,1,0.5432298578303271
+TFIDF_LR,5000,13,D1_to_D1,37,// This assumes you will want to ignore any update counts,0,0,0.4342366035146733
+TFIDF_LR,5000,13,D1_to_D1,38,//private double baseRadius;,0,0,0.17301810728854458
+TFIDF_LR,5000,13,D1_to_D1,39,"/** * This is the interface for registering interest in events sent from * the model component.<p> * * Neither the registration or unregistration, nor the events themselves * contain any reference to the model implementation. Instead they * use the {@link java.beans.PropertyChangeListener}, * {@link java.beans.PropertyChangeEvent} to * deliver events.<p> * * The reference to the listener is a WeakReference so you don't need to * call removeWHATEVERListener, you can just forget about your listener * and it is eventually finalized and removed. This also means that you * will have to keep a reference to your listener while it is active. * Since the garbage collecting mechanism is not really deterministic * a forgotten about listener might still receive events. Unless it can * handle them in a harmless way, this approach should not be used. * * TODO: (Is this still true or does it refer to the NSUML * implementation? - tfm 20051109) * (This is part of the contract that is established between the Model * subsystem and its users. If that is not fulfilled by the current * implementation, then the current implementation is incorrect. * Linus 20060411).<p> * * TODO: What event names? * The event names generated are {@link String}s and their values and * meanings are not really well documented. In general they are the * name of an an association end or attribute in the UML metamodel.<p> * * Here are some highlights:<ul> * <li>""remove"" - event sent when the element is removed. * </ul> * * @author Linus Tolke */",1,1,0.9865541071974042
+TFIDF_LR,5000,13,D1_to_D1,40,// check if starting new column,0,0,0.13300595264094603
+TFIDF_LR,5000,13,D1_to_D1,41,"// with args, with block",0,0,0.343781519478139
+TFIDF_LR,5000,13,D1_to_D1,42,//}}} //{{{ KEY_TYPED...,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,43,// Target has been deleted,0,0,0.2183581754157293
+TFIDF_LR,5000,13,D1_to_D1,44,/* * (non-Javadoc) * @see net.sourceforge.squirrel_sql.plugins.dataimport.importer.IFileImporter#next() */,0,0,0.09247137556469681
+TFIDF_LR,5000,13,D1_to_D1,45,// Default implementation is to do nothing,0,0,0.23613196552737062
+TFIDF_LR,5000,13,D1_to_D1,46,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getChildren( * java.lang.Object) */,0,0,0.08801150280351816
+TFIDF_LR,5000,13,D1_to_D1,47,//{{{ ListHandler class,0,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,48,// -nwarn,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,49,// Can't work with ISessionAction because if a result window is on top // the session in a ISessionAction is null.,0,1,0.5469647489766636
+TFIDF_LR,5000,13,D1_to_D1,50,"// for DOM4J ""collections"" only // TODO: it would be better if this was done at the higher level by Printer",1,1,0.8903146143281373
+TFIDF_LR,5000,13,D1_to_D1,51,// i18n[codeCompletion.prefixConfig=Configure function completion for function name prefixes:],0,0,0.17922142105449276
+TFIDF_LR,5000,13,D1_to_D1,52,// calculate the bar width,0,0,0.22756996698086454
+TFIDF_LR,5000,13,D1_to_D1,53,// long name option,0,0,0.3018785875705573
+TFIDF_LR,5000,13,D1_to_D1,54,//{{{ Constructor,0,0,0.15293378252925127
+TFIDF_LR,5000,13,D1_to_D1,55,/* TODO: how to handle changes in shadowsize * from the project properties? */,1,1,0.8414889330715992
+TFIDF_LR,5000,13,D1_to_D1,56,// one space for blank header // $NON-NLS-1$ // one space for blank header // $NON-NLS-1$,0,0,0.0856738218394495
+TFIDF_LR,5000,13,D1_to_D1,57,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,58,// TODO: This is a redundant invocation,1,1,0.9853708259404322
+TFIDF_LR,5000,13,D1_to_D1,59,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,60,// FIXME: When we get JNA3 we need to properly write this to errno.,1,1,0.9094580595892368
+TFIDF_LR,5000,13,D1_to_D1,61,//{{{ getMinimumSize() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,62,// TODO: this is a bit of copy/paste from IndexedCollection.createPrimaryKey(),1,1,0.9388695003615829
+TFIDF_LR,5000,13,D1_to_D1,63,"// Not 100% sure, but I believe this can't happen, so // I'll log and throw an error:",0,1,0.6780025208382738
+TFIDF_LR,5000,13,D1_to_D1,64,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,65,// draw the arrow...,0,0,0.17092105720526155
+TFIDF_LR,5000,13,D1_to_D1,66,// we could move this inside if we wanted to // tolerate collection initializations during // collection dirty checking:,1,1,0.7039293422577885
+TFIDF_LR,5000,13,D1_to_D1,67,"/* * Have we reached the reporting boundary? * Need to allow for a margin of error, otherwise can miss the slot. * Also need to check we've not hit the window already */",1,1,0.7033885717622389
+TFIDF_LR,5000,13,D1_to_D1,68,"// TODO: A minimal update strategy would be better here to // minimize work and events firing, but it may be better to // deprecate the method and force calls to manage updates // themselves (since they probably usually want to just add // or remove a single element) - tfm 20061108",1,1,0.8950880965479685
+TFIDF_LR,5000,13,D1_to_D1,69,// Hack to allow automated tests to find when test has ended //transient boolean testEnded = false;,1,1,0.6573233987291989
+TFIDF_LR,5000,13,D1_to_D1,70,// I know it's bad to create object. better idea?,1,1,0.506397289826716
+TFIDF_LR,5000,13,D1_to_D1,71,// delegate...,0,0,0.1860166357253757
+TFIDF_LR,5000,13,D1_to_D1,72,// XXX what is this for?,1,1,0.9368173418464912
+TFIDF_LR,5000,13,D1_to_D1,73,"/* * @see org.tigris.gef.presentation.Fig#setBoundsImpl(int, int, int, int) * * Override setBounds to keep shapes looking right. */",0,0,0.12514764370131082
+TFIDF_LR,5000,13,D1_to_D1,74,// switch to new theme,0,0,0.28431097578764447
+TFIDF_LR,5000,13,D1_to_D1,75,// let notified threads move on and get lock on managersInUse,0,0,0.43347507490929965
+TFIDF_LR,5000,13,D1_to_D1,76,// line 1623,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,77,// horizontal grid lines,0,0,0.20557550656835624
+TFIDF_LR,5000,13,D1_to_D1,78,"// we should be able to find the comma because the range for enum constants includes all preceding comments up to the previous constant // if TargetSourceRangeComputer of ASTRewrite changes, this logic should change to skip comments // see org.eclipse.emf.codegen.merge.java.facade.ast.CommentAwareSourceRangeComputer#getEnumConstantSourceRange(ASTNode)",1,1,0.6248696385172992
+TFIDF_LR,5000,13,D1_to_D1,79,// Single node in list,0,0,0.25001708014257973
+TFIDF_LR,5000,13,D1_to_D1,80,// This refactoring depends on the following dialect API methods: // getUpdateSQL,1,1,0.6469448285259738
+TFIDF_LR,5000,13,D1_to_D1,81,"// update any text, colors, fonts, etc.",0,0,0.18115043751229878
+TFIDF_LR,5000,13,D1_to_D1,82,// Only allow one load,0,0,0.2307195572807996
+TFIDF_LR,5000,13,D1_to_D1,83,// the width needs to be > the height,0,1,0.5616324873809706
+TFIDF_LR,5000,13,D1_to_D1,84,"/** * Make use of the default visibility, which is public... * TODO: centralise this knowledge. * * @see org.argouml.uml.diagram.ui.AbstractActionRadioMenuItem#valueOfTarget(java.lang.Object) */",1,1,0.6143544197735049
+TFIDF_LR,5000,13,D1_to_D1,85,//{{{ Ceate icons list,0,0,0.15183321276820622
+TFIDF_LR,5000,13,D1_to_D1,86,/** * Create the main draggable label for the association. * This can be overridden in subclasses to change behaviour. * TODO: Consider introducing this to FigEdgeModelElement and * using throughout all edges. * * @param owner owning uml element * @param settings rendering settings */,1,1,0.89959918724715
+TFIDF_LR,5000,13,D1_to_D1,87,// NOI18N,0,0,0.12703786970530329
+TFIDF_LR,5000,13,D1_to_D1,88,// TODO: This creates a dependency on the Critics subsystem. // We need a generic way for modules (including our internal // subsystems) to request addition of actions to the popup // menu. - tfm 20080430,1,1,0.8936638767409134
+TFIDF_LR,5000,13,D1_to_D1,89,// check that changing a tick label paint in a1 doesn't change a2,0,0,0.2897356743995077
+TFIDF_LR,5000,13,D1_to_D1,90,// the introducing label,0,0,0.24442937098559872
+TFIDF_LR,5000,13,D1_to_D1,91,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,92,// Move me to classpath/ClassManagerImpl???,1,0,0.409453716825171
+TFIDF_LR,5000,13,D1_to_D1,93,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,94,// We don't have a local copy,0,0,0.4091046373622066
+TFIDF_LR,5000,13,D1_to_D1,95,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,96,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,97,/** * Builds an actor in the same namespace as the given actor. If * the object is not and actor nothing is built.<p> * * TODO: This shouldn't just silently fail if it is passed a bad * argument. This contract will change. - tfm 20070607 * * @param model The namespace. * @param actor the given actor * @return Actor the newly built actor */,1,1,0.6951309153381221
+TFIDF_LR,5000,13,D1_to_D1,98,// Set the prefix for this node to include its tag name.,0,0,0.3346898587392631
+TFIDF_LR,5000,13,D1_to_D1,99,// N.B. Commons IO IOUtils has equivalent methods; these were added before IO was included // TODO - perhaps deprecate these in favour of Commons IO?,1,1,0.5803679143963288
+TFIDF_LR,5000,13,D1_to_D1,100,//{{{ ensureCapacity() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,101,// TODO: This should only be checking for the top level package // (if anything at all),1,1,0.946175155426234
+TFIDF_LR,5000,13,D1_to_D1,102,"// classes are directly in the hierarchy, so no special logic is necessary for implementer",0,0,0.45924587148809254
+TFIDF_LR,5000,13,D1_to_D1,103,"//TODO: if object was an uninitialized proxy, this is inefficient, // resulting in two SQL selects",1,1,0.7354045292007779
+TFIDF_LR,5000,13,D1_to_D1,104,// TODO: Rationalize this with getModelElementContainer,1,1,0.9994222567434011
+TFIDF_LR,5000,13,D1_to_D1,105,// XXX: does this really belong here?,1,1,0.9072471845583074
+TFIDF_LR,5000,13,D1_to_D1,106,// check number of JTree rows,0,0,0.1323492574992643
+TFIDF_LR,5000,13,D1_to_D1,107,/* ================ * Instance Methods * ================ */,0,0,0.271528094820214
+TFIDF_LR,5000,13,D1_to_D1,108,// TODO: Perhaps use a HashSet or other collection with faster lookup // performance in case our callers are doing naive .contains() lookups,1,1,0.7867608256095923
+TFIDF_LR,5000,13,D1_to_D1,109,// mark all messages as expunged,0,0,0.21982142173559885
+TFIDF_LR,5000,13,D1_to_D1,110,// associate with JavaHelp,0,0,0.4434285904499179
+TFIDF_LR,5000,13,D1_to_D1,111,// Allow listening to other elements:,0,0,0.4047135752037604
+TFIDF_LR,5000,13,D1_to_D1,112,// Yow...this is still ugly,1,1,0.6941917056340531
+TFIDF_LR,5000,13,D1_to_D1,113,/* Note: which of these things should be checked at parse time vs. run time? */,1,1,0.6720544646373477
+TFIDF_LR,5000,13,D1_to_D1,114,// These may not actually make any difference at present (the code // behind addTrigger needs more work).,1,1,0.7960293429996521
+TFIDF_LR,5000,13,D1_to_D1,115,// we have an edge (the UML modelelement!),0,0,0.33032802443603154
+TFIDF_LR,5000,13,D1_to_D1,116,"// 6e - remove all ""<segment>/../"" where ""<segment>"" is a complete // path segment not equal to ""..""",0,0,0.3285993342386488
+TFIDF_LR,5000,13,D1_to_D1,117,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,118,// TODO: Check this result...,1,1,0.8416652755525259
+TFIDF_LR,5000,13,D1_to_D1,119,"// FIXME (@author fdietz): Do we need this implementation in a TempFolder? // If not, just put an empty method here, just like in VirtualFolder.",1,1,0.9621677775149509
+TFIDF_LR,5000,13,D1_to_D1,120,"// FIXME This whole thing could probably be implemented as a module and // mixed into appropriate classes, especially if it uses either // IOInput/OutputStream or is smart about the kind of IO-like object // it's being used against.",1,1,0.8182960324082192
+TFIDF_LR,5000,13,D1_to_D1,121,// JASON: Do we need this? // getSQLPanel().selected();,1,1,0.7724300438015057
+TFIDF_LR,5000,13,D1_to_D1,122,//TODO: proxies!,1,1,0.8237204911306426
+TFIDF_LR,5000,13,D1_to_D1,123,"// hear no evil, see no evil",1,0,0.13859968789416627
+TFIDF_LR,5000,13,D1_to_D1,124,"// bug #997560 (fdietz): CC: should be in Cc:, instead of To:",1,1,0.9243231387656551
+TFIDF_LR,5000,13,D1_to_D1,125,// tick mark stroke...,0,0,0.13516369558803915
+TFIDF_LR,5000,13,D1_to_D1,126,// TODO: TabToDo should listen for an event that this fires so that we // can decouple from the ProjectBrowser. - tfm,1,1,0.9172404490653974
+TFIDF_LR,5000,13,D1_to_D1,127,// line 1084,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,128,"// TODO: MVW: This needs rethinking/rework! I have the following questions: // Why does it not search for a stereotype in the namespace using // properties and only create a new stereotype if it will actually be used? // Ie, why is there not a getStereotype(String name, String baseClass)? // (edited by d00mst)",1,1,0.9153776815318648
+TFIDF_LR,5000,13,D1_to_D1,129,/* * [5] Name ::= (Letter | '_' | ':') (NameChar)* */,0,0,0.2479294843751981
+TFIDF_LR,5000,13,D1_to_D1,130,/* (non-Javadoc) * @see com.mockobjects.sql.MockDatabaseMetaData#supportsCatalogsInIndexDefinitions() */,0,0,0.10117071356538611
+TFIDF_LR,5000,13,D1_to_D1,131,//{{{ handleMessage() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,132,// If found cache the full name in the BshClassManager,0,0,0.4421975045961818
+TFIDF_LR,5000,13,D1_to_D1,133,// fall through to normal processing of this key stroke,0,0,0.3947265722412779
+TFIDF_LR,5000,13,D1_to_D1,134,/* (MMessage) */,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,135,"// TODO merge put and post methods as far as possible. // e.g. post checks for multipart form/files, and if not, invokes sendData(HttpEntityEnclosingRequestBase)",1,1,0.5512906123653175
+TFIDF_LR,5000,13,D1_to_D1,136,"// TODO: - Col - Add method to Databasemetadata that returns array // of objects for getBestRowIdentifier. For PostgreSQL put this kludge in // the new function. THis way all the kludges are kept in one place. // // KLUDGE!!!!!! // // For some DBs (e.g. PostgreSQL) there is actually a pseudo-column // providing the rowId, but the getBestRowIdentifier function is not // implemented. This kludge hardcodes the knowledge that specific // DBs use a specific pseudo-column. Additionally, as of pg 8.1, // you must create the table using ""WITH OID"" appended to the create // statement. Otherwise, OID column is not available by default. //",1,1,0.9048799618349227
+TFIDF_LR,5000,13,D1_to_D1,137,//{{{ TableMouseHandler class,0,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,138,// TODO: find a way to avoid the cost of creating a String here -- // probably a new PatternMatcherInput working on a byte[] would do // better.,1,1,0.9148987184411699
+TFIDF_LR,5000,13,D1_to_D1,139,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,140,// Ensure that the map for Ecore is not repeatedly populated and that Property maps to EReference rather than EAttribute. //,0,1,0.6157778086280977
+TFIDF_LR,5000,13,D1_to_D1,141,// FIXME: This determine module is in a strange location and should somehow be in block,1,1,0.8481595604940219
+TFIDF_LR,5000,13,D1_to_D1,142,//create an index on the key columns??,1,0,0.34812384539118235
+TFIDF_LR,5000,13,D1_to_D1,143,// positiveItemLabelPositionList;,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,144,// TODO: Ruby locks the string here,1,1,0.8848454284202332
+TFIDF_LR,5000,13,D1_to_D1,145,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,146,// Use a transaction to avoid the performance penalty (3x) of // MDR's autocommit mode,0,1,0.6135736494074046
+TFIDF_LR,5000,13,D1_to_D1,147,"// SSS FIXME: I could make IR_Loop a scope too ... semantically, it is a scope, but, functionally, not sure if this is required yet ...",1,1,0.9127870304680759
+TFIDF_LR,5000,13,D1_to_D1,148,/* This method should be rewritten to use getFields() and avoid catching exceptions during the search. */,1,1,0.7138018964436665
+TFIDF_LR,5000,13,D1_to_D1,149,"// This triggers some warnings (in logs) because some elements are // created without an owner (and eResource is null) // TODO: fix this // The warning log (if we would not add the EObject to a resource) would // looks like this: ""...WARN [AWT-EventQueue-0] Encountered deleted // object during delete of...""",1,1,0.912786303066695
+TFIDF_LR,5000,13,D1_to_D1,150,// drag and drop support // I'd just move the code to // JEditTextArea but it // depends on JDK 1.4 APIs,1,1,0.6781825903983931
+TFIDF_LR,5000,13,D1_to_D1,151,//reset the dotcount (but not the path) //after reset!,0,0,0.33607153397891654
+TFIDF_LR,5000,13,D1_to_D1,152,/** * forwards this event to the tree model. * * @param element the modelelement to be changed * * TODO: This shouldn't be public. Components desiring to * inform the Explorer of changes should send events. */,1,1,0.8875975399074464
+TFIDF_LR,5000,13,D1_to_D1,153,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,154,"// example: fdietz@jabber.org/Jabber-client // -> remove ""/Jabber-client""",0,0,0.21115835275980066
+TFIDF_LR,5000,13,D1_to_D1,155,// we have a variable name,0,0,0.3454099654544618
+TFIDF_LR,5000,13,D1_to_D1,156,// defer argument checking,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,157,"/* * The displayName variable stores the value of the ""display-name"" element * from the standard EJB descriptor. As a future enhancement to this task, * we may determine the name of the EJB JAR file using this display-name, * but this has not be implemented yet. */",1,1,0.6595386236018808
+TFIDF_LR,5000,13,D1_to_D1,158,// get list of all selected folders,0,0,0.17549739607651738
+TFIDF_LR,5000,13,D1_to_D1,159,// TODO: I18N,1,1,0.904952646022914
+TFIDF_LR,5000,13,D1_to_D1,160,/** * Calls <code>caseXXX</code> for each class of the model until one returns a non null result; it yields that result. * <!-- begin-user-doc --> * <!-- end-user-doc --> * @return the first non-null result returned by a <code>caseXXX</code> call. * @generated */,0,0,0.2503096612753093
+TFIDF_LR,5000,13,D1_to_D1,161,// invoke the constructor for this branch,0,1,0.5145618436299375
+TFIDF_LR,5000,13,D1_to_D1,162,//{{{ loadToolButton() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,163,// download message,0,0,0.16425619970822544
+TFIDF_LR,5000,13,D1_to_D1,164,// Stop action notifications while we shuffle this around:,0,1,0.5555532930196889
+TFIDF_LR,5000,13,D1_to_D1,165,// Add all the headers from the HeaderManager,0,0,0.2738814726908131
+TFIDF_LR,5000,13,D1_to_D1,166,//////////////////////////////////////////////////////////////// // MouseListener implementation,0,0,0.42475885038263855
+TFIDF_LR,5000,13,D1_to_D1,167,// get the type of artifact,0,0,0.2791313428906257
+TFIDF_LR,5000,13,D1_to_D1,168,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,169,// TODO: must override in RubyModule to pick up constants,1,1,0.8043386676556645
+TFIDF_LR,5000,13,D1_to_D1,170,/*method.block*/,0,0,0.08063289247610943
+TFIDF_LR,5000,13,D1_to_D1,171,// line 559,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,172,// execute the test and get the return code,0,0,0.2580878524542648
+TFIDF_LR,5000,13,D1_to_D1,173,"// if no-cache is present, ensure that expiresDate remains null, which forces revalidation",0,0,0.28793738142384834
+TFIDF_LR,5000,13,D1_to_D1,174,// There must be at least one match. //,0,0,0.27017665114632305
+TFIDF_LR,5000,13,D1_to_D1,175,// TODO: I18N required,1,1,0.8169653251249634
+TFIDF_LR,5000,13,D1_to_D1,176,//TODO:refactor + make this method private,1,1,0.8441669994961938
+TFIDF_LR,5000,13,D1_to_D1,177,// break out of inner for loop to check next char //}}} //{{{ Handle end of MARK_FOLLOWING,0,0,0.2988236265398049
+TFIDF_LR,5000,13,D1_to_D1,178,"//TODO: if we are using identity columns, fetch the identifier",1,1,0.6674530784474255
+TFIDF_LR,5000,13,D1_to_D1,179,//{{{ getToolTipText() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,180,// negativeArrowVisible;,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,181,// disable selected item,0,0,0.11244583586576135
+TFIDF_LR,5000,13,D1_to_D1,182,// convert file text into a string // Special case: some systems tack a newline at the end of // the text read. Assume that if last char is a newline that // we want everything else in the line.,0,0,0.2951965361466062
+TFIDF_LR,5000,13,D1_to_D1,183,// TODO: This work should be deferred until actually // needed for display,1,1,0.9726293818418138
+TFIDF_LR,5000,13,D1_to_D1,184,// ECLIPSE-DEPEND-END,0,0,0.20533800862567034
+TFIDF_LR,5000,13,D1_to_D1,185,// its maybe better to leave this option out of the dialog // -> make it configurable in the xml file anyway,1,1,0.6663546192345249
+TFIDF_LR,5000,13,D1_to_D1,186,// no entry selected,0,0,0.12103812988401011
+TFIDF_LR,5000,13,D1_to_D1,187,// kjc don't have bootclasspath option.,0,0,0.36771766158450586
+TFIDF_LR,5000,13,D1_to_D1,188,"// The 5 main component : 2 label, a panel for langage , a panel with // button, a textarea",0,0,0.28616945298404123
+TFIDF_LR,5000,13,D1_to_D1,189,// prefill ?,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,190,//{{{ getIconHeight() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,191,/** * Set the threshold. * * TODO: Should this be protected? * * @param threshold The threshold to compare to. */,1,1,0.828980659030268
+TFIDF_LR,5000,13,D1_to_D1,192,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,193,"/* * TODO: As currently implemented, this expects a list of * MultiplicityRanges. Is this an interface change from the NSUML * implementation? I suspect it used to accept a list of Integers. - tfm * * @see org.argouml.model.DataTypesFactory#createMultiplicity(java.util.List) */",1,1,0.7314241930151556
+TFIDF_LR,5000,13,D1_to_D1,194,// work around for broken FTP plugin!,1,1,0.5979384680942159
+TFIDF_LR,5000,13,D1_to_D1,195,"/** * Returns all states that can be recursively contained by the given State. * <p> * TODO: {@link #getAllPossibleSubvertices(Object)} and * {@link #getAllSubStates(Object)} are duplicates as implemented for MDR. * It isn't clear from the Javadoc or usage whether they should do different * things or this just happened because no one noticed we already had * another method. * * @param oState * the Composite state we are searching the states for, * @return Collection the collection with found states */",1,1,0.8453021181253827
+TFIDF_LR,5000,13,D1_to_D1,196,// i18n[SchemaPropertiesController.cacheDeleted=Deleted {0}],0,0,0.1343702430417162
+TFIDF_LR,5000,13,D1_to_D1,197,"//XXX // All this to get package according to weblogic standards // Can be written better... this is too hacky! // Careful.. similar code in scanDir , but slightly different!!",1,1,0.9423421593237495
+TFIDF_LR,5000,13,D1_to_D1,198,// TODO: implement,1,1,0.972272604594573
+TFIDF_LR,5000,13,D1_to_D1,199,// TODO: use a generator here,1,1,0.9203221598184018
+TFIDF_LR,5000,13,D1_to_D1,200,// remove old items and notify if necessary,0,0,0.2509247443439422
+TFIDF_LR,5000,13,D1_to_D1,201,// @author fdietz: hackish way of creating a search toolbar //JToolBar searchToolBar = new ExtendableToolBar();,1,1,0.5319398305650531
+TFIDF_LR,5000,13,D1_to_D1,202,// Apparently this object had no getUUID,0,0,0.3599767310965655
+TFIDF_LR,5000,13,D1_to_D1,203,"// This let's us test whether the string exists as a file. // If not, we try as a URI. //",0,0,0.3543988495558819
+TFIDF_LR,5000,13,D1_to_D1,204,"// workaround for missing ability to parse ""*""",1,1,0.6233477948337715
+TFIDF_LR,5000,13,D1_to_D1,205,// FIXME: Total hack to get flash in Rails marshalling/unmarshalling in session ok...We need // to totally change marshalling to work with overridden core classes.,1,1,0.9240235995841153
+TFIDF_LR,5000,13,D1_to_D1,206,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,207,// view list,0,0,0.14405126345359326
+TFIDF_LR,5000,13,D1_to_D1,208,// If we outgrow our pushback stack then grow it (this should only happen in pretty // pathological cases).,1,1,0.5265728768853154
+TFIDF_LR,5000,13,D1_to_D1,209,// TODO there is a problem with the constructor for the RBC. // you have to provide the rules in the constructors - no setters // available.,1,1,0.8541754222754306
+TFIDF_LR,5000,13,D1_to_D1,210,"// add message ""0.eml"" as inputstream to folder",0,0,0.1575995767859338
+TFIDF_LR,5000,13,D1_to_D1,211,// TODO? I think this ends up propagating from normal Java exceptions // sys_fail(openFile.getPath()),1,1,0.7621324010100606
+TFIDF_LR,5000,13,D1_to_D1,212,// TODO: Make this final asap.,1,1,0.9225501898115986
+TFIDF_LR,5000,13,D1_to_D1,213,// update the titleLabel // MVW: This overrules the icon set initiallly... Why do we need this?,1,1,0.834662729162657
+TFIDF_LR,5000,13,D1_to_D1,214,// TODO: what is this for?,1,1,0.9768665007150164
+TFIDF_LR,5000,13,D1_to_D1,215,//popupMenu.getSelectionModel().setSelectedIndex(0);,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,216,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,217,// Settings; readResolve sets these from the server/client values as appropriate // TODO would be nice to make these final; not 100% sure volatile is needed as not changed after creation,1,1,0.881530031852817
+TFIDF_LR,5000,13,D1_to_D1,218,"// TODO: Some elements such as Generalization are // no longer named. For a transitional period we'll // return a String so debug can continue, but the // calling code should probably be fixed. - tfm 20070607 // Bob says - these are the comments that were in // FacadeEUMLImpl.getName. Same trick is needed here // for now.",1,1,0.9525949887766142
+TFIDF_LR,5000,13,D1_to_D1,219,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,220,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,221,// Remove variables since the plugin.xml should provide the complete path information. //,0,0,0.3319367875168974
+TFIDF_LR,5000,13,D1_to_D1,222,//{{{ MultiFileActionHandler class,0,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,223,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,224,/* * Override FigNode implementation to keep setOwner from getting called. */,0,0,0.34445135549017947
+TFIDF_LR,5000,13,D1_to_D1,225,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,226,// TODO: Is this removed from UML2 ?,1,1,0.922459383627722
+TFIDF_LR,5000,13,D1_to_D1,227,"/* * TODO (@author karlpeder): Guess that right thing to do is to get height as getDrawingSize().getHeight(), * since this should take top- and bottom margin of this print * object into account. But the height seems not to be set * correctly in computePositionAndSize() (*20030604, karlpeder*) */",1,1,0.9342595546533548
+TFIDF_LR,5000,13,D1_to_D1,228,// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ // stuff that is persister-centric and/or EntityInfo-centric ~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,0.42815200477583054
+TFIDF_LR,5000,13,D1_to_D1,229,// frame,0,0,0.15896617442231778
+TFIDF_LR,5000,13,D1_to_D1,230,/* TODO: Why does it fail for changing * the name of an associationend? * Why should it pass? */,1,1,0.8428362609902341
+TFIDF_LR,5000,13,D1_to_D1,231,"// Need to somehow call // SQLResultExecuterPanel.reRunSelectedResultTab(true); // // Something like : // SQLResultExecuterPanel panel = getPanel(); // panel.reRunSelectedResultTab(true); // // However, that doesn't apply when the user is exporting from the // table contents table. There needs to be a more generic way to // do this for all tables containing data that is to be exported // where some of the fields contain placeholders. // For now, we just inform the user and let them either continue // or abort and change the configuration manually, // re-run the query / reload the table data and re-export.",1,1,0.7713266931033291
+TFIDF_LR,5000,13,D1_to_D1,232,// Read the first token.,0,0,0.08654433894455102
+TFIDF_LR,5000,13,D1_to_D1,233,"/** * TODO: For UML 2.x, powertypes are accessed indirectly through the * GeneralizationSets that contain a Generalization. * * @since Nov 3, 2002 * @author jaap.branderhorst@xs4all.nl */",1,1,0.6576780431031054
+TFIDF_LR,5000,13,D1_to_D1,234,"// TODO: I think we need to make sure the keys are actually cloned, // whereas the stroke instances are always immutable so they're OK",1,1,0.7005774170190882
+TFIDF_LR,5000,13,D1_to_D1,235,"// if body is a rescue node, inspect its pieces separately to avoid it disabling all optz // TODO: this is gross.",1,1,0.8987893442978606
+TFIDF_LR,5000,13,D1_to_D1,236,// null range throws IllegalArgumentException,0,0,0.15036055718254293
+TFIDF_LR,5000,13,D1_to_D1,237,"/** * Parse the XML declaration. * <pre> * [25] XMLDecl ::= '&lt;?xml' VersionInfo EncodingDecl? SDDecl? S? '?&gt;' * [26] VersionInfo ::= S 'version' Eq ('""1.0""' | ""'1.0'"") * [33] SDDecl ::= S 'standalone' Eq ""'"" ('yes' | 'no') ""'"" * | S 'standalone' Eq '""' (""yes"" | ""no"") '""' * [78] EncodingDecl ::= S 'encoding' Eq QEncoding * </pre> * <p>([80] to [82] are also significant.) * <p>(The <code>&lt;?xml</code> and whitespace have already been read.) * <p>TODO: validate value of standalone. * @see #parseTextDecl * @see #checkEncoding */",1,0,0.4446332336343784
+TFIDF_LR,5000,13,D1_to_D1,238,//{{{ getPlugin() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,239,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#isValidElement(Object) */,0,0,0.07689729042528833
+TFIDF_LR,5000,13,D1_to_D1,240,/* * @see org.argouml.uml.reveng.ImportCommon#getImportLevel() */,0,0,0.10061215580155923
+TFIDF_LR,5000,13,D1_to_D1,241,/* * Internal class for handling key events during editing of both JTextField * and JTextArea. */,0,0,0.30597681701988844
+TFIDF_LR,5000,13,D1_to_D1,242,"// i18n[HibernateConfigController.ReallyRemoveConfig=Are you sure you want to delete configuration ""{0}"".]",0,0,0.2708271028774623
+TFIDF_LR,5000,13,D1_to_D1,243,"//DMS Why not this? //new SubProgressMonitor(progressMonitor, 1));",1,1,0.723027236800684
+TFIDF_LR,5000,13,D1_to_D1,244,"// three general cases we check here as to whether to render a physical SQL join: // 1) is our parent a DotNode as well? If so, our property reference is // being further de-referenced... // 2) is this a DML statement // 3) we were asked to generate any needed joins (generateJoins==true) *OR* // we are currently processing a select or from clause // (an additional check is the REGRESSION_STYLE_JOIN_SUPPRESSION check solely intended for the test suite) // // The REGRESSION_STYLE_JOIN_SUPPRESSION is an additional check // intended solely for use within the test suite. This forces the // implicit join resolution to behave more like the classic parser. // The underlying issue is that classic translator is simply wrong // about its decisions on whether or not to render an implicit join // into a physical SQL join in a lot of cases. The piece it generally // tends to miss is that INNER joins effect the results by further // restricting the data set! A particular manifestation of this is // the fact that the classic translator will skip the physical join // for ToOne implicit joins *if the query is shallow*; the result // being that Query.list() and Query.iterate() could return // different number of results!",1,1,0.8494906679200909
+TFIDF_LR,5000,13,D1_to_D1,245,// TODO not used by GUI,1,1,0.8943165855219081
+TFIDF_LR,5000,13,D1_to_D1,246,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,247,// $NON-NLS-1$ // $NON-NLS-1$,0,0,0.02959412147452293
+TFIDF_LR,5000,13,D1_to_D1,248,"// RDMS does not directly support the trim() function, we use rtrim() and ltrim()",1,1,0.72855694823755
+TFIDF_LR,5000,13,D1_to_D1,249,"/** * Compute the border point of the ellipse that is on the edge * between the stored upper left corner and the given parameter.<p> * * TODO: Once we are at GEF version 0.13.1M4, this method * and in fact the whole class can be * removed, since it was taken over by GEF in revision 1279. * * @param anotherPt The remote point to which an edge is drawn. * * @return The connection point on the boundary of the * ellipse. */",1,1,0.8225038822750483
+TFIDF_LR,5000,13,D1_to_D1,250,/* * @see Observable#notifyObservers() */,0,0,0.08047092410031606
+TFIDF_LR,5000,13,D1_to_D1,251,"// add message ""0.eml"" as inputstream to folder",0,0,0.1575995767859338
+TFIDF_LR,5000,13,D1_to_D1,252,/** * Return the default type for a parameter. * * @return a Classifier to use as the default type * TODO: This belongs in ProjectSettings. - tfm */,1,1,0.7958501528243719
+TFIDF_LR,5000,13,D1_to_D1,253,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,254,"// work around the ""feature"" where tree cache is validating the // inserted node during the next transaction. no idea...",1,0,0.46919795992086566
+TFIDF_LR,5000,13,D1_to_D1,255,// TODO: This is well-formedness rule from UML1.4.2 // 4.5.3.20 [1] A root cannot have any Generalizations. // self.isRoot implies self.generalization->isEmpty,1,1,0.8054596054826411
+TFIDF_LR,5000,13,D1_to_D1,256,// For debugging you probably want either this // OR the logging for every event which is fired - not both,0,1,0.6008282649229838
+TFIDF_LR,5000,13,D1_to_D1,257,/* Notes: This is broken. It finds public but less specific methods over non-public but more specific ones. This method needs to be rewritten to eliminate findAccessibleMethod. We should implement the findMostSpecificMethod that uses the publicOnly flag. FindMostSpecificMethod should also operate in two passes to give standard Java assignable matches priority over extended bsh type matches. */,1,1,0.8899731074508923
+TFIDF_LR,5000,13,D1_to_D1,258,// Helper Methods,0,0,0.22005407264307728
+TFIDF_LR,5000,13,D1_to_D1,259,//TODO: optimize this better!,1,1,0.9986745531261484
+TFIDF_LR,5000,13,D1_to_D1,260,// do different things depending on data type,0,0,0.3261333012391935
+TFIDF_LR,5000,13,D1_to_D1,261,/* Do Nothing */,0,0,0.10428026242632374
+TFIDF_LR,5000,13,D1_to_D1,262,// line 1731,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,263,// first do special check to see if we should use LONGVARCHAR // in the WHERE clause. // (Oracle does not allow this.),0,1,0.7053368114209662
+TFIDF_LR,5000,13,D1_to_D1,264,"// these are used to eliminate code duplication. i don't normally use // the visitor or ""template method"" pattern, but this code was contributed // by Peter Cox and i don't feel like changing it around too much.",1,1,0.8587266672938645
+TFIDF_LR,5000,13,D1_to_D1,265,// no property,0,0,0.19115897861065007
+TFIDF_LR,5000,13,D1_to_D1,266,"// If it's a single-arg when but contains an array, we know it's a real literal array // FIXME: This is a gross way to figure it out; parser help similar to yield argument passing (expandArguments) would be better",1,1,0.9040444203578029
+TFIDF_LR,5000,13,D1_to_D1,267,// TODO: Any Namespace can contain other elements. Why don't we allow // this? - tfm,1,1,0.9165609051292302
+TFIDF_LR,5000,13,D1_to_D1,268,// Set a default primary key name based on the name of the table,0,0,0.20413835059902496
+TFIDF_LR,5000,13,D1_to_D1,269,// text put in file name field to indicate that we should // create a temp file for export,0,0,0.49737991828602135
+TFIDF_LR,5000,13,D1_to_D1,270,// TODO: What progressMgr is to be used here? Where does // it come from?,1,1,0.9416916725334545
+TFIDF_LR,5000,13,D1_to_D1,271,"// TODO // This assumes we only get a SET notification, which isn't a good assumption. //",1,1,0.7559612562889975
+TFIDF_LR,5000,13,D1_to_D1,272,/** * TODO: Is is really used ? * * @see javax.swing.JComponent#removeNotify() */,1,1,0.7250233983588188
+TFIDF_LR,5000,13,D1_to_D1,273,"// RFC 2396 states that hostnames take the form described in // RFC 1034 (Section 3) and RFC 1123 (Section 2.1). According // to RFC 1034, hostnames are limited to 255 characters.",0,0,0.2755649606501114
+TFIDF_LR,5000,13,D1_to_D1,274,// TODO: is this the right range here?,1,1,0.9516243391933319
+TFIDF_LR,5000,13,D1_to_D1,275,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getChildren(java.lang.Object) */,0,0,0.08801150280351816
+TFIDF_LR,5000,13,D1_to_D1,276,// brand new collection //TODO: or an array!! we can't lock objects with arrays now??,1,1,0.6276372736596563
+TFIDF_LR,5000,13,D1_to_D1,277,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,278,/* * Ensure that the sample variables are correctly initialised for each run. * TODO is this the best way to do this? should it be done elsewhere ? */,1,1,0.9399919226183041
+TFIDF_LR,5000,13,D1_to_D1,279,// first search for appropriate attributes,0,0,0.20669371189341781
+TFIDF_LR,5000,13,D1_to_D1,280,// TODO: remove,1,1,0.9411202496717042
+TFIDF_LR,5000,13,D1_to_D1,281,// Join all into a group,0,0,0.35464686256229105
+TFIDF_LR,5000,13,D1_to_D1,282,// Find our Initial State,0,0,0.14768407987110735
+TFIDF_LR,5000,13,D1_to_D1,283,// Does this dialect support the ALTER TABLE syntax?,1,1,0.511219492368747
+TFIDF_LR,5000,13,D1_to_D1,284,// are there any java files in this directory?,0,0,0.46822591951978954
+TFIDF_LR,5000,13,D1_to_D1,285,/* The next line does not work: */,1,0,0.43177184482144426
+TFIDF_LR,5000,13,D1_to_D1,286,"// TODO (@author fdietz): add central place, which keeps a list of all possible // colors, and provides a custom color configuration possibility",1,1,0.7096260635950503
+TFIDF_LR,5000,13,D1_to_D1,287,// $NON-NLS-1$ // $NON-NLS-2$,0,0,0.02959412147452293
+TFIDF_LR,5000,13,D1_to_D1,288,"/* * TODO - convert to work more like upgrade.properties/NameUpdater.java * * Special processing is carried out for the Header Class The String * property TestElement.name is converted to Header.name for example: * <elementProp name=""User-Agent"" * elementType=""org.apache.jmeter.protocol.http.control.Header""> <stringProp * name=""Header.value"">Mozilla%2F4.0+%28compatible%3B+MSIE+5.5%3B+Windows+98%29</stringProp> * <stringProp name=""TestElement.name"">User-Agent</stringProp> * </elementProp> becomes <elementProp name=""User-Agent"" * elementType=""org.apache.jmeter.protocol.http.control.Header""> <stringProp * name=""Header.value"">Mozilla%2F4.0+%28compatible%3B+MSIE+5.5%3B+Windows+98%29</stringProp> * <stringProp name=""Header.name"">User-Agent</stringProp> </elementProp> */",1,0,0.3785368246132896
+TFIDF_LR,5000,13,D1_to_D1,289,// XXX - should throw an exception instead?,1,1,0.7433200070229218
+TFIDF_LR,5000,13,D1_to_D1,290,"// todo : need map? the prob is a proper key, right?",1,1,0.8822729521081458
+TFIDF_LR,5000,13,D1_to_D1,291,// TODO: Try reusing the same set on every recursion,1,1,0.7802257090968426
+TFIDF_LR,5000,13,D1_to_D1,292,// can't render anything without axes,0,0,0.29306287923355073
+TFIDF_LR,5000,13,D1_to_D1,293,// proxy username,0,0,0.1511761828586261
+TFIDF_LR,5000,13,D1_to_D1,294,/* TODO: This needs more work! * We simply throw the new extension point away? */,1,1,0.9216716298734663
+TFIDF_LR,5000,13,D1_to_D1,295,// TODO: Mark diagram/project as dirty?,1,1,0.7802717832553474
+TFIDF_LR,5000,13,D1_to_D1,296,// TODO: Why can't we use ActionAddExistingNodes here? Bob.,1,1,0.9774879405318191
+TFIDF_LR,5000,13,D1_to_D1,297,// hack so that 'select all' does not change current buffer,1,1,0.6311576326451229
+TFIDF_LR,5000,13,D1_to_D1,298,/* Build and populate an instance of the ejbc utility */,0,0,0.29412059040833594
+TFIDF_LR,5000,13,D1_to_D1,299,// add the environment as logicals to the DCL script,0,0,0.27379714844345954
+TFIDF_LR,5000,13,D1_to_D1,300,//set upperLeft point // x is minor,0,0,0.1980357793826516
+TFIDF_LR,5000,13,D1_to_D1,301,// FIXME: wtf is this? Why would these use the class?,1,1,0.9717649075861364
+TFIDF_LR,5000,13,D1_to_D1,302,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,303,//TODO: return new Lock(ts);,1,1,0.6863711094621158
+TFIDF_LR,5000,13,D1_to_D1,304,// TODO: Move to GEF,1,1,0.9122691523430425
+TFIDF_LR,5000,13,D1_to_D1,305,"// {min,max}",0,0,0.18147984349443422
+TFIDF_LR,5000,13,D1_to_D1,306,// Ensure that this race condition is thread safe; it doesn't matter who wins the race. //,1,1,0.5042100701018561
+TFIDF_LR,5000,13,D1_to_D1,307,/* * Property change control panel */,0,0,0.24427287971362982
+TFIDF_LR,5000,13,D1_to_D1,308,//TODO (@author fdietz): i18n,1,1,0.9284118317028638
+TFIDF_LR,5000,13,D1_to_D1,309,// dubious? //setFirstLine(0);,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,310,/*strict*/,0,0,0.21974887669687018
+TFIDF_LR,5000,13,D1_to_D1,311,// TODO categoryEnumeration,1,1,0.9999907447425262
+TFIDF_LR,5000,13,D1_to_D1,312,"// TODO: port exact behavior from MRI, and move most locking logic into ChannelDescriptor // TODO: for all LOCK_NB cases, return false if they would block",1,1,0.8454574080116642
+TFIDF_LR,5000,13,D1_to_D1,313,// line 1898,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,314,// defer argument checking...,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,315,// TODO: This work should be deferred until actually // needed for display,1,1,0.9726293818418138
+TFIDF_LR,5000,13,D1_to_D1,316,//{{{ ok() method,0,0,0.08826681086806272
+TFIDF_LR,5000,13,D1_to_D1,317,// right represents a joins originating from left...,0,0,0.2882817943877749
+TFIDF_LR,5000,13,D1_to_D1,318,"// new WSDLHelper(""http://services.bio.ifi.lmu.de:1046/prothesaurus/services/BiologicalNameService?wsdl"");",0,0,0.19870683532370848
+TFIDF_LR,5000,13,D1_to_D1,319,"/** * Provides query splitting methods, which were originally in QueryTranslator. * <br> * TODO: This will need to be refactored at some point. * * @author josh */",1,1,0.9304689361759719
+TFIDF_LR,5000,13,D1_to_D1,320,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,321,// This is perhaps innefficient timewise? Optimal spacewise,1,1,0.6868135866661278
+TFIDF_LR,5000,13,D1_to_D1,322,// TODO: This should listen for file save events - tfm,1,1,0.8995468623508993
+TFIDF_LR,5000,13,D1_to_D1,323,// set the Y Axis to round,0,0,0.24511907556837395
+TFIDF_LR,5000,13,D1_to_D1,324,// EATM must fix isSet bits.,1,0,0.46480923565747695
+TFIDF_LR,5000,13,D1_to_D1,325,"// IN FACT, we should probably raise an error, yes?",1,1,0.6127118070152453
+TFIDF_LR,5000,13,D1_to_D1,326,// TODO should this be getMin()?,1,1,0.9944522911147808
+TFIDF_LR,5000,13,D1_to_D1,327,// Datefields are not thread-safe // $NON-NLS-1$,0,0,0.2175389963774672
+TFIDF_LR,5000,13,D1_to_D1,328,"// if the method is extending something, then we have // to test if the handler is initialized...",1,0,0.33440157670737614
+TFIDF_LR,5000,13,D1_to_D1,329,//TODO: move to .sql package!!,1,1,0.9005455647727965
+TFIDF_LR,5000,13,D1_to_D1,330,// could refactor these a bit,1,1,0.5617478871647086
+TFIDF_LR,5000,13,D1_to_D1,331,// basePaint,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,332,//{{{ isBorderOpaque() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,333,//{{{ advanceSplashProgress() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,334,"// we can't use SystemClassLoader here, because that doesn't work // with java webstart // -> instead we use this.getClass().getClassLoader() // -> which seems to work perfectly",1,1,0.8532432448999643
+TFIDF_LR,5000,13,D1_to_D1,335,"/** * This form used from annotations (?). Essentially the same as the above using a * resultset-mapping reference, but without cacheMode, readOnly, and comment. * * FIXME: annotations do not use it, so it can be remove from my POV * @deprecated * * * @param query The sql query string * @param resultSetRef The result-set-mapping name * @param querySpaces Any specified query spaces (used for auto-flushing) * @param cacheable Whether the query results are cacheable * @param cacheRegion If cacheable, the region into which to store the results * @param timeout A JDBC-level timeout to be applied * @param fetchSize A JDBC-level fetch-size to be applied * @param flushMode The flush mode to use for this query * @param parameterTypes parameter type map * @param callable Does the query string represent a callable object (i.e., proc) */",1,1,0.8987939409692862
+TFIDF_LR,5000,13,D1_to_D1,336,// TODO: Attempt to move the following code to GEF,1,1,0.8484492283884253
+TFIDF_LR,5000,13,D1_to_D1,337,// 0,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,338,// ignored,0,0,0.1797213280971244
+TFIDF_LR,5000,13,D1_to_D1,339,// this is a hack for the multiline column,1,1,0.7960715132708275
+TFIDF_LR,5000,13,D1_to_D1,340,//TODO: used to be exprNoParens! was this needed?,1,1,0.9382411786125855
+TFIDF_LR,5000,13,D1_to_D1,341,//textField.showPopup(); //textField.requestFocus();,0,0,0.21044023923649136
+TFIDF_LR,5000,13,D1_to_D1,342,// TODO: In UML 2.x a TagDefinition has become a Property on a Stereotype // Anything that uses this will probably need to be reviewed/changed. // Just return Property for now.,1,1,0.9016443726776949
+TFIDF_LR,5000,13,D1_to_D1,343,// need to add static block here,1,1,0.6835117095402731
+TFIDF_LR,5000,13,D1_to_D1,344,"// Needed the ""clazz_"" check to work around union-subclasses // TODO : is there a way to tell whether a persister is truly discrim-column based inheritence?",1,1,0.9127579207542288
+TFIDF_LR,5000,13,D1_to_D1,345,// TODO: This should be handled with an Iterator!!!,1,1,0.9306091776748066
+TFIDF_LR,5000,13,D1_to_D1,346,"// value is a simple string representation of the data, // the same one used in Text and in-cell operations.",0,0,0.39104862975794324
+TFIDF_LR,5000,13,D1_to_D1,347,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#buildModelList() */,0,0,0.0840904555954465
+TFIDF_LR,5000,13,D1_to_D1,348,// controller,0,0,0.15011588012849542
+TFIDF_LR,5000,13,D1_to_D1,349,"// For the case of dynamic-update=""false"", or no snapshot, we use the static SQL",0,0,0.38946387778860114
+TFIDF_LR,5000,13,D1_to_D1,350,//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,1,1,0.7384527533093908
+TFIDF_LR,5000,13,D1_to_D1,351,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,352,"/* * Add fix for Deadlocks, see: * * See https://issues.apache.org/bugzilla/show_bug.cgi?id=48350 */",1,0,0.23744651408822307
+TFIDF_LR,5000,13,D1_to_D1,353,// we don't want duplicate // entries in the kill ring,0,1,0.5191286051454342
+TFIDF_LR,5000,13,D1_to_D1,354,// TODO: Implement support for multiple TaggedValues,1,1,0.8919068229683297
+TFIDF_LR,5000,13,D1_to_D1,355,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,356,// old version //return session.getObjectTreeAPI(sqlScriptPlugin);,0,0,0.3332012325315472
+TFIDF_LR,5000,13,D1_to_D1,357,//To change body of implemented methods use File | Settings | File Templates.,0,0,0.1613104504305582
+TFIDF_LR,5000,13,D1_to_D1,358,// private members,0,0,0.09940890837538079
+TFIDF_LR,5000,13,D1_to_D1,359,// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,1,1,0.718920248697545
+TFIDF_LR,5000,13,D1_to_D1,360,"// Allow a distinct literal value to be provided, too. //",0,0,0.2940998258993141
+TFIDF_LR,5000,13,D1_to_D1,361,"// TODO do tests for navigation to association classes (8.5.5), // even though it is not yet supported",1,1,0.88038345211007
+TFIDF_LR,5000,13,D1_to_D1,362,"// value is a simple string representation of the data, // the same one used in Text and in-cell operations.",0,0,0.39104862975794324
+TFIDF_LR,5000,13,D1_to_D1,363,// Andreas: this is just temporary for the uml2 pre-alpha versions.,1,1,0.7496650623908248
+TFIDF_LR,5000,13,D1_to_D1,364,// wrap self and store the wrapper,0,0,0.19005540830525539
+TFIDF_LR,5000,13,D1_to_D1,365,// fucking GTK look and feel,1,0,0.32307621382062407
+TFIDF_LR,5000,13,D1_to_D1,366,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,367,// TODO: We shouldn't need this reflection any more once we have // convinced ourselves that everything with a setItemUID method // is implementing IItemUID,1,1,0.8633977224815242
+TFIDF_LR,5000,13,D1_to_D1,368,// TODO support iterate declarator,1,1,0.81496652590596
+TFIDF_LR,5000,13,D1_to_D1,369,"// throw new NotImplementedException( // ""This is not a UML2 element""); //$NON-NLS-1$",0,1,0.5292933665554522
+TFIDF_LR,5000,13,D1_to_D1,370,// get the elements,0,0,0.19619293922068706
+TFIDF_LR,5000,13,D1_to_D1,371,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,372,// Returns the lower half bitmask for the given ASCII character.,0,0,0.32939664326395324
+TFIDF_LR,5000,13,D1_to_D1,373,"// This method has insufficient information to call buildExtensionPoint. // Thus we'll need to create one, and pray that whomever called us knows // what kind of mess they got.",1,1,0.771297250855587
+TFIDF_LR,5000,13,D1_to_D1,374,"// TODO: list.subList(from, to).clear() is supposed to clear the sublist from the list. // How can we support this operation?",1,1,0.8563877624469605
+TFIDF_LR,5000,13,D1_to_D1,375,"/** * Moves some object to trash, i.e. deletes it completely with all * dependent structures. <p> * * Deleting an object involves: <pre> * - Removing Target history * - Deleting all Fig representations for the object * - Deleting the UML element * - Deleting all dependent UML modelelements * - Deleting CommentEdges (which are not UML elements) * - Move to trash for enclosed objects, i.e. graphically drawn on top of * - Move to trash subdiagrams for the object * - Saveguard that there is always at least 1 diagram left * - If the current diagram has been deleted, select a new one to show * - Trigger the explorer when a diagram is deleted * - Set the needsSave (dirty) flag of the projectmanager * </pre> * * @param obj The object to be deleted * @see org.argouml.kernel.ProjectImpl#trashInternal(Object) * <p> * TODO: This should just be named delete() or something which better * tells what it does (since there really isn't a trash can). */",1,1,0.897537301231385
+TFIDF_LR,5000,13,D1_to_D1,376,// TODO: check if it's OK to just get the first zip entry // since the zip file should contain only one xmi file - thn,1,0,0.3984599055391398
+TFIDF_LR,5000,13,D1_to_D1,377,"//TODO: if we support multiple fetch groups, we would need // to clone the set of lazy properties!",1,1,0.7722091598954683
+TFIDF_LR,5000,13,D1_to_D1,378,"// 'plot' : just retain reference, not a deep copy",0,0,0.3838964173939388
+TFIDF_LR,5000,13,D1_to_D1,379,// TODO: We should assert this never happens before removing // panels should control their own listeners,1,1,0.923054517534717
+TFIDF_LR,5000,13,D1_to_D1,380,"//""org.argouml.notation.providers"",//fails because sub-packages fail (?) //""org.argouml.notation.providers.java"", //""org.argouml.notation.providers.uml"", //""org.argouml.notation"",//fails because sub-packages fail (?) //""org.argouml.notation.ui"",",0,0,0.14540438948900763
+TFIDF_LR,5000,13,D1_to_D1,381,// TODO: Support more than one body/language,1,1,0.7368395942617216
+TFIDF_LR,5000,13,D1_to_D1,382,/* Testing: Add a parameter to an operation on an Interface. * Does the Interface Fig adapt its width? */,0,0,0.38409473687835505
+TFIDF_LR,5000,13,D1_to_D1,383,"/** * Return the source of a relation or Link. The source of a relation is * defined as the ModelElement that propagates this relation. If * there are more then 1 sources, only the first is returned. If * there is no source, null is returned. Examples of sources * include classifiers that are types to associationends, usecases * that are bases to extend and include relations and so on. A * source is always the start from the arrow in the fig, the * destination the end.<p> * * TODO: move this method to a generic ModelHelper * * @param relationship is the relation * @return Object */",1,1,0.774768393547419
+TFIDF_LR,5000,13,D1_to_D1,384,// rethrow exception // rethrow it,0,0,0.3991445199145815
+TFIDF_LR,5000,13,D1_to_D1,385,// TODO: Do we need this one. */,1,1,0.9610287678908787
+TFIDF_LR,5000,13,D1_to_D1,386,// Now we know that this critic is still valid. What we need to // figure out is if the corresponding to-do item is still valid. // The to-do item is to be replaced if the name of some offender // has changed that affects its description or if the contents // of the list of offenders has changed. // We check that by creating a new ToDoItem and then verifying // that it looks exactly the same. // This really creates a lot of to-do items that goes to waste.,1,1,0.8069394010655729
+TFIDF_LR,5000,13,D1_to_D1,387,// end source and eval,0,0,0.19461287943681937
+TFIDF_LR,5000,13,D1_to_D1,388,"/* The default used by {@link #setResponseData(String, String)} */",0,0,0.25075804627797743
+TFIDF_LR,5000,13,D1_to_D1,389,/** * The singleton instance. * * TODO: Why is this a singleton? Wouldn't it be better to have exactly * one for every Explorer? */,1,1,0.9182622195096869
+TFIDF_LR,5000,13,D1_to_D1,390,"// Bug 2480365: It is very important to get the URI from the URL and not simply do // new File(url.getFile()). In the case where the path contains spaces, they get encoded as %20 in // the string returned from url.getFile(). java.io.File doesn't know how to deal with them // (i.e. replace them with spaces) and the resulting File is rendered non-existent.",1,1,0.6498364724033272
+TFIDF_LR,5000,13,D1_to_D1,391,//rewrite it after change setExpression ?,0,0,0.3090125899292313
+TFIDF_LR,5000,13,D1_to_D1,392,// 2 aug 2003: OS/2 Java has a broken getCanonicalPath(),1,0,0.3733833170448723
+TFIDF_LR,5000,13,D1_to_D1,393,// categoryAnchor,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,394,// first make sure that user's last input has been included // (It is too easy for user to enter data and forget to click // on another field to force it to be set.),0,0,0.46544040122782376
+TFIDF_LR,5000,13,D1_to_D1,395,// Perhaps something like the following would work instead // Rectangle drawingArea = // Globals.curEditor().getJComponent().getVisibleRect();,1,1,0.733887997344295
+TFIDF_LR,5000,13,D1_to_D1,396,// get files from filesets,0,0,0.21922353797344754
+TFIDF_LR,5000,13,D1_to_D1,397,"///////////////// GEF Methods //////////////////////////// // TODO: These should really be picked up automatically from // some GEF interface that we extend, but there is no such // thing. NOTE: We've only added methods used by ArgoUML, // so it's possible that external consumers need other methods.",1,1,0.8677159515209141
+TFIDF_LR,5000,13,D1_to_D1,398,// ??? bad to have release hardocoded here. Fix later...right.,1,1,0.8122705549189945
+TFIDF_LR,5000,13,D1_to_D1,399,// Enebo : Should ~frogger\\foo work (it doesnt in linux ruby)?,1,1,0.7426411844509953
+TFIDF_LR,5000,13,D1_to_D1,400,"/* * Fix bug: -D arg1=arg2 was causing parse error; however * --define arg1=arg2 is OK This seems to be because the parser * skips the terminator for the long options, but was not doing * so for the short options. */",1,1,0.7431975191805658
+TFIDF_LR,5000,13,D1_to_D1,401,//++ These are JMX file attribute names and must not be changed // $NON-NLS-1$,0,0,0.3257639822357889
+TFIDF_LR,5000,13,D1_to_D1,402,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,403,//{{{ getParentOfPath() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,404,// TODO: Do we want isaUMLElement here?,1,1,0.955601561783959
+TFIDF_LR,5000,13,D1_to_D1,405,// drawCloseTicks,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,406,// Protocol defined Mechanisms,0,0,0.15689502747842093
+TFIDF_LR,5000,13,D1_to_D1,407,// Don't remove the adapter if the object is in a different resource // and that resource (and hence all its contents) are being cross referenced. //,0,0,0.4179882619470211
+TFIDF_LR,5000,13,D1_to_D1,408,//TODO: would be nice to handle proxy classes elegantly!,1,1,0.8125219798946363
+TFIDF_LR,5000,13,D1_to_D1,409,//{{{ TableMouseHandler class,0,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,410,/*@bgen(jjtree) ReturnStatement */,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,411,// What is the property supposed to be?,1,1,0.6023645567509986
+TFIDF_LR,5000,13,D1_to_D1,412,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,413,//{{{ finished() method,0,0,0.10966434242741822
+TFIDF_LR,5000,13,D1_to_D1,414,// pick up the last round of dependencies that were determined,0,0,0.26198746031595116
+TFIDF_LR,5000,13,D1_to_D1,415,"// TODO: It's probably worthwhile to abstract and factor // this chooser and directory stuff. More file handling is // coming, I'm sure.",1,1,0.8363534731092618
+TFIDF_LR,5000,13,D1_to_D1,416,/*1000..109F;*/,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,417,/* BufferedImage image = */,0,0,0.18187610159420842
+TFIDF_LR,5000,13,D1_to_D1,418,//DMS this doesn't really produce nice output. //,1,1,0.6014466208301839
+TFIDF_LR,5000,13,D1_to_D1,419,// CheckStyle:VisibilityModifier OFF - bc,0,0,0.12654001620216623
+TFIDF_LR,5000,13,D1_to_D1,420,// moved to GUIUtilities as it makes no sense being here.,1,1,0.5048989089765966
+TFIDF_LR,5000,13,D1_to_D1,421,// Collection load contexts ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,0.25209829847017984
+TFIDF_LR,5000,13,D1_to_D1,422,// Yuck: TIFFImageEncoder uses Error to report runtime problems,1,1,0.5740337175471513
+TFIDF_LR,5000,13,D1_to_D1,423,"// Just a note: StarTeam has a status for NEW which implies // that there is an item on your local machine that is not // in the repository. These are the items that show up as // NOT IN VIEW in the Starteam GUI. // One would think that we would want to perhaps checkin the // NEW items (not in all cases! - Steve Cohen 15 Dec 2001) // Unfortunately, the sdk doesn't really work, and we can't // actually see anything with a status of NEW. That is why // we can just check out everything here without worrying // about losing anything.",1,1,0.9211327505172405
+TFIDF_LR,5000,13,D1_to_D1,424,// todo : we can remove this once the deprecated ctor can be made private...,1,1,0.8875365619105304
+TFIDF_LR,5000,13,D1_to_D1,425,// no big deal,0,0,0.21136673997022296
+TFIDF_LR,5000,13,D1_to_D1,426,// Not used,1,1,0.7115300411986758
+TFIDF_LR,5000,13,D1_to_D1,427,// try to use the DB default value,0,0,0.25075799078527033
+TFIDF_LR,5000,13,D1_to_D1,428,"// Workaround for a bug in Sun's JDK 1.5.x, see // http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6303753",1,1,0.5815405398605288
+TFIDF_LR,5000,13,D1_to_D1,429,// ugly workaround,1,1,0.6716991723664226
+TFIDF_LR,5000,13,D1_to_D1,430,// TODO @author fdietz: ensure that we don't fetch individual // headers // to reduce client/server roundtrips,1,1,0.8641609710194614
+TFIDF_LR,5000,13,D1_to_D1,431,// Here it is another object sent to the test.,0,0,0.48957475029871295
+TFIDF_LR,5000,13,D1_to_D1,432,// Just get the stream from the URL. //,0,0,0.22862093280373638
+TFIDF_LR,5000,13,D1_to_D1,433,"/** * Create and register diagrams for activity and statemachines in the * model(s) of the project. If no other diagrams are created, a default * Class Diagram will be created. ArgoUML currently requires at least one * diagram for proper operation. * * TODO: Move to XmiFilePersister (protected) * * @param project * The project */",1,1,0.849122215486099
+TFIDF_LR,5000,13,D1_to_D1,434,// fall through,0,0,0.12272521529462235
+TFIDF_LR,5000,13,D1_to_D1,435,// defer argument checking...,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,436,// TODO: Determine whether we should perhaps store non-singleton class // in the implementationClass,1,1,0.8320878403764705
+TFIDF_LR,5000,13,D1_to_D1,437,// TODO Is this a valid operation on a timestamps cache?,1,1,0.9571484532684497
+TFIDF_LR,5000,13,D1_to_D1,438,// only the second iteration would pass because of PR 27218,0,0,0.3511407663127798
+TFIDF_LR,5000,13,D1_to_D1,439,"/** Create a new panel for the given step. For example, When the * given step is 1, create the first step of the wizard. <p> * * TODO: It might be convient to make a reusable * subclass of Wizard that shows all textual steps to guide the * user without any automation. Such a Wizard could be easily * authored, stored in an XML file, and efficiently presented by * reusing a single panel with a single JTextArea. * * @param newStep the number of the step to make a panel for. * @return a new panel for the given step */",1,1,0.6565836292066388
+TFIDF_LR,5000,13,D1_to_D1,440,"// FIXME: add setBaseItemURLGenerator(CategoryURLGenerator, boolean) ?",1,1,0.6504358643786112
+TFIDF_LR,5000,13,D1_to_D1,441,/* end class ActionSrcMultOneToMany */,0,0,0.0949594114606045
+TFIDF_LR,5000,13,D1_to_D1,442,"// TODO is this correct? // If this is not the first file we can't write its header now // for simplicity we always save it, even if there is only one file",1,1,0.8328921552903908
+TFIDF_LR,5000,13,D1_to_D1,443,// -C,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,444,// This may not actually make any difference at present (the code // behind addTrigger needs more work).,1,1,0.8186176794040316
+TFIDF_LR,5000,13,D1_to_D1,445,// TODO: Make sure this shouldn't go into a previous // condition -tml,1,1,0.7952981040178728
+TFIDF_LR,5000,13,D1_to_D1,446,// TODO: Is it removed from UML2 ?,1,1,0.8801924987863866
+TFIDF_LR,5000,13,D1_to_D1,447,/* * @see org.argouml.uml.diagram.ui.UMLDiagram#relocate(java.lang.Object) */,0,0,0.09082069312503291
+TFIDF_LR,5000,13,D1_to_D1,448,/* Notes: This is broken. It finds public but less specific methods over non-public but more specific ones. findMostSpecficMethod() needs to be rewritten to eliminate findAccessibleMethod. We should implement the findMostSpecificMethod that uses the publicOnly flag. FindMostSpecificMethod should also operate in two passes to give standard Java assignable matches priority over extended bsh type matches. */,1,1,0.8701346612075408
+TFIDF_LR,5000,13,D1_to_D1,449,// inheritance cycle detection (paranoid check),1,0,0.1689830291202227
+TFIDF_LR,5000,13,D1_to_D1,450,// trim trailing slashes,0,0,0.12814189961259917
+TFIDF_LR,5000,13,D1_to_D1,451,// TODO: Allow other configuration handlers.,1,1,0.6659418077489394
+TFIDF_LR,5000,13,D1_to_D1,452,"/** * Parse an element-content model. * [42] elements ::= (choice | seq) ('?' | '*' | '+')? * [44] cps ::= S? %cp S? * [45] choice ::= '(' S? %ctokplus (S? '|' S? %ctoks)* S? ')' * [46] ctokplus ::= cps ('|' cps)+ * [47] ctoks ::= cps ('|' cps)* * [48] seq ::= '(' S? %stoks (S? ',' S? %stoks)* S? ')' * [49] stoks ::= cps (',' cps)* * *NOTE: the opening '(' and S have already been read. * *TODO: go over parameter entity boundaries more carefully. */",1,0,0.4868719508565505
+TFIDF_LR,5000,13,D1_to_D1,453,// TODO: implement this properly,1,1,0.9590496905078382
+TFIDF_LR,5000,13,D1_to_D1,454,//To change body of implemented methods use File | Settings | File Templates.,0,0,0.1613104504305582
+TFIDF_LR,5000,13,D1_to_D1,455,// TODO: We need to get the model/extent (and package?) associated with // the current diagram so that we can create the new element in the // right place.,1,1,0.8722929883279886
+TFIDF_LR,5000,13,D1_to_D1,456,// TODO: this shouldn't be hardcoded // 20 is the height of the spline // 50 is the default activation height,1,1,0.811560790972257
+TFIDF_LR,5000,13,D1_to_D1,457,// Need a better way to define the suffixes here...,1,1,0.7807412319093255
+TFIDF_LR,5000,13,D1_to_D1,458,"// I hate this so much even before I start writing it. // Re-initialising a global in a place where no-one will see it just // feels wrong. Oh well, here goes.",1,1,0.583336128491583
+TFIDF_LR,5000,13,D1_to_D1,459,// HACK: reading encoding,1,1,0.5767148553992488
+TFIDF_LR,5000,13,D1_to_D1,460,// TODO: decompose getJavaPackageModule so we don't parse fullName,1,1,0.8357493021372261
+TFIDF_LR,5000,13,D1_to_D1,461,// TODO: this attribute should be transferred to the renderer state.,1,1,0.9360648718491659
+TFIDF_LR,5000,13,D1_to_D1,462,// TODO: fix parser exception,1,1,0.87188986778128
+TFIDF_LR,5000,13,D1_to_D1,463,"//FIXME we don't have the associated entity table name here, has to be done in a second pass",1,1,0.7600466041283568
+TFIDF_LR,5000,13,D1_to_D1,464,// todo : we can actually just determine this from the incoming EntityEntry-s,1,1,0.8954467190852136
+TFIDF_LR,5000,13,D1_to_D1,465,// TODO: Remove this old implementation after 0.22 if it's // demonstrated that it's not needed. - tfm,1,1,0.9705163073447082
+TFIDF_LR,5000,13,D1_to_D1,466,/* * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent) */,0,0,0.08405022296515133
+TFIDF_LR,5000,13,D1_to_D1,467,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.client.session.ISQLPanelAPI#fileClose() */,0,0,0.0890309571388688
+TFIDF_LR,5000,13,D1_to_D1,468,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,469,// TODO: Make this more efficient for large I/Os,1,1,0.908356850491035
+TFIDF_LR,5000,13,D1_to_D1,470,//{{{ UnixWorkaround class,1,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,471,// Should the TestBean be hidden?,1,1,0.6476123958981495
+TFIDF_LR,5000,13,D1_to_D1,472,// implement the recursion for getClassImpl(),1,1,0.5609967386095881
+TFIDF_LR,5000,13,D1_to_D1,473,//TODO: make this a bit nicer,1,1,0.9243519919586942
+TFIDF_LR,5000,13,D1_to_D1,474,// ECLIPSE-DEPEND-BEGIN,0,0,0.21870979690058942
+TFIDF_LR,5000,13,D1_to_D1,475,// ignore (probably H2 not in the classpath),0,0,0.4707578670060375
+TFIDF_LR,5000,13,D1_to_D1,476,//{{{ _logException() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,477,// holds file menu,0,0,0.165354075201628
+TFIDF_LR,5000,13,D1_to_D1,478,// Does this dialect support check constraints?,1,1,0.5726517756179316
+TFIDF_LR,5000,13,D1_to_D1,479,"// build ""else"" if it exists",0,0,0.26576619082218456
+TFIDF_LR,5000,13,D1_to_D1,480,//{{{ getBooleanProperty() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,481,/* * Internal class for handling key events during editing * of both JTextField and JTextArea. */,0,0,0.30597681701988844
+TFIDF_LR,5000,13,D1_to_D1,482,// Set the tooltip string:,0,0,0.14670151560522804
+TFIDF_LR,5000,13,D1_to_D1,483,"// No appropriate DataType for this column, so do the best // we can with what we know. // // THIS MAY NOT BE THE BEST BEHAVIOR HERE!!!!!!!",1,1,0.8451304292629016
+TFIDF_LR,5000,13,D1_to_D1,484,////////////////////////////////////////////////////////////////////// // Local Variables. //////////////////////////////////////////////////////////////////////,0,0,0.20846910299503066
+TFIDF_LR,5000,13,D1_to_D1,485,// TODO: Bob says - tabs that listen for target changes // should register themselves not expect DetailsPane to // listen and pass on the event. Otherwise these tabs // always rely on DetailsPane. TabToDoTarget and TabProps // currently listen directly.,1,1,0.7450966258160294
+TFIDF_LR,5000,13,D1_to_D1,486,// For all windows (other than the first one opened) for a session // add a number on the end of the title to differentiate them in // menus etc.,0,0,0.47433432967594785
+TFIDF_LR,5000,13,D1_to_D1,487,// TODO is this ever used?,1,1,0.9756733332611698
+TFIDF_LR,5000,13,D1_to_D1,488,// TODO: This can't depend on ProjectBrowser. Alternate below,1,1,0.9477364128994196
+TFIDF_LR,5000,13,D1_to_D1,489,"/** * Class to display graphics for a UML SynchState in a diagram. <p> * * TODO: If the font increases, the circle should grow, too. * * @author pepargouml@yahoo.es */",1,1,0.7166153127740404
+TFIDF_LR,5000,13,D1_to_D1,490,// figEdge.showHelp(role.getParsingHelp()); // role.setText();,0,0,0.2571473985076435
+TFIDF_LR,5000,13,D1_to_D1,491,// cleanup resources used,0,0,0.2881880855610644
+TFIDF_LR,5000,13,D1_to_D1,492,//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,1,1,0.7384527533093908
+TFIDF_LR,5000,13,D1_to_D1,493,// Only close the statement if SQLException - otherwise it has to // remain open until the ResultSet is read through by the caller.,0,0,0.30951152932551174
+TFIDF_LR,5000,13,D1_to_D1,494,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,495,// TODO: This creates a dependency on the Critics subsystem. // We need a generic way for modules (including our internal // subsystems) to request addition of actions to the popup // menu. - tfm 20080430,1,1,0.8936638767409134
+TFIDF_LR,5000,13,D1_to_D1,496,//TODO (@author fdietz): i18n,1,1,0.9284118317028638
+TFIDF_LR,5000,13,D1_to_D1,497,// TODO: draw the interval marker with a 3D effect,1,1,0.604949909529252
+TFIDF_LR,5000,13,D1_to_D1,498,/*package-protected*/,0,0,0.24932735979502527
+TFIDF_LR,5000,13,D1_to_D1,499,// Allow JMeter to render frames (and relative images) // Must be done after setContentType [Why?],1,1,0.5588536829978
+TFIDF_LR,5000,13,D1_to_D1,500,"// TODO: NOT_ALLOCATABLE_ALLOCATOR is probably ok here, since we don't intend for people to monkey with // this type and it can't be marshalled. Confirm. JRUBY-415",1,1,0.8987776221082955
+TFIDF_LR,5000,13,D1_to_D1,501,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,502,// TODO: other reserved names?,1,1,0.8290730209202815
+TFIDF_LR,5000,13,D1_to_D1,503,// NOTUSED private String chosenFile;,1,0,0.27987705800975415
+TFIDF_LR,5000,13,D1_to_D1,504,// FIXME: Temporarily disabling because this fires way too much running Rails tests. JRUBY-518,0,1,0.7743768712000204
+TFIDF_LR,5000,13,D1_to_D1,505,// Save Location so resulting sample can be disabled,0,0,0.42328536675975365
+TFIDF_LR,5000,13,D1_to_D1,506,/* GUI Widgets */,0,0,0.1669981785902005
+TFIDF_LR,5000,13,D1_to_D1,507,// $NON_NLS-1$,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,508,//TODO: this class does too many things! we need a different //kind of path expression parser for each of the diffferent //ways in which path expressions can occur,1,1,0.8226502030909882
+TFIDF_LR,5000,13,D1_to_D1,509,// a redraw should NOT trigger another change event,1,1,0.5864850573039403
+TFIDF_LR,5000,13,D1_to_D1,510,"/** * An array of valid connections, the combination of connecting class and * node classes must exist as a row in this list to be considered valid. * <ul> * <li>The 1st column is the connecting element. * <li>The 2nd column is the ""from"" element type. * <li>The 3rd column is the ""to"" element type. * <li>The 3rd column is optional, if not given then it is assumed to be * the same as the ""to"" element. * <li>The existence of a 4th column indicates that the connection is valid * in one direction only. * </ul> * TODO: This encodes not only what is legal in UML, but also what ArgoUML * knows how to create, so not all legal connections are included. Probably * should be split into two pieces: 1) legal UML (here) and 2) supported (in * ArgoUML application someplace) - tfm - 20060325<p> * * Most of these are subtypes of Relationship which includes Association, * Dependency, Flow, Generalization, Extend, and Include. Dependency * includes Binding, Abstraction, Usage, and Permission. AssociationRole and * AssociationClass are Associations. The remaining items (Link, Transition, * AssociationEnd, Message) are non-Relationship types which ArgoUML treats * as connections/edges. */",1,1,0.8778649531033544
+TFIDF_LR,5000,13,D1_to_D1,511,"// if body is a rescue node, inspect its pieces separately to avoid it disabling all optz // TODO: this is gross.",1,1,0.8987893442978606
+TFIDF_LR,5000,13,D1_to_D1,512,// a redraw should NOT trigger another change event,1,1,0.5864850573039403
+TFIDF_LR,5000,13,D1_to_D1,513,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,514,"// I guess this can happen as a result of a bad // file read? In this case, it would be better to replace the // incorrect value with anything valid, e.g. the default value // for the property. // But for the time being, I just prefer to be aware of any // problems occuring here, most likely programming errors, // so I'll bail out. // (MS Note) Can't bail out - newly create elements have blank // values and must get the defaults. // Also, when loading previous versions of jmeter test scripts, // some values // may not be right, and should get default values - MS // TODO: review this and possibly change to:",1,1,0.9455681597424497
+TFIDF_LR,5000,13,D1_to_D1,515,"/** * Return a list of gravity points around circle which is enclosed * in the bounding box. Convenience method for use by FigInitialState * and FigFinalState. * TODO: As this method is not required by all sub classes, * it would seem sensible to extend FigStateVertex with FigCircleVertex * and only have the relevant concrete Figs extend that and gain this * functionality. * @return a List of Points */",1,1,0.8438767656079683
+TFIDF_LR,5000,13,D1_to_D1,516,//FB TBD filter out volatile and other inappropriate links?,1,0,0.36313583982570724
+TFIDF_LR,5000,13,D1_to_D1,517,/* Do nothing */,0,0,0.10428026242632374
+TFIDF_LR,5000,13,D1_to_D1,518,/* * @see java.lang.Object#clone() */,0,0,0.09320943440843774
+TFIDF_LR,5000,13,D1_to_D1,519,// TODO: Need UML 2.x equivalent,1,1,0.8704010558533191
+TFIDF_LR,5000,13,D1_to_D1,520,// Get all classifiers in our model // TODO: We need the property panels to have some reference to // the project they belong to instead of using deprecated // functionality,1,1,0.9163302980417547
+TFIDF_LR,5000,13,D1_to_D1,521,// FIXME: This is an ugly hack to resolve JRUBY-1381; I'm not proud of it,1,1,0.9648303726117193
+TFIDF_LR,5000,13,D1_to_D1,522,// Time and Date Functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,0.24223822213841445
+TFIDF_LR,5000,13,D1_to_D1,523,"// TODO: This shouldn't know the internal form of type names, // but I'm not sure what GEF's PredicateType does, so I'm fixing it // here - tfm",1,1,0.9388207314877041
+TFIDF_LR,5000,13,D1_to_D1,524,"// We set expected and checksum to -1 here, since we don't have that information for release.xml file // TODO: Can HttpClient be used to get the byte-size of release.xml so we can perform this check?",1,1,0.8179070247680323
+TFIDF_LR,5000,13,D1_to_D1,525,//$NON-NLS-1$ //$NON-NLS-1$,0,0,0.02959412147452293
+TFIDF_LR,5000,13,D1_to_D1,526,/* FIXME: We may be intern'ing more than once.*/,1,1,0.8315055970647292
+TFIDF_LR,5000,13,D1_to_D1,527,"/* TODO: Some parts of ArgoUML have preliminary support for multiple * details panels, but we currently only support * the default South (bottom) panel */",1,1,0.7612076821642388
+TFIDF_LR,5000,13,D1_to_D1,528,// TODO should we just collect these like with the collections above?,1,1,0.9597563837144271
+TFIDF_LR,5000,13,D1_to_D1,529,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getRuleName() */,0,0,0.09313641185041273
+TFIDF_LR,5000,13,D1_to_D1,530,// try null calendar,0,0,0.11295088858552522
+TFIDF_LR,5000,13,D1_to_D1,531,//TO DO : delete the file if it is not a valid file.,1,0,0.4395984465248306
+TFIDF_LR,5000,13,D1_to_D1,532,// Add SamplerData for consistency with BeanShell Sampler //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$,0,0,0.040105233179557324
+TFIDF_LR,5000,13,D1_to_D1,533,"/* * TODO: mvw: do we really look into super-types of the stereotype, or * should we be looking into super-types of the baseclass? */",1,1,0.8319477920332474
+TFIDF_LR,5000,13,D1_to_D1,534,// check independence,0,0,0.16347133146070444
+TFIDF_LR,5000,13,D1_to_D1,535,// these are gray in Metal Default Theme,0,0,0.3551797384902203
+TFIDF_LR,5000,13,D1_to_D1,536,// defer argument checking,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,537,/** * Flag to indicate we are creating a new current project. * TODO: This isn't a thread-safe way of doing mutual exclusion. */,1,1,0.8481544782878752
+TFIDF_LR,5000,13,D1_to_D1,538,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,539,// XXX what is the following doing? // should it run if !javadoc4 && executable != null?,1,1,0.788821817872108
+TFIDF_LR,5000,13,D1_to_D1,540,"/* * JMeterTreeNode and TestBeanGUI are special GUI classes, and * aren't intended to be added to menus * * TODO: find a better way of checking this */",1,1,0.8869780149918229
+TFIDF_LR,5000,13,D1_to_D1,541,/** * Create an empty but initialized instance of a UML Permission. * * @return an initialized UML Permission instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.9048326348239097
+TFIDF_LR,5000,13,D1_to_D1,542,// WARNING: The GEF implementation of the OutputStream version of // this method doesn't work - tfm - 20070531,1,1,0.7444380742791974
+TFIDF_LR,5000,13,D1_to_D1,543,// TODO: Convert this to some sensible logging,1,1,0.904792563410594
+TFIDF_LR,5000,13,D1_to_D1,544,/* (non-Javadoc) * @see com.mockobjects.sql.MockDatabaseMetaData#supportsOpenStatementsAcrossRollback() */,0,0,0.10117071356538611
+TFIDF_LR,5000,13,D1_to_D1,545,// set up a field for the CacheEntry // TODO: make this an array so it's not as much class metadata; similar to AbstractScript stuff,1,1,0.7703370930784083
+TFIDF_LR,5000,13,D1_to_D1,546,"// as a coding convenience, create a reference to the text component // that is typecast to JTextComponent. this is not essential, as we // could typecast every reference, but this makes the code cleaner",0,1,0.7963183389643355
+TFIDF_LR,5000,13,D1_to_D1,547,// check of add[Configured](Class) pattern,0,0,0.1823088370910025
+TFIDF_LR,5000,13,D1_to_D1,548,// Get the first selected element. //,0,0,0.11267084068932497
+TFIDF_LR,5000,13,D1_to_D1,549,"// handle mouse events for double-click creation of popup dialog. // This happens only in the JTextField, not the JTextArea, so we can // make this an inner class within this method rather than a separate // inner class as is done with the KeyTextHandler class. //",1,1,0.6568083555529471
+TFIDF_LR,5000,13,D1_to_D1,550,// check for max size reached (only works when DB provides non-zero scale info,0,0,0.17591670637171863
+TFIDF_LR,5000,13,D1_to_D1,551,// addressbook list,0,0,0.16556167445009495
+TFIDF_LR,5000,13,D1_to_D1,552,// TODO - belongs elsewhere,1,1,0.8266437444059379
+TFIDF_LR,5000,13,D1_to_D1,553,"// FIXME: We should really not be creating the dynamic scope for the root // of the AST before parsing. This makes us end up needing to readjust // this dynamic scope coming out of parse (and for local static scopes it // will always happen because of $~ and $_). // FIXME: Because we end up adjusting this after-the-fact, we can't use // any of the specific-size scopes.",1,1,0.8980762955260945
+TFIDF_LR,5000,13,D1_to_D1,554,//- JMX field names,0,0,0.3498474528152567
+TFIDF_LR,5000,13,D1_to_D1,555,// different only by type - same name,0,0,0.3798005010500091
+TFIDF_LR,5000,13,D1_to_D1,556,// EATM This might be better written as a single loop for the EObject case? //,1,1,0.6045730123651182
+TFIDF_LR,5000,13,D1_to_D1,557,// TODO: implement remaining supported types,1,1,0.8350530876884041
+TFIDF_LR,5000,13,D1_to_D1,558,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,559,/** * Set the target anew. * * TODO: This method is never used. What is its intention? Remove it? */,1,1,0.9016844280320392
+TFIDF_LR,5000,13,D1_to_D1,560,// 3,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,561,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,562,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,563,// TODO: What does the magic number 6000 represent here? // Put it in an explanatory literal! - tfm - 20071205,1,1,0.8856676699158895
+TFIDF_LR,5000,13,D1_to_D1,564,/* * @see org.tigris.gef.presentation.Fig#getLineColor() */,0,0,0.11219331013332091
+TFIDF_LR,5000,13,D1_to_D1,565,// TODO: not navigable this direction? - tfm,1,1,0.9815525190632698
+TFIDF_LR,5000,13,D1_to_D1,566,// defer argument checking...,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,567,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,568,// defer argument checking...,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,569,// create EmptyBorder between components and dialog-frame,0,0,0.18287962736829197
+TFIDF_LR,5000,13,D1_to_D1,570,// We use a highly uncommon string to represent the paragraph delimiter (100% soln not worth it),1,1,0.5837439494180687
+TFIDF_LR,5000,13,D1_to_D1,571,// get selected folder,0,0,0.09522504621405971
+TFIDF_LR,5000,13,D1_to_D1,572,// TODO: Delete Me,1,1,0.8377181564660807
+TFIDF_LR,5000,13,D1_to_D1,573,//DMS should we let this exception out?,1,1,0.7981090647022516
+TFIDF_LR,5000,13,D1_to_D1,574,/** * Indicates the end of the range for notation events.<p> * * TODO: Remove this - not used anyway. * * @return the last id reserved for events. */,1,1,0.7577880640137222
+TFIDF_LR,5000,13,D1_to_D1,575,// type value,0,0,0.1794821720604653
+TFIDF_LR,5000,13,D1_to_D1,576,// I'm too tired to think of a better way // to handle this right now.,1,1,0.7874797266214615
+TFIDF_LR,5000,13,D1_to_D1,577,//yukky! Don't you have subclasses for that! //TODO race conditions can happen here,1,1,0.8914439416458743
+TFIDF_LR,5000,13,D1_to_D1,578,// ---- imTextField3 ----,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,579,/** * Create an empty but initialized instance of a UML DataType. * * @return an initialized UML DataType instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.9043799118461737
+TFIDF_LR,5000,13,D1_to_D1,580,/* * (non-Javadoc) * * @see org.columba.mail.folder.Folder#getUids(org.columba.api.command.IWorkerStatusController) */,0,0,0.048901044468497294
+TFIDF_LR,5000,13,D1_to_D1,581,//inject the data,0,0,0.22250057382714794
+TFIDF_LR,5000,13,D1_to_D1,582,// The eAnnotations and eGenericType are possible containment references. // We'll move them instead of copying //,1,1,0.6938633616717037
+TFIDF_LR,5000,13,D1_to_D1,583,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,584,// '[',0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,585,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,586,// TODO: This is only checking immediate siblings when it needs // to be checking all imported elements both here and by our // parents and also taking into account visibility,1,1,0.9602807608549724
+TFIDF_LR,5000,13,D1_to_D1,587,// show context menu,0,0,0.24514659498269423
+TFIDF_LR,5000,13,D1_to_D1,588,// NOTUSED org.apache.jmeter.monitor.model.Status st = // TODO - charset?,1,1,0.6293992544946851
+TFIDF_LR,5000,13,D1_to_D1,589,// FIXME: this attribute is not used - deprecate?,1,1,0.8774609467257952
+TFIDF_LR,5000,13,D1_to_D1,590,// The system time hasn't changed so add some increment of 100s of nanoseconds to guarantee uniqueness. //,0,0,0.42592341625461394
+TFIDF_LR,5000,13,D1_to_D1,591,// // !! TODO: All code below here is duplicated in FigBaseNode. The reason // is the GEF defect - http://gef.tigris.org/issues/show_bug.cgi?id=358 // Once we have taken a release of GEF with that fix we can remove this // code. //,1,1,0.9111066409966984
+TFIDF_LR,5000,13,D1_to_D1,592,// TODO how to implement this method properly?,1,1,0.9010144802997406
+TFIDF_LR,5000,13,D1_to_D1,593,/** * @throws SAXException when things go wrong with SAX * @throws IOException when there's an IO error * @throws ParserConfigurationException when the parser finds wrong syntax * * TODO: Unused? */,1,1,0.6882687085620203
+TFIDF_LR,5000,13,D1_to_D1,594,// Finding a non-existent directory to create.,0,0,0.16430480209047124
+TFIDF_LR,5000,13,D1_to_D1,595,/* TODO: sort the list. */,1,1,0.645039289654562
+TFIDF_LR,5000,13,D1_to_D1,596,// TODO: Ruby locks the string here,1,1,0.8848454284202332
+TFIDF_LR,5000,13,D1_to_D1,597,"// TODO : we really need to be able to deal with component paths here also; // this is difficult because the hql-sql grammar expects all those node types // to be FromReferenceNodes. One potential fix here would be to convert the // IntoClause to just use a FromClause/FromElement combo (as a child of the // InsertStatement) and move all this logic into the InsertStatement. That's // probably the easiest approach (read: least amount of changes to the grammar // and code), but just doesn't feel right as then an insert would contain // 2 from-clauses",1,1,0.9707459407578317
+TFIDF_LR,5000,13,D1_to_D1,598,// line 388,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,599,// i18n[codecompletion.function.needsTwoArgs=function needs at least two arguments],0,0,0.24058829151623684
+TFIDF_LR,5000,13,D1_to_D1,600,//{{{ Entry class,0,0,0.1291251538564147
+TFIDF_LR,5000,13,D1_to_D1,601,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,602,// end of profile section,0,0,0.16730769614308325
+TFIDF_LR,5000,13,D1_to_D1,603,//TODO:add a configuration of the cache size,1,1,0.6940243354565651
+TFIDF_LR,5000,13,D1_to_D1,604,// set the type to create,0,0,0.2862185096280043
+TFIDF_LR,5000,13,D1_to_D1,605,// provider is not available,0,0,0.41854123136290466
+TFIDF_LR,5000,13,D1_to_D1,606,"// binding given, use binding's file",0,0,0.19639193863754512
+TFIDF_LR,5000,13,D1_to_D1,607,// tooltip text,0,0,0.10719528590649972
+TFIDF_LR,5000,13,D1_to_D1,608,// i18n[HibernateTabController.noConfigSelected=Please select a Hibernate configuration to connect to.\nHibernate configurations can be defined in the global preferences window.\nWould you like to open the window now?],0,1,0.5437352556271822
+TFIDF_LR,5000,13,D1_to_D1,609,// and its stereotypes // TODO: Aren't stereotypes handled elsewhere?,1,1,0.6815766769180437
+TFIDF_LR,5000,13,D1_to_D1,610,// TODO: replace view with more detailed info view,1,1,0.6690762908655122
+TFIDF_LR,5000,13,D1_to_D1,611,//MappingPackage ePackage = ((MappingRoot)object).ePackageMapping();,0,0,0.12945860966246203
+TFIDF_LR,5000,13,D1_to_D1,612,//$NON-NLS-1$ //$NON-NLS-1$,0,0,0.02959412147452293
+TFIDF_LR,5000,13,D1_to_D1,613,// MAIN PANEL,0,0,0.1914047140456205
+TFIDF_LR,5000,13,D1_to_D1,614,/* * @see junit.framework.TestCase#setUp() */,0,0,0.11730107886146782
+TFIDF_LR,5000,13,D1_to_D1,615,//{{{ Private members,0,0,0.09940890837538079
+TFIDF_LR,5000,13,D1_to_D1,616,// i18n[DBUtil.error.tablenotfound=Couldn't locate table '{0}' in // schema '(1)'],0,0,0.15209100354575827
+TFIDF_LR,5000,13,D1_to_D1,617,//To change body of implemented methods use File | Settings | File Templates.,0,0,0.1613104504305582
+TFIDF_LR,5000,13,D1_to_D1,618,// For a unix ftp server you can set the default mask for all files // created.,0,0,0.32187876158831386
+TFIDF_LR,5000,13,D1_to_D1,619,// How much control should critics have over when they are relavant? // Does doing that in code instead of declaratively limit reasoning? // How does using more semantically rich method calls impact // componentization?,1,1,0.8338303845546902
+TFIDF_LR,5000,13,D1_to_D1,620,// REVISIT: Remove this code.,1,1,0.7312423132093561
+TFIDF_LR,5000,13,D1_to_D1,621,/** * Test delivery of Model events. * * TODO: We have not documented exactly what events arrive and when. * * @author Linus Tolke */,1,1,0.8513127061906103
+TFIDF_LR,5000,13,D1_to_D1,622,// Fill 2 of value (byte) -19 // Fill 4 of value (byte) 33 // Fill 10 of value (byte) -87 // Fill 18 of value (byte) 33 // Fill 2 of value (byte) -87,0,0,0.11711793290366157
+TFIDF_LR,5000,13,D1_to_D1,623,// If the name has not already been defined define it,0,0,0.327637701010533
+TFIDF_LR,5000,13,D1_to_D1,624,"/* substitute result of matching the rule start * into the end string. * * eg, in shell script mode, <<\s*(\w+) is * matched into \<$1\> to construct rules for * highlighting read-ins like this <<EOF * ... * EOF */",0,1,0.5816759042224214
+TFIDF_LR,5000,13,D1_to_D1,625,"/** * <p>Determines if the FigEdge is currently connected to the correct * FigNodes, if not the edges is the correct FigNodes set and the edge * rerouted. * <p>Typically this is used when a user has amended from the property * panel a relationship from one model element to another and the graph * needs to react to that change. * <p>e.g. if the participant of an association end is changed. * <p>Calls a helper method (layoutThisToSelf) to avoid this edge * disappearing if the new source and dest are the same node. * * TODO: This method is called far too frequently. It should only be called * when a specific event is received. It seems to be currently called whenever * any event is received from the owner. * * @return boolean whether or not the update was sucessful */",1,1,0.8947870977767801
+TFIDF_LR,5000,13,D1_to_D1,626,"// Cut off from parent, we must have our own class manager. // Can't do this in the run() command (needs to resolve stuff) // Should we do it by default when we create a namespace will no // parent of class manager?",1,1,0.707015781287399
+TFIDF_LR,5000,13,D1_to_D1,627,/* ENEBO: arg surrounded by in_defined set/unset*/,0,0,0.2908872317010296
+TFIDF_LR,5000,13,D1_to_D1,628,/** * Returns the root package. * * @return the Package which is the root * @deprecated for 0.25.4 by tfmorris - use {@link #getRoots()} to * get packages/model elements which are at the top level. * <p> * TODO: We probably need a getDefaultNamespace() method or * something similar to replace some uses of this. */,1,1,0.8935776970741168
+TFIDF_LR,5000,13,D1_to_D1,629,"/* Listen to machine deletion, * to delete the diagram. */",0,0,0.44332875828943535
+TFIDF_LR,5000,13,D1_to_D1,630,// TODO: Placeholder implementation until support for tracking on // a per-project basis is implemented,1,1,0.7971933961293033
+TFIDF_LR,5000,13,D1_to_D1,631,// get the right object from the list ... would it be easier to just call getEntity() ??,1,0,0.47132733367127405
+TFIDF_LR,5000,13,D1_to_D1,632,// FIXME: set up a call configuration for this,1,1,0.728440711562415
+TFIDF_LR,5000,13,D1_to_D1,633,// SSS FIXME: To be done,1,1,0.932774121260081
+TFIDF_LR,5000,13,D1_to_D1,634,"// ShapeGradientPaint titlePaint = new ShapeGradientPaint(new Color(255, // 150, 150), new Color(255, 200, 200), 0, 0.7f, 0.7f, false);",0,0,0.16668268089729243
+TFIDF_LR,5000,13,D1_to_D1,635,// Comment.name text field - editing disabled,0,0,0.2000962061621909
+TFIDF_LR,5000,13,D1_to_D1,636,"/** * TODO: The code implementing this method is from 2003 (see issue 2171) - * mechanically integrated by tfmorris in May 2007. Needs to be * reviewed/updated. * * @author Decki,Endi,Yayan, Politechnic of Bandung. Computer Departement * method for changing text of Message * @param newOwner * @param parameter */",1,1,0.8007020763571125
+TFIDF_LR,5000,13,D1_to_D1,637,// TODO: Move to GEF,1,1,0.9122691523430425
+TFIDF_LR,5000,13,D1_to_D1,638,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.fw.sql.ITableInfo#setImportedKeys(net.sourceforge.squirrel_sql.fw.sql.ForeignKeyInfo[]) */,0,0,0.11181800893180607
+TFIDF_LR,5000,13,D1_to_D1,639,"// FIXME: NOT_ALLOCATABLE_ALLOCATOR is probably not right here, since we might // eventually want JavaArray to be marshallable. JRUBY-414",1,1,0.9066372374332542
+TFIDF_LR,5000,13,D1_to_D1,640,// TODO: Maybe the exception strings should be internationalized,1,1,0.9064535359467933
+TFIDF_LR,5000,13,D1_to_D1,641,// HACK,1,1,0.8811175015887526
+TFIDF_LR,5000,13,D1_to_D1,642,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,643,// Order these from longest to shortest // Start by assuming longest (more repeats),0,1,0.5411382537340859
+TFIDF_LR,5000,13,D1_to_D1,644,// FIXME: Clearing read buffer here...is this appropriate?,1,1,0.8118830878569504
+TFIDF_LR,5000,13,D1_to_D1,645,"/* * TODO should these fields be public? * They don't appear to be used externally. * * Also, are they any different from HTTPConstants.GET etc. ? * In some cases they seem to be used as the method name from the Tomcat log. * However the RMETHOD field is used as the value for HTTPSamplerBase.METHOD, * for which HTTPConstants is most approriate. */",1,1,0.8963011705637739
+TFIDF_LR,5000,13,D1_to_D1,646,// TODO: no need to calculate every time.,1,1,0.7198023929701942
+TFIDF_LR,5000,13,D1_to_D1,647,"// TODO : an optimization here would be to consider cascade deletes and not gen those delete statements; // the difficulty is the ordering of the tables here vs the cascade attributes on the persisters -> // the table info gotten here should really be self-contained (i.e., a class representation // defining all the needed attributes), then we could then get an array of those",1,1,0.8784562913892323
+TFIDF_LR,5000,13,D1_to_D1,648,// unused in parent,1,1,0.5995005634275523
+TFIDF_LR,5000,13,D1_to_D1,649,//{{{ checkFileStatus() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,650,// TODO check this,1,1,0.9165344174388338
+TFIDF_LR,5000,13,D1_to_D1,651,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,652,/* * @see org.tigris.gef.presentation.Fig#getLineWidth() */,0,0,0.11219331013332091
+TFIDF_LR,5000,13,D1_to_D1,653,/** * TODO: see if protected or need to be present in each subclass */,1,1,0.7364343806694027
+TFIDF_LR,5000,13,D1_to_D1,654,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,655,/* (non-Javadoc) * @see net.javaprog.ui.wizard.AbstractStep#createComponent() */,0,0,0.07550231082840496
+TFIDF_LR,5000,13,D1_to_D1,656,// TODO: I18n,1,1,0.904952646022914
+TFIDF_LR,5000,13,D1_to_D1,657,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,658,//??GETRIDOFTHIS,1,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,659,// NOOP,0,0,0.15164895688835248
+TFIDF_LR,5000,13,D1_to_D1,660,// make array of exceptions,0,0,0.2558732582818323
+TFIDF_LR,5000,13,D1_to_D1,661,// notify observers (sorting state submenu),0,0,0.15548443250236482
+TFIDF_LR,5000,13,D1_to_D1,662,// otherwise proxy String fields may be null,0,0,0.1954683333165716
+TFIDF_LR,5000,13,D1_to_D1,663,/* * We don't want to store any cookies in the generated test plan */,0,0,0.4678117453056631
+TFIDF_LR,5000,13,D1_to_D1,664,/** * The buttons on selection for a Stereotype. <p> * * TODO: Find a way to hide the OperationsCompartment * on the FigClass of the created metaclass. * * @author michiel */,1,1,0.8363818792746299
+TFIDF_LR,5000,13,D1_to_D1,665,// TODO comments are not sent to recordValues,1,1,0.9060928094175638
+TFIDF_LR,5000,13,D1_to_D1,666,// TODO: multiplicity checks,1,1,0.7675628405367314
+TFIDF_LR,5000,13,D1_to_D1,667,// TODO save hostname; save sample type (plain or http),1,1,0.5087059856111779
+TFIDF_LR,5000,13,D1_to_D1,668,// internal list of all results,0,0,0.23568332819641405
+TFIDF_LR,5000,13,D1_to_D1,669,//TODO: need to make the majority of this functionality into a top-level support class for custom impl support,1,1,0.9192503008605752
+TFIDF_LR,5000,13,D1_to_D1,670,"/* MVW: for this case, I have to move the * call to setSelectedItem() outside the ""buildingModel"", otherwise * the combo does not update with the new selection. * The same does probably apply to the cases above! */",1,1,0.7824326808390012
+TFIDF_LR,5000,13,D1_to_D1,671,// first non_underscore char must be digit,0,0,0.18636557939911638
+TFIDF_LR,5000,13,D1_to_D1,672,// spam found,0,0,0.15648029293018395
+TFIDF_LR,5000,13,D1_to_D1,673,// TODO: must override in RubyModule to pick up constants,1,1,0.8043386676556645
+TFIDF_LR,5000,13,D1_to_D1,674,/* Not needed */,0,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,675,//{{{ savePrintSpec() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,676,// Fill 5 of value (byte) 33 // Fill 10 of value (byte) -87 // Fill 17 of value (byte) 33 // Fill 3 of value (byte) -87,0,0,0.1182451633586953
+TFIDF_LR,5000,13,D1_to_D1,677,//{{{ PaintWrapGuide class,0,0,0.1076383911131678
+TFIDF_LR,5000,13,D1_to_D1,678,// TODO: Unused?,1,1,0.9765481721038572
+TFIDF_LR,5000,13,D1_to_D1,679,// wrong,0,0,0.35479855444238184
+TFIDF_LR,5000,13,D1_to_D1,680,// TODO: This references the concrete factory // We need a factories factory,1,1,0.8872753214467543
+TFIDF_LR,5000,13,D1_to_D1,681,"// Color bulletPaint = new Color(100, 100, 100);",0,0,0.14745192330920806
+TFIDF_LR,5000,13,D1_to_D1,682,// Span across two columns,0,0,0.20975813257948095
+TFIDF_LR,5000,13,D1_to_D1,683,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getChildren(java.lang.Object) */,0,0,0.08801150280351816
+TFIDF_LR,5000,13,D1_to_D1,684,// user:password@host:/path notation,0,0,0.1278068162566937
+TFIDF_LR,5000,13,D1_to_D1,685,// todo : add support for READ_WRITE ( + NONSTRICT_READ_WRITE ??? ),1,1,0.9096134285682511
+TFIDF_LR,5000,13,D1_to_D1,686,// line 1029,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,687,"//TODO: would be nice to use false, but issues with MS SQL",1,1,0.8451693513410384
+TFIDF_LR,5000,13,D1_to_D1,688,// TODO: gone in UML 2.1,1,1,0.8819025595227126
+TFIDF_LR,5000,13,D1_to_D1,689,// TODO: This probably needs more qualification - tfm,1,1,0.9801710736713919
+TFIDF_LR,5000,13,D1_to_D1,690,// draw the bottom circle,0,0,0.1786570908458095
+TFIDF_LR,5000,13,D1_to_D1,691,// i18n[UpdateSummaryDialog.applyLabel=Apply Changes],0,0,0.12083137161733366
+TFIDF_LR,5000,13,D1_to_D1,692,// remove color // add color selection to reference,0,0,0.2414898418219233
+TFIDF_LR,5000,13,D1_to_D1,693,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,694,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,695,// XXX: (Jon Skeet) Any reason for writing a message and then using a bare // RuntimeException rather than just using a BuildException here? Is it // in case the message could end up being written to no loggers (as the // loggers could have failed to be created due to this failure)?,1,1,0.841840770197405
+TFIDF_LR,5000,13,D1_to_D1,696,// -c,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,697,// Now we could check that the adapter implements interface ITableItemColorProvider. //,0,0,0.4082839713083969
+TFIDF_LR,5000,13,D1_to_D1,698,// Add ASCII Digits and ASCII Hex Numbers,0,0,0.1926857687178136
+TFIDF_LR,5000,13,D1_to_D1,699,// an empty dataset should return a null range,0,0,0.24546683676197686
+TFIDF_LR,5000,13,D1_to_D1,700,"// c.gridy = 0; // c.gridx = 4; // JLabel threeLabel = new JLabel(""asd""); // gb.setConstraints(threeLabel, c); // _mainPanel.add(threeLabel);",0,0,0.16651349575418345
+TFIDF_LR,5000,13,D1_to_D1,701,// TODO: add serialization support for images,1,1,0.7964699679822883
+TFIDF_LR,5000,13,D1_to_D1,702,// TODO: implement,1,1,0.972272604594573
+TFIDF_LR,5000,13,D1_to_D1,703,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,704,// Interface,0,0,0.2390047273832438
+TFIDF_LR,5000,13,D1_to_D1,705,/* * Tests if enter is pressed in the _bbodField so we need to set the target * bounds. * * @see java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent) */,0,0,0.2466742242498202
+TFIDF_LR,5000,13,D1_to_D1,706,"// value is a simple string representation of the data, // the same one used in the Text and in-cell operations.",0,0,0.4029189532418923
+TFIDF_LR,5000,13,D1_to_D1,707,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,708,// TODO: i18n,1,1,0.904952646022914
+TFIDF_LR,5000,13,D1_to_D1,709,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,710,// Empty delimiter,0,0,0.21661002807491953
+TFIDF_LR,5000,13,D1_to_D1,711,// rb_copy_generic_ivar from DUP_SETUP here ...unlikely..,1,1,0.5925142349270683
+TFIDF_LR,5000,13,D1_to_D1,712,// TODO: Optimize for root model case? - tfm,1,1,0.8303326234085718
+TFIDF_LR,5000,13,D1_to_D1,713,// setPreferredSize(list.getPreferredSize());,0,0,0.16556167445009495
+TFIDF_LR,5000,13,D1_to_D1,714,// 1. check whether the row is now empty.,0,0,0.23140926903763837
+TFIDF_LR,5000,13,D1_to_D1,715,"// return super.getListCellRendererComponent(arg0, arg1, arg2, arg3, // arg4);",0,0,0.29187369617433256
+TFIDF_LR,5000,13,D1_to_D1,716,"// If the data type is not an association type, it could not have been in the FROM clause.",0,1,0.5298858746189371
+TFIDF_LR,5000,13,D1_to_D1,717,"// TODO: We can choose between something which matches UML 1.4 in name // or something that matches in functionality. We've chosen // functionality for now, but this will create a name conflict during // the migration process. - tfm",1,1,0.8414469447861007
+TFIDF_LR,5000,13,D1_to_D1,718,// we later use this to compute a relative ranking,0,1,0.6766145445945333
+TFIDF_LR,5000,13,D1_to_D1,719,// Prepare for a pretty date,0,0,0.2430184173004491
+TFIDF_LR,5000,13,D1_to_D1,720,"// a file, not in the root // since the jar may be one without directory // entries, add the parent dir of this file as // well.",0,0,0.45962278450472543
+TFIDF_LR,5000,13,D1_to_D1,721,"// FIXME: the following throws: // org.argouml.model.InvalidElementException: // javax.jmi.reflect.InvalidObjectException: Object with // MOFID 127-0-1-1-(...)000E75 no longer exists. // applicableTagDefs = tagDefCBModel.getApplicableTagDefinitions(aClass); // assertNotNull(""Tag Definition wasn't found in return value of "" // + ""tagDefCBModel.getApplicableTagDefinitions(aClass), "" // + ""after loading the project."", // TestStereotypeUtility.findModelElementNamed( // ProfileMother.TAG_DEFINITION_NAME_TD, applicableTagDefs));",1,0,0.4072230348830565
+TFIDF_LR,5000,13,D1_to_D1,722,// TODO: Get Project or other necessary context from source?? // e.getSource();,1,1,0.6935994528009938
+TFIDF_LR,5000,13,D1_to_D1,723,//TODO: Should next and return also catch here?,1,1,0.9349935437426032
+TFIDF_LR,5000,13,D1_to_D1,724,"// TODO: Not sure whether the above is better in some cases, but // the code below is better for both Java Web Start and Eclipse.",1,1,0.819856461057099
+TFIDF_LR,5000,13,D1_to_D1,725,// can't call invoke using super class,0,0,0.4653859112170859
+TFIDF_LR,5000,13,D1_to_D1,726,// todo: this might really even be moved into the cfg package and used as the basis for all things which are configurable.,1,1,0.9170678234359241
+TFIDF_LR,5000,13,D1_to_D1,727,/* shape outlined = */,0,0,0.15851508844433254
+TFIDF_LR,5000,13,D1_to_D1,728,// Guaranteed to return a non-null array,0,0,0.1437077547401449
+TFIDF_LR,5000,13,D1_to_D1,729,// just send the text to the output file,0,0,0.20264985841739835
+TFIDF_LR,5000,13,D1_to_D1,730,//TODO: would it be better to do a refresh from db?,1,1,0.832429575482447
+TFIDF_LR,5000,13,D1_to_D1,731,// we may be screwed here since the collection action is about to execute // and we do not know the final owner key value,1,1,0.699472132752594
+TFIDF_LR,5000,13,D1_to_D1,732,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,733,// FIXME: Added this because marshal_spec seemed to reconstitute objects without calling dataWrapStruct // this resulted in object being null after unmarshalling...,1,1,0.8115852120294846
+TFIDF_LR,5000,13,D1_to_D1,734,//{{{ save() method,0,0,0.08531071820159733
+TFIDF_LR,5000,13,D1_to_D1,735,/*s1 = */,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,736,// TODO: UML 1.4 spec requires both client and supplier to be // in the same model - tfm,1,1,0.8757251927587537
+TFIDF_LR,5000,13,D1_to_D1,737,// perhaps this should be an exception since it is only ever used // in the above method?,1,1,0.7487527282928926
+TFIDF_LR,5000,13,D1_to_D1,738,//{{{ load() method,0,0,0.10993644463374716
+TFIDF_LR,5000,13,D1_to_D1,739,/* * JUnit 3.7 adds a getName method to TestCase - so we now * have a name attribute in IntrospectionHelperTest if we run * under JUnit 3.7 but not in earlier versions. * * Simply add it here and remove it after the tests. */,0,1,0.5621834367669327
+TFIDF_LR,5000,13,D1_to_D1,740,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,741,/* * @see org.tigris.gef.presentation.FigEdge#setFig(org.tigris.gef.presentation.Fig) */,0,0,0.13328389343879288
+TFIDF_LR,5000,13,D1_to_D1,742,//TODO: assumes all collections disassemble to an array!,1,1,0.6338319050858222
+TFIDF_LR,5000,13,D1_to_D1,743,// TODO: an alternative is to check if the owner has changed; if it hasn't then // get the ID from collection.getOwner(),1,1,0.5693251187861087
+TFIDF_LR,5000,13,D1_to_D1,744,"// TODO: fix layout to look good, even if there's not enough information provided",1,1,0.7132561133719493
+TFIDF_LR,5000,13,D1_to_D1,745,// add message to folder,0,0,0.1545435564440167
+TFIDF_LR,5000,13,D1_to_D1,746,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,747,// load static empty array,0,0,0.18535902604386817
+TFIDF_LR,5000,13,D1_to_D1,748,// TODO: Need UML 2.x equivalent,1,1,0.8704010558533191
+TFIDF_LR,5000,13,D1_to_D1,749,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,750,"// TODO: Before allowing this, we should really check that // TemplateParameter.defaultElement is defined",1,1,0.9313963078799244
+TFIDF_LR,5000,13,D1_to_D1,751,// TODO: Fully implement this!,1,1,0.9356689770338544
+TFIDF_LR,5000,13,D1_to_D1,752,// handle redos by restarting the block,0,0,0.24992623584234472
+TFIDF_LR,5000,13,D1_to_D1,753,/* * @see javax.management.NotificationBroadcaster#getNotificationInfo() */,0,0,0.11505481357501202
+TFIDF_LR,5000,13,D1_to_D1,754,"// todo : need to find a clean way to handle the ""event source"" role // a seperate classs responsible for generating/dispatching events just duplicates most of the Session methods... // passing around seperate reto interceptor, factory, actionQueue, and persistentContext is not manageable...",1,1,0.8341990574632075
+TFIDF_LR,5000,13,D1_to_D1,755,// this method has severe consequences on performance. We cannot rely // on the super.hashCode() method since super.getName() always return // the empty string in the current implemention (there's no setter) // so it is basically draining the performance of a hashmap lookup,0,1,0.6786036991236439
+TFIDF_LR,5000,13,D1_to_D1,756,// defer argument checking,1,1,0.8959179684608201
+TFIDF_LR,5000,13,D1_to_D1,757,/* * Override paint so we can set a flag the first time we're called * and notify any waiting threads that the splash screen has been * painted. * @see java.awt.Component#paint(java.awt.Graphics) */,0,0,0.2052570597330547
+TFIDF_LR,5000,13,D1_to_D1,758,"// SSS: FIXME: Somewhere here, we need to record information the type of this operand as String",1,1,0.9378408904975395
+TFIDF_LR,5000,13,D1_to_D1,759,// i.e. does keytool support -gencert and -ext ?,0,1,0.5426433618588271
+TFIDF_LR,5000,13,D1_to_D1,760,/* TODO: correctly implement next function * in the model subsystem for * issue 1942: */,1,1,0.800738393903232
+TFIDF_LR,5000,13,D1_to_D1,761,// TODO: complete this implementation - tfm,1,1,0.8833561268519808
+TFIDF_LR,5000,13,D1_to_D1,762,// ignored - we only care about open/closing,0,0,0.2523787969154093
+TFIDF_LR,5000,13,D1_to_D1,763,// TODO: 1.9 rb_enc_symname_p,0,1,0.9999907447425262
+TFIDF_LR,5000,13,D1_to_D1,764,// FIXME moved this here to get what's obviously a utility method out of IRubyObject. // perhaps security methods should find their own centralized home at some point.,1,1,0.8107802563330103
+TFIDF_LR,5000,13,D1_to_D1,765,// plot is likely registered as a listener with the existing axis...,0,0,0.33442957098048454
+TFIDF_LR,5000,13,D1_to_D1,766,"//workaround, for backward compatibility of sets with no //not-null columns, assume all columns are used in the //row locator SQL",1,1,0.6038025285796783
+TFIDF_LR,5000,13,D1_to_D1,767,// test a custom instance,0,0,0.19957580404311123
+TFIDF_LR,5000,13,D1_to_D1,768,"// Create our bandbuffer which is just a small slice of the image // TODO: We used a fixed height buffer now, but we could be smarter and // compute a height which would fit in some memory budget, allowing us // to use taller buffers with narrower images, minimizing the overhead // of multiple rendering passes",1,1,0.9132806235967634
+TFIDF_LR,5000,13,D1_to_D1,769,// delegate...,0,0,0.1860166357253757
+TFIDF_LR,5000,13,D1_to_D1,770,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,771,// This doesn't work in UML2: both owner and property needed!,0,1,0.7655115314218998
+TFIDF_LR,5000,13,D1_to_D1,772,// Don't bother reporting stop test interruptions,0,0,0.30622176624224706
+TFIDF_LR,5000,13,D1_to_D1,773,// Standalone,0,0,0.1845842431460413
+TFIDF_LR,5000,13,D1_to_D1,774,// needed for scripts,0,1,0.5457734926686557
+TFIDF_LR,5000,13,D1_to_D1,775,"/** * The part of the design this issue affects. * <p> * Each member is either a model element, a {@link Fig}, or a * {@link Diagram}. * <p> * TODO: Offenders need to be more strongly typed. Because there is not a * common supertype for these three types, we can't type this list. We * should introduce a common supertype/interface. - tfm 20070630 * <p> * The list of offenders is set once (e.g. by the constructor) * and cannot change. * <p> */",1,1,0.9584486396735252
+TFIDF_LR,5000,13,D1_to_D1,776,// FIXME: How much more obtuse can this be? // Heredoc already parsed this and saved string...Do not parse..just return,1,1,0.9200031317057554
+TFIDF_LR,5000,13,D1_to_D1,777,/* * (non-Javadoc) * @see net.sourceforge.squirrel_sql.plugins.dataimport.importer.IFileImporter#getInt(int) */,0,0,0.08322882815170989
+TFIDF_LR,5000,13,D1_to_D1,778,//TODO: theoretically non-threadsafe...,1,1,0.7483604417704257
+TFIDF_LR,5000,13,D1_to_D1,779,"// handle a special case - if the bar colour has alpha == 0, it is // invisible so we shouldn't draw any shadow",0,0,0.31819985460537326
+TFIDF_LR,5000,13,D1_to_D1,780,// Reset files,0,0,0.17501704413441282
+TFIDF_LR,5000,13,D1_to_D1,781,// Create constants for open flags,0,0,0.23410762686585507
+TFIDF_LR,5000,13,D1_to_D1,782,// TODO: Is this next line safe? What happens if there is just one // comment edge or a comment edge and a single message?,1,1,0.7175213018498292
+TFIDF_LR,5000,13,D1_to_D1,783,/* * (non-Javadoc) * * @see org.columba.ristretto.message.Message#getBodyPart() */,0,0,0.05564703918404914
+TFIDF_LR,5000,13,D1_to_D1,784,"/* * @see org.argouml.profile.internal.ocl.ModelInterpreter#invokeFeature(java.util.HashMap, * java.lang.Object, java.lang.String, java.lang.String, * java.lang.Object[]) */",0,0,0.11411455823388529
+TFIDF_LR,5000,13,D1_to_D1,785,// FIXME: We should be getting this from the runtime rather than assume none? //return runtime.getEncodingService().getEncoding(runtime.getDefaultExternalEncoding());,1,1,0.8026609591281568
+TFIDF_LR,5000,13,D1_to_D1,786,// FIXME: clone generator,1,1,0.5694247728190093
+TFIDF_LR,5000,13,D1_to_D1,787,"/* \0, \0O, \0OO */",0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,788,// Expected,0,0,0.175131424963451
+TFIDF_LR,5000,13,D1_to_D1,789,"// TODO: If this turns out to be a performance bottleneck, we can // probably optimize the common case by caching our iterator and current // position, assuming that the next request will be for a greater index",1,1,0.8395753939485239
+TFIDF_LR,5000,13,D1_to_D1,790,// TODO: Need UML 2.x equivalent,1,1,0.8704010558533191
+TFIDF_LR,5000,13,D1_to_D1,791,// TODO is it possible to use more than one variable?,1,1,0.8754015671924799
+TFIDF_LR,5000,13,D1_to_D1,792,// Create a new version of the relevant fig,0,0,0.2550016516063396
+TFIDF_LR,5000,13,D1_to_D1,793,"/* * @see org.argouml.uml.ui.UMLComboBox2#UMLComboBox2( UMLComboBoxModel, * Action) */",0,0,0.09114726413617796
+TFIDF_LR,5000,13,D1_to_D1,794,"/* * @see javax.swing.table.TableModel#isCellEditable(int, int) */",0,0,0.0870437870168228
+TFIDF_LR,5000,13,D1_to_D1,795,// create a dataset...,0,0,0.12481295503753749
+TFIDF_LR,5000,13,D1_to_D1,796,// FIXME: No argument seems to work for -K in MRI plus this should not // siphon off additional args 'jruby -K ~/scripts/foo'. Also better error // processing.,1,1,0.9222655882490707
+TFIDF_LR,5000,13,D1_to_D1,797,// add some test data,0,0,0.22066160394105974
+TFIDF_LR,5000,13,D1_to_D1,798,// not needed,1,1,0.9147922422482476
+TFIDF_LR,5000,13,D1_to_D1,799,// TODO: Does this method need to be public? It isn't currently // called outside of this class.,1,1,0.9315414203024297
+TFIDF_LR,5000,13,D1_to_D1,800,//TODO: the i==entitySpan-1 bit depends upon subclass implementation (very bad),1,1,0.8837666061789003
+TFIDF_LR,5000,13,D1_to_D1,801,// add a ToDoItem,0,0,0.187581462393787
+TFIDF_LR,5000,13,D1_to_D1,802,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,803,// a redraw should NOT trigger another change event,1,1,0.5864850573039403
+TFIDF_LR,5000,13,D1_to_D1,804,// TODO: Why is this throwing a generic runtime exception?!?!,1,1,0.9444696181759814
+TFIDF_LR,5000,13,D1_to_D1,805,// TODO do we need to add a charset for the file contents? // $NON-NLS-1$,1,1,0.7168349254036082
+TFIDF_LR,5000,13,D1_to_D1,806,// TODO: Remove the casting to DiagramFactoryInterface2 // as soon as DiagramFactoryInterface is removed.,1,1,0.6875215463958945
+TFIDF_LR,5000,13,D1_to_D1,807,// Guaranteed to return a non-null array,0,0,0.1437077547401449
+TFIDF_LR,5000,13,D1_to_D1,808,// try null argument,0,0,0.15983616617901872
+TFIDF_LR,5000,13,D1_to_D1,809,// Ignored,0,0,0.1797213280971244
+TFIDF_LR,5000,13,D1_to_D1,810,// N.B. Needs to implement Visualizer so that TestBeanGUI can find the correct GUI class,1,1,0.5591225294374985
+TFIDF_LR,5000,13,D1_to_D1,811,// TODO: to be implemented,1,1,0.9078945302337628
+TFIDF_LR,5000,13,D1_to_D1,812,// Create classes and their features,0,0,0.18614143854894857
+TFIDF_LR,5000,13,D1_to_D1,813,// REVIEW How do we resolve this discrepancy?!,1,1,0.7596514238160391
+TFIDF_LR,5000,13,D1_to_D1,814,"// TODO: do we need to implement any kind of connection pooling? // If so, which connections should be shared? // Should threads share connections to the same destination? // What about cross-thread sharing?",1,1,0.9397306705749443
+TFIDF_LR,5000,13,D1_to_D1,815,// Close the stream,0,0,0.16119104487882827
+TFIDF_LR,5000,13,D1_to_D1,816,/* * (non-Javadoc) * * @see org.eclipse.emf.ecore.util.ExtendedMetaData#getName(org.eclipse.emf.ecore.EStructuralFeature) */,0,0,0.08797603605670591
+TFIDF_LR,5000,13,D1_to_D1,817,// Folder that stores themepacks for this LAF.,0,0,0.40818533030266685
+TFIDF_LR,5000,13,D1_to_D1,818,/* Note: This class essentially just delegates most of its methods to its parent. The setVariable() indirection is very small. We could probably fold this functionality back into the base NameSpace as a special case. But this has changed a few times so I'd like to leave this abstraction for now. */,1,1,0.8568969028980434
+TFIDF_LR,5000,13,D1_to_D1,819,// TODO: Do we really need to be listening for both of these events?,1,1,0.9330395782750742
+TFIDF_LR,5000,13,D1_to_D1,820,// This should be per instance,1,1,0.8560338639571226
+TFIDF_LR,5000,13,D1_to_D1,821,//{{{ Private members,0,0,0.09940890837538079
+TFIDF_LR,5000,13,D1_to_D1,822,// TODO: anything threads attached to original fd are notified of the close... // see rb_thread_fd_close,1,1,0.6621980368011483
+TFIDF_LR,5000,13,D1_to_D1,823,// Don't know what to do otherwise,1,1,0.6176175584109587
+TFIDF_LR,5000,13,D1_to_D1,824,"// some messy, complex stuff here, since createCriteria() can take an // aliased path, or a path rooted at the creating criteria instance",1,0,0.48295131559103716
+TFIDF_LR,5000,13,D1_to_D1,825,"// We just set the prefix for this fileset, and pass it up.",0,0,0.45722430863629643
+TFIDF_LR,5000,13,D1_to_D1,826,"/** * Abstract action to trigger creation of a new diagram. <p> * * ArgoUML shall never create a diagram for a read-only modelelement. * <p> * TODO: Bobs says, can we merge ActionAddDiagram with this class? * * @author michiel */",1,1,0.7432398393505418
+TFIDF_LR,5000,13,D1_to_D1,827,// TODO handle filenames,1,1,0.9079639541872726
+TFIDF_LR,5000,13,D1_to_D1,828,// i18n[TriggerDetailsTab.title=Details],0,0,0.13169747908766535
+TFIDF_LR,5000,13,D1_to_D1,829,// MenuBar related methods // TODO: Do we really need to have all these menubar methods duplicated // here? Perhaps we can make the menu bar accessible through GuiPackage?,1,1,0.8824258165831779
+TFIDF_LR,5000,13,D1_to_D1,830,"/** * An OpaqueExpression can have n body n language * * When display to user, we only show one body. A ""..."" button is enabled for * edit other. * * TODO: Can we, by Import XMI, have 0 language/body ? * * @author Laurent Braud */",1,1,0.6792866053098658
+TFIDF_LR,5000,13,D1_to_D1,831,// we tried to remove a value,0,0,0.41849273229664113
+TFIDF_LR,5000,13,D1_to_D1,832,"//DMS Why not this? //new SubProgressMonitor(progressMonitor, 1));",1,1,0.723027236800684
+TFIDF_LR,5000,13,D1_to_D1,833,/** rb_mod_remove_cvar * * FIXME: any good reason to have two identical methods? (same as remove_class_variable) */,1,1,0.6807957256951239
+TFIDF_LR,5000,13,D1_to_D1,834,// not implemented yet,1,1,0.5906061533372834
+TFIDF_LR,5000,13,D1_to_D1,835,/** * @return Returns the default stereotype view * TODO: Enumeration here? */,1,1,0.6662679559669329
+TFIDF_LR,5000,13,D1_to_D1,836,// TODO: This method can be replaced by getClass().getSimpleName() // when Argo drops support for Java versions < 1.5,1,1,0.9251324485788982
+TFIDF_LR,5000,13,D1_to_D1,837,// TODO replace repeated substr() above and below with more efficient method.,1,1,0.8200276511570849
+TFIDF_LR,5000,13,D1_to_D1,838,// Should cache this subject to classloader change message // Evaluation of the formal parameter simply resolves its // type via the specified namespace.. it doesn't modify the // namespace.,1,1,0.5926896683388714
+TFIDF_LR,5000,13,D1_to_D1,839,// the generated classes must not be added in the generic JAR! // is that buggy on old JOnAS (2.4) ??,1,1,0.6326380437512984
+TFIDF_LR,5000,13,D1_to_D1,840,"/** * This Fig is never placed on a diagram. It is only used by the call * renderer so that pick list items look like diagram Figs. * TODO: This Fig does not represent a model element and so it * should not extend FigNodeModelElement. We should split * FigNodeModelElement in two, one for base functionality for all nodes * and one that is truly for model elements. */",1,1,0.9356969152197478
+TFIDF_LR,5000,13,D1_to_D1,841,// Obey the contract ourselves!,0,0,0.2784602903265565
+TFIDF_LR,5000,13,D1_to_D1,842,/** * Open a ZipInputStream to the first file found with a given extension. * * TODO: Remove since this is a duplicate of ZipFilePersister method * when we have refactored the Persister subsystem. * * @param url * The URL of the zip file. * @param ext * The required extension. * @return the zip stream positioned at the required location. * @throws IOException * if there is a problem opening the file. */,1,1,0.7080640648773072
+TFIDF_LR,5000,13,D1_to_D1,843,"// TODO: ActionState, CallState, and SubactivityState have been replaced // in UML 2.0 by explicitly modeled Actions",1,1,0.6343444113959726
+TFIDF_LR,5000,13,D1_to_D1,844,// TODO: maybe separate name,1,1,0.8523352326294851
+TFIDF_LR,5000,13,D1_to_D1,845,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,846,"// GMT+00:00 --> Etc/GMT, see ""MRI behavior"" // comment below.",0,0,0.23338845459158544
+TFIDF_LR,5000,13,D1_to_D1,847,"// polymorphism not really handled completely correctly, // perhaps...well, actually its ok, assuming that the // entity name used in the lookup is the same as the // the one used here, which it will be",1,1,0.7947928635834882
+TFIDF_LR,5000,13,D1_to_D1,848,"// TODO: pipe handler to be reopened with path and ""w"" mode",1,1,0.9387859638007269
+TFIDF_LR,5000,13,D1_to_D1,849,// FIXME: what should this really be? assert x instanceof RubyComplex;,1,1,0.9028423685163091
+TFIDF_LR,5000,13,D1_to_D1,850,"// If the Parameter data can be converted (i.e. no names), we // warn the user that the Parameter data will be lost.",0,0,0.4795401271174915
+TFIDF_LR,5000,13,D1_to_D1,851,"// This does not support the Cache SQL 'DISTINCT BY (comma-list)' extensions, // but this extension is not supported through Hibernate anyway.",1,1,0.7333198650381951
+TFIDF_LR,5000,13,D1_to_D1,852,// This inner class implements a case statement....perhaps im being a bit over-clever here,1,1,0.5349308615880849
+TFIDF_LR,5000,13,D1_to_D1,853,// starts with an alias (old style) // semi-bad thing about this: can't re-alias another alias.....,1,0,0.4837674572472356
+TFIDF_LR,5000,13,D1_to_D1,854,//DMS should we let this exception out?,1,1,0.7981090647022516
+TFIDF_LR,5000,13,D1_to_D1,855,// TODO,0,1,0.9999907447425262
+TFIDF_LR,5000,13,D1_to_D1,856,// type-cast here is safe,0,0,0.4992338514175921
+TFIDF_LR,5000,13,D1_to_D1,857,// TODO work out how to search the XML pane,1,1,0.6356582937657261
+TFIDF_LR,5000,13,D1_to_D1,858,// register hibernate types for default use in scalar sqlquery type auto detection,0,0,0.3148429286248362
+TFIDF_LR,5000,13,D1_to_D1,859,//To change body of implemented methods use File | Settings | File Templates.,0,0,0.1613104504305582
+TFIDF_LR,5000,13,D1_to_D1,860,// The content outline is just a tree. //,0,0,0.31034063112950994
+TFIDF_LR,5000,13,D1_to_D1,861,"// If the from element represents a JOIN_FRAGMENT and it is // a theta-style join, convert its type from JOIN_FRAGMENT // to FROM_FRAGMENT",0,0,0.44279487145386925
+TFIDF_LR,5000,13,D1_to_D1,862,// retrieve the actual search result data,0,0,0.11460333080363498
+TFIDF_LR,5000,13,D1_to_D1,863,// TODO: opt for 2 and 3 ?,1,1,0.9325297145805628
+TFIDF_LR,5000,13,D1_to_D1,864,// update the min value,0,0,0.1914539114436195
+TFIDF_LR,5000,13,D1_to_D1,865,// todo : remove,1,1,0.9411202496717042
+TFIDF_LR,5000,13,D1_to_D1,866,"// TODO : make this the factory for ""entity mode related"" sessions; // also means making this the target of transaction-synch and the // thing that knows how to cascade things between related sessions // // At that point, perhaps this thing is a ""SessionContext"", and // ConnectionManager is a ""JDBCContext""? A ""SessionContext"" should // live in the impl package...",1,1,0.9146760049086164
+TFIDF_LR,5000,13,D1_to_D1,867,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,868,// can happen if the user presses C+w twice real // quick and the buffer has unsaved changes,0,0,0.24036955857424613
+TFIDF_LR,5000,13,D1_to_D1,869,// get the id from the object,0,0,0.2583149155192637
+TFIDF_LR,5000,13,D1_to_D1,870,// TODO: protected methods. this is going to require a rework of some of the mechanism.,1,1,0.9095283143618864
+TFIDF_LR,5000,13,D1_to_D1,871,// line 848,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,872,"// SSS FIXME: For constant arrays, we should never get here!",1,1,0.8857038212865759
+TFIDF_LR,5000,13,D1_to_D1,873,/* * @see org.tigris.gef.presentation.Fig#setFilled(boolean) */,0,0,0.10410154535491212
+TFIDF_LR,5000,13,D1_to_D1,874,// TODO : currently we really do not handle ValueInclusion.PARTIAL... // ValueInclusion.PARTIAL would indicate parts of a component need to // be included in the select; currently we then just render the entire // component into the select clause in that case.,1,1,0.8907989208845052
+TFIDF_LR,5000,13,D1_to_D1,875,// line 1591,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,876,//TODO: we should provide some way to get keys of collection of statistics to make it easier to retrieve from a GUI perspective,1,1,0.9432625620668135
+TFIDF_LR,5000,13,D1_to_D1,877,/** * Creates a new OCL critic * * @param oclConstraint ocl expression * @param headline headline * @param description description * @param moreInfoURL the info url * @param knowledgeTypes the knowledge types * @param supportedDecisions the decisions * @param priority the priority * @throws InvalidOclException if the ocl is not valid * * TODO: Do these need to be Lists or can they be simple Collections? */,1,1,0.8631027386443685
+TFIDF_LR,5000,13,D1_to_D1,878,//{{{ Private members,0,0,0.09940890837538079
+TFIDF_LR,5000,13,D1_to_D1,879,// user didn't select any folder // -> make Inbox the default folder,0,0,0.10764602400822665
+TFIDF_LR,5000,13,D1_to_D1,880,// first read the .argo file from Zip,0,0,0.15064066476590776
+TFIDF_LR,5000,13,D1_to_D1,881,// first we iterate through the bindings,0,0,0.20618186774377995
+TFIDF_LR,5000,13,D1_to_D1,882,//This is not very nice (and quite slow):,1,1,0.8052648211429554
+TFIDF_LR,5000,13,D1_to_D1,883,/*TODO: Make the tree refresh and expand * really work in all cases! */,1,1,0.8121381147356587
+TFIDF_LR,5000,13,D1_to_D1,884,"// optional args, so we have IRubyObject[] // TODO: confirm",1,1,0.7155412083333649
+TFIDF_LR,5000,13,D1_to_D1,885,// deregister the collection as a change listener to each series in the // collection,0,0,0.43981865825449895
+TFIDF_LR,5000,13,D1_to_D1,886,//{{{ isLoaded() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,887,// Don't generate private or loosely typed fields // Note: loose types aren't currently parsed anyway...,1,0,0.3501833611133302
+TFIDF_LR,5000,13,D1_to_D1,888,// Write any appropriate versioning conditional parameters,0,0,0.20611743591845633
+TFIDF_LR,5000,13,D1_to_D1,889,// FIXME: this should generate a series change event,1,1,0.88347725269544
+TFIDF_LR,5000,13,D1_to_D1,890,/** * **FIXME** This function needs documentation * * Constructor * * @param String * Name * */,1,1,0.8028603025406874
+TFIDF_LR,5000,13,D1_to_D1,891,// setting lastSelection to null,0,0,0.27199637101863233
+TFIDF_LR,5000,13,D1_to_D1,892,// initialize this collection,0,0,0.4752465433265695
+TFIDF_LR,5000,13,D1_to_D1,893,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,894,// every year?,0,0,0.2289248496947448
+TFIDF_LR,5000,13,D1_to_D1,895,/* Spacing workaround */,1,1,0.6734315625128585
+TFIDF_LR,5000,13,D1_to_D1,896,/** * Test a UML 1.3/XMI 1.1 file to make sure that it gets converted properly. * <p> * TODO: Our UML 1.3 converter currently only handles XMI 1.0. * @throws FileNotFoundException indicates a test configuration problem * @throws UmlException if it fails to open the file */,1,1,0.5214289902460401
+TFIDF_LR,5000,13,D1_to_D1,897,// Assume the class isn't available.,0,0,0.22451528696912632
+TFIDF_LR,5000,13,D1_to_D1,898,// TODO: should this just call super()?,1,1,0.9608442343236457
+TFIDF_LR,5000,13,D1_to_D1,899,"// todo : currently expects that the individual with expressions apply to the same sql table join. // This may not be the case for joined-subclass where the property values // might be coming from different tables in the joined hierarchy. At some // point we should expand this to support that capability. However, that has // some difficulties: // 1) the biggest is how to handle ORs when the individual comparisons are // linked to different sql joins. // 2) here we would need to track each comparison individually, along with // the join alias to which it applies and then pass that information // back to the FromElement so it can pass it along to the JoinSequence",1,1,0.9744402887949323
+TFIDF_LR,5000,13,D1_to_D1,900,// line 625,0,0,0.050842726496038645
+TFIDF_LR,5000,13,D1_to_D1,901,// FIXME: not very efficient,1,1,0.8061088121885771
+TFIDF_LR,5000,13,D1_to_D1,902,// implicit joins are always(?) ok to reuse,1,0,0.3170004525151209
+TFIDF_LR,5000,13,D1_to_D1,903,/* * @see java.lang.Object#clone() */,0,0,0.09320943440843774
+TFIDF_LR,5000,13,D1_to_D1,904,// Do not exit,0,0,0.45031556866379696
+TFIDF_LR,5000,13,D1_to_D1,905,/* * @see org.tigris.gef.presentation.Fig#getLineWidth() */,0,0,0.11219331013332091
+TFIDF_LR,5000,13,D1_to_D1,906,// TODO: Won't our use of PathComparator take care of uniqueness?,1,1,0.7464821760910088
+TFIDF_LR,5000,13,D1_to_D1,907,// end of workaround,1,0,0.4362495296189559
+TFIDF_LR,5000,13,D1_to_D1,908,"// If we've loop through one time for each character in the string, // then something must be wrong. Get out!",0,0,0.33180680625209513
+TFIDF_LR,5000,13,D1_to_D1,909,// TODO: This is almost RubyModule#instance_methods on the metaClass. Perhaps refactor.,1,1,0.931011680488382
+TFIDF_LR,5000,13,D1_to_D1,910,// create search history,0,0,0.10255949651794828
+TFIDF_LR,5000,13,D1_to_D1,911,/* * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent) */,0,0,0.08405022296515133
+TFIDF_LR,5000,13,D1_to_D1,912,//{{{ contentRemoved() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,913,// TODO: this method is not present in MRI!,1,1,0.9416578276717354
+TFIDF_LR,5000,13,D1_to_D1,914,// TODO: Generalize extension and remove critic specific code,1,1,0.7654818745604988
+TFIDF_LR,5000,13,D1_to_D1,915,// TODO: fetch this once as per vars above?,1,1,0.8301689801879445
+TFIDF_LR,5000,13,D1_to_D1,916,"// We should only evalute the condition if it is the first // time ( first ""iteration"" ) we are called. // For subsequent calls, we are inside the IfControllerGroup, // so then we just pass the control to the next item inside the if control",0,1,0.5145392203708392
+TFIDF_LR,5000,13,D1_to_D1,917,//{{{ createTOC() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,918,// Dialect method overrides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,0.1288296166365254
+TFIDF_LR,5000,13,D1_to_D1,919,// Expanders.,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,920,// Fill 10 of value (byte) -71,0,0,0.12446106990752162
+TFIDF_LR,5000,13,D1_to_D1,921,"// i18n[LogPanel.logInfoLabel=Logs: Errors {0}, Warnings {1}, Infos {2}]",0,0,0.12565268506547128
+TFIDF_LR,5000,13,D1_to_D1,922,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,923,"//TODO: always true for now, but not if we later decide to support elements() in the from clause",1,1,0.8338590630321648
+TFIDF_LR,5000,13,D1_to_D1,924,"// If an explicit securityPolicy file was specified, it maybe an // absolute path. Use the project to resolve it.",0,0,0.3410118711270151
+TFIDF_LR,5000,13,D1_to_D1,925,// boolean isSelected = _exportPrefsChk.isSelected(); // _exportPrefsText.setEditable(isSelected); // _exportPrefsBtn.setEnabled(isSelected); // // isSelected = _exportDriversChk.isSelected(); // _exportDriversText.setEditable(isSelected); // _exportDriversBtn.setEnabled(isSelected); // // isSelected = _exportAliasesChk.isSelected(); // _exportAliasesText.setEditable(isSelected); // _exportAliasesBtn.setEnabled(isSelected); // _includeUserNamesChk.setEnabled(isSelected); // _includePasswordsChk.setEnabled(isSelected);,0,0,0.1424999215817267
+TFIDF_LR,5000,13,D1_to_D1,926,"// TODO Should this be OK ? //assertEquals(contentEncoding, s.getContentEncoding()); // Check arguments // We should have one argument, with the value equal to the post body",1,1,0.8962692357154942
+TFIDF_LR,5000,13,D1_to_D1,927,"// Handle the type, multiplicity and other ETypedElement attributes. //",0,0,0.3935122429333416
+TFIDF_LR,5000,13,D1_to_D1,928,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,929,// SSS FIXME: Where does this go? // m.setLinePosition(arrayNode.getPosition());,1,1,0.8682884270556749
+TFIDF_LR,5000,13,D1_to_D1,930,// TODO: @author fdietz replace with regular expression,1,1,0.8466786417896712
+TFIDF_LR,5000,13,D1_to_D1,931,// TODO: to be implemented,1,1,0.9078945302337628
+TFIDF_LR,5000,13,D1_to_D1,932,// Temporary fix to allow default protocol to be changed,1,1,0.5085643125075474
+TFIDF_LR,5000,13,D1_to_D1,933,//{{{ getNotLoadedPluginJARs() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,934,//{{{ removeExtension() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,935,//{{{ getStructureMatch() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,936,// encodings,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,937,//$NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,938,"// For JRUBY-2759, when MET choose CET timezone to work around Joda",1,1,0.6699155836220997
+TFIDF_LR,5000,13,D1_to_D1,939,"// filter out any Java primitive names // TODO: should check against all Java reserved names here, not just primitives",1,1,0.8068103844398677
+TFIDF_LR,5000,13,D1_to_D1,940,// Show the user a dialog with a list of columns and ask them to select one or more columns to drop,0,0,0.39080362795030055
+TFIDF_LR,5000,13,D1_to_D1,941,/** * TODO: Rewrite this test using reflection against Uml class. * * This code has been commented out since September 2003 */,1,1,0.8410171078947324
+TFIDF_LR,5000,13,D1_to_D1,942,"/** * A dialect delegate for the Sun Microsystems HADB (High-Availability) database. * TODO: This dialect is not yet complete. Need to provide implementations wherever ""Not yet implemented"" * appears. * * @author manningr */",1,1,0.9375372078804085
+TFIDF_LR,5000,13,D1_to_D1,943,"// We create the post body content now, so we know the size",0,0,0.2752076899425469
+TFIDF_LR,5000,13,D1_to_D1,944,// Fill 4 of value (byte) -87 // Fill 7 of value (byte) 33 // Fill 2 of value (byte) -87 // Fill 7 of value (byte) 33,0,0,0.12011490515070165
+TFIDF_LR,5000,13,D1_to_D1,945,/* * @see org.argouml.ui.explorer.WeakExplorerNode#subsumes(java.lang.Object) */,0,0,0.06985025948618903
+TFIDF_LR,5000,13,D1_to_D1,946,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,947,// i18n[oracle.displayOptions=Display database options],0,0,0.08891218474269914
+TFIDF_LR,5000,13,D1_to_D1,948,//TODO: avoid this for non-new instances where mightBeDirty==false,1,1,0.8371373591708579
+TFIDF_LR,5000,13,D1_to_D1,949,// The next line leaves objectsBeforeApply with all the objects that were // added during the last recording.,0,0,0.23382256291477552
+TFIDF_LR,5000,13,D1_to_D1,950,// private JPanel modifiedTab = new JPanel();,0,0,0.15165734609791784
+TFIDF_LR,5000,13,D1_to_D1,951,// i18n[UpdatePreferencesPanel.enableAutoUpdate=Enable Automatic Updates],0,0,0.09512520627850916
+TFIDF_LR,5000,13,D1_to_D1,952,//{{{ handleMessage() method,0,0,0.052559125927099236
+TFIDF_LR,5000,13,D1_to_D1,953,// TODO: put these nil guards into tree (bigger than I want to do right now),1,1,0.8083115142348489
+TFIDF_LR,5000,13,D1_to_D1,954,// how to handle empty target lists? // probably the TabText should only show an empty pane in that case,1,1,0.6134246265689879
+TFIDF_LR,5000,13,D1_to_D1,955,/** * Creates a UML model element of the given type. * This only works for UML elements. If a diagram contains * elements of another type then it is the responsibility * of the diagram manage those items and not call this * method. It also only works for UML model elements that * are represented in diagrams by a node. * * @param elementType the type of model element to build * @return the model element * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.9172110372548071
+TFIDF_LR,5000,13,D1_to_D1,956,// verify the size of the list,0,0,0.2316635494673968
+TFIDF_LR,5000,13,D1_to_D1,957,// TODO @author fdietz: no paging used currently // show only first 5 results,1,1,0.7698709214479494
+TFIDF_LR,5000,13,D1_to_D1,958,// todo : this eventually needs to be removed,1,1,0.9795998211087705
+TFIDF_LR,5000,13,D1_to_D1,959,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,960,"// if current char is comma, insert line break after it // // we should be able to find the comma because the range for enum constants includes all trailing comments up to the separator // if TargetSourceRangeComputer of ASTRewrite changes, this logic should change to skip comments // see org.eclipse.emf.codegen.merge.java.facade.ast.CommentAwareSourceRangeComputer#getEnumConstantSourceRange(ASTNode)",1,1,0.5701639651709851
+TFIDF_LR,5000,13,D1_to_D1,961,"// Don't do replacement if we just did one, or if previous line // ended with a semicolon. //",0,0,0.27670045129220755
+TFIDF_LR,5000,13,D1_to_D1,962,// i.e. EOF,0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,963,// TODO: don't require pop,1,1,0.9439841757248674
+TFIDF_LR,5000,13,D1_to_D1,964,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.fw.sql.ISQLDatabaseMetaData#getImportedKeysInfo(net.sourceforge.squirrel_sql.fw.sql.ITableInfo) */,0,0,0.11218656066492508
+TFIDF_LR,5000,13,D1_to_D1,965,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,966,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#buildModelList() */,0,0,0.0840904555954465
+TFIDF_LR,5000,13,D1_to_D1,967,"// Discovered that the loginame field can be null - in that case, how to know we have the correct view?",1,1,0.6799061717757727
+TFIDF_LR,5000,13,D1_to_D1,968,// TODO: make sure it's really safe to not to copy it,1,1,0.7654251266168771
+TFIDF_LR,5000,13,D1_to_D1,969,"// Perhaps if Xerces wasn't slightly brain-damaged, we would // not need this",1,1,0.681675729851919
+TFIDF_LR,5000,13,D1_to_D1,970,"// TODO: What about these // Viewport.font, ColorChooser.font, InternalFrame.font, // OptionPane.font, ""Panel.font"", // ScrollPane.font, DesktopIcon.font",1,0,0.3455706192154349
+TFIDF_LR,5000,13,D1_to_D1,971,"//System.err.println(""calculateLength()/str="" + str);",0,0,0.16075000154647903
+TFIDF_LR,5000,13,D1_to_D1,972,/** * ActionAddExistingNode enables pasting of an existing node into a Diagram. * * @author Eugenio Alvarez * Data Access Technologies. * TODO: Why do we have this class as well as ActionAddExistingNodes? */,1,1,0.832214917101838
+TFIDF_LR,5000,13,D1_to_D1,973,// TODO: Taken from FigClassifierBoxWithAttribute to handle events // on an attribute. All this event handling should eventually be moved // to the compartment Fig for attributes,1,1,0.8768966722163827
+TFIDF_LR,5000,13,D1_to_D1,974,// i18n[sqlbookmark.deleteConfirm=Do you really wish to delete the selected bookmark?],0,0,0.3448522937764034
+TFIDF_LR,5000,13,D1_to_D1,975,"// TODO: callback for value would be more efficient, but unlikely to be a big cost (constants are rarely assigned)",1,1,0.8727377099526973
+TFIDF_LR,5000,13,D1_to_D1,976,// TODO: I18N required,1,1,0.8169653251249634
+TFIDF_LR,5000,13,D1_to_D1,977,// break before start of view,0,0,0.1929634374811205
+TFIDF_LR,5000,13,D1_to_D1,978,// TODO: This needs to be managing undo on a per-project basis // instead of using GEF's global undo manager,1,1,0.8987397954620898
+TFIDF_LR,5000,13,D1_to_D1,979,"/** * Jakarta Commons Logging listener. * Note: do not use the SimpleLog as your logger implementation as it * causes an infinite loop since it writes to System.err, which Ant traps * and reroutes to the logger/listener layer. * * The following names are used for the log: * org.apache.tools.ant.Project.PROJECT_NAME - for project events * org.apache.tools.ant.Target.TARGET_NAME - for target events * TASK_CLASS_NAME.TARGET_NAME - for events in individual targets. * * In all target and project names we replace ""."" and "" "" with ""-"". * * TODO: we should use the advanced context logging features (and expose them * in c-l first :-) * TODO: this is _very_ inefficient. Switching the out and tracking the logs * can be optimized a lot - but may require few more changes to the core. * * @since Ant 1.5 */",1,1,0.9460111910281969
+TFIDF_LR,5000,13,D1_to_D1,980,/** * Tab for the settings dialog that makes it possible to * select the modules that are to be enabled. * * TODO: Header for the table. * * @author Linus Tolke */,0,1,0.6798219461768156
+TFIDF_LR,5000,13,D1_to_D1,981,//buffer.readUnlock();,0,0,0.14905652929333277
+TFIDF_LR,5000,13,D1_to_D1,982,/* Workaround for uncooperative Windows L&F */,1,1,0.6406863613159149
+TFIDF_LR,5000,13,D1_to_D1,983,// inject mocks,0,0,0.23097221430111559
+TFIDF_LR,5000,13,D1_to_D1,984,// $NON-NLS-1$,0,0,0.026561186169259263
+TFIDF_LR,5000,13,D1_to_D1,985,// TODO: not implemented,1,1,0.9489973934818635
+TFIDF_LR,5000,13,D1_to_D1,986,// this part sucks,1,1,0.577803162004879
+TFIDF_LR,5000,13,D1_to_D1,987,"// TODO: Because we get called on each and every change event, when // the model is in a state of flux, we'll often get an // InvalidElementException before we finish this collection. The // only saving grace is that we're called SO many times that on the // last time, things should be stable again and we'll get a good set // of elements for the final update. We need a better mechanism.",1,1,0.9075653495959967
+TFIDF_LR,5000,13,D1_to_D1,988,/* * @see java.awt.event.ActionListener#actionPerformed( * java.awt.event.ActionEvent) */,0,0,0.08405022296515133
+TFIDF_LR,5000,13,D1_to_D1,989,// Do the actual synchronization,0,0,0.2544897778602575
+TFIDF_LR,5000,13,D1_to_D1,990,/* * two reasons are mentioned in the API docs for File.list * (1) dir is not a directory. This is impossible as * we wouldn't get here in this case. * (2) an IO error occurred (why doesn't it throw an exception * then???) */,1,1,0.825087361075234
+TFIDF_LR,5000,13,D1_to_D1,991,//}}},0,0,0.195026663220761
+TFIDF_LR,5000,13,D1_to_D1,992,"// TODO: This is probably related to the SendEvent that is sending the // Signal, but the association is not navigable in that direction",1,1,0.9460894860812054
+TFIDF_LR,5000,13,D1_to_D1,993,// i18n[graphToClipboard.closeButton=Close],0,0,0.10479300437127101
+TFIDF_LR,5000,13,D1_to_D1,994,"// TODO: These have been used for most instances of new FigFoo(X0, Y0, ... // but additional work is required to extract the constant from // calculations, etc.",1,1,0.815251031500763
+TFIDF_LR,5000,13,D1_to_D1,995,// FIXME: this should reset to what it was before,1,1,0.9299641665089037
+TFIDF_LR,5000,13,D1_to_D1,996,/* * This is the proper behavior for all non-expanded assigners which have a pre > 0. The rest * override this. */,0,1,0.607889044657954
+TFIDF_LR,5000,13,D1_to_D1,997,// TODO: why do we need to remove then add the Fig?,1,1,0.9242313395528191
+TFIDF_LR,5000,13,D1_to_D1,998,/** * TODO: This functionality is in the worn place. We should be able to * call setVisible on the compartment itself and then this class should * react to that event. * Improvements will follow in later releases. * Hence this method should not be considered stable for module developers. * @param compartment the compartment to be changed * @param isVisible true if the attribute compartment is visible */,1,1,0.9501538000462134
+TFIDF_LR,5000,13,D1_to_D1,999,// Close the ResultSet,0,0,0.18905007575372146
