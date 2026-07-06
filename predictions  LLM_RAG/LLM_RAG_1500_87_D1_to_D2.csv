@@ -1,0 +1,485 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output,top_k
+LLM_RAG,1500,87,D1_to_D2,0,Add support for,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,1,"Unlike test server, client can be partially implemented. The patch just converts the existing manual test client to cross test client by adding argument support.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,2,"The patch is in the trunk now, so we need to add some document to show how to use the CamelSourceAdpater and CamelTargetAdpater.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,3,The old has already been removed.,0,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,4,"I think this is the same as , investigating locally to be sure.",0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,5,"Both of these libs predate my involvement in Thrift but when first exposed to them a couple years ago they were primordial and supporting only very limited functionality. The browser lib only did JSON/XHR/HTTP and Node only did Binary/Socket so they could not talk to each other (browser was/is tested against Java). No npm or bower support at that time either. The libs are now out on npm and bower (which is a mess due to the whole repo download thing). Compact and JSON protocols were added to Node. Many things that didn't work at all were fixed and lots of tests were added. Other than the tests (which were needed just to get things working more broadly) all of this work has been feature oriented and incremental. People tend to provide patches to fix or add things they need, not clean up stuff that is a mess (partly because it might break existing code, for example changing the call back interface in the browser to add error objects). So we have some baggage... That said, you are not alone. Many would like to see the kind of improvements mentioned here and in other tickets. There's still time to make a big push before Thrift v1.0. Patches welcome!",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,6,Pushed to branch-1+. Thanks Stack for looking.,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,7,Silly me. Thanks Sean! Learned a new thing today. Quickly checked the hbase codebase (branch-1) and did not find any other statements of the same pattern,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,8,"- change JspHelper.fsn from ""static"" to ""private final"" - change a few non-static methods in JspHelper to static",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,9,We currently preallocate the null tuple indicator bitstring in each tuple stream assuming that very few tuples will be NULL. That can lead to lots of wasted space in the buffer if there are many NULL tuples in the stream. A possible solution is to use a slotted page (buffer) with NULL indicators growing from the end of the page (buffer).,1,0,,"To determine the final label, we need",3
+LLM_RAG,1500,87,D1_to_D2,10,"This patch addresses the issue described, and also doubles the number of handlers for the server to 2*maxCurrentTasks.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,11,"It throws a null pointer for me but because you have to select from autocomplete, it confused me so i was thinking something was really broken, but there is it seems. It's throwing a null pointer Null pointer is on",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,12,"Sorry, I thought the OS was implied by the version string. This is on OSX 10.5.8. In Firefox beta 7 and Safari 5.0.2 the page renders quickly, although on both of them it seems to use up a fair amount of CPU and have the same scroll freezing behavior, although it's for a fraction of a second rather than multiple seconds, so it feels annoying rather than broken.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,13,One thing is it might be nice to be able to get to base easily. But I don't know of a good way to do that and still order recent patchsets at the top without being confusing...,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,14,"1. Browse so that a new site shows up on the NTP Thumbnail of the new site Broken thumbnail Attach a screenshot if possible. I suspect this is caused by the new TopSites feature. I don't know whether the feature is complete yet or not, but I thought I would report it.",1,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,15,also didn't get it to repro after locally reverting cbentzel's r77232 cbentzel: should we be lazily creating the IDMap on the thread we intend to use it on? further details: is indeed constructed on a different thread. is called via which is a task posted to the IO thread: is also called on the IO thread (as expected) as is In short I'm not sure how to repro the html5 audio/video case since it seems like from some local debugging everything is working as intended (IDMap is created on a different thread but is accessed only on the IO thread). Is it possible that other users of AudioMessageFilter are calling Add/RemoveDelegate on the wrong thread?,1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,16,"1. This would be good if it could be easily extended; rather than than a hard coded set of values, clients could add other (key,value) info for schedulers to use. Things like for cycle-scavenging task-trackers, and other extensions that custom schedulers could use. It could also integrate with diagnostics. 2. There's a danger here in trying to do a full grid scheduler. Why Danger? Hard to get right, there are other tools and products that can do a lot of this. Hadoop likes to push work near the data and works best if the work is all Java. 3. Developers are surprisingly bad about estimating workload, especially if you have a few layers between you and the MR jobs. The best metric for how intensive a job will be is ""what was like last time"".",1,0,,"To determine the final label, I'll",3
+LLM_RAG,1500,87,D1_to_D2,17,"TS made a difference profiling saving on Text creations but it can only be used in a few places; its dangerous using it everywhere (the underlying Text can move from under it). Profiling, an HSK that had family and qualifier members rather just than a column that we then have to split in many places would save us lots of object creations and CPU.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,18,"+1, stuck this patch in standalone; I'll fix up my HADOOP-13130 patch to handle it",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,19,1182 has been merged into this issue.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,20,"We're not going to refresh all your tabs whenever you clear some data. That would be rather unexpected, I think. Reload the page manually or delete the values if you no longer want to see them.",0,0,,"NON_SATD
+
+Explanation:
+In",3
+LLM_RAG,1500,87,D1_to_D2,21,Moving and !releaseblocker to next mstone,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,22,51146: Plain-text information leak of due to autosuggest,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,23,Comment by Shawn Pearce < sop@google.com Fixed by,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,24,"This happend pre-0.94 branch, added fixver that this is in 0.94.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,25,Speed up a couple of heavy-hitting expr-tests,1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,26,v3 fixes javadoc warning.,1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,27,Race condition found in CxfRsEndpoint while getting the endpoint binding under load and performing sync and async invocation,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,28,Fixing the by adding the category annotations to my test case.,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,29,"This problem was originally mentioned in discussion on HADOOP-8980. When calling initialization of the server's internal {{Listener}} and {{Reader}} threads happens in the background. This initialization is not guaranteed to complete by the time the caller returns from This may be misleading to a caller that expects the server has been fully initialized. This problem sometimes manifests as a test failure in This test looks at the stack frames of all running threads, expecting to find the {{Listener}} and {{Reader}} threads, but sometimes it doesn't find them.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,30,Initialize retry variables on construction,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,31,"When I deploy my application in production Environment， it always generate error ""Expecting Source code is： // framed transport while (data.length) { if (frameLeft === 0) { // TODO assumes we have all 4 bytes if (data.length < 4) { residual = data; break; //throw Error(""Expecting } frameLeft = 0); frame = new Buffer(frameLeft); framePos = 0; data = data.slice(4, data.length); } I don't know why？ Can anybody help me？",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,32,Improve Ranger test coverage,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,33,"Thanks for helping update the website, committed",0,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,34,Thanks for reporting.,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,35,"Will submit some simple patch tomorrow, we are hitting this a lot under high load. As soon as I can make the test slightly less ugly.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,36,"The following tests timeout with the patch and do not if I reverse it: TestMiniMRClasspath I don't know, but this was reported by Hudson, and yet the patch was committed, why?",0,0,,"To determine the final label, we need",3
+LLM_RAG,1500,87,D1_to_D2,37,"trunk: 812426, 812460",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,38,", looks like the Jenkins has not picked up the changes yet: Are there many changes that need to be implemented so that Jenkins can work with the HDFS-8707 branch?",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,39,"* The unit test should use JUnit4 test annotations instead of JUnit3 TestCase * looks useful for debugging, but should probably be left out * The static \*Bytes fields should be final * The @return docs for ""needsQuoting"" could be more explicit",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,40,"Build: 154.19 1. Bring up Bookmark manager (Ctrl+shift+b) 2. Minimize the browser window. 3. Double click on any row in the table (list view) of B'manager. User should be navigated to that page in the current tab and minimized browser window should show up (restore) browser window stays minimized, but of course you will be navigated to the page in the current tab. Please use labels and text to provide additional information.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,41,A few ugly exceptions on startup,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,42,Inject custom package scan class resolver asap to ensure loading of classpath works,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,43,"When you define a route with a choice() and no matching when() clause is found, the Exchange just ends successfully without doing anything. In my mind, it should fail by default in this case (or we should at least have an easy way to get this behavior).",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,44,mapred.reduce.tasks not used,1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,45,Code review:,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,46,"Hi, We are using the sales force component and trying to write to external salesforce health cloud using the camel salesforce component. Most of the times, the data seem to flow. However abruptly I see the below errors. If I reprocess the failed one again, it would work. But looks like this keeps happening a few times. Your suggestions, thoughts would be helpful. 2018-01-30 21:06:29.399 INFO 31221 [[JPASalesForce]] : In PersonProcessor, Message received for patient MRN :: 5000307798 2018-01-30 21:06:29.401 INFO 31221 [[JPASalesForce]] salesforce-route : Message Processed in AccountProcessor! Posting RequestBody to Salesforce :: SAPLING SAPLING Zombie""} 2018-01-30 21:07:29.410 ERROR 31221 [92963-scheduler] : Failed delivery for (MessageId: on ExchangeId: Exhausted after delivery attempt: 1 caught: Unexpected error \{0:null} executing Message History RouteId ProcessorId Processor Elapsed (ms) [salesforce-route ] [salesforce-route ] ] [ 60064] [salesforce-route ] [doTry6 ] [doTry ] [ 60010] [salesforce-route ] [convertBodyTo1 ] ] [ 0] [salesforce-route ] [process21 ] ] [ 2] [salesforce-route ] [process22 ] ] [ 1] [salesforce-route ] [log35 ] [log ] [ 0] [salesforce-route ] [to8 ] [ 60007] Stacktrace Unexpected error \{0:null} executing [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] Caused by: Total timeout 60000 ms elapsed ... 8 common frames omitted 2018-01-30 21:07:29.411 WARN 31221 [[JPASalesForce]] : Execution of JMS message listener failed. Caused by: - Unexpected error \{0:null} executing Unexpected error \{0:null} executing [na:1.8.0_66] at [na:1.8.0_66] at [na:1.8.0_66] Caused by: Unexpected error \{0:null} executing ~[na:1.8.0_66] at ~[na:1.8.0_66] at ~[na:1.8.0_66] at ~[na:1.8.0_66] ... 3 common frames omitted Caused by: Total timeout 60000 ms elapsed ... 8 common frames omitted",0,0,,"Non-SatD
+
+Your code should",3
+LLM_RAG,1500,87,D1_to_D2,47,This bug appears to be only a STACK OVERFLOW. (bc4.da8): Stack overflow - code c00000fd (first chance) First chance exceptions are reported before any exception handling. This exception may be expected and handled. eax=00000031 ebx=00000002 ecx=04e75079 edx=0000009d esi=00000000 edi=04e750e1 eip=02abed8b esp=00033000 ebp=0003306c iopl=0 nv up ei ng nz na po cy cs=001b ss=0023 ds=0023 es=0023 fs=0038 gs=0000 efl=00010283 02abed8b 53 push ebx 1:017 ExceptionAddress: 02abed8b ExceptionCode: c00000fd (Stack overflow) ExceptionFlags: 00000000 NumberParameters: 2 Parameter[0]: 00000001 Parameter[1]: 00032ffc 1:017 Last event: bc4.da8: Stack overflow - code c00000fd (first chance) debugger time: Tue Jul 5 07:50:22.532 2011 (UTC - 3:00),0,0,,"NON_SATD
+
+Your task is",3
+LLM_RAG,1500,87,D1_to_D2,48,"Comparing against my baseline testing, I'm not seeing any new test failures.",0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,49,Spurious error stopping secure datanode,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,50,"camel-jms - Request/Reply - Leak in ActiveMQSessionPool causing it to eat up memory, when using fixed replyTo queue names",1,0,,Non-SatD To determine the final,3
+LLM_RAG,1500,87,D1_to_D2,51,Remove dead classes in hadoop-streaming,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,52,Thrift compiler for WIndows (binary distribution),0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,53,"There is still no documentation for sdb component, I will add updated docs today",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,54,Attaching the patch with fixed checkstyle nits,1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,55,...afraid you'll have to look at the checkstyle issues. Don't worry about the test and whitespace complaints,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,56,"The main motivation for me to introduce this script was to avoid docker build which was failing too often due to occasional apt download failures. But for some unknown reason apt is not failing any longer. Although reusing reduces build time by ~10min for each job, we may well remove the script and always build images from scratch.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,57,"Proposed The idea is, to reference the enum types at these places always via full namespace to prevent ambiguities.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,58,"Parallel purge in ObjectPool is meaningless and will cause contention issue since has synchronization (source code shown below) We observed threads blocking on the purge method while using offheap bucket cache, and we could easily reproduce this by testing the 100% cache hit case in bucket cache with enough reading threads. We propose to add a purgeLock and use tryLock to avoid parallel purge.",1,0,,"To determine the final label, I'll",3
+LLM_RAG,1500,87,D1_to_D2,59,"The job tracker tries not to run tasks that have previously failed on a node on that node again, but it doesn't strictly prevent it. I propose to change the rule so that when pollForNewTask is called by a TaskTracker, the JobTracker will only assign it a task that has failed on that TaskTracker, if and only if it has already failed on the entire cluster. Thus, for ""normal"" clusters with more than 4 TaskTrackers, you will be guaranteed that it will run on 4 different TaskTrackers. For small clusters, it will run on every TaskTracker in the cluster at least once. Does that sound reasonable to everyone?",1,0,,"To determine the final label, we need",3
+LLM_RAG,1500,87,D1_to_D2,60,please create a patch for this and if possible add a compact protocol test to test/test.sh we already have this: java might be a compact protocol test partner thanks! ;-r,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,61,This issue was closed as part of a bulk closing operation on 2015-11-20. All issues that have been resolved and where all fixVersions have been released have been closed (following discussions on the mailing list).,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,62,Metrics system FileSink can leak file descriptor.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,63,"Ok, my main ask is to use the wrapping that the FileLink/HFileLink provides when a reader to the file is opened. You don't need to use the funny encoded name sine we aren't in a situation where we have a placeholder file present. We are in a place where we open a file and it could move to the archive. I spent a little bit of time in there and between the StoreFile, StoreFileInfo, Reference and HFileLink it is a bit messy. I'm planning to spend a little bit of time to refactor/clean things up in there so we have only have one mechanism to use. I think the short term solution is to add the other exception checks -- e.g. handle more than just the FNFE and catch these two other exception cases.",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,64,Done - a unit test is added.,0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,65,"When you start using the NativeS3FileSystem (which is in hadoop-common) based on the hadoop-client set of jars, it fails with a NativeS3FileSystem depends on a library called jets3t, which is not found in the hadoop-client build. It turns out that this library was specifically excluded in the hadoop-client pom.xml: This strikes me as an issue, as a component that's part of hadoop-common cannot run with a hadoop-client build.",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,66,"is already in flaky list so the QA didn't run it for HBASE-19703.- -Ok, It is rather than I misunderstood the test name due to the topic...Let me correct the test name for the topic. The correct test name is rather than",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,67,should implement the {{Closable}} interface. Doing so will allow users to perform,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,68,See,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,69,"Backport the hbase-2707 fix to the 0.20 branch. If 2707 happens, it hoses cluster...",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,70,"Ok, sorry for the spam then. I was trying to write a shell test, and was confused. Do we need to keep this open for tracking re-enabling or HBASE-14678 covers that?",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,71,"1. Go to 2. 3. Expect to see label columns on the right hand side. There are no labels columns. Labels are not included in output when fetching by curl either. curl -n "" "" Seems to work as expected on head of master.",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,72,5238: Allow disabling email address validation,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,73,"Hey Andrew, Thanks for the consolidated patch. Several nice improvements here. I am concerned about the new sequence id modification though. It propagates the sequencing data into the transport. This may seem reasonable in isolation but the transport should not be involved at this level of abstraction. In Apache Thrift, Protocols are responsible for the physical layout of bits (on the wire, on disk or in memory). This includes where, how and if sequence numbers are packaged. Transports are responsible for transmission of the data only. This may involve packetizing, framing, encrypting or what have you, but the key is that the Protocol and the Transport are isolated. The Transport receives/returns an opaque block of bits from/to the Protocol. The current node implementation is not clean in this regards and ultimately needs some structural refactoring. For example the multiplexing read implementation is a hack (paying no attention to the service name in the payload and rather wiring everything to seqid lookups). I think we should try to migrate things in the direction of the generalized Apache Thrift model. This is non-trivial due to the pure async approach of JavaScript (a late model option in the reference CPP and Java implementations). The heart of the node problem here is that Apache Thrift is a layered system. Lower layers provide services to upper layers and services do what you tell them, they don’t call you with demands. The node implementation wires callbacks from the bottom up (with several call chains back down from proto to trans in the process). These conflicting approaches are merged with unsatisfactory results in my opinion. To respect the Apache Thrift layered approach the “data” event needs to be handled by the client (or by a much more focused connection helper) and this piece of code needs to then call down the layered stack like all other languages (client- In short, getting the node client side call return in order is a fair size chunk of work and should fall into a separate issue.",1,0,,**Non-Self-Admitted Technical,3
+LLM_RAG,1500,87,D1_to_D2,74,Unfortunately the change caused the Hive object not able to be serialized into JSON with Here is the struct: struct SkewedInfo { 1: list<string 2: list<list<string 3: map<list<string} The field is defined as a map with list as the key. The structure can be serialized and deserialized correctly with libthrift 0.9.1. This change regressed the logic. People do use TSimpleJSONProtocol to serialize Hive objects for audit logs or such. This is a blocker for thrift upgrading. Could we remove the check for the case when the key is a 'list'? Thanks!,1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,75,The wrap was added by: HBASE-9393 Hbase does not closing a closed socket resulting in many CLOSE_WAIT Signed-off-by: Andrew Purtell HBase on EC is a new domain. Would be interested in the use-case. Didn't think anyone would ever want to do this. Thanks.,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,76,9905: std_fifo feedback,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,77,Should use && instead of & in a few places in,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,78,tomcat.download.url is mostly ignored by kms,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,79,"Hello . If {{acquireLease}} succeeds, but then the {{delete}} fails, then this will leak the lease. Can you please use a {{finally}} block to guarantee that the lease gets released in all code paths? You can look at other points in the class that acquire and free a lease for an existing example. Could you please review the checkstyle and whitespace warnings from the pre-commit run and fix them? If it's not feasible to write a unit test to simulate the race condition, then can you please describe any manual testing that you've done to verify the change? Thank you!",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,80,OCaml generator does not prefix methods of included structs with their type,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,81,"Hi , I think this is not the root cause. I run restRetryProxy alone and also get the timeout, this probably has nothing to do with socket leak. Here is the error message. You can see client retried twice and got stuck",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,82,See HDFS-1240,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,83,Please provide detailed information to diagnose the issue. Also don't file functional bugs using the security bug template.,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,84,I'm going to need to commit an addendum momentarily to get 'mvn test' passing with this change,0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,85,4300: New Yahoo Mail shows wrong font,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,86,I found an issue with the previous patch. Fixes and more tests attached in second patch.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,87,"Here's the patch. It's rather simple, most complexity is in tests. It allows for both pre-selected compactions (from coprocessors and users) and non-pre-selected. When non-preselected compaction makes it to run() it is selected and executed. There are two special cases: 1) Store priority might have decreased since the compaction was queued; in that case it's re-queued with new priority to avoid inversion. 2) Without selecting, we don't know which pool to go to. We go to small pool by default, and if the compaction is large after selection, queue it to the large pool; it can bounce back if it becomes small while stuck in the large pool. Both of these cases can cause compaction to get continuously requeued, or bounced between pools, however it can only happen if store priority decreases (i.e. other compactions happen), or files are removed from store (same); or files are added in some very special pattern that causes policy to select continuously).",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,88,"-01 Remove Jakarta Oro from pom - remove oro from dependency management HADOOP-8278 removed Oro from the dependency list for hadoop-common, but left it in the dependency management section of hadoop-project. commons-net stopped using oro in 2.x (and we rely on a much later version).",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,89,"Please fix in this jira or subtask, to not violate URI syntax. Specifically: The ""@"" is RFC defined to separate userinfo and host:port in an authority. I've been meaning to take advantage of the userinfo for a legit purpose (well beyond the scope of this discussion) and an ""abuse"" like this will likely conflict. A more URI-friendly approach is using subschemes:",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,90,"passed 10 out of 10 times locally for me, e.g.",0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,91,Not reproduceable in 2.16.8,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,92,Why not change the output file name to be based on the task attempt ID? There is already a unique id for each task available...,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,93,"I am, but I tested it with them all disabled and it still happened. Chrome was just updated to 16.0.912.4, and the issue appears to no longer be present. m/c?",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,94,"The way that the current Java library and test builds are set up, they rely on an external jar that's assumed to be at some specific path. This isn't where the jar resides on my machine, so every time I want to do some building, I have to hand edit the file, and then when I want to generate a diff for posting on jira, I have to revert the changes. We should make it so the class path is configurable in a way that doesn't require checkins. There are a couple different ways to do this, but a properties file with the classpath is probably one of the easiest.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,95,"If AdlFS contract test is not enabled, {{fs}} is null in When calling it calls and then it calls {{fs.delete()}}, finally NPE occurs. This issue is fixed by HADOOP-14170 in 2.9+, so I'll backport HADOOP-14170 to fix this issue.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,96,"Apparently the //plugins:core cannot handle pure JS plugins. Instead of copying the jar you would have to copy just the js or html file. produces: These two files would have to be put in the plugins dir in the same way as the jars. Alternatively, you could create a gerrit_plugin rule and make this a jar plugin. But that is not really required, because the plugin loader would create a JsPlugin on the fly when it encounters a js or a html file. Unfortunately I am not an expert for the OS building, releasing, serving of plugins.",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,97,"Thanks for the feedback. I've incorporated it into the pull request now:- I've removed the usage of the to_upper_copy function and replaced it with usage of transform and toupper like how does it. Regarding the locale, I think it'll always be in as there don't seem to be calls to std::locale::global in the codebase but I've set it explicitly to classic to be safe.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,98,HTML generator should include per-field docstrings,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,99,"The additions to add backup masters to ClusterStatus are technically incompatible between clients and servers. Older clients will basically not read the extra bits that the newer server pushes for the backup masters, thus screwing up the serialization for the next blob in the pipe. For the Writable, we can add a total size field for ClusterStatus at the beginning, or we can have start and end markers. I can make a patch for either approach; interested in whatever folks have to suggest. Would be good to get this in soon to limit the damage to 0.92.1 (don't know if we can get this in in time for 0.94.0). Either change will make us forward-compatible starting with when the change goes in, but will not fix the backwards incompatibility, which we will have to mark with a release note as there have already been releases with this change. Hopefully we can do this in a cleaner way when wire compat rolls around in 0.96.",1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,100,"""translate"" UDF exists in Hive but not in Impala",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,101,"Some file system operations are not fault tolerant during merge. We delete backup data in a backup file system, then copy new data over to backup destination. Deletes can be partial, copy can fail as well",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,102,5308: Missing CL upload notification,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,103,I didn't include this in THRIFT-3041 because it made the generated sources exceedingly difficult to compare.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,104,11256: Gerrit falls down whith 24Gb heap,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,105,nan,0,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,106,Justification: No unit tests were added as this was a version bump to bring in methods missing the log4j SLF4J bridge. It is only to ease the use for those folks shipping log4j through SLF. Manual steps taken were only to ensure that it compiled - unit tests for HDFS would not run on my environment (with or without this patch) for reasons currently unknown - each test run is 8hr+ though so slow progress...,0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,107,"No encoding detection is bullet-proof as wrote. In some cases in Chrome, we don't have any other choice and we do the encoding detection (e.g. FTP directory listing) In this case, we explicitly (hope we made it clear in our documents) said that it has to be UTF-8. So, we don't want to be generous. We could have introduced an encoding specification mechanism, but people tend to make a mistake (either forget to specify one or mis-specify). If it's not specified, the default would be UTF-8 anyway. We don't have a baggage of legacy encodings and just supporting UTF-8 only is clean, IMHO. That's what new file formats do (e.g. JSON's default is UTF-8 while it can be also in UTF-16/32 but nothing else). We can consider supporting UTF-16, but there's little to gain.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,108,"The documentation in the XML looks wrong - it's copied from the setting above. Also, the code in should be updated to reflect this default (right now it defaults to kerberos)",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,109,Patch looked good overall. Am uploading a new patch with slight modifications to the above patch with: - Better java code comments - Better code formatting and code-cleanup - And a small fix in because the earlier code was making the streaming jobs only run with LocalJobRunner.,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,110,.003 set_quota and list_quota shell commands expanded.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,111,"There’s a NOTIMPLEMENTED at It results in this log spew every time I go from a New Tab page to a real page, like this: w_cocoa.mm(148)] Not implemented reached in virtual void Should we get rid of the NOTIMPLEMENTED there so that we don’t release a stable version that’s so chatty?",1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,112,"I see a potential bug with this patch: the TaskTracker _caches_ counters sent by the child-task till it's sent out to the JobTracker via the heartbeat. Hence, we need to *merge* the ones received from the child in not just over-write them as-is today. Minor nit: the merge of the counters probably belongs to rather than ...",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,113,Roman we might need a for end users to easier adding their own headers to ignore instead of clearing the already default ignored ones.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,114,resubmit,0,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,115,"Applications that do background image processing currently suffer from being unable to shift this work to a web worker. For example, an animated image carousel that downloads large images from the web and then processes them for display. If the image processing takes longer than a single frame and happens in the main thread, it's going to cause framerate hitches. Doing the processing in a worker would let the main thread maintain smooth framerate with the minimum amount of developer work (alternative is to roll your own co-operative multitasking scheduler and that's a pain.) Having the ability to create canvas elements and rendering contexts and share their results with the main thread (pass back a shared texture IDs or something) would help a lot in the above case.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,116,Create Hadoop compatibilty modules and Metrics2 implementation of replication metrics,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,117,HBase needs at least the encoded region name added. Do for 0.2.0.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,118,"Committed, thanks for the patch",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,119,This issue likely requires triage. The current issue owner maybe inactive (i.e. hasn't fixed an issue in the last 30 days). It has also not been modified in a year (prior to this update). Thanks for helping out! -Anthony,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,120,HBASE-7404 added the bucket cache but its configuration settings are currently undocumented. Without documentation developers would be the only ones aware of the feature. Specifically documentation about slide 23 from would be great to add!,1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,121,Any more updates on this? Running Hadoop inside Amazon EC2 is super annoying because most of the links are broken (internal vs external addresses). This bug has been open for FOUR YEARS.,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,122,I'd argue that we may want to support both interfaces. The fact that the current path-based filtering retrieves a FileStatus object first is an implementation detail and it is conceivable that a different FS implementation may be more efficient to support path-based filtering than file-status based filtering.,1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,123,"Why not another coproc endpoint or improve the existing one? As long as it doesn't affect perf too much... we can already wrap (or replace) compaction scanner thru coproc. ScanQueryMatcher is what decides what KVs get skipped, so if a wrapping scanner could influence that (or even just be able to react to .match call), it should be almost sufficient. It has KV, it has the default verdict. The only problem is with seek to next something results, which can skip KVs. This will no longer be allowed if all deleted KVs are to be examined if I understand that code correctly, so coproc will have to also prevent matcher from doing that?",1,0,,"To determine the final label, analyze the",3
+LLM_RAG,1500,87,D1_to_D2,124,I was going through the 0.92 CHANGES and found are a few entries in CHANGES.txt where jira numbers don't match up descriptions.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,125,Potential deadlock in KrpcDataStreamMgr,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,126,It'd be nice if we could upgrade camel-grpc to use the latest grpc-java library as there are some improvements to how it does class loading:,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,127,"In section 6.9: In section 9.2: There is ""are are"" twice. I'm not 100% sure what's the best way to propose a fix, so I have included the patch below. If that's fine, I will probably propose some other corrections. JM Index: (révision 1352979) +++ (copie de travail) @@ -828,7 +828,7 @@ Secondary Indexes and Alternate Query Paths </title <para- A common example on the dist-list is where a row-key is of the format ""user-timestamp"" but there are are reporting requirements on activity across users for certain + A common example on the dist-list is where a row-key is of the format ""user-timestamp"" but there are reporting requirements on activity across users for certain time ranges. Thus, selecting by user is easy because it is in the lead position of the key, but time is not. </para <para@@ -1324,7 +1324,7 @@ <section <title- <para+ <para of the HBase shell's <code </para <section",1,0,,"NON_SATD
+Your code looks",3
+LLM_RAG,1500,87,D1_to_D2,128,"Both and {{redactor-test}} fail under ASAN, and are disabled if ASAN is enabled for now.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,129,This reasoning sounds like an argument to move this functionality up the stack to the MR cluster concrete implementation. But let's suppose they are useful enough and let them be in the Common. I do understand that. What I have said is that you need a generic enough method which does most of needed functionality (i.e. create a file with specified permissions) and a wrapper around it which creates a file with all permissions. The implementation of the latter is essentially a call to the former with *all* permissions being passed. This is already done in this very patch for the implementation of methods. Look at your own code.,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,130,"-00: * first pass There's a lot happening here, so let's go through it: * adding some helper routines in hadoop-functions to: ** convert strings to arrays if the array doesn't already exist ** add to arrays based upon a key to dedupe * convert almost all internal users of HADOOP_OPTS and xyz_OPTS to use the array form * update some pre-existing doc references * add several unit tests * rewrite existing unit tests to use the array form To do: * more/better docs * figure out what to do about catalina? * get HADOOP-13341 committed, since this code is several times larger without it * more testing",1,0,,"** Based on the provided information, the",3
+LLM_RAG,1500,87,D1_to_D2,131,initial patch without cross language test,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,132,I believe most of the users are looking at the wiki/manual we need to document there. I'll take care of it.,1,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,133,Handle TableNotFound and IllegalArgument exceptions in table.jsp,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,134,The changes look OK. I'm not sure I really like TargetFileSystem. I just don't see a lot of benefit from making TargetFileSystem. I think it would be cleaner to just have your own list of Paths to delete and then delete them in the finally block. Having it be a FileSystem just seems confusing to me. Because TargetFileSystem is never added to the FileSystem cache I assume that if a System.exit is called somewhere while processing the command the TargetFileSystem will not be closed and the files will not actually be deleted on exit. Is this important?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,135,[stargate] in row spec parse,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,136,"The S3A assumed role doc is now where we document the permissions needed to work with buckets # detail the permissions you need for s3guard user and admin ops # and what you need for SSE-KMS This involves me working them out, so presumably get some new stack traces also: fix any errors noted in the doc",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,137,The pom.xml. Can you use the {{camel-test}} component instead of the test jar from camel-core. The test kit is in camel-test and this is what end users should use.,0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,138,1. load a change with comments (perhaps specifically by “robot” accounts?) each comment has a REPLY button no REPLY button,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,139,should not use append to corrupt the HLog,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,140,"AppleWebKit/532.6 (KHTML, like Gecko) Chrome/4.0.266.0 Safari/532.6 : : 1. Go to URL 2. Select some text Selection should be very smooth, hovering should be instant Selection is yanky at best, god-slow and chunky. Attach a screenshot if possible. Tested on Karmic and Win7. Smaller window size diminishes the effects. I'll try to do a reduction if I have time, but my bets is it's somewhere here: function letItSnow() { // main animation function doc_width = xClientWidth(); doc_height = xClientHeight(); for (i = 0; i < flakes; i++) { // update every flake yp[i] += sty[i]; if (yp[i] respawn(i); dx[i] += stx[i]; xMoveTo(""dot""+i, xp[i] + yp[i]); } 10); }",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,141,"makes one RPC for every fragment instance, serially. There are no dependencies between fragment instances, so we should use to issue the cancellation requests.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,142,Your class should be a public class. eg class Constants { should be public class Constants {,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,143,Closing all resolved tickets from 2010 or older,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,144,"New development goes against trunk and is backported as desired to existing release branches. From what I have seen on the jira, it looks like each branch's release manager makes the call on backporting a particular issue. We should document both this norm and who the relevant release manager is for each branch. In the current docs, I'd suggest adding the RM list to the ""Codelines"" section (18.11.1) and add a brief explanation of pinging the RM as a new section after ""submitting a patch again"" (18.12.6). Post HBASE-4593, the note about pinging a prior branch RM should just go as a bullet in the ""patch workflow.""",1,0,,"Non-SatD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,145,"if folks overload xmlns to use camel, then define beans with <bean ...> Camel should generate an error with a useful error message",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,146,Error details Stack trace,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,147,/catalog_object web API is broken for getting a privilege,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,148,"From Mon Sep 17 00:00:00 2001 From: Jordan DeLong Tue, 20 Apr 2010 19:21:45 +0000 Subject: [PATCH 28/33] Remove copy constructibility from Summary: Copy constructing this class currently will cause a mutex to get unlocked twice. It looks like this was an unintended consequence of changing the mutex_ member from a reference to a pointer. Test Plan: Compiled (random project using this). But anything this change breaks probably has a copy construction bug in their guard usage. Revert Plan: OK | 3 ++- 1 files changed, 2 insertions(+), 1 deletions(-)",0,0,,"Non-SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,149,"Some of my applications using Hadoop DFS receive wrong data after certain random seeks. After some investigation I believe (without looking at source code of that it basically boils down to the fact that the method read(byte[] b, int off, int len), when called with an external buffer larger than the internal buffer, reads into the external buffer directly without using the internal buffer anymore, but without invalidating the internal buffer by setting the variable 'count' to 0 such that a subsequent seek to an offset which is closer to the 'position' of the Positioncache than the internal buffersize will put the current position into the internal buffer containing outdated data from somewhere else.",1,0,,"To determine the final label, we need",3
+LLM_RAG,1500,87,D1_to_D2,150,Remove unnecessary print outs,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,151,"that's not a solution, since stuff in browser depends on debugger, so browser should depend on debugger.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,152,"Yes, the bug is here. Too many unnecessary requests on dynamic svg building - causing lags and servers high load. Please fix it! Also, it's impossible to create workaround.",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,153,"Attaching v2 patches, which hopefully fixes the remaining flaky tests.",1,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,154,"@rohitbm: I am running 9.0.572.1, not 9.0.583.0. Perhaps it was fixed in the latest build?",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,155,c_glib: Tutorial server always exits with warning,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,156,"It's stated here in this thread: for Blowfish, yes, in case it will be supported we can add another else if there. It doesn't make sense to allow all the encryption if most of them don't work in nsca. Marking the as deprecated in my opinion it's not so important, it's just an option. If we start to deprecate all the options when we upgrade something we will end with a lot of dead code until Camel 3.0 (that actually doesn't have an ETA by the way). If this is something critical for you, you can revert commit and do what you think is best for this component. It was just an attempt to avoid the death of camel-nagios.",1,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,157,Hbase Thrift API,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,158,"HbaseObjectWritable does not support unknown Writable, and writes code twice for known writables",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,159,"Yes, fixing IMPALA-6741 will definitely help. A missing profile update for a particular instance just results really old timestamp in the profile. We also need a marker in the profile to indicate whether the profile is final in order to tackle situation like IMPALA-5555.",0,0,,"To determine the final label, we should",3
+LLM_RAG,1500,87,D1_to_D2,160,"Corrected the checkstyle errors and white spaces & Attached the patch, Please review",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,161,Committed to 0.98+,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,162,Please change the wording in the following log: In this case the worker thread is not exiting.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,163,"committed, thanks. FWIW, serialization might be also affected.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,164,Closing all 2.0M3 tickets,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,165,A rule on regionserver side IIRC,0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,166,"Failed tests aren't related. Thanks for the changes! +1, committing shortly. Quick notes: - Please do not set a Fix Version. Use Target Version field instead. The Fix Version must indicate only the branches where it has *already* been committed to. The former is to indicate requests of branches it must go to, so is more appropriate. - For more typo corrections in future, please also feel free to roll up multiple corrections into the same patch.",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,167,trunk: 778354. When/if CAMEL-1644 is implemented then this bug is already fixed. However remember to add the unit test in java. There is a TODO.,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,168,"This version of the patch just adds javadoc to HTable explaining the advantage of shared Configuration -- the sharing of zookeeper connection, cache of region locations, etc. If you have a minute, give it a gander Robert and if its good w/ you, I'll go ahead and commit.",1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,169,Looks good overall. Please fix the formatting (white space are inconsistent) and make exception and error messages more meaningful. Submit the patch for verification whenever is ready.,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,170,"This is a key provider based on HADOOP-9331. HADOOP-9331 has designed a complete Hadoop crypto codec framework, but the key can only be retrieved from a local Java KeyStore file. To the convenience, we design a Centralized Key Manager Server (BEE: bee-key-manager) and user can use this TokenKeyProvider to retrieve keys from the Centralized Key Manager Server. By the way, to secure the key exchange, we leverage HTTPS + SPNego/SASL to protect the key exchange. To the detail design and usage, please refer to Moreover, there are still much more requests about Hadoop Data Encryption (such as provide standalone module, support KMIP...etc.), if anyone has interested in those features, pleas let us know. Ps. Because this patch based on HADOOP-9331, please use patch HADOOP-9333, and HADOOP-9332 and before use our patch HADOOP-10528.patch.",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,171,Does this still reference to deprecated API?,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,172,Platform: Hostname: Mac OS X Version 10.6.5 (Build 10H535) Processor: 4 Intel 2.66 GHz RAM: 2048 MB Chrome: Chrome version: 8.0.552.18 r63841 <<<Release QuickTime Player: <unknown QuickTime PlayerX: 116 1. Navigate to any site. (https is good) 2. Click on the site info button in Omnibox. 3. Press cmd + t to open a new tab. Expected result: 3.1 Page info bubble disappears. Actual result: 3.2 Page info bubble remains visible in the new tab page.,0,0,,"Non-SatD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,173,master 1. Open the change list on a mobile device 2. 3. Names should not be truncated Names are truncated even though there is plenty of space left,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,174,Moved version declaration into,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,175,"Line 1514 of t_cpp_generator.cc in the function has an unused variable ‘ttype’, any reason for this or can it be removed? t_type *ttype =",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,176,"Works fine now. contains message: ""Could not establish connection. Receiving end does not exist.""",0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,177,Have examples ? What pain we saving ourselves doing this sir? Patch seems fine to me. Should get it into 0.99 if we are going this route.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,178,"1. Install and configure audit-sl4j plugin 2. Perform a git command over http (for example clone a repository via http) An entry is created in the audit log file to track the clone activity over http. No entry is created in the audit log file. This is broken in master, 2.16 and 2.15.",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,179,"Yeah lets return 0 for the primitive types. Patches is welcome, with unit tests.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,180,"We also only had some of the examples in the bom, not all of them.",1,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,181,lgtm. Minor nit: Should there be a comment on when the point of no return is?,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,182,"The method and its associated class have errors and race conditions that cause frequent failures in the test. Some failure modes return to the caller, but others just hang the test forever. The main problem is that the test function relies on indirect indications that its tasks have reached certain known conditions. The indications that it sees are actually caused by the ThreadManager's Workers, and this results in a number of race conditions between the test function and the BlockTasks. There are 2 patch files attached. One patches the file to fix the test. The other patches Tests.cpp so that it will run the blockTest in a loop. In my experience, an unpatched version of generally fails within 100 iterations. After being patched, the test will still fail unless a separate patch is applied to the ThreadManager.cpp file. That patch is part of another issue that I haven't entered yet (because it needs to refer to this one). When I know its number I will add a comment. Anyway, if the patch is applied to but not to ThreadManager.cpp, then the test will still fail, generally with an assert, but sometimes with a Bus Error. Test Procedure: 1) Apply the Tests.cpp patch. This makes the thread-manager portion of the test run ONLY the blockTest in an effectively infinite loop. 2) Run a make in lib/cpp in order to rebuild concurrency-test 3) Run concurrency test with the command line argument ""thread-manager"". This will start the blockTest loop. It should fail in a fairly short time. Repeated runs may fail different ways, including infinite hangs. 4) Apply the patch to 5) Run make in lib/cpp to rebuild concurrency-test 6) Run concurrency_test as before. It should probably run for a longer period of time. I have seen it run for an hour or more after beng patched. Eventually it should fail either with an assert in Monitor.cpp while trying to destroy a pthread_mutex_t, or it will get a Bus Error because it tried to execute invalid memory. I have also seen it hang forever. In order to resolve the remaining issues, a patch needs to be applied to ThreadManager.cpp. I will add a comment about that as soon as the issue is filed and the patch is available.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,183,"Thanks for the inclusion. Sure I can solve the issue, yesterday I notice that too. I'll sent a pull request when I fix it.",0,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,184,"Chatting with Jim while looking at profiler outputs, we should make an effort at purging the servers of the Text type so HRegionServer doesn't ever have to deal in Characters and the concomitant encode/decode to UTF-8. Toward this end, we'd make changes like moving HStoreKey to have four rather than 3 data members: column family, column family qualifier, row + timestamp done as a basic Writable -- -- and a long rather than a Text column, Text row and a timestamp long. This would save on our having to do the relatively expensive 'find' of the column family separator inside in extractFamily (",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,185,"Created 2 RBs just to test that stuff doesn't start colliding when we backport patches. Things look good on my end, good to go for widespread testing.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,186,"Go to and try to edit the date on the calendar widget on the right side of the page. CPU is pegged, the calendar widget becomes very sluggish. 0.9.98.1 on chrome OS",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,187,"+1 The lack of a definition looks like an oversight (these variables were introduced in HADOOP-2551). is already honoured by bin/mapred, so no changes are needed there. Bernd, have you tested this manually? There's currently no easy way to write an automated test for this change.",1,0,,"NON_SATD
+
+Explanation:
+In",3
+LLM_RAG,1500,87,D1_to_D2,188,v002 addresses Steve's comments and fixes the type from the spanish Crazy to the :),0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,189,"Looking at the following codes: 1. Please give {{l}} a more readable name. 2. Can you give some comments to explain some bit about the procedure? I (probably others) wouldn't know why it's like that without querying the SDK's manual. I know it now, there're 2 modes in the operation, one mode to return successfully deleted objects, and the other returning the deleting-failed objects. You're using the latter, and use a loop to try some times to delete and delete the failed-to-delete objects.",1,0,,"**NON_SATD**
+
+Please let",3
+LLM_RAG,1500,87,D1_to_D2,190,"Surefire 2.9, which we're using currently, has a few annoying bugs. In particular, if a test exits with a non-zero exit code, it doesn't report the test as failed.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,191,in we print logs at info level when we drop responses. This causes lot of noise on the console.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,192,Thanks for the PR,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,193,"No there is no karaf feature. You are others is welcome to work on it, it seems there is a bunch of dependencies so the feature is likely a bit big.",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,194,"I'm afraid that's a bit too Q&D :), but if it solves the actual issue for you, that's ok.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,195,Updated the patch with log message for retry and corrected the typo.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,196,"Querying is synch'ed and inefficient for short-lived RPC requests. Since the connection already contains the UGI, there should be a means to query it directly and avoid a call to",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,197,"Committed to branch and trunk, talked to Stack offline and he thought he saw that it was calling currentTimeMillis for every edit but it's only for the last one we ship so he was ok with it.",0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,198,Committed,0,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,199,"With four widgets currently dedicated to zoom, it doesn't seem that two more to provide the rotate functionality that all other PDF viewers seem to support would be particularly cluttering things. Which said, is there a particular reason not to provide this functionality alongside the existing zoom buttons, and move it into right-click menus when they're available?",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,200,P2 bugs with an owner that are not marked as started are being automatically moved to mstone:11.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,201,"So, J-D speculates that what could be happening here is that historian events are coming in after a .META. entry for a region has been deleted. 1633 adds emission of the row causing the problem.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,202,"Based on #4, these search results seem correct. I feel like PG should not be suggesting usernames in author/committer searches. (Separate question is how can we make the distinction between owner and author more obvious or at least less confusing.)",1,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,203,Thrift IDL grammar allows for dotted identifier names,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,204,Shouldn't we simply fix 1619?,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,205,Streaming Documentation Update,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,206,"I've been playing Z-Type on Linux for quite some time today ;-) It's been fine. @daniel.wagner: please read our guidelines on reporting crash bugs: It tells you how to get us some IDs relating to the crashes. In the event that we can't reproduce the issue, the crash reports at least might contain stack traces that give a hint as to where the problem lies.",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,207,"I think we could get this with arbitrary labels and customizable dashboards, two things we're actively working on already.",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,208,I can't reproduce this anymore. Must have been fixed by another patch.,0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,209,camel-jms - Using request/reply over persistent queues should be faster,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,210,Fix findbugs and javadoc warnings from HBASE-21246,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,211,sometimes fails due to a race condition in test notification,0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,212,"When running rsgroup test class folder to run all the UTs together, and will flaky. Because TestRSGroupsAdmin1, TestRSGroupsAdmin2 and TestRSGroupsBalance are all extends TestRSGroupsBase, which has a static variable INIT, controlling the initialize of 'master 'group and the number of rs in 'default' rsgroup. Output errors of is shown in HBASE-22420, and will encounter NPE in because `master` group has not been added.",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,213,Scan node reservation calculation seems off,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,214,"Harsh, currently we configure the links for the default configuration in Forrest's site.xml as external. Is this on purpose ? Or can we refer to the configuration html files generated as part of the doc build. That way, I suppose the cluster_setup can directly refer without going external. Since configuration changes per release, we should probably link relative, right ? Also, I see lots of other files files referred this way, including streaming, distcp, HAR, etc.",0,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,215,Could you please provide additional context? What host are you on? Is there any error text?,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,216,Please TODO in this comment or file a new ticket to remove this configuration tweak after the issue is resolved upstream. I don't want one-offs like this to become lost and forgotten.,1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,217,When the callqueue cannot be refreshed with hadoop dfsadmin -refreshCallQueue (protocol not found).,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,218,agree,0,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,1500,87,D1_to_D2,219,"This only applies for prototype scoped POJOs which uses @Produce or @Consume to inject a Camel Producer/Consumer. As the prototype scoped POJO is short lived and there could potentially be created many of those POJOs. Then @Produce / @Consume will inject new instances of Producer / Consumer as well. And since there is no standard way of knowing when the POJO is no longer in need, which is where we can to stop the Producer/Consumer. For singleton scoped this is not a problem as CamelContext will keep track on the created Producer/Consumer in its internal _servicesToClose_. Which is then stopped when CamelContext stops. For prototype we need a different strategy such as - proxy it to use pooled producers/consumers which CamelContext manage the lifecycle - use a shared ProducerTemplate / ConsumerTemplate instead which CamelContext manages the lifecycle - other - maybe some thread local tricks",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,220,"When starting the TestServer with the first appended patch: And connecting to it with this shell command: The connection stays up for a long time. Making DOS attacks very easy, because at some point the server runs out of available client connections. The second appended patch fixes the issue in TConnectedClient.",0,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,221,This commit landed on all branches but Fix versions were set to None. I checked the branches and release dates and set it accordingly. The release notes for the affected releases are most probably incorrect.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,222,"Committed to branch, thanks for reviewing. I verified all the HA tests passed on branch before committing.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,223,"Please don't try to co-opt bugs just because you want a different behavior. Removing pinch-to-zoom is not what this bug is about. (Removing the feature is a non-negotiable WONTFIX as it was a *very* commonly requested feature before it was added, both in Chromium and in Camino.)",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,224,Yeah you are welcome to cleanup the patch.,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,225,"Google Chrome: 10.0.648.134 (Official Build 77917) WebKit : 534.16 V8 : 3.0.12.30 User Agent : Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16 Command Line : --flag-switches-end Platform : Fedora Linux 14 x68_64 : : 1. Write a HTML5 draggable that sets ""application/json"" transfer data 2. Drag it into a drop handle You should get the JSON data out again. No data is transmitted. Only ""text/plain"" and ""text/uri-list"" did work for me. Even other ""text/"" mime types I tried didn't work.",0,0,,"To determine the final label, we need",3
+LLM_RAG,1500,87,D1_to_D2,226,"There is no way to have a backwards compatible put command that does not take an attributes hash, just a timestamp? It's fine if timestamp has to be specified as part of the attribute hash if one is present.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,227,SLS docs point to invalid rumen link,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,228,"I agree with Alejandro. Build turnaround time is a big pain, and especially on non-SSD, or even worse, NFS, the javadoc build takes quite a while. Lots of iops to create all those .html files. To check that the javadoc changes don't introduce issues, we have test-patch.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,229,Do you want to keep this open or close it out?,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,230,${file:length} should return 0 instead of null if the file length is 0,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,231,Patch to fix the issues raised in thrift-1070,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,232,"Hi, Thanks community for finding the fix for this. While testing and reviewing the patch, we noticed the createSSLContext() allows for the condition where both the keystore and truststore is set: if && { null); } For the case above where both the keystore and truststore parameters are set, the truststore file input stream should still leak (depend on GC) since it was not implicitly closed before the reference ""fin"" is reused for the keystore. We got around this by allocating a different file input stream reference for the keystore and truststore and closed both in the finally block. Best Regards, T.",1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,233,"I'm not sure this is worth fixing. We're blocking these loads by default now anyway, so very few users should see this UI at all.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,234,"I just committed this. Thanks for the patch, Chris.",0,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,235,"This Problem is only with Google With NVidia Graphic Cards and Intel it works correctly! The Mouse Pointer does what she wants, it go from 1 place to the other Place how a Frog :-)",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,1500,87,D1_to_D2,236,package is imported in camel-spring component - generates error on OSGI platform,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,237,"1. Open Chrome in RTL locales. 2. open page 3. click [New Tab] to show the [New Tab Page] which contains &quot;most visited&quot; , &quot;recent bookmarks&quot; etc. 4. Observe the underline under page title &quot;MSN Arabia رياضه، أخبار، مرآة، أفلام، موسيقى، جمال، سيارات، اقتصاد و المزيد على&quot; The underline only unders the very left part of the title. Underline should under all the text of the title. Please use labels and text to provide additional information. Looks like the problem only happens in RTL locales when the title is truncated from the left.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,238,"First is a page with iframe and two buttons: Frame and Window. (Attached: frame.html) Both buttons have attached javascript (to change target of the form) Next is a page with a form on it and some javascript that fills in the current time when loaded (as an example). (Attached: form.html) Window button should set the target of the form to _blank and submit the table form. It should open in a new window. Frame button should set the taget to """" or ""_self"" (default target) and submit the table form. It should open in the frame below. Load the page and click Frame. It should open the frame below and show the time (keep clicking to update time). Click Window and it should open a new window with the current time Click Frame again and it should refresh the frame with the current time. In Chrome it won't. That's the bug. Attached is a test case. Also note, when I was testing on Chrome, the javascript iframe stuff didn't work at all because my files were on the Desktop. Chrome was throwing a security warning/error ""Unsafe Javascript attempt to access with url from frame with URL test. Domains, protocols, and ports must match"" I had to put the files on a server (localhost) to test this issue.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,239,brettw points out that explicit calls to methods like Destroy() (this example taken from are error-prone: void { // Destroy decoder if initialized. if (decoder_.get()) { GLXContextWrapper *context = decoder_- decoder_- decoder_- delete context; decoder_.reset(); } ... } Brett's suggestion is to figure out a way to push the cleanup code into the GLES2CmdDecoder's destructor so that the call to decoder_.reset() does everything necessary.,1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,240,I can't play my Frontiereville game on facebook anymore. flash player crashes like crazy now..what the heck is going on???,0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,241,Updated doc as well with a note about CACHE_NONE not allowed for temp queues,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,242,"It works also with the brand new Karaf 2.2.5: cmueller$ clean __ __ ____ / //_/____ __________ _/ __/ / ,< / __ `/ ___/ __ `/ /_ / /| |/ /_/ / / / /_/ / __/ /_/ |_|\__,_/_/ \__,_/_/ Apache Karaf (2.2.5) Hit '<taband '[cmd] --help' for help on a specific command. Hit '<ctrl-d cmueller$ clean __ __ ____ / //_/____ __________ _/ __/ / ,< / __ `/ ___/ __ `/ /_ / /| |/ /_/ / / / /_/ / __/ /_/ |_|\__,_/_/ \__,_/_/ Apache Karaf (2.2.5) Hit '<taband '[cmd] --help' for help on a specific command. Hit '<ctrl-d features:install camel-rss",0,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,243,"* LocalHBaseCluster - is not so general thing... as I understand it is used for testing.. never for real cluster... so my change will simplify this testing by providing automatic another port binding. * HRS InfoServer is really general thing... but port of InfoServer is not so critical... we can document it like a future... ""Automatic InfoServer port binding"". And if you want explicit port setting we can add console param for HRS start without this changes we cant star't several HRS on one node with info servers * thx... will fix my spelling",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,244,"This is now @BeanInject work and was designed, to lookup beans of a given type from the registry, its not really taking those osgi specifics into account with that you setup in osgi blueprint with the component-name filtering.",0,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,245,"The old wiki system is deprecated, a new website and documentation is in the works. You can help with the new docs which are the adoc files in the source code you can find in the src/main/docs folder of the various Camel components.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,246,2471: SystemUI never receive broadcast.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,247,LGTM +1 cleanup code is always good to make robust,1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,248,"[Context: This patch is part of a larger patch to use thriftnb on Windows/VisualC++. See for more details.] When compiling using Visual C++ 2010, the compiler chokes on casting some callbacks bool(*)() to void(*)(). Although probably valid and supported by gcc, this is further complicated by the fact those casting seem unnecessary: for each of the callbacks returning bool in TAsyncChannel.h: 1. the returned value is never checked 2. they always return true Attached is a trivial patch based on 0.7.0, tested on Ubuntu 11.04 and Visual C++ 2010.",1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,249,"From Mon Sep 17 00:00:00 2001 From: Adam Simpkins Wed, 6 Jan 2010 02:10:19 +0000 Subject: [PATCH 01/33] thrift: handle undeclared exceptions in the async error cob Summary: This updates the generated TAsyncProcessor code to correctly handle when an undeclared exception type is passed into an error callback. It now sends back a T_EXCEPTION message to the client, just like the non-async code does. Previously the exception wouldn't be handled, causing the TEventWorker thread to exit. Test Plan: Tested changing the async sort tutorial to pass in a generic TException rather than a SortError, and verified that the client correctly received an exception. Conflicts: | 38 1 files changed, 32 insertions(+), 6 deletions(-)",1,0,,"Non-SatD
+
+Your code here",3
+LLM_RAG,1500,87,D1_to_D2,250,"+1 for the patch, pending Jenkins test-patch run.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,251,"For my current project, I only really need it to handle the Z properly. Anything else (other timezones, full support) would be a bonus. In terms of Tableau/Impala usability - this problem will come up for anyone with a format that doesn't convert automatically, so the more coverage we get the better. However, in terms of release schedules, I would love to have time zones or at least Zulu time working sooner.",1,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,252,"add Expressions support on to(), bean() and beanRef() to allow for dynamic endpints (similar to recipientList)",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,253,Do for 0.16 release.,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,254,"After further code review, I don't think this is really a problem in practice. While it's true that the {{Listener}} and {{Reader}} threads are not guaranteed to be fully initialized after return from the important thing is that the server socket is listening and accepting connections, via the code in the {{Listener}} constructor: The server socket bind is guaranteed to be done before returns, so a caller can start a server and be guaranteed that an immediate connection attempt will succeed. It might experience some extra latency on the response if it needs to wait for the {{Listener}} and {{Reader}} threads to finish initialization, but it won't fail. I don't think this is really a bug. We probably just need to change the logic of the failing test, and this is already covered in HADOOP-8980. I'm planning on resolving this as Not a Problem. I'll leave this open a few more days in case anyone else wants to comment.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,255,"I've also run into this, and came up with a patch that involved: - adding a 'maxTasks' value to the TaskTrackerStatus (set by the local - modifying JobTracker to track totalTaskCapacity instead of per-node maxTasks, and to use the particular task tracker's maxTasks value when deciding whether to assign it another task If this seems like a reasonable approach, I can do more testing and provide a patch.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,256,The Trusty (Ubuntu 14.04) Vagrantfile in the current trunk does not build clean. Subtasks created for: 1. D not installed 2. Haskell does not compile 3. Go crashes on symlink creation 4. Python Twisted tests fail 5. CPP thrift/test/cpp does not make check due to missing boost packages,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,257,69: Gerrit should generate more descriptive merge commit messages,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,258,is unstable in 0.98,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,259,FileNotFound on DFS block file,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,260,"The problem occurs when I read from a pop3 endpoint and send to an smtp endpoint in the same camel context with the and options. Required Java options for starttls are set: When I only configure one of either route, everything works fine. When I configure both, I get the following ; } This is because getDefaultInstance creates a Session object the first time it is called. Then it caches that Session and returns it for all subsequent calls. It also ignores the new and different properties for the second route. See also",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,261,"11892: Better ""needs attention"" information for reviewers",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,262,"Thanks for the review , I will make those changes on commit.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,263,Correct way of handling error condition is through return value of run method.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,264,"Actually, , can you move the test from to +1 once it is addressed.",1,0,,"To solve this problem, we'll follow",3
+LLM_RAG,1500,87,D1_to_D2,265,"Yes, this seems to be the same thing as 11431",0,0,,"**Non-SatD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,266,Impala Query UI Keeps Cancelled Query Above New Executing Query,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,267,"is designed to log the data around a particular scanner parsing error. However, that log output may include sensitive table data, and should be avoided, particularly for uncompressed text formats.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,268,"I have committed this to trunk and branch-2. Duo, thank you for the contribution.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,269,"Looked into it and attached a patch that fixed some documentation mismatches, changed the pseudo distributed mode setting a little so that we just start one instance. Additional regionservers can be started with the local regionserver sh script.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,270,"45815: The ""Page"" field is hidden when the ""Task Manager"" dialog box becomes small",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,271,: : 1. Goto 2. Click the Buy button 3. Click Complete My Order with all empty fields 4. Let page reload with error message 5. Click Complete My Order again with all empty fields User posts back invalid data and the page displays the error. Chrome crashes with DEP error. Attach a screenshot if possible. Crash dump attached,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,272,warning: deprecated conversion from string constant to 'char*',1,0,,To determine the final label based on the,3
+LLM_RAG,1500,87,D1_to_D2,273,"I've opened BIGTOP-632, to track pushing itest-common as an artifact. The Service, and Shell classes seem usable. I could not find any SSH wrappers.",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,274,"As identified in , it is not easy to know how (i.e. build flags) a toolchain build was produced. The build scripts are versioned in the native-toolchain repo, but that is not easily associated with generated toolchain builds. We should have some way to determine this information later. The simplest way to handle this may be to store the native-toolchain githash in the produced toolchain build.",1,0,,"To solve this problem, we can use",3
+LLM_RAG,1500,87,D1_to_D2,275,I would like to improve the aws-sdb component in the following places: - Using the [Amazon operation instead of CamelAwsSdbXXX -- Add OSGI integration tests I would like to resolve this issue for Camel 2.9.0 because renaming of the operation names are not backwards compatible. I will resolve this issue today.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,276,camel-jms - Sending to WebSphereMQ must use specific setBooleanProperty methods to set JMS properties,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,277,Adds some extra comments; no functional changes,1,0,,**Predicted label:** NON_SAT,3
+LLM_RAG,1500,87,D1_to_D2,278,Applied the patch into camel master and camel-2.14.x branch.,0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,279,Do you have a link to some spec or description about this?,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,280,How do we define the markers ? Through a series of magic bytes ? Looks like total size field for ClusterStatus is better choice.,1,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,281,"As you can see, it's a very very simple test. Just deletes and gets. Not playing with the timestamps nor the parameters nor the wal nor anything else like that. To respect the real usecase, *1 should be replaces by * 1000 but I changed that to get the results faster. Table is initially loaded with sequencialWrites 30K rows. So we are talking here to about 1 500 000 puts/day and 40 000 deletes/day. Which is still very small.",0,0,,"To determine the final label, analyze the",3
+LLM_RAG,1500,87,D1_to_D2,282,"The getMajorityFormat method of the FeCatalogUtils currently returns non-deterministic results when its argument is a list of partitions where there is no numerical majority in terms of the number of instances. The result is determined by the order in which the partitions are added to the HashMap. We need more deterministic results which also considers the memory requirement among different types of partitions. Ideally, this function should return the format with higher memory requirements in case of a tie.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,283,"I have running a blueprint file with a camel context that has the following: This causes Camel to throw the following exception when I receive files with names of the following form: Most likely the '$' in the name is the problem. Is there any way to escape it? Thanks, Saycat",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,284,"fails when run individually (run just that test case from eclipse). I've also noticed that it is flaky on windows. The reason is a rare race condition, which somehow does not happen that much when the whole class is run. The sequence of events is smt like this: - we create 1 log file to split - we call in its own thread. - is waiting in since there are no splitlogworkers, it keep waiting. - we delete the task znode from zk - SplitLogManager receives the zk callback from which will call setDone() and mark the task as success. - However, meanwhile the loops sees that remainingInZK == 0, and calls return concurrently to the above. - on return from fails because the znode delete callback has not completed yet. This race only happens when the last task is deleted from zk, and normally only the SplitLogManager deletes the task znodes after processing it, so I don't think this is a production issue.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,285,"This part is triggering a Checkstyle warning: We can clean that up by changing to: I realize there are existing instances of empty statements like this in the class, but let's avoid introducing new instances. The mvninstall failure appears to be a side effect of something in the bats testing of the bash scripts. It's unrelated to this patch. Since you need to upload one more patch revision to address the Checkstyle warning, let's do one more test run and see if it happens again. If it does, then I'll follow up. The license check warning is caused by a test copying a file to a location that it shouldn't, which is then covered by the license check. I'll follow up separately on that.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,286,It's been like this since 2.11; it's not worth trying to fix now when we're about to drop GWT.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,287,Deprecation should skip thrift library code when printing the caller,0,0,,"To determine the final label, I will",3
+LLM_RAG,1500,87,D1_to_D2,288,I'll look into it with one of our engineers who ran into the issue. I think it might be related to the fact that we had to use THRIFT-347 recently.,0,0,,"To determine the final label, let's",3
+LLM_RAG,1500,87,D1_to_D2,289,"camel-hdfs - Support CamelFileName to write to a new file, when not using split strategy",0,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,290,"Musaddique —thank your for your post and details on a fix. I'm sorry to say we aren't going to take this. That's not because there's anything wrong with it, but because we've stopped doing any work on s3n other than any emergency security work, putting all our effort into S3a. Leaving s3n alone means that we have a reference s3 connector that is pretty much guaranteed not to have any regressions, while in s3a we can do more leading edge stuff. S3a does have retry logic, a lot built into the Amazon S3 library itself, with some extra bits to deal with things that aren't retried that well (e.g. final commit of a multipart upload). # please switch to s3a as soon as you can. If you are using Hadoop 2.7.3, its stable enough for use. # and, if you want to improve s3a, please get involved on that code, ideally look at the work in HADOOP-11694 to see what to look forward to in Hadoop 2.8, and HADOOP-13204 to see the todo list where help is really welcome —and that includes help testing. thanks,",1,0,,"NON_SATD
+
+Please provide a",3
+LLM_RAG,1500,87,D1_to_D2,291,"Hi Nick, Do you have any updates on this? If you have any unit-test for this please also attach it here. Thank you, Henrique",1,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,292,"As part of HADOOP-9902, java execution across many different shell bits were consolidated down to (effectively) two routines. Prior to calling those two routines, the CLASSPATH is exported. This export should really be getting handled in the exec function and not in the individual shell bits. Additionally, it would be good if there was: so that bash -x would show the content of the classpath or even a '--debug classpath' option that would echo the classpath to the screen prior to java exec to help with debugging.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,293,Yes. I have run few times on my laptop. All pass. Let me reattach patch.,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,1500,87,D1_to_D2,294,"I observed after adding logging that the scanner was issuing many small 1024-byte scan ranges: This appears to be based on the constant in the text scanner, which is used to try and find the end of a field that extends into the next HDFS block. We could avoid this in a couple of ways: * Increase the constant. It's unclear why it's so low: I think the cost of reading additional data is probably negligible, at least up to 10's or 100's of KB or so. * Ramp up the read size, e.g. recursive doubling up to 8MB.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,295,"I have implemented mocks for the consumer tests. The spring-based tests still need to be mocked out as well as the seda tests. It is much faster now, though.",1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,296,There is so many #if in this file: It looks chaos. How about split it into these several files.,1,0,,To determine the final label for the given,3
+LLM_RAG,1500,87,D1_to_D2,297,It is supported now,0,0,,"NON_SATD
+To determine the",3
+LLM_RAG,1500,87,D1_to_D2,298,"The lock now has a ShutdownHook creation, which ends up doing which ends up doing a ""new Configuration()"" within the locked section. This indirectly hurts the cache hit scenarios as well, since if the lock on this is held, then the other section cannot be entered either. slowing down the RawLocalFileSystem when there are other threads creating HDFS FileSystem objects at the same time.",1,0,,"To determine the final label, we will",3
+LLM_RAG,1500,87,D1_to_D2,299,"Hii Todd, I did not know. But if you say...that could really be a problem of configuration. Sorry, If I wasted your time. And If you have any good reference of connecting a grails app to hadoop...please tell me. Thanks :)",0,0,,"NON_SATD
+To determine the",3

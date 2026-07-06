@@ -1,0 +1,695 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output,top_k
+LLM_RAG,5000,100,D1_to_D1,0,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getChildren(java.lang.Object) */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,1,// TODO // This is faster than many charAt() calls. //,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,2,// SHAPE,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,3,// let the persister inspect the instance to decide,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,4,// add,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,5,//TODO: remove use of instanceof!,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,6,/* I guess translated events do not have the 'evt' field set so consuming won't work. I don't think this is a problem as nothing uses translation anyway */,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,7,//TODO provide proper name?,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,8,// TODO: Use reflection against the test case to ensure that it // does not import non-ArgoUML classes,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,9,// draw the label,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,10,// invoke the iterator method on the ConstructorArgs // push the ConstructorArgs,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,11,/** * The constructor. * TODO: Why does this method not handle all settings? */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,12,// line 1535,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,13,//--,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,14,"// add space for the outer tick labels, if any...",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,15,// TODO: We expect an association end here - // check more carefully? - tfm,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,16,/* Set the drop location in the case of D&D: */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,17,/* end class ClClassName */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,18,// Hack!!! hopefully the FK name will always be the last token!,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,19,// no data in the parent plot,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,20,"// setBackground(UIManager.getColor(""TextField.background""));",0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,21,"// Depending on the action and the current state, we'll toggle the state. // i.e., for unset, we need to turn it off if it's on, // and for set we need to turn it on if it's off. //",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,22,// TODO: don't require pop,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,23,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,24,//{{{ isOverwriteEnabled() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,25,// Appending Separators ---------------------------------------------------,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,26,"// this DataType does not limit the data read during the initial load of the table, // so there is no need to re-read the complete data later",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,27,// Store ptr to newly open window in list of windows per session.,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,28,// todo : temporary // needed because currently persister is the one that // creates and renders the join fragments for inheritence // hierarchies...,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,29,// Whether or not to read date type columns with rs.getTimestamp(),0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,30,"/* * @see org.argouml.uml.cognitive.critics.CrUML#predicate2( * java.lang.Object, org.argouml.cognitive.Designer) */",0,0,,"NON_SATD
+To determine the",3
+LLM_RAG,5000,100,D1_to_D1,31,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,32,"//TODO: ideally we need the construction of PropertyAccessor to take the following: // 1) EntityMode // 2) EntityMode-specific data (i.e., the classname for pojo entities) // 3) Property-specific data based on the EntityMode (i.e., property-name or dom4j-node-name) // The easiest way, with the introduction of the new runtime-metamodel classes, would be the // the following predicates: // 1) PropertyAccessorFactory.getPropertyAccessor() takes references to both a // org.hibernate.metadata.EntityModeMetadata and org.hibernate.metadata.Property // 2) What is now termed a ""PropertyAccessor"" stores any values needed from those two // pieces of information // 3) Code can then simply call PropertyAccess.getGetter() with no parameters; likewise with // PropertyAccessor.getSetter()",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,33,// get which locale-dependent format to use // set to use the Java default,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,34,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,35,"// TODO: It would be really, really nice to use this to also model components!",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,36,"// Is this instruction live or dead? During optimization passes, if this instruction // causes no side-effects and the result of the instruction is not needed by anyone else, // we can remove this instruction altogether without affecting program correctness.",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,37,"/** * Test cases for generating subject lines, when replying and/or forwarding * messages * <p> * * TODO: Re:[columba-devel]test-subject * * @author fdietz */",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,38,// TODO: full-precision divmod is 1000x slower than MRI!,1,0,,To determine the final label based on the,3
+LLM_RAG,5000,100,D1_to_D1,39,// ensure name is available for debugging,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,40,/** * Tests CopyHelper without using stereotypes. * <p> * The test is using the tree of objects: * * <pre> * model * / \ * p1 p2 * / \ * class_ nestedPackage * \ * interface_ * \ * attribute * </pre> * * TODO: This test doesn't match the MDR implementation because it expects * the contents of a namespace to be copied. It is disabled until it can * be fixed to run with both MDR and eUML. - tfm 20070820 * * @author Bogdan */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,41,// ?> | boolean | True if the modification time of file1 is after that of file2,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,42,// TODO: Once we have fixed all subclasses the title will // always be localized so this localization can be removed.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,43,// TODO presentation??,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,44,"/** * Compute the border point of the ellipse that is on the edge * between the stored upper left corner and the given parameter.<p> * * TODO: Once we are at GEF version 0.13.1M4, this method * and in fact the whole class can be * removed, since it was taken over by GEF in revision 1279. * * @param anotherPt The remote point to which an edge is drawn. * * @return The connection point on the boundary of the * ellipse. */",1,0,,To determine the final label for the target,3
+LLM_RAG,5000,100,D1_to_D1,45,"// Now force calculation of the bounds of the figure, update the edges // and trigger anyone who's listening to see if the ""bounds"" property // has changed.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,46,// TEXT FIELD,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,47,// TODO: Move an empty implementation to FigGroup in GEF,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,48,// TODO: Move magic number 10 to descriptive constant,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,49,// Use default formatting for any other type of UML element,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,50,"/** * SQLFilterAction.java * * Created on March 22, 2003, 10:55 AM * * Adapted from SessionPropertiesAction.java by Colin Bell. * * TODO: CHange name to ContentsTabFilterAction */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,51,//{{{ menuSelected() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,52,//TODO possibly relax that,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,53,// not needed,1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,54,// compose html part,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,55,// TODO: Taken from FigClassifierBoxWithAttribute to handle events // on an attribute. All this event handling should eventually be moved // to the compartment Fig for attributes,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,56,// Check the persistence context for an entry relating to this // entity to be merged...,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,57,// TODO: This probably belongs with the Diagram subsystem,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,58,//////////////////////////////////////////////////////////////////////////// // other constants ////////////////////////////////////////////////////////////////////////////,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,59,"// // Note: We intentionally don't remember internal plugins, because // we don't want them to appear in the plugin manager currently. // // TODO: improve plugin manager dialog to support internal plugins // which can't be removed, etc.",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,60,// TODO: This code effectively disables all inspection-based optimizations; none of them are 100% safe yet,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,61,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,62,// TODO: This should happen in GEF,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,63,// TODO: We need a factory pattern for GoXXX classes that can determine if they are required,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,64,// Keep a hashtable of attributes added by this task. // This task is allow to override its own properties // but not other properties. So we need to keep track // of which properties we've added.,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,65,//{{{ _endVFSSession() method,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,66,"/** * All events going to the Explorer must pass through here first!<p> * * Most will come from the uml model via the EventAdapter interface.<p> * * TODO: In some cases (test cases) this object is created without setting * the treeModel. I (Linus) will add tests for this now. It would be better * if this is created only when the Explorer is created. <p> * * TODO: The ExplorerTreeNode also listens to some events * (from Diagrams), so it does not follow the rule above. * * @since 0.15.2, Created on 16 September 2003, 23:13 * @author alexb */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,67,// Is this object in this feature... //,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,68,"// Perhaps something like the following would workd. If not, then // traverse up the component hierarchy to a MultEditorPane // Rectangle drawingArea = // Globals.curEditor().getJComponent().getVisibleRect();",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,69,// TODO is it possible to use more than one variable?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,70,// adds the instruction to the bytecode of the method,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,71,// todo : this call will not work for anything other than pojos!,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,72,// Fill 7 of value (byte) -19,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,73,/* * Distribute the extra height over the visible * compartments: */,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,74,// JScrollPane jscrollpane1 = new JScrollPane();,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,75,// NOOP,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,76,// Reset the selection,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,77,// find action performed,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,78,"// first, create bucket for each provider",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,79,// TODO: is this correct ?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,80,/* * @see org.tigris.gef.presentation.Fig#setLineWidth(int) */,0,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,81,/** * @return the set of offenders * * TODO: The return value needs to be more strongly typed. - tfm - 20070630 */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,82,// TODO: this should call the single namespace form // getStereotype(it2.next(); stereo);,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,83,"/* Resolve relative to a class type static field, inner class, ? */",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,84,//// FILL PAINT /////////////////////////////////////////////////////////,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,85,"// if the environment variables can't be obtained, define an empty ENV",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,86,// TODO: Need UML 2.x equivalent,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,87,/* do nothing */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,88,//i18n[DataSetUpdateableTableModelImpl.error.updateproblem=There //was a problem reported during the update. //The DB message was:\n{0}\nThis may or may not be serious depending //on the above message.\nThe data was probably not changed in the //database.\nYou may need to refresh the table to get an accurate //view of the current data.],0,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,89,// FIXME: not very efficient,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,90,// EQ == 0 (i.e. false),0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,91,"// not absolutely necessary, but does help with aggressive release",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,92,/* * (non-Javadoc) * @see net.sourceforge.squirrel_sql.plugins.dataimport.importer.IFileImporter#getConfigurationPanel() */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,93,/* * @see org.argouml.model.ModelImplementation#getXmiReader() */,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,94,"//TODO: this is a bit arbitrary, expose a switch to the user?",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,95,// TODO: Register listener for target ToDo item changes // and for new showStep() requests,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,96,// TODO: The UML 1.4 concept of a Multiplicity & Multiplicity Range has // been replaced by a single element,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,97,// TODO: Make this more efficient for large I/Os,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,98,// line 1286,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,99,// call a target,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,100,// If we outgrow our pushback stack then grow it (this should only happen in pretty // pathological cases).,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,101,// XXX if we keep the createClassManager in getClassManager then we can axe // this?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,102,"// TODO // This assumes we only get a SET notification, which isn't a good assumption. //",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,103,//{{{ getLineInfo() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,104,// FIXME: this code means that it is not possible to use more than // one domain axis for the combined plots...,1,0,,To determine the final label based on the,3
+LLM_RAG,5000,100,D1_to_D1,105,"// Associations not supported, yet // TODO: Create appropriate ClassdiagramEdge",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,106,"// doesn't work: Depending on the compression engine used, // compressed bytes may differ. False errors would be // reported. // assertTrue(""File content mismatch"", // FILE_UTILS.contentEquals(project.resolveFile(""expected/asf-logo-huge.tar.bz2""), // project.resolveFile(""asf-logo-huge.tar.bz2"")));",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,107,// TODO: not implemented,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,108,// TODO : this constructor form is *only* used from constructor directly below us; can it go away?,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,109,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,110,/* XXX magic number */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,111,"/* * Does the system support UNC paths? If so, may need to fix them up * later */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,112,// Don't call super. Packing this frame causes problems.,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,113,// Evil hack to split the vacuum output a little.,1,0,,"**Non-Satd**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,114,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,115,/* end interface Clarifier */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,116,// 3. Scan hex sequence after '::'.,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,117,// TODO: else : alert,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,118,/** * Create an empty but initialized instance of a UML Class. * * @return an initialized UML Class instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,119,/* * (non-Javadoc) * * @see org.columba.core.profiles.IProfileManager#getProfiles() */,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,120,"// return new CallOneArgNode(firstNode.getPosition(), firstNode, operator, new ArrayNode(secondNode.getPosition(), secondNode));",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,121,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,122,// TODO: This is only checking immediate siblings when it needs // to be checking all imported elements both here and by our // parents and also taking into account visibility,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,123,//{{{ searchInDirectory() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,124,// todo : remove,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,125,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,126,// TODO handle class cast exception better.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,127,// TODO: getAllPossibleSubvertices and getAllSubStates are duplicates - tfm,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,128,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,129,// line 321,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,130,// TODO: It would be better here to continue the loop and try to // build the rest of the compartment. Hence try/catch should be // internal to the loop.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,131,//TODO (@author fdietz): associate help with button and root pane,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,132,//{{{ fvmput2() method,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,133,// CREATE ENTITIES // FIXME: these methods should be defined,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,134,/** * The connect method specifying a connection * type by class is unavailable in the ArgoUML implementation. * TODO: This should be unsupported. Use the 3 Object version * * {@inheritDoc} */,1,0,,To determine the final label for the target,3
+LLM_RAG,5000,100,D1_to_D1,135,"// TODO not read, yet in a public setter",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,136,/** * TODO: Check if Mimer SQL cannot handle the way DB2 does */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,137,"/* * Issue: After importing the data, we could tell the user that * it has been successfully imported. This would give good * positive feedback. However, it would mean that they need * to click on yet another button to dismiss that message. * On the other hand, since the operation is synchronous, * the user cannot proceed to do anything until it is done. * If we assume that import usually works correctly unless * they are shown an error message, then we do not need to * display anything here. */",1,0,,"To solve this problem, let's analyze",3
+LLM_RAG,5000,100,D1_to_D1,138,// Add variables for access to context and variables //$NON-NLS-1$,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,139,"//If we get here, it could be because we are trying to put a //directory entry that already exists. //For example, we're trying to write ""com"", but a previous //entry from another mergefile was called ""com"". //In that case, just ignore the error and go on to the //next entry.",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,140,/** * Create an empty but initialized instance of a UML Comment. * * @return an initialized UML Comment instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,141,"// The UML 2.1.1 metamodel is a MOF 2.0 CMOF model, so // we want nodes with // tag=""ownedMember"", attribute xmi:type=""cmof:Class"" // TODO: This code is untested - tfm",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,142,/* TODO: Is this a good way of handling nested notation? */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,143,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,144,// ignored,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,145,// Fill 7 of value (byte) -19,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,146,"/** * This class manages the projects loaded in argouml, * and what the current project is. <p> * * Classes in ArgoUML can ask this class for the current * project and set the current project. Since we only have one * project in ArgoUML at the moment, this class does not manage a list * of projects like one would expect. This could be a nice extension * for the future of ArgoUML. As soon as the current project is * changed, a property changed event is fired. <p> * * TODO: Move everything related to the creation of a project * into the ProjectFactory. * * @since Nov 17, 2002 * @author jaap.branderhorst@xs4all.nl * @stereotype singleton */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,147,// TODO support real numbers,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,148,/* * Work in progress here to allow multiple details panes with different * contents - Bob Tarling */,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,149,// },0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,150,"// TODO: turn off readable? am I reading this right? // This only seems to be used while duping below, since modes gets // reset to actual modes afterward //fptr->mode &= (m & FMODE_READABLE) ? ~FMODE_READABLE : ~FMODE_WRITABLE;",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,151,/*onlyStatic*/,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,152,//TODO: code duplication with JoinedSubclassEntityPersister,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,153,// defer argument checking...,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,154,// prompt for jabber id,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,155,// TODO: Something might go wrong during processing. We don't really // want to create the model element until the user releases the mouse // in the place expected.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,156,//TODO: get SQL rendering out of this package!,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,157,//TODO clazz is probably always the same as testclass,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,158,// TODO: This should be handled with an Iterator!!!,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,159,//to be able to remove dependencies later,0,0,,To determine the final label based on the,3
+LLM_RAG,5000,100,D1_to_D1,160,// Windows bug workaround in case a YES/NO confirm // was shown,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,161,// - JMX names,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,162,// TODO: don't require pop,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,163,/* TODO add javadocs */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,164,/** * Identifier for addonly changeability. * TODO: Note this should not be in UML2 version */,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,165,// TODO: Do we need this one. */,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,166,// Which Bodypart shall be shown? (html/plain),0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,167,"// now that we know how many chars there are, get the width.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,168,// We know this fails - Bug# 1700093,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,169,// TODO: protected methods. this is going to require a rework // of some of the mechanism.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,170,//0000 0000 1111 //1111 0000 0000,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,171,// Generate code to push the BSHTHIS or BSHSTATIC field,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,172,"// Case 1: Multi token keywords GROUP BY and ORDER BY // The next token ( LT(2) ) should be 'by'... otherwise, this is just an ident.",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,173,// TODO: Figure out when this is getting thrown // throw new UnsupportedOperationException();,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,174,// copy and paste from bsh/classpath/ClassManagerImpl.java...,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,175,/* TODO: Why do I need to do this? */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,176,// Errors,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,177,// TODO: Can we find a better way to do this than hard coding colour?,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,178,// TODO : or should we return 'containsTableAlias'??,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,179,"// This doesn't seem very correct, but it fixes a problem // when setting the initial caret position for a buffer // (eg, from the recent file list)",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,180,"// no default in DB. If nullable, use null.",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,181,"/*XXX this is not thread-safe, though luck. It isn't supposed to be. */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,182,// TODO: Test if the generated string is correct.,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,183,// i18n[graph.invalidWidth=Invalid width],0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,184,//{{{ getColumnOnOtherLine() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,185,// We can callsite cache const_missing if we want,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,186,// stop double-reporting,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,187,"// Allow the mimetype of the file to control the content type // This is not obvious in GUI if you are not uploading any files, // but just sending the content of nameless parameters // TODO: needs a multiple file upload scenerio",1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,188,"// ""else"" body",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,189,// TODO: Needs to be tidied up after stable release. Graph model // should be created in constructor,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,190,// FIXME: don't use RubyIO for this,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,191,// defer argument checking,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,192,"/* (non-Javadoc) * @see org.eclipse.emf.ecore.xmi.XMLResource.XMLMap#add(org.eclipse.emf.ecore.ENamedElement, org.eclipse.emf.ecore.xmi.XMLResource.XMLInfo) */",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,193,// 18 nov 2003: calling this on a drive letter on Windows causes // drive access,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,194,// TODO: don't require pop,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,195,// A special parent loader which is not the system class loader:,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,196,//i18n[SyntaxPlugin.comment=comment],0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,197,// XXX - should throw an exception instead?,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,198,// saveStringInFile,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,199,/* * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent) */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,200,// TODO: Add Up/Down buttons to control the ordering of items,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,201,// initialise protocol layer,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,202,// not needed,1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,203,"//con.getProperties().put(""USERID"", pgpItem.get(""id""));",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,204,//{{{ close() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,205,// get the directory,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,206,"/** * Test read compressed models, mainly to verify the correct reading of * AndroMDA profiles. * TODO: Move this test into argouml base when we will want to read also zip * file. * * @author lmaitre */",1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,207,// some cols are not to be used,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,208,//{{{ Rect constructor,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,209,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,210,// TODO This is really quite attrocious since there is code that will assume an iterator that returns strings!,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,211,/* .setPosFrom($2);*/,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,212,// noop,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,213,// get list of plugins,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,214,//{{{ getSettings() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,215,// TODO: Why aren't we throwing an exception here? // Returning null results in NPE and no explanation why.,1,0,,"**SATD**
+
+Explanation:
+
+The target",3
+LLM_RAG,5000,100,D1_to_D1,216,"// get parameters previously set by user, or set default values // set to use the Java default",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,217,// should probably error,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,218,"//TODO: get all properties, not just the fetched ones!",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,219,// Hack to allow automated tests to find when test has ended //transient boolean testEnded = false;,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,220,// TODO turn into method?,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,221,// not needed,1,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,222,"// TODO: Really should be Element/ModelElement, but we don't // have a type which is portable for this",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,223,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,224,// TODO: not in UML 2,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,225,//{{{ printPage() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,226,// These may not actually make any difference at present (the code // behind addTrigger needs more work).,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,227,"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,228,// TODO: should I be adding quotes if user wants identifiers quoted??,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,229,//DMS this is totally untested.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,230,/** * Creates a new OCL critic * * @param oclConstraint ocl expression * @param headline headline * @param description description * @param moreInfoURL the info url * @param knowledgeTypes the knowledge types * @param supportedDecisions the decisions * @param priority the priority * @throws InvalidOclException if the ocl is not valid * * TODO: Do these need to be Lists or can they be simple Collections? */,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,231,// Empty block,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,232,// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ // stuff that is persister-centric and/or EntityInfo-centric ~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,233,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,234,// eg user just closed a view and didn't focus another,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,235,// nothing to do,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,236,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,237,"/** * FigMyCircle is a FigCircle with corrected connectionPoint method: * this methods calculates where a connected edge ends.<p> * * TODO: Once we are at GEF version 0.13.1M4, this whole class can be * removed, since it was taken over by GEF. */",1,0,,"NON_SATD
+
+Explanation:
+In",3
+LLM_RAG,5000,100,D1_to_D1,238,// stop people doing dumb stuff like C+ENTER 100 C+n,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,239,//Ecore2EcoreFactory,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,240,"/* * @see org.argouml.cognitive.critics.ControlMech#isRelevant(org.argouml.cognitive.critics.Critic, org.argouml.cognitive.Designer) */",0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,241,// @TODO dont use deprecated method,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,5000,100,D1_to_D1,242,"// TODO: port exact behavior from MRI, and move most locking logic into ChannelDescriptor // TODO: for all LOCK_NB cases, return false if they would block",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,243,// Impossible.,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,244,// i18n[codecompletion.prefs.table.udfWithoutParams=UDF without params],0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,245,// delegate,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,246,"// Allocate the new collection, and populate it up to this point. //",0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,247,// TODO: Why is this throwing a generic runtime exception?!?!,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,248,// TODO: Use default value of appropriate type here,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,249,// create a non-unique index on mychar,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,250,// NOI18N,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,251,// Mocks,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,252,/* * @see org.tigris.gef.presentation.Fig#getMinimumSize() */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,253,//{{{ updateEveryTime() method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,254,// line 842,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,255,"// SSS FIXME: For constant arrays, we should never get here!",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,256,// Disable DELETE and BROWSE buttons if there are no rows in // the table to delete.,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,257,"//TODO: entities CAN be compared, by PK, fix this! -> only if/when we can extract the id values....",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,258,// This is deprecated - use classespath in the future,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,259,// TODO: Implement this better,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,260,// super calls from proxies must use reflected method // FIXME: possible to make handles do the superclass call?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,261,// Hack to deal with Sybase's sys tables,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,262,// horizontal grid lines,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,263,// UTF-8 unsupported? You must be joking!,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,264,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,265,// place raw tab in first position (first tab),0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,266,/* Implements TestStateListener.testStarted(String) */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,267,//FocusOwner lost = (FocusOwner) map.get(event.getSource());,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,268,// don't try this at home,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,269,/** * Builds a compositestate as top for some statemachine.<p> * TODO: Confusing name: this method should better * be named buildTopStateOnStateMachine. * * @param statemachine The given statemachine * @return MCompositeState The newly build top state * @see #buildCompositeState(Object) */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,270,// TODO: This will vary based on the type of the TagDefinition,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,271,//parentRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,272,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,273,/* compressed size */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,274,// show search docking view,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,275,"// TODO: warn ""tried to create Proc object without a block""",1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,276,"/* * TODO: Not sure we need to do this, but just to be safe for now. */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,277,"/** * Rank the nodes depending on their level (position in hierarchy) and set * their weight to achieve a proper node-sequence for the layout. Rows * exceeding the maximum row width are split, if standalone nodes are * available. * <p> * Weight the other nodes to determine their columns. * <p> * TODO: Weighting doesn't appear to be working as intended because multiple * groups of children/specializations get intermixed in name order rather * than being grouped by their parent/generalization. - tfm - 20070314 */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,278,// NOTUSED: GuiPackage guiPack =,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,279,// TODO: fix output when this flag is set to true,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,280,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,5000,100,D1_to_D1,281,//{{{ Buffer events,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,282,// TODO: Does this method need to be public? It isn't currently // called outside of this class.,1,0,,"**SATD**
+
+Explanation:
+This example",3
+LLM_RAG,5000,100,D1_to_D1,283,/* * @see org.argouml.uml.diagram.ui.FigEdgeModelElement#getNotationProviderType() */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,284,/* Primary interpreter set and get variable methods Note: These are squeltching errors... should they? */,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,285,// Could this be some other type of internal error that we want // to handle differently? Don't think so. - tfm,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,286,/* Disabled since it gives various problems: e.g. the toolbar icons * get too wide. Also the default does not give the new java 5.0 looks. Component tree = ProjectBrowser.getInstance(); SwingUtilities.updateComponentTreeUI(SwingUtilities.getRootPane(tree)); */,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,287,// todo : throw exception? maybe warn if not the same?,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,288,// unwrap Primitive.Null to null,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,289,// TODO is this sensible?,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,290,/* end class TabTaggedValues */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,291,// default directory to the project's base directory,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,292,/* * @see javax.swing.tree.TreeModel#addTreeModelListener(javax.swing.event.TreeModelListener) */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,293,"/** * Utility function to localize the given string with help text, and show it * in the status bar of the ArgoUML window. This function is used in favour * of the inline call to enable later improvements; e.g. it would be * possible to show a help-balloon. * <p> * TODO: Work this out. One matter to possibly improve: show multiple lines. * * @param s the given string to be localized and shown */",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,294,// Loop until we end up back at '>',0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,295,// if this is a feature get the owner of that feature // TODO: Does anything actually make use of this? It can // cause unexpected behaviour.,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,296,"// TODO - yet another ambiguous name - does it need changing? // See also: Clearable, JMeterGUIComponent",1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,5000,100,D1_to_D1,297,//Must be done here because of side-effect! yuck...,1,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,298,// prepare to call class definition method,0,0,,To determine the final label for the given,3
+LLM_RAG,5000,100,D1_to_D1,299,// make it stretch vertically // TODO: The curBody must notify modification,1,0,,To determine the final label for the given,3

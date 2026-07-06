@@ -1,0 +1,73 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output,top_k
+LLM_RAG,200,21,D1_to_D1,0,// TODO: throw IllegalArgumentException in case a variable == null,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,1,"// hack to reduce the need to load every class in non-GUI mode, which only needs functions // TODO perhaps use BCEL to scan class files instead? // class name should contain this string // class name should not contain this string",1,0,,"To determine the final label, we need",3
+LLM_RAG,200,21,D1_to_D1,2,// specifies valid elements for a Package to contain,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,3,// TODO needs to be synch? Probably not changed after threads have started // JMeter Home directory (excludes trailing separator) // JMeter bin directory (excludes trailing separator),1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,4,// populate deprecated fields,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,5,//TODO possibly relax that,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,6,// TODO: Delete ME,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,7,// Remember to change this when the class changes ...,1,0,,"**SATD**
+
+Explanation:
+The target",3
+LLM_RAG,200,21,D1_to_D1,8,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,9,"// Apparently, this method is never called.",1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,10,// plot,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,11,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+The",3
+LLM_RAG,200,21,D1_to_D1,12,// TODO: Use reflection against the test case to ensure that it // does not import non-ArgoUML classes,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,13,/* init profiles defined in jar files */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,14,// TODO: Should be anything allowed by current diagram,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,15,// Silently ignore anything specified by caller attempt to continue,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,16,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation:
+
+In",3
+LLM_RAG,200,21,D1_to_D1,17,// not needed,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,18,// TODO: Use Model.getModelManagementHelper().getPathList(modelElement); // TODO: This will fail with nested Models,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,19,//{{{ saveMode() method,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,20,// todo : YUCK!!!,1,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,21,//{{{ scrollDownPage() method,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,22,"// TODO: this returns a Collection, not a single Object // Is this what the callers expect?",1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,23,// CheckStyle:VisibilityModifier ON,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,24,// Set the bean's property to the value we just obtained:,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,25,// get the right object from the list ... would it be easier to just call getEntity() ??,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,26,// below is for Cache' that don't have str in 2007.1 there is str and we register str directly,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,27,"// If we've found thing with type parameters, search them for a match.",0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,28,//}}},0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,29,"// TODO should this be deprecated ? (to be efficient, internals should deal with RubyHash directly)",1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,30,// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,31,"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renderer //?? for this data type.",1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,32,/* * @see org.tigris.gef.presentation.Fig#setLineColor(java.awt.Color) */,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,33,//{{{ getKeywords() method,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,34,// defer argument checking...,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,35,// Fill 23 of value (byte) -19,0,0,,"**NON_SATD**
+
+Explanation:",3
+LLM_RAG,200,21,D1_to_D1,36,// TODO: How to let the user customize this??,1,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,37,// notify a running waitForRequests() method,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,38,// may change the format later // restart from beginning,0,0,,To determine the final label for the given,3
+LLM_RAG,200,21,D1_to_D1,39,// TODO: This should be built by reflection from the metamodel - tfm // Update for UML 1.4 metamodel if not replaced by reflection,1,0,,To determine the final label for the given,3

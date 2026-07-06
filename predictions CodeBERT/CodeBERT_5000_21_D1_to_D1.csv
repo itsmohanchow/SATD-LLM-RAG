@@ -1,0 +1,1001 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score
+CodeBERT,5000,21,D1_to_D1,0,/** * ActionAddExistingNode enables pasting of an existing node into a Diagram. * * @author Eugenio Alvarez * Data Access Technologies. * TODO: Why do we have this class as well as ActionAddExistingNodes? */,1,1,0.99844813
+CodeBERT,5000,21,D1_to_D1,1,//do we even really need this? the update will fail anyway....,1,1,0.99780446
+CodeBERT,5000,21,D1_to_D1,2,// So elements can only be added as children,0,0,0.00059071044
+CodeBERT,5000,21,D1_to_D1,3,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,4,// Do not allow a drop on the drag source selections.,0,0,0.0004955359
+CodeBERT,5000,21,D1_to_D1,5,/* * @see org.tigris.gef.graph.MutableGraphModel#addNodeRelatedEdges(java.lang.Object) */,0,0,0.00042471313
+CodeBERT,5000,21,D1_to_D1,6,//ie. the subquery! yuck!,1,1,0.85591143
+CodeBERT,5000,21,D1_to_D1,7,"// TODO : probably better to calculate these and pass them in, as it'll be more performant",1,1,0.99839586
+CodeBERT,5000,21,D1_to_D1,8,// TODO: protected methods. this is going to require a rework of some of the mechanism.,1,1,0.99851626
+CodeBERT,5000,21,D1_to_D1,9,// this is expected,0,0,0.00063247676
+CodeBERT,5000,21,D1_to_D1,10,// Get the value from the map via the key,0,0,0.0005172813
+CodeBERT,5000,21,D1_to_D1,11,// mark it as selected,0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,12,// FIXME: draw outliers,1,1,0.99608517
+CodeBERT,5000,21,D1_to_D1,13,"// todo : hack!!! // NOTE : here we cleanup the load context when we have no more local // LCE entries. This ""works"" for the time being because really // only the collection load contexts are implemented. Long term, // this cleanup should become part of the ""close result set"" // processing from the (sandbox/jdbc) jdbc-container code.",1,1,0.99816847
+CodeBERT,5000,21,D1_to_D1,14,// do we need to update the crosshair values?,1,1,0.9320833
+CodeBERT,5000,21,D1_to_D1,15,"// TODO: This only works if the item is visible // (all its parents are expanded) // getExpandedDescendants, makeVisible",1,1,0.99762183
+CodeBERT,5000,21,D1_to_D1,16,// TODO: Is this next line safe? What happens if there is just one // comment edge or a comment edge and a single message?,1,1,0.9981969
+CodeBERT,5000,21,D1_to_D1,17,// TODO: This looks backwards. Left over from issue 2034?,1,1,0.998259
+CodeBERT,5000,21,D1_to_D1,18,// TODO: put these nil guards into tree (bigger than I want to do right now),1,1,0.9985335
+CodeBERT,5000,21,D1_to_D1,19,// TODO (@author fdietz):: implement action for font size combo box!,1,1,0.9985392
+CodeBERT,5000,21,D1_to_D1,20,/* * A little hack - add each listener to the start of the list - this * ensures that the thread running the show is the first listener and * can modify certain values before other listeners are called. */,1,1,0.9979372
+CodeBERT,5000,21,D1_to_D1,21,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,22,// i18n[GeneralPreferencesPanel.squirrelHomePath=Home directory: -home {0}],0,0,0.00044945232
+CodeBERT,5000,21,D1_to_D1,23,// TODO: Delete Me,1,1,0.9976993
+CodeBERT,5000,21,D1_to_D1,24,// todo: not serialized yet,1,1,0.99800056
+CodeBERT,5000,21,D1_to_D1,25,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,26,// pass command to scheduler,0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,27,// Create the instance namespace,0,0,0.00047842565
+CodeBERT,5000,21,D1_to_D1,28,//$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,29,//{{{ caretAutoScroll() method,0,0,0.0004888105
+CodeBERT,5000,21,D1_to_D1,30,// TODO: Test if the generated string is correct.,1,1,0.998147
+CodeBERT,5000,21,D1_to_D1,31,"/* addToFavorites(), which is a static method * (for convinience) needs an instance of the * VFS to pass to VFSManager.sendVFSUpdate(), * hence this hack. */",1,1,0.9791557
+CodeBERT,5000,21,D1_to_D1,32,// retrieve the swt font description in an os indept way,0,0,0.0005033356
+CodeBERT,5000,21,D1_to_D1,33,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,34,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,35,"// variables maintained by server code // @GuardedBy(""sampleStore"") // maintain separate count of samples for speed",0,0,0.00090220553
+CodeBERT,5000,21,D1_to_D1,36,// very restrictive policy (disallows Member.PUBLIC) // we'd never actually get this far in that case,0,1,0.79350626
+CodeBERT,5000,21,D1_to_D1,37,"//TODO: bad implementation, cos it depends upon ordering of mapping doc // fixing this requires that Collection/PersistentClass gain access // to the Mappings reference from Configuration (or the filterDefinitions // map directly) sometime during Configuration.buildSessionFactory // (after all the types/filter-defs are known and before building // persisters).",1,1,0.9985134
+CodeBERT,5000,21,D1_to_D1,38,// remove garbage characters...,0,0,0.0005603838
+CodeBERT,5000,21,D1_to_D1,39,// TODO: why is this inside a block? Forgotten else branch?!? // Question by euluis @ 2009-08-16.,1,1,0.99827933
+CodeBERT,5000,21,D1_to_D1,40,"/* * Create a TaggedValue with a tag/type matching our source module * filename and a value of the file's last modified timestamp. * * TODO: This functionality needs to be moved someplace useful if * it's needed, otherwise it can be deleted. - tfm - 20070217 */",1,1,0.99846625
+CodeBERT,5000,21,D1_to_D1,41,"// deliverSampler allows sampler to be null, but result must not be null",0,0,0.0005082725
+CodeBERT,5000,21,D1_to_D1,42,// TODO: i18n,1,1,0.99740905
+CodeBERT,5000,21,D1_to_D1,43,// FIXME: check how ruby 1.9 handles this,1,1,0.9984269
+CodeBERT,5000,21,D1_to_D1,44,// Arbitrary settings - not used used for testing,0,0,0.0007854739
+CodeBERT,5000,21,D1_to_D1,45,"// html - quoting is done by inserting a div around the // message formattet with a blue line at left edge // TODO (@author fdietz): Implement quoting (font color, stylesheet, // blockquote???)",1,1,0.99808073
+CodeBERT,5000,21,D1_to_D1,46,// not yet terminated,0,0,0.0010838277
+CodeBERT,5000,21,D1_to_D1,47,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,48,"// TODO perhaps make more specific than this? // no point parsing anything else, e.g. GIF ...",1,1,0.9982317
+CodeBERT,5000,21,D1_to_D1,49,/*(LockMode) anything*/,0,0,0.0004916815
+CodeBERT,5000,21,D1_to_D1,50,// line 1395,0,0,0.0004812358
+CodeBERT,5000,21,D1_to_D1,51,// TODO only clear the relevant entry - if possible...,1,1,0.9975032
+CodeBERT,5000,21,D1_to_D1,52,// create profile config file,0,0,0.00047470425
+CodeBERT,5000,21,D1_to_D1,53,// Configure the object,0,0,0.00049747445
+CodeBERT,5000,21,D1_to_D1,54,// TODO: Is there an option we can use to save our ArgoUML version?,1,1,0.9984452
+CodeBERT,5000,21,D1_to_D1,55,"// FIXME: No, I don't like it.",1,1,0.9978884
+CodeBERT,5000,21,D1_to_D1,56,// message already exists // --> correct token data,0,0,0.00055494095
+CodeBERT,5000,21,D1_to_D1,57,// EATM Call the deprecated method which does the same thing // but might have an override in older code.,1,1,0.997414
+CodeBERT,5000,21,D1_to_D1,58,//{{{ BracketMatcher class,0,0,0.0005082725
+CodeBERT,5000,21,D1_to_D1,59,// we'll only map conventional class names to modules,0,0,0.00052747846
+CodeBERT,5000,21,D1_to_D1,60,//buffer.readLock();,0,0,0.0004897656
+CodeBERT,5000,21,D1_to_D1,61,// TODO : add this info to the translator and aggregate it here...,1,1,0.99852496
+CodeBERT,5000,21,D1_to_D1,62,"// FIXME: This is copied code from RubyArray. Both RE, Struct, and Array should share one impl // This is also hacky since I construct ruby objects to access ruby arrays through aref instead // of something lower.",1,1,0.9983158
+CodeBERT,5000,21,D1_to_D1,63,"// TODO: make the ""magic numbers"" configurable",1,1,0.99806577
+CodeBERT,5000,21,D1_to_D1,64,"/* * @see org.argouml.profile.internal.ocl.ModelInterpreter#invokeFeature(java.util.Map, * java.lang.Object, java.lang.String, java.lang.String, * java.lang.Object[]) */",0,0,0.00045474793
+CodeBERT,5000,21,D1_to_D1,65,// The call here is the result of a desperate fight // to find a place where the components in the split // had not height = 0. If someone knows a better way // please tell me I'll apreciate any advice. // gerdwagner@users.sourceforge.net,1,1,0.9972154
+CodeBERT,5000,21,D1_to_D1,66,//{{{ getAction() method,0,0,0.00049747445
+CodeBERT,5000,21,D1_to_D1,67,//////////////////////////////////////////////////////////////// // FileFilter API,0,0,0.00048311835
+CodeBERT,5000,21,D1_to_D1,68,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,69,// end of inner class,0,0,0.0006011795
+CodeBERT,5000,21,D1_to_D1,70,// should be equal...,0,0,0.0014866153
+CodeBERT,5000,21,D1_to_D1,71,// user.home/.squirrel-sql/plugins/dbcopy/scripts,0,0,0.0006474658
+CodeBERT,5000,21,D1_to_D1,72,"// if not overloaded, we add a method that guesses at which signature to use // TODO: just adding first one right now...add in signature-guessing logic",1,1,0.9982926
+CodeBERT,5000,21,D1_to_D1,73,/* * @see org.argouml.ui.TabTarget#refresh() */,0,0,0.00046190582
+CodeBERT,5000,21,D1_to_D1,74,"/** * Changes the font for all Figs contained in the given FigGroup. <p> * * TODO: In fact, there is a design error in this method: * E.g. for a class, if the name is Italic since the class is abstract, * then the classes features should be in Plain font. * This problem can be fixed by implementing * the updateFont() method in all subclasses. * * @param fg the FigGroup to change the font of. */",1,1,0.99821776
+CodeBERT,5000,21,D1_to_D1,75,"// this covers the rare case of lower-case class names (and thus will // fail 99.999% of the time). fortunately, we'll only do this once per // package name. (and seriously, folks, look into best practices...)",1,1,0.9977349
+CodeBERT,5000,21,D1_to_D1,76,// 1. check whether the row is now empty.,0,0,0.0004812358
+CodeBERT,5000,21,D1_to_D1,77,// cleanAllExtentsBut(model); // TODO: why is this causing a crash?!?,1,1,0.99802387
+CodeBERT,5000,21,D1_to_D1,78,// $NON-NLS-1$ // $NON-NLS-2$ $NON-NLS-3$,0,0,0.0004601059
+CodeBERT,5000,21,D1_to_D1,79,// init configuration,0,0,0.00047656128
+CodeBERT,5000,21,D1_to_D1,80,// TODO: This should use a minimal update strategy instead of // removing everything and adding it again. - tfm,1,1,0.9984633
+CodeBERT,5000,21,D1_to_D1,81,// XXX: (Jon Skeet) Any reason for writing a message and then using a bare // RuntimeException rather than just using a BuildException here? Is it // in case the message could end up being written to no loggers (as the // loggers could have failed to be created due to this failure)?,1,1,0.9979888
+CodeBERT,5000,21,D1_to_D1,82,//i18n[CreateTableScriptCommand.jdbcOdbcMessage=JDBC-ODBC Bridge doesn't //provide all of the necessary metadata. The script may be incomplete.],0,0,0.0011424494
+CodeBERT,5000,21,D1_to_D1,83,"// first look to see if they are identical objects, e.g. both null",0,0,0.0005614787
+CodeBERT,5000,21,D1_to_D1,84,// try to get the account using the email address,0,0,0.00050235394
+CodeBERT,5000,21,D1_to_D1,85,// first column contains the row key...,0,0,0.00045741905
+CodeBERT,5000,21,D1_to_D1,86,// TODO: copy/paste from ManyToOneType,1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,87,// Clean up index entries,0,0,0.00053578056
+CodeBERT,5000,21,D1_to_D1,88,"// Add one for the ""\""",0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,89,"/** * An output stream that compresses into the BZip2 format (without the file * header chars) into another stream. * <p>The compression requires large amounts of memory. Thus you * should call the {@link #close() close()} method as soon as * possible, to force <tt>CBZip2OutputStream</tt> to release the * allocated memory.</p> * * <p>You can shrink the amount of allocated memory and maybe raise * the compression speed by choosing a lower blocksize, which in turn * may cause a lower compression ratio. You can avoid unnecessary * memory allocation by avoiding using a blocksize which is bigger * than the size of the input. </p> * * <p>You can compute the memory usage for compressing by the * following formula:</p> * <pre> * <code>400k + (9 * blocksize)</code>. * </pre> * * <p>To get the memory required for decompression by {@link * CBZip2InputStream CBZip2InputStream} use</p> * <pre> * <code>65k + (5 * blocksize)</code>. * </pre> * * <table width=""100%"" border=""1""> * <colgroup> * <col width=""33%"" /> * <col width=""33%"" /> * <col width=""33%"" /> * </colgroup> * <tr> * <th colspan=""3"">Memory usage by blocksize</th> * </tr><tr> * <th align=""right"">Blocksize</th> * <th align=""right"">Compression<br>memory usage</th> * <th align=""right"">Decompression<br>memory usage</th> * </tr><tr> * <td align=""right"">100k</td> * <td align=""right"">1300k</td> * <td align=""right""> 565k</td> * </tr><tr> * <td align=""right"">200k</td> * <td align=""right"">2200k</td> * <td align=""right"">1065k</td> * </tr><tr> * <td align=""right"">300k</td> * <td align=""right"">3100k</td> * <td align=""right"">1565k</td> * </tr><tr> * <td align=""right"">400k</td> * <td align=""right"">4000k</td> * <td align=""right"">2065k</td> * </tr><tr> * <td align=""right"">500k</td> * <td align=""right"">4900k</td> * <td align=""right"">2565k</td> * </tr><tr> * <td align=""right"">600k</td> * <td align=""right"">5800k</td> * <td align=""right"">3065k</td> * </tr><tr> * <td align=""right"">700k</td> * <td align=""right"">6700k</td> * <td align=""right"">3565k</td> * </tr><tr> * <td align=""right"">800k</td> * <td align=""right"">7600k</td> * <td align=""right"">4065k</td> * </tr><tr> * <td align=""right"">900k</td> * <td align=""right"">8500k</td> * <td align=""right"">4565k</td> * </tr> * </table> * * <p>For decompression <tt>CBZip2InputStream</tt> allocates less * memory if the bzipped input is smaller than one block.</p> * * <p>Instances of this class are not threadsafe.</p> * * <p> * TODO: Update to BZip2 1.0.1 * </p> * */",1,1,0.9831822
+CodeBERT,5000,21,D1_to_D1,90,// expunge folder,0,0,0.0004945695
+CodeBERT,5000,21,D1_to_D1,91,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,92,/* Do Nothing - this can happen when the table doesn't exist */,0,0,0.0013045068
+CodeBERT,5000,21,D1_to_D1,93,"/* * Do string compare of names of UML objects. Comparison is * case insensitive using a primary strength collator in the user's * locale. * * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object) */",0,0,0.0010024584
+CodeBERT,5000,21,D1_to_D1,94,// TODO: There's a cyclic dependency between FigConcurrentRegion and // the actions ActionAddConcurrentRegion,1,1,0.9982658
+CodeBERT,5000,21,D1_to_D1,95,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,96,"// if we don't have opt args, start after args (they will be assigned later) // this is for crap like def foo(a = (b = true; 1)) which numbers b before a // FIXME: only starting after required args, since opt args may access others // and rest args conflicts with compileRoot using ""0"" to indicate [] signature.",1,1,0.99664307
+CodeBERT,5000,21,D1_to_D1,97,//we are forking here to be sure that if JspC calls //System.exit() it doesn't halt the build,0,0,0.00074661145
+CodeBERT,5000,21,D1_to_D1,98,//and add any files if also defined,0,0,0.00068919506
+CodeBERT,5000,21,D1_to_D1,99,"// For some reason ListSet.equals() allocates a lot of memory, well // some memory at least. Lets try to avoid that when not needed by // invoking this test only when the two previous tests are not decisive.",1,1,0.9545204
+CodeBERT,5000,21,D1_to_D1,100,"// IRubyObject, RubyClass, CacheEntry, ThreadContext, IRubyObject, IRubyObject, String, args",0,0,0.00063001254
+CodeBERT,5000,21,D1_to_D1,101,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,102,/* FIXME: Consider fixing node_assign itself rather than single case*/,1,1,0.99836427
+CodeBERT,5000,21,D1_to_D1,103,// Ignore CHAR tokens. // ** // **,0,0,0.0005152657
+CodeBERT,5000,21,D1_to_D1,104,// ??? this should only be called with // fully loaded action set,1,1,0.99653685
+CodeBERT,5000,21,D1_to_D1,105,// re-select folder to make changes visible to the user,0,0,0.00059883716
+CodeBERT,5000,21,D1_to_D1,106,"/* get all positions from offset to the end, inclusive */",0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,107,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,108,"// TODO: The below is not strictly correct, but should // cover the case we deal with. Using a real XML parser // would be better. // Look for XML document has just a single root element",1,1,0.99827933
+CodeBERT,5000,21,D1_to_D1,109,// categoryMargin,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,110,"// the datasets are not cloned, but listeners need to be added...",0,0,0.00086092605
+CodeBERT,5000,21,D1_to_D1,111,//TODO possibly relax that,1,1,0.9982692
+CodeBERT,5000,21,D1_to_D1,112,// TODO: Using just the last piece of the ID leaves the potential for // name collisions if two linked files have the same name in different // directories,1,1,0.99701905
+CodeBERT,5000,21,D1_to_D1,113,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,114,//silly hack to avoid stack overflow...,1,1,0.9980506
+CodeBERT,5000,21,D1_to_D1,115,// This is needed for a CommentEdge ... // TODO: Why doesn't CommentEdge implement IItemUID and be // handled with the mechanism above.,1,1,0.99843305
+CodeBERT,5000,21,D1_to_D1,116,/* they're too troublesome */,0,1,0.9675024
+CodeBERT,5000,21,D1_to_D1,117,"//TODO: should this be Session.instantiate(Persister, ...)?",1,1,0.9976769
+CodeBERT,5000,21,D1_to_D1,118,// Canonical form,0,0,0.0006202512
+CodeBERT,5000,21,D1_to_D1,119,"/* * TODO: Delete me * Copyright (C) 2002-2003 Johan Compagner * jcompagner@j-com.nl * * This library is free software; you can redistribute it and/or * modify it under the terms of the GNU Lesser General Public * License as published by the Free Software Foundation; either * version 2.1 of the License, or (at your option) any later version. * * This library is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU * Lesser General Public License for more details. * * You should have received a copy of the GNU Lesser General Public * License along with this library; if not, write to the Free Software * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA */",1,1,0.9967013
+CodeBERT,5000,21,D1_to_D1,120,// How many occurrences of 'type' we want,0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,121,//{{{ getZipFile() method,0,0,0.00047377846
+CodeBERT,5000,21,D1_to_D1,122,//{{{ ActionSet constructor,0,0,0.0005517006
+CodeBERT,5000,21,D1_to_D1,123,// i18n[UpdateManagerDialog.channelLabel=Channel:],0,0,0.0004601059
+CodeBERT,5000,21,D1_to_D1,124,// Lazily create the event:,0,0,0.0006745559
+CodeBERT,5000,21,D1_to_D1,125,// '.' and all precision digits printed,0,0,0.0005132578
+CodeBERT,5000,21,D1_to_D1,126,"/* * TODO: MVW: This needs rethinking/rework! I have the following questions: * Why does it not search for a stereotype in the namespace using properties * and only create a new stereotype if it will actually be used? Ie, why is * there not a getStereotype(String name, String baseClass)? (edited by * d00mst) <these comments imported from NSUML implementation - tfm> * * @see org.argouml.model.ExtensionMechanismsFactory#buildStereotype(java.lang.Object, java.lang.Object, java.lang.Object) */",1,1,0.99821436
+CodeBERT,5000,21,D1_to_D1,127,"// Allow the mimetype of the file to control the content type // This is not obvious in GUI if you are not uploading any files, // but just sending the content of nameless parameters // TODO: needs a multiple file upload scenerio",1,1,0.9980994
+CodeBERT,5000,21,D1_to_D1,128,/* * Called after the diagram font gets changed. <p> * * TODO: Do we need to do anything here? * * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent) */,1,1,0.9984812
+CodeBERT,5000,21,D1_to_D1,129,//// LEGEND ITEM LABEL GENERATOR //////////////////////////////////////////,0,0,0.00052747846
+CodeBERT,5000,21,D1_to_D1,130,/** * Get value from current scope or one of its captured scopes. * * FIXME: block variables are not getting primed to nil so we need to null check those * until we prime them properly. Also add assert back in. * * @param offset zero-indexed value that represents where variable lives * @param depth how many captured scopes down this variable should be set * @return the value here */,1,1,0.998606
+CodeBERT,5000,21,D1_to_D1,131,"// TODO: remove when code below in characters() is removed // private static final String RETURNSTRING = ""\n "";",1,1,0.99806195
+CodeBERT,5000,21,D1_to_D1,132,//TODO Let the AttachmentViewer get the focus so that this works,1,1,0.99847823
+CodeBERT,5000,21,D1_to_D1,133,"// Allow the mimetype of the file to control the content type // This is not obvious in GUI if you are not uploading any files, // but just sending the content of nameless parameters // TODO: needs a multiple file upload scenerio",1,1,0.9980994
+CodeBERT,5000,21,D1_to_D1,134,/* * @see org.tigris.gef.presentation.Fig#getLineColor() */,0,0,0.0004390453
+CodeBERT,5000,21,D1_to_D1,135,"/* * FormLayout layout = new FormLayout(""default"", ""default, default""); * IContainer c = getContentPane(); c.setLayout(layout); * * CellConstraints cc = new CellConstraints(); * c.add(createCenterPanel(detailsButton.isSelected()), cc.xy(1, 1)); * c.add(bottomPanel, cc.xy(1, 2)); */",0,0,0.015528711
+CodeBERT,5000,21,D1_to_D1,136,/* (non-Javadoc) * @see org.columba.api.command.ICommand#execute(org.columba.api.command.IWorkerStatusController) */,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,137,// feature is instance of EAttribute,0,0,0.0004994205
+CodeBERT,5000,21,D1_to_D1,138,/* public MailFolderCommandReference getCommandReference(MailFolderCommandReference r) { return r; } */,0,0,0.00053161324
+CodeBERT,5000,21,D1_to_D1,139,// TODO: Can we find a better way to do this than hard coding colour?,1,1,0.9986249
+CodeBERT,5000,21,D1_to_D1,140,/** rb_mod_remove_cvar * * FIXME: any good reason to have two identical methods? (same as remove_class_variable) */,1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,141,/* general purpose bit flag */,0,0,0.0004503306
+CodeBERT,5000,21,D1_to_D1,142,// TODO: Show dialog,1,1,0.9971607
+CodeBERT,5000,21,D1_to_D1,143,// needs more work: sending and receiving icons,1,1,0.9977787
+CodeBERT,5000,21,D1_to_D1,144,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,145,"// don't bother to check if final method, it won't // be there (not generated, can't be!)",1,0,0.2137052
+CodeBERT,5000,21,D1_to_D1,146,// WFR 2.10.3.3 #4,0,0,0.00050530455
+CodeBERT,5000,21,D1_to_D1,147,//TODO: reuse the PreLoadEvent,1,1,0.99816495
+CodeBERT,5000,21,D1_to_D1,148,// TODO: Change this to use an UndoManager instance per project when // GEF has been enhanced.,1,1,0.9983059
+CodeBERT,5000,21,D1_to_D1,149,// line 1436,0,0,0.00048500832
+CodeBERT,5000,21,D1_to_D1,150,// Set up HTTP scheme override if necessary,0,0,0.0005747862
+CodeBERT,5000,21,D1_to_D1,151,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,152,"// drawCross(g, x, y);",0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,153,"/** * Utility function to localize the given string with help text, and show it * in the status bar of the ArgoUML window. This function is used in favour * of the inline call to enable later improvements; e.g. it would be * possible to show a help-balloon. * <p> * TODO: This code is also present in other root Figs... * * @param s the given string to be localized and shown */",1,1,0.9982926
+CodeBERT,5000,21,D1_to_D1,154,// Check all the keys are in the default props file,0,0,0.000543152
+CodeBERT,5000,21,D1_to_D1,155,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,156,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,157,// This is a bit hard coded but if we use _scale here // some number displays go crazy. //_numberFormat.setMaximumFractionDigits(_scale);,1,1,0.99605453
+CodeBERT,5000,21,D1_to_D1,158,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,159,//private Paint arrowPaint;,0,0,0.00044508645
+CodeBERT,5000,21,D1_to_D1,160,/** * The constructor.<p> * * TODO: Is this constructor used? What is the purpose with it? * * @param n the name to be localized * @param subs the go rules */,1,1,0.99850756
+CodeBERT,5000,21,D1_to_D1,161,//TODO: should fire its own event and ProjectBrowser //should register a listener,1,1,0.998345
+CodeBERT,5000,21,D1_to_D1,162,/** * TODO: Clean this mess up!!!! Load plugins. Load all plugin jars into class loader. */,1,1,0.99867237
+CodeBERT,5000,21,D1_to_D1,163,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,164,"//static private final String TRANSLIT = ""//translit"";",0,0,0.000493605
+CodeBERT,5000,21,D1_to_D1,165,// TODO: handle errors in buffered write by retrying until finished or file is closed,1,1,0.99675864
+CodeBERT,5000,21,D1_to_D1,166,"// ""CREATE $unique$ $storageOption$ INDEX $indexName$ "" + // ""ON $tableName$ ( $columnName; separator=\"",\""$ )"";",0,0,0.0012255674
+CodeBERT,5000,21,D1_to_D1,167,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,168,// TODO: Better if we wrap in a ProfileException and throw that,1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,169,// checkboxes,0,0,0.0004888105
+CodeBERT,5000,21,D1_to_D1,170,// Headers,0,0,0.00055062474
+CodeBERT,5000,21,D1_to_D1,171,// TODO - needs more work ...,1,1,0.99852496
+CodeBERT,5000,21,D1_to_D1,172,"// We know min and max now, and they are valid.",0,0,0.00069595367
+CodeBERT,5000,21,D1_to_D1,173,"// Always add plugins - there is not a good way to compare plugin zips and their extracted contents // at the moment. // TODO: Determine the best way to derive the filesize and checksum of the plugin zip that was last // extracted. Should we keep it around? How about using the current release.xml file ? Come to // think of it, perhaps we shouldn't be computing the checksum of *any* existing files, why don't // we just get it from the current release.xml file?",1,1,0.9985869
+CodeBERT,5000,21,D1_to_D1,174,// Test if there are type parameters that might require substitution. //,0,0,0.00059071044
+CodeBERT,5000,21,D1_to_D1,175,// TODO: This method can be replaced by getClass().getSimpleName() // when Argo drops support for Java versions < 1.5,1,1,0.9976993
+CodeBERT,5000,21,D1_to_D1,176,"// again, shouldn't happen. TODO: might want to throw exception instead.",1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,177,// TODO: Use default value of appropriate type for TD,1,1,0.9975274
+CodeBERT,5000,21,D1_to_D1,178,// i18n[TriggerDetailsTab.hint=Display trigger details],0,0,0.00048785715
+CodeBERT,5000,21,D1_to_D1,179,// TODO: this should call the single namespace form // getStereotype(it2.next(); stereo);,1,1,0.99789256
+CodeBERT,5000,21,D1_to_D1,180,//TODO: for some dialects it would be appropriate to add the renderOrderByPropertiesSelect() to other select strings,1,1,0.99861956
+CodeBERT,5000,21,D1_to_D1,181,// hack to move the spaces to the front,1,1,0.9975466
+CodeBERT,5000,21,D1_to_D1,182,"// TODO: Maybe someday we could inform the user that the imported // key can't be created because the list of tables they've // selected, doesn't include the table that this foreign key // depends upon. For now, just log a warning and skip it.",1,1,0.9982351
+CodeBERT,5000,21,D1_to_D1,183,"/** * When we change the type, we need to create a new Initial Value. And * to display the Panel * * TODO: if we select the same type that the current, do nothing. */",1,1,0.9978802
+CodeBERT,5000,21,D1_to_D1,184,"// this should never happen with the existing code, but throw // an exception in case future changes make it possible...",0,1,0.99329424
+CodeBERT,5000,21,D1_to_D1,185,//should this interface extend PropertyMapping?,1,1,0.9899671
+CodeBERT,5000,21,D1_to_D1,186,// isValidIANAEncoding(String):boolean,0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,187,// put forNameSpace it on the top of the stack // Note: it's important that there is only one exit point from this // method so that we can swap back the namespace.,0,0,0.0024968276
+CodeBERT,5000,21,D1_to_D1,188,//{{{ getViewCount() method,0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,189,// TODO: This seems like a brute force workaround (and a very // indirect one at that). It appears to be needed though until // we fix the problem properly. - tfm 20070904,1,1,0.9981505
+CodeBERT,5000,21,D1_to_D1,190,// This will deal with all the subcommands to modifying the root mapping tree. //,0,0,0.00066670234
+CodeBERT,5000,21,D1_to_D1,191,// Allow engine and threads to be stopped from outside a thread // e.g. from beanshell server // Assumes that there is only one instance of the engine // at any one time so it is not guaranteed to work ...,0,0,0.14258969
+CodeBERT,5000,21,D1_to_D1,192,// TODO: Unused?,1,1,0.99750805
+CodeBERT,5000,21,D1_to_D1,193,// TODO: Considering all delete events to be valid like below // is going to cause lots of unecessary work and some problems,1,1,0.9985221
+CodeBERT,5000,21,D1_to_D1,194,// a redraw should NOT trigger another change event,1,0,0.0006550929
+CodeBERT,5000,21,D1_to_D1,195,//use of trim() here is ugly?,1,1,0.9976495
+CodeBERT,5000,21,D1_to_D1,196,// Default diagram settings,0,0,0.0005527786
+CodeBERT,5000,21,D1_to_D1,197,"/** * The SSLManager handles the KeyStore information for JMeter. Basically, it * handles all the logic for loading and initializing all the JSSE parameters * and selecting the alias to authenticate against if it is available. * SSLManager will try to automatically select the client certificate for you, * but if it can't make a decision, it will pop open a dialog asking you for * more information. * * TODO: does not actually prompt * */",1,1,0.9975986
+CodeBERT,5000,21,D1_to_D1,198,/*10330..1034F;*/,0,0,0.000522355
+CodeBERT,5000,21,D1_to_D1,199,// Key // Value,0,0,0.00047656128
+CodeBERT,5000,21,D1_to_D1,200,/** * TODO: Bob says - This is a really nasty horrible hack. * ShadowFig should not extend FigNodeModelElement. Instead * we require a base class FigNode with common behaviour of ALL * nodes in ArgoUML. ShadowFig should extend that and * FigNodeModelElement should extend that same base class adding * common functionality for FigNode that represent model element. * @see org.argouml.uml.diagram.ui.FigNodeModelElement#setShadowSize(int) */,1,1,0.9984603
+CodeBERT,5000,21,D1_to_D1,201,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,202,// FIXME is this correct for,1,1,0.99792105
+CodeBERT,5000,21,D1_to_D1,203,// font,0,0,0.00053161324
+CodeBERT,5000,21,D1_to_D1,204,// initialize the Set of queried identifier spaces (ie. tables),0,0,0.00046371284
+CodeBERT,5000,21,D1_to_D1,205,//TODO: Should next and return also catch here?,1,1,0.9985306
+CodeBERT,5000,21,D1_to_D1,206,//hence a less elegant workaround that works:,1,1,0.9978002
+CodeBERT,5000,21,D1_to_D1,207,// ######################################################################## // ########## events // ######################################################################## // ------------------------------------------------------------------------ // ------------------------------------------------------------------------,0,0,0.00059650384
+CodeBERT,5000,21,D1_to_D1,208,"/* Silly bug workaround #8694. If you look at the above code, * note that we restore the saved caret position first, then * scroll to the saved location. However, the caret changing * can itself result in scrolling to a different location than * what was saved; and since moveCaretPosition() calls * updateBracketHighlight(), the bracket highlight's out of * bounds calculation will rely on a different set of physical * first/last lines than what we will end up with eventually. * Instead of confusing the user with status messages that * appear at random when switching buffers, we simply hide the * message altogether. */",1,1,0.99679
+CodeBERT,5000,21,D1_to_D1,209,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,210,// work out the label anchor point...,0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,211,"//Silently ignore, what could we do anyway?",1,1,0.9965301
+CodeBERT,5000,21,D1_to_D1,212,// Method is broken anyway,1,1,0.99527246
+CodeBERT,5000,21,D1_to_D1,213,//TODO: unnecessary for databases with ANSI-style joins,1,1,0.99766326
+CodeBERT,5000,21,D1_to_D1,214,//TODO: Should this be an InitializeEntityEventListener??? (watch out for performance!),1,1,0.99839276
+CodeBERT,5000,21,D1_to_D1,215,// private JTextPane view;,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,216,// CommonBehaviorFactory // DataTypesFactory // ExtensionMechanismsFactory // ModelManagementFactory,0,0,0.00062389387
+CodeBERT,5000,21,D1_to_D1,217,"// TODO not read, yet in a public setter",1,1,0.9980506
+CodeBERT,5000,21,D1_to_D1,218,// now test with a single value in the series...,0,0,0.0004888105
+CodeBERT,5000,21,D1_to_D1,219,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,220,// Check it out; also ugly.,1,1,0.99731135
+CodeBERT,5000,21,D1_to_D1,221,// TODO implement OCLExpression,1,1,0.996183
+CodeBERT,5000,21,D1_to_D1,222,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,223,// set the method parameters in the local namespace,0,0,0.00047656128
+CodeBERT,5000,21,D1_to_D1,224,"// add Java to IANA encoding mappings //fJava2IANAMap.put(""8859_1"", ""US-ASCII""); // ?",0,0,0.00080880744
+CodeBERT,5000,21,D1_to_D1,225,// TODO: Remove the casting to DiagramFactoryInterface2 // as soon as DiagramFactoryInterface is removed.,1,1,0.99762183
+CodeBERT,5000,21,D1_to_D1,226,// Loop over the archive paths. //,0,0,0.00047377846
+CodeBERT,5000,21,D1_to_D1,227,// TODO: This needs to be modified for UML 2.x,1,1,0.99827933
+CodeBERT,5000,21,D1_to_D1,228,/** * forwards this event to the tree model. * * @param element the modelelement to be changed * * TODO: This shouldn't be public. Components desiring to * inform the Explorer of changes should send events. */,1,1,0.9985191
+CodeBERT,5000,21,D1_to_D1,229,"/* Note: is using SignatureKey in this way dangerous? In the pathological case a user could eat up memory caching every possible combination of argument types to an untyped method. Maybe we could be smarter about it by ignoring the types of untyped parameter positions? The method resolver could return a set of ""hints"" for the signature key caching? There is also the overhead of creating one of these for every method dispatched. What is the alternative? */",1,1,0.998147
+CodeBERT,5000,21,D1_to_D1,230,// TODO This is really quite attrocious since there is code that will assume an iterator that returns strings!,1,1,0.9984452
+CodeBERT,5000,21,D1_to_D1,231,"/* Note: This class is messy. The method and field resolution need to be rewritten. Various methods in here catch NoSuchMethod or NoSuchField exceptions during their searches. These should be rewritten to avoid having to catch the exceptions. Method lookups are now cached at a high level so they are less important, however the logic is messy. */",1,1,0.9976495
+CodeBERT,5000,21,D1_to_D1,232,"// add series to collection 1, should be not equal",0,0,0.000593021
+CodeBERT,5000,21,D1_to_D1,233,//TODO: create uk loaders for component properties,1,1,0.9983991
+CodeBERT,5000,21,D1_to_D1,234,"// Upgrade is in the way for UML2 projects, so we turn it off in that case:",0,0,0.18381329
+CodeBERT,5000,21,D1_to_D1,235,// a value must be of a given type // say boolean|integer|string that are mostly used.,0,0,0.0008295892
+CodeBERT,5000,21,D1_to_D1,236,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,237,// remember the most recent dockable,0,0,0.00055385876
+CodeBERT,5000,21,D1_to_D1,238,// Subclasses may override,0,0,0.0010546242
+CodeBERT,5000,21,D1_to_D1,239,// JPanel p = new JPanel(); // p.setLayout(new FlowLayout());,0,0,0.00071662973
+CodeBERT,5000,21,D1_to_D1,240,// make sure we log the error,0,0,0.0006202512
+CodeBERT,5000,21,D1_to_D1,241,//TODO: copy/paste from recreate(),1,1,0.99835473
+CodeBERT,5000,21,D1_to_D1,242,// mockSchemaInfo,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,243,// TODO: Should we handle <<access>> and <<import>> here?,1,1,0.99821776
+CodeBERT,5000,21,D1_to_D1,244,"// support ""(name) address""",0,0,0.00046190582
+CodeBERT,5000,21,D1_to_D1,245,/* trim done to workaround stupid oracle bug that cant handle whitespaces before a { in a sp */,1,1,0.99361163
+CodeBERT,5000,21,D1_to_D1,246,// Technically incorrect here - we need to wrap null values // as bsh.Primitive.NULL. However the This.invokeMethod() // will do that much for us. // We need to generate a conditional here to test for null // and return Primitive.NULL,1,1,0.9961903
+CodeBERT,5000,21,D1_to_D1,247,// $NON_NLS-1$,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,248,// We ignore non-changes for now. //,0,0,0.0022738955
+CodeBERT,5000,21,D1_to_D1,249,/** * Parse the attribute type. * [54] AttType ::= StringType | TokenizedType | EnumeratedType * [55] StringType ::= 'CDATA' * [56] TokenizedType ::= 'ID' | 'IDREF' | 'IDREFS' | 'ENTITY' | 'ENTITIES' | * 'NMTOKEN' | 'NMTOKENS' * [57] EnumeratedType ::= NotationType | Enumeration * *TODO: validate the type!! */,1,1,0.99812144
+CodeBERT,5000,21,D1_to_D1,250,// There are one or more regions so find the one that the //vertex was dropped in,0,0,0.0005368274
+CodeBERT,5000,21,D1_to_D1,251,//TODO: inefficient if that cache is just going to ignore the updated state!,1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,252,// TODO: Test if the generated string is correct.,1,1,0.998147
+CodeBERT,5000,21,D1_to_D1,253,"// TODO: why are we duplicating the constants here, and then in // File::Constants below? File::Constants is included in IO.",1,1,0.9981178
+CodeBERT,5000,21,D1_to_D1,254,//{{{ ColorRenderer constructor,0,0,0.0004916815
+CodeBERT,5000,21,D1_to_D1,255,// $NON-NLS-1$ // $NON-NLS-2$ // $NON-NLS-1$// $NON-NLS-2$,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,256,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,257,// Should the TestBean be hidden?,1,1,0.9834705
+CodeBERT,5000,21,D1_to_D1,258,// TODO Can't see anything in SPEC,1,1,0.9979372
+CodeBERT,5000,21,D1_to_D1,259,// Give up if the assocation ends don't have a type defined,0,0,0.00059071044
+CodeBERT,5000,21,D1_to_D1,260,"// TODO: We'd like to test this in its new guise as PackageImport, but // we don't have a good way to do it currently",1,1,0.998147
+CodeBERT,5000,21,D1_to_D1,261,"/* * *20030918, karlpeder* Tags are stripped if the model contains a html * message (since we are composing a plain text message here. */",0,0,0.0008360903
+CodeBERT,5000,21,D1_to_D1,262,//{{{ MultiFileActionHandler class,0,0,0.00046826137
+CodeBERT,5000,21,D1_to_D1,263,// TODO factor up into GenBaseImpl //,1,1,0.99825555
+CodeBERT,5000,21,D1_to_D1,264,//TODO: check that entry.getIdentifier().equals(requestedId),1,1,0.99724233
+CodeBERT,5000,21,D1_to_D1,265,// XXXX re-evaluate this // can getSuper work by itself now? // If we're a class instance and the parent is also a class instance // then super means our parent.,1,1,0.9985869
+CodeBERT,5000,21,D1_to_D1,266,"// Otherwise, the source should be available now as event.data, and we // can create the command. //",0,0,0.00063992746
+CodeBERT,5000,21,D1_to_D1,267,// istore_3 // store i,0,0,0.00047470425
+CodeBERT,5000,21,D1_to_D1,268,/* * Ensure that the sample variables are correctly initialised for each run. * TODO is this the best way to do this? should it be done elsewhere ? */,1,1,0.99865675
+CodeBERT,5000,21,D1_to_D1,269,// We know that dynselector must be non-null if no error message,0,0,0.00055494095
+CodeBERT,5000,21,D1_to_D1,270,// TODO: Changed in UML 2.x to special type of Property?,1,1,0.99784267
+CodeBERT,5000,21,D1_to_D1,271,// Fill 68 of value (byte) -19 // Fill 9 of value (byte) 33 // Fill 36 of value (byte) -19 // Fill 3 of value (byte) 33 // Fill 2 of value (byte) -19 // Fill 4 of value (byte) 33 // Fill 30 of value (byte) -19 // Fill 56 of value (byte) 33 // Fill 89 of value (byte) -19 // Fill 18 of value (byte) 33 // Fill 7 of value (byte) -19 // Fill 14 of value (byte) 33 // Fill 2 of value (byte) -87 // Fill 46 of value (byte) 33 // Fill 70 of value (byte) -87 // Fill 26 of value (byte) 33 // Fill 2 of value (byte) -87 // Fill 36 of value (byte) 33,0,0,0.006302122
+CodeBERT,5000,21,D1_to_D1,272,/** * **FIXME** This function needs documentation * * @return boolean * @param XmlElement * E * */,1,1,0.9984114
+CodeBERT,5000,21,D1_to_D1,273,//TODO replace with proper Exception,1,1,0.9976769
+CodeBERT,5000,21,D1_to_D1,274,// FIXME: inefficient; constructing a bignum just for dumping?,1,1,0.9978719
+CodeBERT,5000,21,D1_to_D1,275,// calculate the result as if no exceptions,0,0,0.00056588
+CodeBERT,5000,21,D1_to_D1,276,// TODO: This is a nasty quick hack. Needs an API to do this.,1,1,0.99858415
+CodeBERT,5000,21,D1_to_D1,277,// draw the bar...,0,0,0.00047563188
+CodeBERT,5000,21,D1_to_D1,278,// TODO: Do we need this?,1,1,0.9983418
+CodeBERT,5000,21,D1_to_D1,279,//{{{ getMinimumSize() method,0,0,0.0004812358
+CodeBERT,5000,21,D1_to_D1,280,"// The SOS class knows that the SOS server needs the password flag, // even if there is no password ,so we send a "" """,0,0,0.0006386796
+CodeBERT,5000,21,D1_to_D1,281,// all the data from the clob has been read. // make sure there are no newlines in it,0,0,0.00061064085
+CodeBERT,5000,21,D1_to_D1,282,// we don't expect to find this,0,0,0.0123718465
+CodeBERT,5000,21,D1_to_D1,283,"// If systemId is a valid URL, simply use it. // TODO: This causes a network connection attempt for profiles",1,1,0.9978594
+CodeBERT,5000,21,D1_to_D1,284,"// TODO: In MRI 1.9, an explicit check for negative length is // added here. IndexError is raised when length is negative. // See [ruby-core:12953] for more details. // // New note: This is actually under re-evaluation, // see [ruby-core:17483].",1,1,0.9976495
+CodeBERT,5000,21,D1_to_D1,285,// now we construct the zig zag inheritance line //getUnderlyingFig(),0,0,0.0005603838
+CodeBERT,5000,21,D1_to_D1,286,// Plain text components don't fire these events,0,0,0.0005603838
+CodeBERT,5000,21,D1_to_D1,287,// Characters to use in escaping.,0,0,0.00055711175
+CodeBERT,5000,21,D1_to_D1,288,// Why null??,0,1,0.98617804
+CodeBERT,5000,21,D1_to_D1,289,//class-MockProject,0,0,0.0005033356
+CodeBERT,5000,21,D1_to_D1,290,// no messages in this folder,0,0,0.0006023541
+CodeBERT,5000,21,D1_to_D1,291,/* * @see org.argouml.uml.ui.UMLPlainTextDocument#getProperty() */,0,0,0.00044682765
+CodeBERT,5000,21,D1_to_D1,292,// Additional member names which are currently not written out // $NON-NLS-1$ // $NON-NLS-1$,0,0,0.00046461902
+CodeBERT,5000,21,D1_to_D1,293,"// VirtualMessage m = new VirtualMessage(f, uid, index);",0,0,0.0005614787
+CodeBERT,5000,21,D1_to_D1,294,// TODO - perhaps this should be a fatal error?,1,1,0.9980544
+CodeBERT,5000,21,D1_to_D1,295,/** * Called by propertyChanged when it detects that a stereotype * has been added or removed. On removal the FigNode removes its * listener to that stereotype. When a new stereotype is detected * we add a listener. * TODO: Bob says: In my opinion we shouldn't be doing this here. * FigStereotype should always be listening to change of its * owners name. * FigStereotypesCompartment should always be listening for add * or remove of Stereotypes to its owner. * Those classes will need to pass some event to the FigNode on * the AWT thread only if a change results in a change of size * that requires a redraw. * <p>NOTE: Runs at the Model (MDR) Thread </p> * @param event the UmlChangeEvent that caused the change */,1,1,0.9983802
+CodeBERT,5000,21,D1_to_D1,296,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,297,"// Note. Some DBMSs such as Oracle do not allow: // ""select *, rowid from table"" // You cannot have any column name in the columns clause // if you have * in there. Aliasing the table name seems to // be the best way to get around the problem.",1,1,0.9957021
+CodeBERT,5000,21,D1_to_D1,298,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,299,// NOI18N,0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,300,// fuck me dead,1,1,0.99179614
+CodeBERT,5000,21,D1_to_D1,301,// TODO: this should be a configurable property,1,1,0.9984084
+CodeBERT,5000,21,D1_to_D1,302,// Initialize salutation strings,0,0,0.00048029723
+CodeBERT,5000,21,D1_to_D1,303,// TODO correct URL?,1,1,0.99682117
+CodeBERT,5000,21,D1_to_D1,304,"// FIXME: This needs to happen for lambdas // args.checkArgCount(runtime, parameters.length);",1,1,0.99817204
+CodeBERT,5000,21,D1_to_D1,305,// FIXME: When we get JNA3 we need to properly write this to errno.,1,1,0.9983321
+CodeBERT,5000,21,D1_to_D1,306,// tooltip text,0,0,0.00055602525
+CodeBERT,5000,21,D1_to_D1,307,// ignore,0,0,0.00054740964
+CodeBERT,5000,21,D1_to_D1,308,"// Don't allow connections to be created from a read only // model element to any other // TODO: This should be considered a workaround. It only works // because, by default, we place newly created relationships in // the namespace of the fromElement. The correct behavior in // the presence of read-only elements really depends on the type of // connection as well as the writeability of both ends.",1,1,0.99849
+CodeBERT,5000,21,D1_to_D1,309,// TODO: Does CoreHelper#getExtendingClassifiers(Object element) means // all direct and indirect extending classifiers or only the direct // extending classifiers?,1,1,0.99637127
+CodeBERT,5000,21,D1_to_D1,310,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,311,/* * @see org.argouml.uml.ui.UMLExpressionModel2#setExpression(java.lang.Object) */,0,0,0.00042804275
+CodeBERT,5000,21,D1_to_D1,312,/* * @see java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent) */,0,0,0.00045121062
+CodeBERT,5000,21,D1_to_D1,313,//{{{ Private members,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,314,// SSS FIXME: Should I be returning the operand constructed here?,1,1,0.9984452
+CodeBERT,5000,21,D1_to_D1,315,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,316,// ************* copied from ConcatTest *************,1,1,0.7974779
+CodeBERT,5000,21,D1_to_D1,317,// // inner class for the data display pane //,0,0,0.0004897656
+CodeBERT,5000,21,D1_to_D1,318,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,319,"// DB delete worked correctly, so now delete from table //IMPORTANT: The user and the creator both work through the // SortableTableModel, not the Actual model. Thus the row // indexes to delete are given in the SortableTableModel row numbers, // so we must work through that model model to actually do the delete.",1,0,0.36119288
+CodeBERT,5000,21,D1_to_D1,320,// TODO is this correct?,1,1,0.99766773
+CodeBERT,5000,21,D1_to_D1,321,// check that there aren't any extra entries,0,0,0.0007613259
+CodeBERT,5000,21,D1_to_D1,322,// handle cases of null // The processing is different when nulls are allowed and when they are not. //,0,0,0.00071943254
+CodeBERT,5000,21,D1_to_D1,323,/* * Fix bug in JVMs that return true/false rather than True/False * from the type editor getAsText() method */,1,1,0.9862046
+CodeBERT,5000,21,D1_to_D1,324,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,325,// ensure we are in existing result range,0,0,0.0005420927
+CodeBERT,5000,21,D1_to_D1,326,// TODO: Huge side effect. Hoist out of parse - tfm // let's load the project,1,1,0.99830914
+CodeBERT,5000,21,D1_to_D1,327,"// TODO: Use our extension registration mechanism for our internal // classes as well, so everything is treated the same",1,1,0.99808073
+CodeBERT,5000,21,D1_to_D1,328,"// XXX: Again, screwy evaling under previous frame's scope",1,1,0.99758446
+CodeBERT,5000,21,D1_to_D1,329,// TBLRC // 00011 - right and center items,0,0,0.00052850915
+CodeBERT,5000,21,D1_to_D1,330,// add a second dataset,0,0,0.0005714301
+CodeBERT,5000,21,D1_to_D1,331,// TODO: This should happen in GEF,1,1,0.99843603
+CodeBERT,5000,21,D1_to_D1,332,// quick fix for Ant.java use of property before // initializing the project,1,1,0.99633574
+CodeBERT,5000,21,D1_to_D1,333,"/* TODO: Delete this class * Copyright (C) 2001 Colin Bell * colbell@users.sourceforge.net * * This library is free software; you can redistribute it and/or * modify it under the terms of the GNU Lesser General Public * License as published by the Free Software Foundation; either * version 2.1 of the License, or (at your option) any later version. * * This library is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU * Lesser General Public License for more details. * * You should have received a copy of the GNU Lesser General Public * License along with this library; if not, write to the Free Software * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA */",1,1,0.9969897
+CodeBERT,5000,21,D1_to_D1,334,// XXX: do something?,1,1,0.9975514
+CodeBERT,5000,21,D1_to_D1,335,// CheckStyle:VisibilityModifier OFF - bc,0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,336,// set the endtime for the Thread,0,0,0.0004916815
+CodeBERT,5000,21,D1_to_D1,337,// append the SQL to return the generated identifier //TODO: suck into Insert,1,1,0.99825555
+CodeBERT,5000,21,D1_to_D1,338,// TODO: calcBounds is called by SelectionManager when the Fig is // dragged. This code is needed to reposition any self message // as they are become detached from their classifier role // (see issue 5562). The cause of the detachment is not yet // understood. // Unfortunately calcBounds is called from several other places // so the code here is not optimal but is the best workaround until // ArgoUML can provide its own replacement SelectionManager for // sequence diagram requirements // See - http://gef.tigris.org/issues/show_bug.cgi?id=344,1,1,0.9979007
+CodeBERT,5000,21,D1_to_D1,339,//TODO: make this handle multiple collection roles!,1,1,0.99849594
+CodeBERT,5000,21,D1_to_D1,340,"/* * MDR has a hardcoded printStackTrace on all exceptions, * even if they're caught, which is unsightly, so we handle * unknown elements ourselves rather than letting MDR throw * an exception for us to catch. * * org/netbeans/lib/jmi/util/Logger.java * * This can be uses to disable logging. Default output is * System.err * setProperty(""org.netbeans.lib.jmi.Logger.fileName"", """") * org.netbeans.mdr.Logger * * The property org.netbeans.lib.jmi.Logger controls the minimum * severity level for logging */",0,1,0.9659639
+CodeBERT,5000,21,D1_to_D1,341,// invokespecial,0,0,0.0005452766
+CodeBERT,5000,21,D1_to_D1,342,// get headerfield to search in (for example: Subject),0,0,0.0004888105
+CodeBERT,5000,21,D1_to_D1,343,// key,0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,344,// i18n[SchemaTableCboItem.schemaID.dontLoad=Don't load],0,0,0.0004222329
+CodeBERT,5000,21,D1_to_D1,345,// need to look it up from the persistence-context,0,0,0.0006654022
+CodeBERT,5000,21,D1_to_D1,346,// The following constants capture pre-known static call sites -- JRuby implementations of methods of ruby classes // SSS FIXME: Note that compiler/impl/BaseBodyCompiler is using op_match2 for match() and and op_match for match2 ... Is this a bug there?,1,1,0.9983707
+CodeBERT,5000,21,D1_to_D1,347,// defer argument checking,1,1,0.9977216
+CodeBERT,5000,21,D1_to_D1,348,/* TODO: What if used elsewhere? */,1,1,0.99828595
+CodeBERT,5000,21,D1_to_D1,349,// Methods of the Nil Class (nil_*):,0,0,0.0004897656
+CodeBERT,5000,21,D1_to_D1,350,"//TODO: inexact, what we really need to know is: are any outer joins used?",1,1,0.9986929
+CodeBERT,5000,21,D1_to_D1,351,// no fields to compute...,0,0,0.00079317606
+CodeBERT,5000,21,D1_to_D1,352,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,353,// set to the default,0,0,0.0006082617
+CodeBERT,5000,21,D1_to_D1,354,// public Collection<Element> getExtendedElements(Object handle) {,0,0,0.00048595612
+CodeBERT,5000,21,D1_to_D1,355,//{{{ isPopupTrigger() method,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,356,"// true if action is enabled, false otherwiese",0,0,0.00135905
+CodeBERT,5000,21,D1_to_D1,357,// Consider each GenModel location URI for each required plugin. //,0,0,0.00046917636
+CodeBERT,5000,21,D1_to_D1,358,/* * @see org.argouml.uml.cognitive.critics.CrUML#getCriticizedDesignMaterials() */,0,0,0.0004459562
+CodeBERT,5000,21,D1_to_D1,359,"/* TODO: We should use implicit nil for body, but problem (punt til later)*/",1,1,0.9984114
+CodeBERT,5000,21,D1_to_D1,360,"// log.warn(""ThreadContext was not set up - should only happen in // JUnit testing..."" // ,new Throwable(""Debug""));",0,0,0.21816924
+CodeBERT,5000,21,D1_to_D1,361,"/** Create a new panel for the given step. For example, When the * given step is 1, create the first step of the wizard. <p> * * TODO: It might be convient to make a reusable * subclass of Wizard that shows all textual steps to guide the * user without any automation. Such a Wizard could be easily * authored, stored in an XML file, and efficiently presented by * reusing a single panel with a single JTextArea. * * @param newStep the number of the step to make a panel for. * @return a new panel for the given step */",1,1,0.998103
+CodeBERT,5000,21,D1_to_D1,362,"/* if an occurence occurs at the beginning of the selection, the selection start will get moved. this sucks, so we hack to avoid it. */",1,1,0.997358
+CodeBERT,5000,21,D1_to_D1,363,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,364,// proxy host,0,0,0.0005112579
+CodeBERT,5000,21,D1_to_D1,365,// have to do this hack until VFSPath class is written,1,1,0.99778724
+CodeBERT,5000,21,D1_to_D1,366,// get the right object from the list ... would it be easier to just call getEntity() ??,1,1,0.99622726
+CodeBERT,5000,21,D1_to_D1,367,// try mode-specific abbrevs first,0,0,0.0005420927
+CodeBERT,5000,21,D1_to_D1,368,// TODO: This needs to be double checked. - tfm,1,1,0.9985979
+CodeBERT,5000,21,D1_to_D1,369,"// FIXME: we've cloned the chart, but the dataset(s) aren't cloned // and we should do that",1,1,0.99824536
+CodeBERT,5000,21,D1_to_D1,370,// TODO: rounding mode should not be hard-coded. See #mode.,1,1,0.9983354
+CodeBERT,5000,21,D1_to_D1,371,// i18n[userscript.dlgTabScriptsExecute=Execute],0,0,0.00047377846
+CodeBERT,5000,21,D1_to_D1,372,"// test code, intentional",0,0,0.0085278
+CodeBERT,5000,21,D1_to_D1,373,// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,1,1,0.9975751
+CodeBERT,5000,21,D1_to_D1,374,// TODO: Find a way to replace this dependency on Project,1,1,0.9985562
+CodeBERT,5000,21,D1_to_D1,375,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,376,// Get all classifiers in our model // TODO: We need the property panels to have some reference to // the project they belong to instead of using deprecated // functionality,1,1,0.9983612
+CodeBERT,5000,21,D1_to_D1,377,// JASON: Mow that multiple object trees exist storing the edit // where by objectInfo within session won't work. It needs to be objectinfo // within something else. // private final Map _editWhereColsSheets = new HashMap();,1,1,0.99789256
+CodeBERT,5000,21,D1_to_D1,378,/** * Recognizer for primary objects. A primary object is an object that is * created by the parser or by a user. Object that are created as a side * effect of importing some other object are not. * <p> * TODO: This doesn't belong in the Facade. It's a higher level function * used specifically for certain reverse engineering operations. - tfmorris * * @param handle * candidate * @return true if primary object. */,1,1,0.9983991
+CodeBERT,5000,21,D1_to_D1,379,// TODO: Only occurrence of isConcurrent in UML 2.1.1 is in index // it's not on the page that is indexed,1,1,0.99545276
+CodeBERT,5000,21,D1_to_D1,380,//mark for a rebuild if we are newer,0,0,0.000543152
+CodeBERT,5000,21,D1_to_D1,381,//e.printStackTrace();,0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,382,// TODO: This is a temporary crutch to use until all Figs are updated // to use the constructor that accepts a DiagramSettings object,1,1,0.99830914
+CodeBERT,5000,21,D1_to_D1,383,//{{{ setFontProperty() method,0,0,0.00047470425
+CodeBERT,5000,21,D1_to_D1,384,// switch,0,0,0.00055062474
+CodeBERT,5000,21,D1_to_D1,385,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,386,// no permission here,0,0,0.0007293288
+CodeBERT,5000,21,D1_to_D1,387,//TODO add some real tests now that split() has been removed,1,1,0.99825555
+CodeBERT,5000,21,D1_to_D1,388,"// TODO: better detection when path is absolute or not. // If the path isn't absolute, then prepend the current working // directory to the path.",1,1,0.998242
+CodeBERT,5000,21,D1_to_D1,389,//{{{ removeViewFromList() method,0,0,0.0004926423
+CodeBERT,5000,21,D1_to_D1,390,// Don't process the NAME column,0,0,0.00058042357
+CodeBERT,5000,21,D1_to_D1,391,// TODO: Allow .zargo as profile as well?,1,1,0.99703634
+CodeBERT,5000,21,D1_to_D1,392,/* TODO: Replace the functioncall in the next line * by .requestFocusInWindow() once * we do not support Java 1.3 any more. */,1,1,0.998092
+CodeBERT,5000,21,D1_to_D1,393,// can happen because of the multiple ways Cache.remove() // can be invoked :(,1,1,0.9942363
+CodeBERT,5000,21,D1_to_D1,394,"// TODO: Maybe prompt the user to ask to append the records, // ignoring errors for constraint violations?",1,1,0.9967775
+CodeBERT,5000,21,D1_to_D1,395,"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",1,1,0.9985421
+CodeBERT,5000,21,D1_to_D1,396,"//TODO: get all properties, not just the fetched ones!",1,1,0.99724776
+CodeBERT,5000,21,D1_to_D1,397,// If we don't always show the scrollbars the whole DataTypePreferencesPanel is flickering like hell.,1,1,0.9914887
+CodeBERT,5000,21,D1_to_D1,398,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,399,// TODO: this method is not present in MRI!,1,1,0.9981505
+CodeBERT,5000,21,D1_to_D1,400,"// get the values from the ""use"" list",0,0,0.00044945232
+CodeBERT,5000,21,D1_to_D1,401,"// TODO: Perhaps we can tell the user when they click ""Copy Table"" // if the source session is Axion and they want primary keys that // it's not possible.",1,1,0.99820733
+CodeBERT,5000,21,D1_to_D1,402,// i18n[popupeditableIoPanel.cannotFindFile=Cannot find file {0}\nCheck file name and re-try export.],0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,403,// TODO: what if batchUpdate is a callablestatement ? // calls executeBatch(),1,1,0.9983223
+CodeBERT,5000,21,D1_to_D1,404,"/** * An object tagged as being the owner of a FigEdgeNote. Has knowledge * about the source and destination of the FigEdgeNote. <p> * * The source and destination are ModelElements. * At least one of them is a Comment - but they may be both Comments. * * TODO: There's tons of special case code scattered around ArgoUML for this * one class since it is the only ""owner"" of a FigEdgeModelElement which is not * a UML element. We should find a way to generalize this.<p> * * TODO: Issue 3031 requires this class to be replaced by * a similar mechanism as the n-ary association class: * the node and the edges shall all have the same owner, * i.e. the UML Comment object. * * @since Jul 17, 2004 * @author jaap.branderhorst@xs4all.nl */",1,1,0.99855345
+CodeBERT,5000,21,D1_to_D1,405,// check if initial polygon needs to be clipped,0,0,0.0005603838
+CodeBERT,5000,21,D1_to_D1,406,// TODO: implement,1,1,0.997813
+CodeBERT,5000,21,D1_to_D1,407,// hack to get right style for input,1,1,0.9976404
+CodeBERT,5000,21,D1_to_D1,408,// TODO: Temporary until we sort out a better way to do guido's fix // IQueryTokenizer qt2 = sessionUnderTest.getQueryTokenizer();,1,1,0.99864095
+CodeBERT,5000,21,D1_to_D1,409,// Fill 3 of value (byte) -19,0,0,0.00045652693
+CodeBERT,5000,21,D1_to_D1,410,/** * Creates a UML model element of the given type. * This only works for UML elements. If a diagram contains * elements of another type then it is the responsibility * of the diagram manage those items and not call this * method. It also only works for UML model elements that * are represented in diagrams by a node. * * @param elementType the type of model element to build * @return the model element * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.9983354
+CodeBERT,5000,21,D1_to_D1,411,"/* * TODO: Not sure we need to do this, but just to be safe for now. */",1,1,0.99835473
+CodeBERT,5000,21,D1_to_D1,412,//TODO possibly relax that,1,1,0.9982692
+CodeBERT,5000,21,D1_to_D1,413,// TODO: Ruby locks the string here,1,1,0.9984145
+CodeBERT,5000,21,D1_to_D1,414,// TODO: Cyclic dependency between PersistanceManager and here,1,1,0.9983991
+CodeBERT,5000,21,D1_to_D1,415,// FIXME we want to eliminate these type casts when possible,1,1,0.9985018
+CodeBERT,5000,21,D1_to_D1,416,// i18n[userscript.classNotFound=Class {0} not found],0,0,0.00046280847
+CodeBERT,5000,21,D1_to_D1,417,// Get the standard toolbar properties,0,0,0.00050235394
+CodeBERT,5000,21,D1_to_D1,418,// create an index on the key columns??,1,0,0.016882466
+CodeBERT,5000,21,D1_to_D1,419,"// Only file-scheme URIs will be re-encoded. If a URI was decoded in the workaround // above, and Platform.resolve() didn't return a file-scheme URI, then this will return // an decoded URI. //",1,0,0.0034698907
+CodeBERT,5000,21,D1_to_D1,420,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,421,// TODO translation,1,1,0.99682117
+CodeBERT,5000,21,D1_to_D1,422,"// Create our bandbuffer which is just a small slice of the image // TODO: We used a fixed height buffer now, but we could be smarter and // compute a height which would fit in some memory budget, allowing us // to use taller buffers with narrower images, minimizing the overhead // of multiple rendering passes",1,1,0.99758446
+CodeBERT,5000,21,D1_to_D1,423,// We must check if the process was not stopped // before being here,0,0,0.00066931
+CodeBERT,5000,21,D1_to_D1,424,"// First, save off the pertinent ids, as the return value",0,0,0.00052337564
+CodeBERT,5000,21,D1_to_D1,425,// TODO: Implement this better,1,1,0.9985134
+CodeBERT,5000,21,D1_to_D1,426,// TODO: READ_CHECK from MRI,0,1,0.9982658
+CodeBERT,5000,21,D1_to_D1,427,// TODO (@author fdietz): i18n,1,1,0.99771726
+CodeBERT,5000,21,D1_to_D1,428,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,429,// Make all the parts match the main fig,0,0,0.0005368274
+CodeBERT,5000,21,D1_to_D1,430,// TODO: People extending GzipWriter/reader will break. Find better way here.,1,1,0.9987331
+CodeBERT,5000,21,D1_to_D1,431,// TODO: This is in the wrong place. It's not profile specific. // It needs to be moved to main XMI reading code. - tfm 20060326,1,1,0.9980957
+CodeBERT,5000,21,D1_to_D1,432,// CheckStyle:VisibilityModifier OFF - bc,0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,433,// First try with Project.,0,0,0.0006011795
+CodeBERT,5000,21,D1_to_D1,434,//?? Split these 4 functions off into a subclass of BaseFavouriteAction,1,1,0.9980161
+CodeBERT,5000,21,D1_to_D1,435,// 3 columns //$NON-NLS-1$,0,0,0.0004424873
+CodeBERT,5000,21,D1_to_D1,436,// TODO: I18N,1,1,0.99736834
+CodeBERT,5000,21,D1_to_D1,437,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,438,// Replace the variables in the sampler,0,0,0.000493605
+CodeBERT,5000,21,D1_to_D1,439,"// if Reply-To headerfield isn't specified, try to use from",0,0,0.00054740964
+CodeBERT,5000,21,D1_to_D1,440,"// if the source point doesn't fall within a subplot, we do the // zoom on all subplots...",0,0,0.0008183336
+CodeBERT,5000,21,D1_to_D1,441,// TODO: remove this useless Entry parameter,1,1,0.9984084
+CodeBERT,5000,21,D1_to_D1,442,// selection in the paragraph combo box,0,0,0.00046917636
+CodeBERT,5000,21,D1_to_D1,443,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,444,// This may not actually make any difference at present (the code // behind addTrigger needs more work).,1,1,0.9981828
+CodeBERT,5000,21,D1_to_D1,445,// SSS FIXME: What is the difference between ClassVarAsgnNode & ClassVarDeclNode,1,1,0.99817204
+CodeBERT,5000,21,D1_to_D1,446,//postInitialize() will be called after initialization,0,0,0.0005203196
+CodeBERT,5000,21,D1_to_D1,447,// TODO: We need a factory pattern for GoXXX classes that can determine if they are required,1,1,0.99861956
+CodeBERT,5000,21,D1_to_D1,448,// Length to read,0,0,0.000603531
+CodeBERT,5000,21,D1_to_D1,449,/* * Constraint: This code only deals with 1 supplier per dependency! * TODO: How to support more? * * @see org.argouml.uml.ui.AbstractActionAddModelElement#doIt(java.util.List) */,1,1,0.9984022
+CodeBERT,5000,21,D1_to_D1,450,// TODO: This can't depend on ProjectBrowser. Alternate below,1,1,0.9983321
+CodeBERT,5000,21,D1_to_D1,451,// TODO implement iterate() // TODO implement sortedBy() // TODO implement subSequence(),1,1,0.99746394
+CodeBERT,5000,21,D1_to_D1,452,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,453,// Unused?,1,1,0.995906
+CodeBERT,5000,21,D1_to_D1,454,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,455,"/* * TODO: We could also support other flavors here, * e.g. image (then you can drag modelelements directly into * your wordprocessor, to be inserted as an image). */",1,1,0.9983321
+CodeBERT,5000,21,D1_to_D1,456,//work around a bug in all known connection pools....,1,1,0.9977569
+CodeBERT,5000,21,D1_to_D1,457,// Stop listening to the old one. //,0,0,0.00055602525
+CodeBERT,5000,21,D1_to_D1,458,"// TODO: setText in GEF should call setBounds instead of directly // changing x, y, w, h - then we will have an event generated // correctly in GEF",1,1,0.998259
+CodeBERT,5000,21,D1_to_D1,459,// TODO: Why is this not executed? Remove if not needed - tfm,1,1,0.9984573
+CodeBERT,5000,21,D1_to_D1,460,"// FIXME: add setSeriesItemURLGenerator(int, CategoryURLGenerator, boolean)?",1,1,0.99668854
+CodeBERT,5000,21,D1_to_D1,461,// FIXME: This is wrong,1,1,0.99806577
+CodeBERT,5000,21,D1_to_D1,462,"// open up the 'to_java' and 'as' coercion methods on Ruby Objects, via Kernel",0,0,0.0006411777
+CodeBERT,5000,21,D1_to_D1,463,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,464,/* TODO: THIS IS A HACK. * A much better way of doing this would be not to start * the critic in the first place. */,1,1,0.9985221
+CodeBERT,5000,21,D1_to_D1,465,//check that fullpath and prefix are incompatible,0,0,0.000493605
+CodeBERT,5000,21,D1_to_D1,466,// Create the editing domain with a special command stack. //,0,0,0.0005162725
+CodeBERT,5000,21,D1_to_D1,467,// TODO (@author fdietz): i18n,1,1,0.99771726
+CodeBERT,5000,21,D1_to_D1,468,// !!! Subject: test // create filter configuration // -> check if <Subject> <contains> pattern <test>,0,0,0.0005193048
+CodeBERT,5000,21,D1_to_D1,469,// Create the closing boundary,0,0,0.00051829213
+CodeBERT,5000,21,D1_to_D1,470,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,471,// TODO: How to let the user customize this??,1,1,0.99843603
+CodeBERT,5000,21,D1_to_D1,472,// HACK: reading encoding,1,1,0.99727446
+CodeBERT,5000,21,D1_to_D1,473,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,474,//TODO: design new lifecycle for ProxyFactory,1,1,0.9985018
+CodeBERT,5000,21,D1_to_D1,475,//Dimensions,0,0,0.0005003964
+CodeBERT,5000,21,D1_to_D1,476,"/** * Returns a string representing the week (e.g. ""Week 9, 2002""). * * TODO: look at internationalisation. * * @return A string representing the week. */",1,1,0.99837387
+CodeBERT,5000,21,D1_to_D1,477,/* Note: this implementation is temporary. We currently keep a flat namespace of the base name of classes. i.e. BeanShell cannot be in the process of defining two classes in different packages with the same base name. To remove this limitation requires that we work through namespace imports in an analogous (or using the same path) as regular class import resolution. This workaround should handle most cases so we'll try it for now. */,1,1,0.9970073
+CodeBERT,5000,21,D1_to_D1,478,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getRuleName() */,0,0,0.00045297577
+CodeBERT,5000,21,D1_to_D1,479,// Now we could check that the adapter implements interface ITableItemFontProvider. //,0,0,0.0006851713
+CodeBERT,5000,21,D1_to_D1,480,"/** * Class to display graphics for N-ary association (association node), * i.e. the diamond. <p> * * TODO: Improve the location of the stereotypes! * * @author pepargouml@yahoo.es */",1,1,0.9983059
+CodeBERT,5000,21,D1_to_D1,481,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,482,/* TODO: Enhance the isValidNamespace function so * that this never happens. */,1,1,0.9985896
+CodeBERT,5000,21,D1_to_D1,483,// TODO: We should be giving the user more direct feedback,1,1,0.9984542
+CodeBERT,5000,21,D1_to_D1,484,// is it necessary to register %exact since it can only appear in a where clause?,1,1,0.9926684
+CodeBERT,5000,21,D1_to_D1,485,"// TODO: for now, we use a faithful // reimplementation of MRI's algorithm, // but should use UTF8Encoding facilities // from Joni, once it starts prefroming // UTF-8 content validation.",1,1,0.997981
+CodeBERT,5000,21,D1_to_D1,486,// SSS FIXME: Where does this go? // m.setLinePosition(arrayNode.getPosition());,1,1,0.9980994
+CodeBERT,5000,21,D1_to_D1,487,// this is retarded. excuse me while I drool // and make stupid noises,1,1,0.9968945
+CodeBERT,5000,21,D1_to_D1,488,"// for visibility checking without requiring frame self // TODO: don't bother passing when fcall or vcall, and adjust callsite appropriately",1,1,0.99832565
+CodeBERT,5000,21,D1_to_D1,489,"// FIXME: Big fat hack here, because scope names are expected to be interned strings by the parser",1,1,0.9985221
+CodeBERT,5000,21,D1_to_D1,490,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,491,//{{{ Private members,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,492,// Second alternative should be getModelProject()?,1,1,0.9968149
+CodeBERT,5000,21,D1_to_D1,493,// line 833,0,0,0.00048500832
+CodeBERT,5000,21,D1_to_D1,494,// TODO - should LF-only EOL be allowed?,1,1,0.9968335
+CodeBERT,5000,21,D1_to_D1,495,"/* TODO: If this is an ordered list, then you have to add in the right location! */",1,1,0.99861956
+CodeBERT,5000,21,D1_to_D1,496,"// Create a page, set the title, and the initial model file name. //",0,0,0.00048595612
+CodeBERT,5000,21,D1_to_D1,497,// TODO turn into parameter?,1,1,0.9976265
+CodeBERT,5000,21,D1_to_D1,498,// We must return a valid RDMS/RSA command from this method to // prevent RDMS/RSA from issuing *ERROR 400,0,0,0.0008151457
+CodeBERT,5000,21,D1_to_D1,499,// Move me to classpath/ClassManagerImpl???,1,1,0.9967524
+CodeBERT,5000,21,D1_to_D1,500,// FIXME: This is temporary since the variable compilers assume we want // args already on stack for assignment. We just pop and continue with // 1.9 args logic.,1,1,0.99804294
+CodeBERT,5000,21,D1_to_D1,501,// TODO: use the destination database type to derive a format // that is acceptable.,1,1,0.99776125
+CodeBERT,5000,21,D1_to_D1,502,// some setup...,0,0,0.17321827
+CodeBERT,5000,21,D1_to_D1,503,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,504,// Check that the two elements aren't already linked the opposite way // TODO: This is a part implementation of well-formedness rule // UML1.4.2 - 4.5.3.20 [3] Circular inheritance is not allowed. // not self.allParents->includes(self),1,1,0.9979372
+CodeBERT,5000,21,D1_to_D1,505,"/* * TODO: mvw: do we really look into super-types of the stereotype, or * should we be looking into super-types of the baseclass? */",1,1,0.9985018
+CodeBERT,5000,21,D1_to_D1,506,//yySindex 889,0,0,0.0004812358
+CodeBERT,5000,21,D1_to_D1,507,/** * Set the fig style according to attributes. <p> * * TODO: This is never used! Can we remove? * * @param fig the fig to style. * @param attributeMap a map of name value pairs */,1,1,0.99850464
+CodeBERT,5000,21,D1_to_D1,508,/** * Settings dialog tab panel for layout options.<p> * * TODO: This class contains a lot of references to org.argouml.uml.ui. * It would probably be better to move it there. * * TODO: This class breaks too many dependency limitations. * And it is not used anywhere. So I (MVW) disabled its functionality. * * @author Linus Tolke */,1,1,0.99818975
+CodeBERT,5000,21,D1_to_D1,509,// TODO: Placeholder implementation until support for tracking on // a per-project basis is implemented // return dirty;,1,1,0.99836427
+CodeBERT,5000,21,D1_to_D1,510,"// TODO: We can choose between something which matches UML 1.4 in name // or something that matches in functionality. We've chosen // functionality for now, but this will create a name conflict during // the migration process. - tfm",1,1,0.99780446
+CodeBERT,5000,21,D1_to_D1,511,// Test that requiring a normal Java class raises an error (JRUBY-3214,0,1,0.9909272
+CodeBERT,5000,21,D1_to_D1,512,"// CRC // mode // link length // uid, gid",0,0,0.00044335198
+CodeBERT,5000,21,D1_to_D1,513,// should normally be,0,1,0.5029296
+CodeBERT,5000,21,D1_to_D1,514,// i18n[mysql.btCancel=Cancel],0,0,0.00048217614
+CodeBERT,5000,21,D1_to_D1,515,"// TODO: should probably apply the null object pattern for a // non-allowed class, rather than null",1,1,0.9981863
+CodeBERT,5000,21,D1_to_D1,516,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,517,"// If we've found thing with type parameters, search them for a match.",0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,518,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getDependencies( * java.lang.Object) */,0,0,0.0004322415
+CodeBERT,5000,21,D1_to_D1,519,// TODO needs to be synch? Probably not changed after threads have started // JMeter Home directory (excludes trailing separator) // JMeter bin directory (excludes trailing separator),1,1,0.9985923
+CodeBERT,5000,21,D1_to_D1,520,// hack to skip processing,1,1,0.9974291
+CodeBERT,5000,21,D1_to_D1,521,"//DMS Why not this? //new SubProgressMonitor(progressMonitor, 1));",1,1,0.9971661
+CodeBERT,5000,21,D1_to_D1,522,/* * TODO: This is the same as in parent - remove? * @see org.argouml.uml.diagram.ui.FigNodeModelElement#updateBounds() */,1,1,0.99832886
+CodeBERT,5000,21,D1_to_D1,523,// notify a running waitForRequests() method,0,0,0.0004955359
+CodeBERT,5000,21,D1_to_D1,524,"// TODO: Someday, enable.",1,1,0.99796116
+CodeBERT,5000,21,D1_to_D1,525,// TODO: add stereotype application (eCore AnyType?),1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,526,//get log10 version of upper bound and round to integer:,0,0,0.00047563188
+CodeBERT,5000,21,D1_to_D1,527,// TODO: What does the magic number 6000 represent here? // Put it in an explanatory literal! - tfm - 20071205,1,1,0.9983802
+CodeBERT,5000,21,D1_to_D1,528,// Read the response,0,0,0.00055494095
+CodeBERT,5000,21,D1_to_D1,529,// CheckStyle:VisibilityModifier ON,0,0,0.0005092657
+CodeBERT,5000,21,D1_to_D1,530,// TODO: Is this removed from UML2 ?,1,1,0.9982109
+CodeBERT,5000,21,D1_to_D1,531,//TODO: reenable if we also fix the above todo,1,1,0.99863297
+CodeBERT,5000,21,D1_to_D1,532,// Dialect method overrides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,0.0015277629
+CodeBERT,5000,21,D1_to_D1,533,"// @author: fdietz // This is a workaround. Generally, the contact dialog editor // should ensure that all necessary fields are available //",1,1,0.99787605
+CodeBERT,5000,21,D1_to_D1,534,/* Note: this could be made clearer by adding an inner class for the cases and an object context for the child traversal. */,1,1,0.9980994
+CodeBERT,5000,21,D1_to_D1,535,// TODO: NOT_ALLOCATABLE_ALLOCATOR is probably ok here. Confirm. JRUBY-415,1,1,0.9983991
+CodeBERT,5000,21,D1_to_D1,536,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,537,// START: check d0 and d1,0,0,0.0004984466
+CodeBERT,5000,21,D1_to_D1,538,//bind to a compiler,0,0,0.0005172813
+CodeBERT,5000,21,D1_to_D1,539,"/** * Class to manage Project related actions which need to be (or historically * have been) managed as singletons. * * TODO: It's unclear to me whether all of these actually have to be managed as * singletons, but for now I've just moved them from ProjectBrowser as is. - tfm * * @author Tom Morris */",1,1,0.99796116
+CodeBERT,5000,21,D1_to_D1,540,//i18n[ColumnsTab.title=Columns],0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,541,// TODO: implement remaining supported types,1,1,0.9980994
+CodeBERT,5000,21,D1_to_D1,542,/** * Reply the ToDoItem that the designer should see iff predicate() * returns true. By default it just fills in the fields of the * ToDoItem from accessor methods of this Critic. Critic Subclasses * may override this method or the accessor methods to add computed * fields to the ToDoItem. * * TODO: Critic's may want to add new fields to a * ToDoItem to make stillValid more efficent. * * @see Critic#critique * * @param dm the offender * @param dsgr the designer * @return ToDoItem */,1,1,0.9984723
+CodeBERT,5000,21,D1_to_D1,543,// tooltip text,0,0,0.00055602525
+CodeBERT,5000,21,D1_to_D1,544,// plain impossible,0,1,0.9114165
+CodeBERT,5000,21,D1_to_D1,545,"// TODO: A minimal update strategy would be better here to // minimize work and events firing, but it may be better to // deprecate the method and force calls to manage updates // themselves (since they probably usually want to just add // or remove a single element) - tfm 20061108",1,1,0.998147
+CodeBERT,5000,21,D1_to_D1,546,/* (non-Javadoc) * @see org.eclipse.emf.codegen.merge.java.facade.ast.ASTJNode#addChild(org.eclipse.emf.codegen.merge.java.facade.JNode) */,0,0,0.00046461902
+CodeBERT,5000,21,D1_to_D1,547,// TODO: Fix this so it will work for non-POJO entity mode,1,1,0.9984176
+CodeBERT,5000,21,D1_to_D1,548,/* * @see org.argouml.uml.cognitive.critics.CrUML#getCriticizedDesignMaterials() */,0,0,0.0004459562
+CodeBERT,5000,21,D1_to_D1,549,// outline stroke index,0,0,0.0005203196
+CodeBERT,5000,21,D1_to_D1,550,// TODO (@author karlpeder): Implementation of undo/redo missing,1,1,0.9984022
+CodeBERT,5000,21,D1_to_D1,551,"// TODO: number formatting here, MRI uses ""%-.10g"", 1.4 API is a must?",1,1,0.99844813
+CodeBERT,5000,21,D1_to_D1,552,/* ENEBO: Lots of optz in 1.9 parser here*/,1,1,0.9983125
+CodeBERT,5000,21,D1_to_D1,553,/* * Properties settable by the user */,0,0,0.0005884088
+CodeBERT,5000,21,D1_to_D1,554,/* * @see org.tigris.gef.presentation.Fig#getFillColor() */,0,0,0.00044682765
+CodeBERT,5000,21,D1_to_D1,555,// TODO: NOT_ALLOCATABLE_ALLOCATOR is probably ok here. Confirm. JRUBY-415,1,1,0.9983991
+CodeBERT,5000,21,D1_to_D1,556,"// First, try the system property",0,0,0.0006449432
+CodeBERT,5000,21,D1_to_D1,557,// line 1473,0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,558,"/** * The DecisionModel is part of the state of the Designer. It * describes what types of decisions, or design issues, the Designer * is thinking about at the current time. Critics that are relevant to * those decisions are made active, Critics that are not relevant are * made inactive. * * TODO: There is some notion that each decision has a * certain importanance at a certain time, but I have not followed * through on that because I don't have good examples of how to * quantify the importance of a decision. * * TODO: Right now the individual decisions are just * Strings, maybe they should have some non-atomic structure? * * @author Jason Robbins */",1,1,0.9980957
+CodeBERT,5000,21,D1_to_D1,559,"// // Adding a post-invoke for the cb result serves to both keep it alive // until after the function returns, and allows us to clean up the native // trampoline early, instead of letting them accumulate until a GC run //",0,0,0.0018748618
+CodeBERT,5000,21,D1_to_D1,560,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,561,// TODO: Why can't we use ActionAddExistingNodes here? Bob.,1,1,0.9981792
+CodeBERT,5000,21,D1_to_D1,562,/** * StylePanel class which provides additional parameters for changing Text * elements provided by GEF. * TODO: i18n */,1,1,0.99773055
+CodeBERT,5000,21,D1_to_D1,563,// Don't keep reporting the same hang every 100 ms.,0,0,0.002736221
+CodeBERT,5000,21,D1_to_D1,564,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,565,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getRuleName() */,0,0,0.00045297577
+CodeBERT,5000,21,D1_to_D1,566,//if small log values and lower bound value too small // then set to a small value (don't allow <= 0):,0,0,0.0008796062
+CodeBERT,5000,21,D1_to_D1,567,// ant task properties // defaults // CheckStyle:VisibilityModifier OFF - bc,0,0,0.0005043191
+CodeBERT,5000,21,D1_to_D1,568,// add signature if defined,0,0,0.00055711175
+CodeBERT,5000,21,D1_to_D1,569,"// load boolean headerfields, which are compressed in one int value",0,0,0.00042804275
+CodeBERT,5000,21,D1_to_D1,570,/** * This class provides a text field that can be used to display * the text of all Comments associated with an annotated ModelElement. * * TODO: This could use more work. Currently it returns all * Comment.name or Comment.body attributes concatenated together * into a single read-only document. * * @since 1 Nov 2005 * @author Tom Morris (tfmorris@gmail.com) */,1,1,0.9984053
+CodeBERT,5000,21,D1_to_D1,571,// i18n[FactoryProviderController.fileCreated=File {0} has been successfully created.],0,0,0.0004888105
+CodeBERT,5000,21,D1_to_D1,572,"// Menues that are also shown in the main window Session menu might // be in this popup. If we don't remove them, the Session won't be Garbage Collected.",0,0,0.0016040892
+CodeBERT,5000,21,D1_to_D1,573,// Test for toURI with a file name with illegal chars.,0,0,0.00047470425
+CodeBERT,5000,21,D1_to_D1,574,// forbid instantiation,0,0,0.0005102608
+CodeBERT,5000,21,D1_to_D1,575,"// Note: Registry based authority is being removed from a // new spec for URI which would obsolete RFC 2396. If the // spec is added to XML errata, processing of reg_name // needs to be removed. - mrglavas.",1,1,0.99346113
+CodeBERT,5000,21,D1_to_D1,576,//case Constants.PUTFIELD:,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,577,//TODO: add owner argument!!,1,1,0.9984022
+CodeBERT,5000,21,D1_to_D1,578,// Object#to_a is obsolete. We match Ruby's hack until to_a goes away. Then we can // remove this hack too.,1,1,0.9965436
+CodeBERT,5000,21,D1_to_D1,579,// TODO: Make this final asap.,1,1,0.9984145
+CodeBERT,5000,21,D1_to_D1,580,// MUST do this for background to show up.,0,0,0.0006563728
+CodeBERT,5000,21,D1_to_D1,581,// sorry - otherwise we will get a ClassCastException because the MockCache // is loaded by two different classloader ...,1,1,0.9950563
+CodeBERT,5000,21,D1_to_D1,582,// JUnit 4 wraps solo tests this way. We can extract // the original test name with a little hack.,1,1,0.9975321
+CodeBERT,5000,21,D1_to_D1,583,// TODO: This is a linear search of a list that contain many // thousands of items (one for every Fig in the entire project),1,1,0.9977525
+CodeBERT,5000,21,D1_to_D1,584,/* FIXME: We may be intern'ing more than once.*/,1,1,0.9983865
+CodeBERT,5000,21,D1_to_D1,585,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,586,// the string so far,0,0,0.0005495509
+CodeBERT,5000,21,D1_to_D1,587,// TODO: Should we take some action to ensure signature is valid // html?,1,1,0.9982003
+CodeBERT,5000,21,D1_to_D1,588,"// set parameters on each transformation, maybe something has changed //(e.g. value of file name parameter)",0,0,0.0018712104
+CodeBERT,5000,21,D1_to_D1,589,//TODO: is this right??,1,1,0.99807703
+CodeBERT,5000,21,D1_to_D1,590,/** * Set the target anew. * * TODO: This method is never used. What is its intention? Remove it? */,1,1,0.99852496
+CodeBERT,5000,21,D1_to_D1,591,// TODO: Do we really need to do this? Carried over from old behavior,1,1,0.9984573
+CodeBERT,5000,21,D1_to_D1,592,// will have a trailing '.',0,0,0.0006374342
+CodeBERT,5000,21,D1_to_D1,593,// TODO: Make sure this shouldn't go into a previous // condition -tml,1,1,0.99852777
+CodeBERT,5000,21,D1_to_D1,594,/* Workaround for JRUBY-2326 (MRI does not enter this production for some reason)*/,1,1,0.99758923
+CodeBERT,5000,21,D1_to_D1,595,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,596,/* ------------- */,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,597,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,598,"/* * Since we depend upon the Connection class associated with the ISession, * we need to keep a reference to the ISession we are associated with. * However, this session could be closed, at which time we want to give up * our reference so that it can be garbage collected. */",0,0,0.007039046
+CodeBERT,5000,21,D1_to_D1,599,// CheckStyle:VisibilityModifier ON,0,0,0.0005092657
+CodeBERT,5000,21,D1_to_D1,600,// TODO: Add safety check for taintedness,1,1,0.99844813
+CodeBERT,5000,21,D1_to_D1,601,/** * Reply a Set of design material's that are the subject of this ToDoItem. * * @return the offenders * TODO: Offenders need to be more strongly typed. - tfm 20070630 */,1,1,0.9985562
+CodeBERT,5000,21,D1_to_D1,602,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,603,// Create empty properties,0,0,0.0005213363
+CodeBERT,5000,21,D1_to_D1,604,"// We want to retain insertion order, so LinkedHashMap is necessary",0,0,0.0008072305
+CodeBERT,5000,21,D1_to_D1,605,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,606,//{{{ setText() method,0,0,0.0005003964
+CodeBERT,5000,21,D1_to_D1,607,// unused in parent,1,1,0.992837
+CodeBERT,5000,21,D1_to_D1,608,"/** * TODO: MVW: I am not completely sure of the following:<p> * The ""namespace"" of the diagram is e.g. used when creating new elements * that are shown on the diagram; they will have their namespace set * according this. It is NOT necessarily equal to the ""owner"". * * @return the namespace for the diagram */",1,1,0.9985018
+CodeBERT,5000,21,D1_to_D1,609,//why do we do nothing?,1,1,0.9948902
+CodeBERT,5000,21,D1_to_D1,610,// Get the list of valid model item pairs for the given connection type,0,0,0.00048311835
+CodeBERT,5000,21,D1_to_D1,611,//insert all the new entries,0,0,0.0005872614
+CodeBERT,5000,21,D1_to_D1,612,"/** * A mock ModelImplementation.<p> * * The Facade, the ModelEventPump, the Factories and Helpers are all * created as mock objects using EasyMock. For each of them, there * should also be a possibility to access their {@link MockControl} * object. * TODO: Create the rest of the getters for the control objects. * * @author Linus Tolke */",1,1,0.9983321
+CodeBERT,5000,21,D1_to_D1,613,/* * @see org.argouml.uml.ui.UMLComboBoxModel2#getSelectedModelElement() */,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,614,// TODO: i18n,1,1,0.99740905
+CodeBERT,5000,21,D1_to_D1,615,// this will probably not get used // Object type,1,1,0.9977787
+CodeBERT,5000,21,D1_to_D1,616,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,617,"// if there is anything before the node on the same line, create line break and comment out the first line of the node",0,0,0.00060589175
+CodeBERT,5000,21,D1_to_D1,618,// setBorder(noFocusBorder);,0,0,0.00049747445
+CodeBERT,5000,21,D1_to_D1,619,"// XXX Unfortunately JDK1.2 adds entrySet(), keySet(), values() - // implementing this requires a small hack, we can add it later.",1,1,0.99816847
+CodeBERT,5000,21,D1_to_D1,620,// Find the longest prefix shared by the current file // and the reference directory.,0,0,0.0005092657
+CodeBERT,5000,21,D1_to_D1,621,"/* * TODO improve string version to better match browser behaviour? e.g. * do browsers regard http://host/ and http://Host:80/ as the same? If * so, it would be better to reflect this in the string */",1,1,0.9985104
+CodeBERT,5000,21,D1_to_D1,622,"// Add a new entry in the list and select it. // Translator.localize(""button.add"") // +",0,0,0.000506292
+CodeBERT,5000,21,D1_to_D1,623,//TODO: this is one of the ugliest and most fragile pieces of code in Hibernate....,1,1,0.9982692
+CodeBERT,5000,21,D1_to_D1,624,// {n},0,0,0.0004869057
+CodeBERT,5000,21,D1_to_D1,625,// Ignore.,0,0,0.00048595612
+CodeBERT,5000,21,D1_to_D1,626,// re-select previous selection,0,0,0.00057703455
+CodeBERT,5000,21,D1_to_D1,627,"// upper-case package name // TODO: top-level upper-case package was supported in the previous (Ruby-based) // implementation, so leaving as is. see note at #getProxyOrPackageUnderPackage // re: future approach below the top-level.",1,1,0.99743915
+CodeBERT,5000,21,D1_to_D1,628,"// TODO: Do we need to set the input encoding here? It was // done for ToDo parsing, but none of the other member types // InputSource inputSource = new InputSource( // new InputStreamReader(inputStream, Argo // .getEncoding()));",1,1,0.9978258
+CodeBERT,5000,21,D1_to_D1,629,// set the lastModified value,0,0,0.00052747846
+CodeBERT,5000,21,D1_to_D1,630,"// HACK: in order to have stdout/err act like ttys and flush always, // we set anything assigned to stdout/stderr to sync",1,1,0.9972638
+CodeBERT,5000,21,D1_to_D1,631,// Warning: Null callstack here. Don't think we need // a stack trace to indicate how we sourced the method.,1,1,0.9829547
+CodeBERT,5000,21,D1_to_D1,632,/** * Return the fully qualified name of a model element in Java (dot * separated) format. * <p> * TODO: We really need a language independent format here. Perhaps the list * of names that form the hierarchy? - tfm */,1,1,0.99866724
+CodeBERT,5000,21,D1_to_D1,633,// TODO: Ruby re-checks that the buffer string hasn't been modified,1,1,0.99828595
+CodeBERT,5000,21,D1_to_D1,634,// which kind of color?,0,0,0.0023231625
+CodeBERT,5000,21,D1_to_D1,635,"// All characters in the string are used. Check if only '*'s are // left in the pattern. If so, we succeeded. Otherwise failure.",0,0,0.0006474658
+CodeBERT,5000,21,D1_to_D1,636,// TODO: We definitely don't want to react to addition and // removal of transitions. Can't we be more specific when // we register ourselves as a listener.,1,1,0.99856746
+CodeBERT,5000,21,D1_to_D1,637,// hack since HelpViewer needs a URL...,1,1,0.9975032
+CodeBERT,5000,21,D1_to_D1,638,"// condition: match all (AND) = 0, match any (OR) = 1 // private AdapterNode conditionNode;",0,0,0.0004955359
+CodeBERT,5000,21,D1_to_D1,639,// This should be enough to allow server to exit. // default is false,0,0,0.00069867563
+CodeBERT,5000,21,D1_to_D1,640,/* * TODO: Is this required? Why would the fig already be dashed? * * @see org.tigris.gef.presentation.FigEdge#setFig( * org.tigris.gef.presentation.Fig) */,1,1,0.9977525
+CodeBERT,5000,21,D1_to_D1,641,// If reciever is self then we do the call the same way as vcall,0,0,0.0005102608
+CodeBERT,5000,21,D1_to_D1,642,// Add chart to deletion list in session,0,0,0.0004812358
+CodeBERT,5000,21,D1_to_D1,643,"/* This is the namespace in which the method is set. It is a back-reference for the node, which needs to execute under this namespace. It is not necessary to declare this transient, because we can only be saved as part of our namespace anyway... (currently). */",1,1,0.6113965
+CodeBERT,5000,21,D1_to_D1,644,// TODO: Bobs says - what is the purpose of this flag? Please document.,1,1,0.9985221
+CodeBERT,5000,21,D1_to_D1,645,//{{{ Package-private members,0,0,0.0005213363
+CodeBERT,5000,21,D1_to_D1,646,// If no exception happened we have successfully logged // in,0,0,0.00056588
+CodeBERT,5000,21,D1_to_D1,647,/* FIXME: Resolve what the hell is going on*/,1,1,0.9982317
+CodeBERT,5000,21,D1_to_D1,648,//Must be done here because of side-effect! yuck...,1,1,0.99656373
+CodeBERT,5000,21,D1_to_D1,649,// if complex use the last search folder,0,0,0.00052747846
+CodeBERT,5000,21,D1_to_D1,650,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,651,// static field?,0,0,0.0005517006
+CodeBERT,5000,21,D1_to_D1,652,// install invokedynamic bootstrapper // TODO need to abstract this setup behind another compiler interface,1,1,0.99855345
+CodeBERT,5000,21,D1_to_D1,653,// Cell Import/Export file not found for user - first time user ran pgm.,0,0,0.00048785715
+CodeBERT,5000,21,D1_to_D1,654,// over estimation of the number of bytes to be added to this // instruction = 3 - current number of padding bytes = 3 - (3 - // u%4) = u%4 = u & 3,0,0,0.00079939206
+CodeBERT,5000,21,D1_to_D1,655,"// TimesTen has no BLOB/CLOB support, but these types may be suitable // for some applications. The length is limited to 4 million bytes.",0,0,0.12759827
+CodeBERT,5000,21,D1_to_D1,656,// this does a calcBounds(),0,0,0.0005102608
+CodeBERT,5000,21,D1_to_D1,657,// TODO make these separate tests?,1,1,0.9983516
+CodeBERT,5000,21,D1_to_D1,658,//workaround for WebLogic,1,1,0.9963924
+CodeBERT,5000,21,D1_to_D1,659,// TODO: It would be better here to continue the loop and try to // build the rest of the compartment. Hence try/catch should be // internal to the loop.,1,1,0.99849296
+CodeBERT,5000,21,D1_to_D1,660,/* Hack in to replace usual readline with this */,1,1,0.99771726
+CodeBERT,5000,21,D1_to_D1,661,// Can't do anything if we don't have a fig.,0,0,0.00065765524
+CodeBERT,5000,21,D1_to_D1,662,// TODO: This method doesn't appear to be used.,1,1,0.9982926
+CodeBERT,5000,21,D1_to_D1,663,//{{{ beginCompoundEdit() method,0,0,0.00046734812
+CodeBERT,5000,21,D1_to_D1,664,//FB The following method is copied from com.ibm.etools.b2b.util.StringUtility //FB because the mapping framework cannot have a dependency on b2b. What we really //FB need to do is get methods like this moved to vabase so that everyone can //FB use them. // change all occurrences of oldPat to newPat,0,1,0.996108
+CodeBERT,5000,21,D1_to_D1,665,//We should actually rework this class to not implement Parser //and just process path expressions in the most convenient way.,1,1,0.99821436
+CodeBERT,5000,21,D1_to_D1,666,/* Do Nothing */,0,0,0.0005132578
+CodeBERT,5000,21,D1_to_D1,667,// TODO : This is a bit fragile,1,1,0.9983386
+CodeBERT,5000,21,D1_to_D1,668,"/** * Updates the top level ModelElements for all projects. In UML2, each * model knows it's root elements, so this could make setRoots(...) * obsolete. E.g., applying a stereotype in UML2 adds a new root. * * TODO: This is redundant with setRoots/getRoots. There are already too * many ways this stuff is managed without adding an additional one. * All current model subsystem implementations know their top level * elements. Responsibility can be moved to the model subsystem, but * let's choose *one* way of managing this. */",1,1,0.99808073
+CodeBERT,5000,21,D1_to_D1,669,// negativeItemLabelPositionList;,0,0,0.00043139848
+CodeBERT,5000,21,D1_to_D1,670,"//SPACES //TODO: i'm not sure, but perhaps we should exclude // abstract denormalized tables?",1,1,0.99860877
+CodeBERT,5000,21,D1_to_D1,671,// Used by: MonitorHealthVisualizer.add(SampleResult res),0,0,0.00055385876
+CodeBERT,5000,21,D1_to_D1,672,// TODO: wire into new exception handling mechanism,1,1,0.9984988
+CodeBERT,5000,21,D1_to_D1,673,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,674,"/* This does not work (anymore/yet?), * since we never have a FigText here: */",1,1,0.9980732
+CodeBERT,5000,21,D1_to_D1,675,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,676,//use of a stringbuffer to workaround a JDK bug,1,1,0.997459
+CodeBERT,5000,21,D1_to_D1,677,// notify configuration changes listeners // @see org.columba.mail.gui.message.TextViewer,0,0,0.00044945232
+CodeBERT,5000,21,D1_to_D1,678,// i18n[oracle.displayTriggerDetails=Display trigger details],0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,679,// how to handle empty target lists? // probably the TabText should only show an empty pane in that case,1,1,0.9961755
+CodeBERT,5000,21,D1_to_D1,680,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#buildModelList() */,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,681,// TODO is sync really needed?,1,1,0.9983354
+CodeBERT,5000,21,D1_to_D1,682,/*fromType*/,0,0,0.0005264497
+CodeBERT,5000,21,D1_to_D1,683,// This could (perhaps more elegantly) be done by recursion,1,1,0.9981756
+CodeBERT,5000,21,D1_to_D1,684,//}}} //}}},0,0,0.00053787645
+CodeBERT,5000,21,D1_to_D1,685,// Set id on from address,0,0,0.00050235394
+CodeBERT,5000,21,D1_to_D1,686,"/** * Updates a compartment box. Called from updateLayout if there is * a model event effecting the attributes/operations and from * renderingChanged in all cases. * TODO: The above statement means that the entire contents of the * compartments are being rebuilt whenever an add/remove * of an attribute, operation or a reception is detected. It would be * better to have compartments listen for add and remove events * and make minimum change rather than entirely rebuild. * Remark MVW: This is a bit exaggerated, since the populate() * method is already heavily optimized. */",1,1,0.99817204
+CodeBERT,5000,21,D1_to_D1,687,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,688,// Update attached node figures // TODO: Presumably this should only happen on a add or remove event,1,1,0.99757034
+CodeBERT,5000,21,D1_to_D1,689,// FIXME: This isn't right for within ensured/rescued code,1,1,0.99836427
+CodeBERT,5000,21,D1_to_D1,690,// Just move the corner to it's new position.,0,0,0.00056588
+CodeBERT,5000,21,D1_to_D1,691,"// because its preferred size can be quite wide, we // don't want it to make the browser way too big, // so set the preferred width to 0.",0,0,0.0026782178
+CodeBERT,5000,21,D1_to_D1,692,// it's intentional to keep going,0,0,0.00073504477
+CodeBERT,5000,21,D1_to_D1,693,// TODO Ristretto should handle the logging of streams in another // way.,1,1,0.99852777
+CodeBERT,5000,21,D1_to_D1,694,// ..,0,0,0.0005861161
+CodeBERT,5000,21,D1_to_D1,695,// request width index == itemCount,0,0,0.00047749258
+CodeBERT,5000,21,D1_to_D1,696,// ensure old value is not left defined,0,0,0.00053892744
+CodeBERT,5000,21,D1_to_D1,697,//{{{ removeNotify() method,0,0,0.0005172813
+CodeBERT,5000,21,D1_to_D1,698,// Optimization: check if anchor + minimumLength > length,0,1,0.99743915
+CodeBERT,5000,21,D1_to_D1,699,// TODO - should the encoding be configurable? // $NON-NLS-1$,1,1,0.9973425
+CodeBERT,5000,21,D1_to_D1,700,//{{{ PosBottomHalf constructor,0,0,0.0005082725
+CodeBERT,5000,21,D1_to_D1,701,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,702,// TODO: I18N required,1,1,0.9977083
+CodeBERT,5000,21,D1_to_D1,703,"// TODO Maybe we should have a checkbox to allow the user to toggle // default value on/off. Some dbs (like DB2) treat empty string """" as // a different default value than null.",1,1,0.99800056
+CodeBERT,5000,21,D1_to_D1,704,// todo : what is the implication of this?,1,1,0.9981541
+CodeBERT,5000,21,D1_to_D1,705,"//for sets, we should end the collection load after resolving //the entities, since we might call hashCode() on the elements //TODO: or we could do this polymorphically, and have two // different operations implemented differently for arrays",1,1,0.9984053
+CodeBERT,5000,21,D1_to_D1,706,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,707,// TODO: This method doesn't appear to be used.,1,1,0.9982926
+CodeBERT,5000,21,D1_to_D1,708,"// Get available screens // O(n^3), this is nasty, but since we aren't dealling with // many items it should be fine",1,1,0.90894175
+CodeBERT,5000,21,D1_to_D1,709,"// LOG.log(Level.FINE, "" Class "" + name + "" has subtypes : "" // + names.get(name));",0,0,0.0011559008
+CodeBERT,5000,21,D1_to_D1,710,// XXX should we silently catch possible exceptions and try to // load a different implementation?,1,1,0.9984269
+CodeBERT,5000,21,D1_to_D1,711,// Bug in above method,1,1,0.9957437
+CodeBERT,5000,21,D1_to_D1,712,// store port number in file,0,0,0.0004869057
+CodeBERT,5000,21,D1_to_D1,713,// line 1942,0,0,0.0005213363
+CodeBERT,5000,21,D1_to_D1,714,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,715,// Detach any non-associationend edges (such as comment edges) already // attached before this association node is removed. // They'll later be re-attached to the new FigAssociation,0,0,0.0027469008
+CodeBERT,5000,21,D1_to_D1,716,// TODO: move the above to the plot state,1,1,0.99837697
+CodeBERT,5000,21,D1_to_D1,717,"// SSS FIXME: Why is the for node being built using closures and not as a ""regular"" loop with branches? // // This has implications on inlining, implementations of closures, next, break, etc. // When ""each"" and the block it consumes are inlined together in the caller, the ""loop"" // from the each should become a normal loop without any closures. But, in this implementation // of for, we replace one closure with another! //",1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,718,// TODO: This should be built by reflection from the metamodel - tfm // Update for UML 2.x metamodel if not replaced by reflection,1,1,0.9980161
+CodeBERT,5000,21,D1_to_D1,719,"// TODO: This brute force approach of updating listeners on each // and every event, without checking the event type or any other // information is going to cause lots of InvalidElementExceptions // in subclasses implementations of updateListeners (and they // won't have the event information to make their own decisions)",1,1,0.99816495
+CodeBERT,5000,21,D1_to_D1,720,// Buffer sort,0,0,0.00047563188
+CodeBERT,5000,21,D1_to_D1,721,// first time user has run pgm.,0,0,0.000453861
+CodeBERT,5000,21,D1_to_D1,722,/* * @see org.tigris.gef.presentation.Fig#getClosestPoint(java.awt.Point) */,0,0,0.0004222329
+CodeBERT,5000,21,D1_to_D1,723,"// TODO: Setup title correctly. // setTitle(getTitle() + "": "" + _session.getSessionSheet().getTitle());",1,1,0.9971661
+CodeBERT,5000,21,D1_to_D1,724,/* * Wrapper to convert a JUnit4 class into a TestCase * * TODO - work out how to convert JUnit4 assertions so they are treated as failures rather than errors */,1,1,0.99861956
+CodeBERT,5000,21,D1_to_D1,725,"// // Note: We intentionally don't remember internal plugins, because // we don't want them to appear in the plugin manager currently. // // TODO: improve plugin manager dialog to support internal plugins // which can't be removed, etc.",1,1,0.9982003
+CodeBERT,5000,21,D1_to_D1,726,"// TODO field always true, what for ?",1,1,0.9975274
+CodeBERT,5000,21,D1_to_D1,727,// get past separator,0,0,0.00057703455
+CodeBERT,5000,21,D1_to_D1,728,// @TODO dont use deprecated method,1,1,0.99825555
+CodeBERT,5000,21,D1_to_D1,729,"// get parameters previously set by user, or set default values // set to the default",0,0,0.00055602525
+CodeBERT,5000,21,D1_to_D1,730,// not currently used,1,1,0.9970131
+CodeBERT,5000,21,D1_to_D1,731,// blockHeight,0,0,0.0004926423
+CodeBERT,5000,21,D1_to_D1,732,// check that the text is a valid representation,0,0,0.00052337564
+CodeBERT,5000,21,D1_to_D1,733,/* * Add the header panel */,0,0,0.0005142608
+CodeBERT,5000,21,D1_to_D1,734,"// Check // ""-"" // is // allowed // in // arg2",0,0,0.00055385876
+CodeBERT,5000,21,D1_to_D1,735,"// look for mangling markers for bound, framed methods in class name",0,0,0.0005347357
+CodeBERT,5000,21,D1_to_D1,736,// eg user just closed a view and didn't focus another,0,0,0.0005815577
+CodeBERT,5000,21,D1_to_D1,737,// LRUMap is not generic,0,0,0.0007643033
+CodeBERT,5000,21,D1_to_D1,738,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,739,/** TODO: Spring-inject when this class is a Spring bean */,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,740,// cloned system properties,0,0,0.00055385876
+CodeBERT,5000,21,D1_to_D1,741,//TODO i18n: GEF needs to pass us back the description // of what is being done.,1,1,0.9985306
+CodeBERT,5000,21,D1_to_D1,742,// controlling // ------------------------------------------------------------------------,0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,743,// Don't add it again,0,0,0.00081673806
+CodeBERT,5000,21,D1_to_D1,744,// small hack to save a cast later on,1,1,0.99794525
+CodeBERT,5000,21,D1_to_D1,745,"// Leave header as is // headerBuf.append(conn.getHeaderField(0).substring(0, 8)); // headerBuf.append("" ""); // headerBuf.append(conn.getResponseCode()); // headerBuf.append("" ""); // headerBuf.append(conn.getResponseMessage()); //$NON-NLS-1$",0,0,0.00086092605
+CodeBERT,5000,21,D1_to_D1,746,// NOI18N,0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,747,// The method name to be invoked,0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,748,// i18n[SQLResultExecuterPanel.rowsDeleted={0} Row(s) Deleted],0,0,0.00043648144
+CodeBERT,5000,21,D1_to_D1,749,// TODO: InstanceSpecification -> Classifier association isn't // navigable in this direction,1,1,0.998242
+CodeBERT,5000,21,D1_to_D1,750,//{{{ parseColor() method,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,751,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,752,//TODO - move to JOrphanUtils?,1,1,0.9982248
+CodeBERT,5000,21,D1_to_D1,753,// i18n[FileManager.confirm.filereplace={0} \nalready exists. Do you want to replace it?],0,0,0.00093263603
+CodeBERT,5000,21,D1_to_D1,754,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,755,// do we need to update the crosshair values?,1,1,0.9320833
+CodeBERT,5000,21,D1_to_D1,756,//OK //OK //OK,0,0,0.0007264875
+CodeBERT,5000,21,D1_to_D1,757,// Button group resources when Bytes Message is selected,0,0,0.0004984466
+CodeBERT,5000,21,D1_to_D1,758,"// we'll have to use the method in the interface, but // this doesn't have the paint and stroke settings...",1,1,0.99368566
+CodeBERT,5000,21,D1_to_D1,759,"//put() has nowait semantics, is this really appropriate? //note that it needs to be async replication, never local or sync",1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,760,// Initialize package,0,0,0.0004945695
+CodeBERT,5000,21,D1_to_D1,761,// TODO is it possible to use more than one variable?,1,1,0.9966036
+CodeBERT,5000,21,D1_to_D1,762,/** * Create an EnumerationLiteral. * @return Object new Enumeration * @since UML 1.4 * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.99852777
+CodeBERT,5000,21,D1_to_D1,763,// String userVisibleName = pluginHandler.getUserVisibleName(id);,0,0,0.0005347357
+CodeBERT,5000,21,D1_to_D1,764,// TODO @author hubms: copied from frederiks search builder,1,1,0.99789256
+CodeBERT,5000,21,D1_to_D1,765,/* Note: object is only used here for precondition... get rid of it? */,1,1,0.9981324
+CodeBERT,5000,21,D1_to_D1,766,"//TODO: We probably should have a StatisticsNotPublishedException, to make it clean",1,1,0.9985869
+CodeBERT,5000,21,D1_to_D1,767,/** * Create an empty but initialized instance of a UML Class. * * @return an initialized UML Class instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,1,0.99856466
+CodeBERT,5000,21,D1_to_D1,768,"// class bodies prepare their own dynamic scope, so let it do that",0,0,0.0009436193
+CodeBERT,5000,21,D1_to_D1,769,//i18n[ColumnListDialog.dropPrimaryKeyTitle=Drop Primary Key],0,0,0.00045652693
+CodeBERT,5000,21,D1_to_D1,770,// ignore,0,0,0.00054740964
+CodeBERT,5000,21,D1_to_D1,771,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,772,//value and property are mutually exclusive attributes,0,0,0.00057703455
+CodeBERT,5000,21,D1_to_D1,773,/* I guess translated events do not have the 'evt' field set so consuming won't work. I don't think this is a problem as nothing uses translation anyway */,1,1,0.996557
+CodeBERT,5000,21,D1_to_D1,774,// for labels,0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,775,/* Testing: does not fire. */,0,0,0.045268096
+CodeBERT,5000,21,D1_to_D1,776,// todo: is this comment still relevant ?? // FIXME: need to use a SAXSource as the source for the transform // so we can plug in our own entity resolver,1,1,0.99871314
+CodeBERT,5000,21,D1_to_D1,777,// defer argument checking,1,1,0.9977216
+CodeBERT,5000,21,D1_to_D1,778,/** * TODO: * comment field doesn't include all options yet */,1,1,0.99806577
+CodeBERT,5000,21,D1_to_D1,779,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,780,// grrr... for differentiation of mysql storage engines,0,1,0.9888849
+CodeBERT,5000,21,D1_to_D1,781,"// FIXME: This needs to happen for lambdas // args.checkArgCount(runtime, parameters.length);",1,1,0.99817204
+CodeBERT,5000,21,D1_to_D1,782,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,783,// Does this dialect support check constraints?,1,1,0.99002504
+CodeBERT,5000,21,D1_to_D1,784,//int progress = loadCatalogs(1); // load tables with schema = null,0,0,0.00044945232
+CodeBERT,5000,21,D1_to_D1,785,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.client.util.IOptionPanel#applyChanges() */,0,0,0.0004503306
+CodeBERT,5000,21,D1_to_D1,786,/** * The model for the table with the tagged values. Implementation for UML 1.4 * and TagDefinitions. * * TODO: This currently only supports TaggedValues with a TagDefinition which * has a type of String. */,1,1,0.9979966
+CodeBERT,5000,21,D1_to_D1,787,"// Showing large strings can be VERY costly, so we will avoid // doing so if the response // data is larger than 200K. TODO: instead, we could delay doing // the result.setText // call until the user chooses the ""Response data"" tab. Plus we // could warn the user // if this happens and revert the choice if he doesn't confirm // he's ready to wait.",1,1,0.99800056
+CodeBERT,5000,21,D1_to_D1,788,// not a valid header,0,0,0.0006202512
+CodeBERT,5000,21,D1_to_D1,789,// TODO: This is going to cause the color to be reset on a refresh,1,1,0.99816847
+CodeBERT,5000,21,D1_to_D1,790,"// TODO: What about these // Viewport.font, ColorChooser.font, InternalFrame.font, // OptionPane.font, ""Panel.font"", // ScrollPane.font, DesktopIcon.font",1,1,0.99712163
+CodeBERT,5000,21,D1_to_D1,791,// TODO: ProjectBrowser doesn't need to mediate this conversation // Use an event listener in the ToDoPane to communicate instead. - tfm,1,1,0.99813604
+CodeBERT,5000,21,D1_to_D1,792,"/** * @return collection removal * FIXME: even if isInverse=""true""? */",1,1,0.9973218
+CodeBERT,5000,21,D1_to_D1,793,// TODO should this throw an error?,1,1,0.99787605
+CodeBERT,5000,21,D1_to_D1,794,// don't care...,0,0,0.0016941031
+CodeBERT,5000,21,D1_to_D1,795,// Get the new Look and Feel object.,0,0,0.00049747445
+CodeBERT,5000,21,D1_to_D1,796,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,797,// generate switch body,0,0,0.0004869057
+CodeBERT,5000,21,D1_to_D1,798,// must be called under lock,0,0,0.00068919506
+CodeBERT,5000,21,D1_to_D1,799,// TODO: should I be adding quotes if user wants identifiers quoted??,1,1,0.9982926
+CodeBERT,5000,21,D1_to_D1,800,// TODO: must override in RubyModule to pick up constants,1,1,0.9984022
+CodeBERT,5000,21,D1_to_D1,801,// Use MD5 // $NON-NLS-1$,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,802,/* compression method */,0,0,0.000506292
+CodeBERT,5000,21,D1_to_D1,803,// Hack!!! hopefully the FK name will always be the last token!,1,1,0.99683964
+CodeBERT,5000,21,D1_to_D1,804,"// TODO: Because we get called on each and every change event, when // the model is in a state of flux, we'll often get an // InvalidElementException before we finish this collection. The // only saving grace is that we're called SO many times that on the // last time, things should be stable again and we'll get a good set // of elements for the final update. We need a better mechanism.",1,1,0.99827933
+CodeBERT,5000,21,D1_to_D1,805,// may change the format later // restart from beginning,0,1,0.629433
+CodeBERT,5000,21,D1_to_D1,806,// can't cache this stuff either (per-invocation) // we are given a map of user-alias -> lock mode // create a new map of sql-alias -> lock mode,0,0,0.0016646334
+CodeBERT,5000,21,D1_to_D1,807,// TODO REMOVE THIS BOGUS EMPTY LINE,1,1,0.99832565
+CodeBERT,5000,21,D1_to_D1,808,// Fill 4 of value (byte) -19 // Fill 3 of value (byte) 33 // Fill 2 of value (byte) -19,0,0,0.000593021
+CodeBERT,5000,21,D1_to_D1,809,//TODO replace getSize by getBounds ?,1,1,0.9970305
+CodeBERT,5000,21,D1_to_D1,810,// TODO: deal with varargs,1,1,0.99787605
+CodeBERT,5000,21,D1_to_D1,811,// TODO: This will need to be adapted to send undo/redo commands back // to our consumer (e.g. ArgoUML) if a new undo mechanism is implemented // for the Model subsystem - tfm,1,1,0.99849
+CodeBERT,5000,21,D1_to_D1,812,"// This is a particularly nasty bit // of code, that checks for a parameter // entity reference but peeks ahead to // catch the '%' in parameter entity // declarations.",1,1,0.9773492
+CodeBERT,5000,21,D1_to_D1,813,"/* * Checks whether the expression starts with "".*"". */",0,0,0.000506292
+CodeBERT,5000,21,D1_to_D1,814,//To change body of implemented methods use File | Settings | File Templates.,0,0,0.0007336117
+CodeBERT,5000,21,D1_to_D1,815,"// We are displaying a new dataset, so if there was // a cell editor in operation, tell it to cancel. //???? How does this impact popup display?",1,1,0.9968087
+CodeBERT,5000,21,D1_to_D1,816,"/** * this regular expression should cover anything from a@a.pt or a@a.com to * a@a.info. Permits usage of invalid top domains though. * <p> * [bug] fdietz: added ""."" and ""-"" as regular characters * (example:mail@toplevel.mail.de) * <p> * TODO: see if we can replace the matching code with Ristretto stuff * */",1,1,0.99829596
+CodeBERT,5000,21,D1_to_D1,817,// Fill 4 of value (byte) -87 // Fill 7 of value (byte) 33 // Fill 2 of value (byte) -87 // Fill 9 of value (byte) 33 // Fill 2 of value (byte) -19 // Fill 4 of value (byte) 33 // Fill 10 of value (byte) -87 // Fill 18 of value (byte) 33 // Fill 2 of value (byte) -87,0,0,0.0015700475
+CodeBERT,5000,21,D1_to_D1,818,"/* * @see org.argouml.uml.cognitive.critics.CrUML#predicate2( * java.lang.Object, org.argouml.cognitive.Designer) */",0,0,0.00043990326
+CodeBERT,5000,21,D1_to_D1,819,// String is exhausted,0,0,0.0005442133
+CodeBERT,5000,21,D1_to_D1,820,// get headerfields,0,0,0.0004907226
+CodeBERT,5000,21,D1_to_D1,821,// TODO: Replace this with a more elegant solution.,1,1,0.9986541
+CodeBERT,5000,21,D1_to_D1,822,// EntryRefs include hash with key to facilitate lookup by Segment#expunge // after ref is removed from ReferenceQueue,0,0,0.0005368274
+CodeBERT,5000,21,D1_to_D1,823,"// This triggers some warnings (in logs) because some elements are // created without an owner (and eResource is null) // TODO: fix this // The warning log (if we would not add the EObject to a resource) would // looks like this: ""...WARN [AWT-EventQueue-0] Encountered deleted // object during delete of...""",1,1,0.99806195
+CodeBERT,5000,21,D1_to_D1,824,/* * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent) */,0,0,0.0004592085
+CodeBERT,5000,21,D1_to_D1,825,"// if this cell held a maximum and/or minimum value, we'll need to // update the cached bounds...",0,0,0.00088477065
+CodeBERT,5000,21,D1_to_D1,826,/* * @see javax.swing.Action#isEnabled() */,0,0,0.0004869057
+CodeBERT,5000,21,D1_to_D1,827,"// when the dataset contains one or more series, but those series // contain no items, we still expect the range to be null",0,0,0.0005254231
+CodeBERT,5000,21,D1_to_D1,828,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,829,"// handle null, which is shown as the special string ""<null>""",0,0,0.00049747445
+CodeBERT,5000,21,D1_to_D1,830,// END public ExternalEditor(String EditorCommand),0,0,0.00043478046
+CodeBERT,5000,21,D1_to_D1,831,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,832,// list of suffices,0,0,0.0005838325
+CodeBERT,5000,21,D1_to_D1,833,//TODO: old version did not require hashmap lookup: //keys[collectionOwner].getIdentifier(),1,1,0.99766326
+CodeBERT,5000,21,D1_to_D1,834,// -> get source reference of message // when replying this is the original sender's message // you selected and replied to,0,0,0.0004916815
+CodeBERT,5000,21,D1_to_D1,835,// Standard UML 1.4 profile,0,0,0.000578162
+CodeBERT,5000,21,D1_to_D1,836,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,837,// CheckStyle:VisibilityModifier OFF - bc,0,0,0.00050137425
+CodeBERT,5000,21,D1_to_D1,838,// Total number of threads,0,0,0.0005368274
+CodeBERT,5000,21,D1_to_D1,839,// mark message as read,0,0,0.0004984466
+CodeBERT,5000,21,D1_to_D1,840,// TODO: allow the user to specify ignore case or preserve case.,1,1,0.997981
+CodeBERT,5000,21,D1_to_D1,841,// TODO: full-precision divmod is 1000x slower than MRI!,1,1,0.99739385
+CodeBERT,5000,21,D1_to_D1,842,/** * Creates a new OCL critic * * @param oclConstraint ocl expression * @param headline headline * @param description description * @param moreInfoURL the info url * @param knowledgeTypes the knowledge types * @param supportedDecisions the decisions * @param priority the priority * @throws InvalidOclException if the ocl is not valid * * TODO: Do these need to be Lists or can they be simple Collections? */,1,1,0.9978173
+CodeBERT,5000,21,D1_to_D1,843,// lame generics issues: making Segment class static and manually // inserting cache reference to work around various problems generically // referencing methods/vars across classes.,1,1,0.9975274
+CodeBERT,5000,21,D1_to_D1,844,"// the other obj is null, so see if this non-null obj contains // a null value, which is equivilent. // Assume that if we have read some of the data and we still have // _data == null, then the value in the DB is actually null.",0,0,0.00080880744
+CodeBERT,5000,21,D1_to_D1,845,"// We just set the prefix for this fileset, and pass it up.",0,0,0.0005368274
+CodeBERT,5000,21,D1_to_D1,846,//TODO: this is kinda inconsistent with CollectionType,1,1,0.9984633
+CodeBERT,5000,21,D1_to_D1,847,/** * Defines the methods to generate source code from the model. Each class * providing code generation functionality must implement this to be recognized * by ArgoUML as a code generator. * <p> * TODO: A GUI-independent mechanism to pass settings to the code generator is * needed similar to what we have for reverse engineering. See * {@link org.argouml.uml.reveng.ImportInterface#getImportSettings()} and * {@link org.argouml.uml.reveng.SettingsTypes} * * @since 0.20 when it replaced the FileGenerator interface. */,1,1,0.99827254
+CodeBERT,5000,21,D1_to_D1,848,"// TODO: This appears unused. If it's needed, the Model API should // be enhanced to provide a method that does this directly.",1,1,0.9983802
+CodeBERT,5000,21,D1_to_D1,849,//{{{ Inner classes,0,0,0.00053787645
+CodeBERT,5000,21,D1_to_D1,850,// private boolean _showLineNumbers = false;,0,0,0.0005003964
+CodeBERT,5000,21,D1_to_D1,851,/** * The target model element * In UML1.x this is the element that owns the expression. * In UML2.x this is the expression itself * TODO: This makes behaviour different enough that separate subclasses * should be considered. */,1,1,0.9986356
+CodeBERT,5000,21,D1_to_D1,852,// succeeded,0,0,0.00063371257
+CodeBERT,5000,21,D1_to_D1,853,// can happen because of the multiple ways Cache.remove() // can be invoked :(,1,1,0.9942363
+CodeBERT,5000,21,D1_to_D1,854,"// probably not the best choice, but it solves the problem of // relative paths in CLASSPATH",1,1,0.9966168
+CodeBERT,5000,21,D1_to_D1,855,// save message in Sent folder,0,0,0.0005213363
+CodeBERT,5000,21,D1_to_D1,856,// Temporary - until we figure a better API,1,1,0.99837697
+CodeBERT,5000,21,D1_to_D1,857,// TODO: I18N,1,1,0.99736834
+CodeBERT,5000,21,D1_to_D1,858,"// Process the listeners last to first, notifying // those that are interested in this event",0,0,0.0005747862
+CodeBERT,5000,21,D1_to_D1,859,// TODO: Send an event instead of calling Explorer directly,1,1,0.99724233
+CodeBERT,5000,21,D1_to_D1,860,"// not sure whether this is clean, but this method is // declared not to throw exceptions.",1,1,0.9964342
+CodeBERT,5000,21,D1_to_D1,861,// number of milliseconds in a day,0,0,0.00054103555
+CodeBERT,5000,21,D1_to_D1,862,// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,1,1,0.9975751
+CodeBERT,5000,21,D1_to_D1,863,// Don't explicitly check if element is null,0,0,0.00072224624
+CodeBERT,5000,21,D1_to_D1,864,//{{{ ActionHandler class,0,0,0.0005172813
+CodeBERT,5000,21,D1_to_D1,865,// TODO: is this the right thing to do?,1,1,0.99844813
+CodeBERT,5000,21,D1_to_D1,866,// add the test classes to its classpath,0,0,0.00054103555
+CodeBERT,5000,21,D1_to_D1,867,// ------------------------------------------------------------------------,0,0,0.000522355
+CodeBERT,5000,21,D1_to_D1,868,//{{{ cancel() method,0,0,0.00051829213
+CodeBERT,5000,21,D1_to_D1,869,"// TODO: I believe the following code (to the end of the method) is // obsolete, // since NamePanel no longer seems to be the GUI for any component:",1,1,0.9977437
+CodeBERT,5000,21,D1_to_D1,870,// For 'b.foo()'. Args are only significant in maintaining backwards compatible AST structure,0,0,0.0010403185
+CodeBERT,5000,21,D1_to_D1,871,//{{{ init() method,0,0,0.0004994205
+CodeBERT,5000,21,D1_to_D1,872,// only accept client from local machine,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,873,// TODO: Is giving a FK constraint a name universally supported // and done the same way on every database?,1,1,0.9981756
+CodeBERT,5000,21,D1_to_D1,874,// strings might be equal!,0,0,0.0061331755
+CodeBERT,5000,21,D1_to_D1,875,// ignore...bean doesn't get registered // TODO: Why does that bother me?,1,1,0.9976586
+CodeBERT,5000,21,D1_to_D1,876,// XXX: action bar might not be 'temp',1,1,0.99491006
+CodeBERT,5000,21,D1_to_D1,877,//cache.clear();,0,0,0.0005043191
+CodeBERT,5000,21,D1_to_D1,878,/* This code was copied from ActionBooleanTaggedValue: */,1,1,0.8933094
+CodeBERT,5000,21,D1_to_D1,879,"// TODO - should this be done when the client is created? // If so, then the details need to be added as part of HttpClientKey",1,1,0.99847525
+CodeBERT,5000,21,D1_to_D1,880,//TODO: is this 100% correct?,1,1,0.9984145
+CodeBERT,5000,21,D1_to_D1,881,// Type node is passed down the chain for array initializers // which need it under some circumstances,0,0,0.00066800485
+CodeBERT,5000,21,D1_to_D1,882,// ================================================================,0,0,0.0005152657
+CodeBERT,5000,21,D1_to_D1,883,//$NON-NLS-1$ //$NON-NLS-1$ //$NON-NLS-1$,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,884,// TODO : why aren't these the same?,1,1,0.99785525
+CodeBERT,5000,21,D1_to_D1,885,//{{{ parseColor() method,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,886,// $NON-NLS-1$ // so it agrees with above // TODO perhaps should share code with __time() function for this... // $NON-NLS-1$ $NON-NLS-2$ // $NON-NLS-1$ $NON-NLS-2$,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,887,/* * @see java.awt.event.KeyListener#keyReleased(java.awt.event.KeyEvent) */,0,0,0.00044508645
+CodeBERT,5000,21,D1_to_D1,888,"/** * Process streams get Channel.newChannel()ed into FileChannel but are not actually * seekable. So instead of just the isSeekable check doing instanceof FileChannel, * we must also add this boolean to check, which we set to false when it's known * that the incoming channel is from a process. * * FIXME: This is gross, and it's NIO's fault for not providing a nice way to * tell if a channel is ""really"" seekable. */",1,1,0.9982759
+CodeBERT,5000,21,D1_to_D1,889,// $NON_NLS-1$,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,890,/* * The fields on this object is in fact represented in the xml * structure found as getRoot(). Therefore super.equals() * should do the job */,0,0,0.00079008617
+CodeBERT,5000,21,D1_to_D1,891,//{{{ getLineLength() method,0,0,0.00047656128
+CodeBERT,5000,21,D1_to_D1,892,// TODO temporary hack to avoid unnecessary bug reports for subclasses,1,1,0.99835795
+CodeBERT,5000,21,D1_to_D1,893,//{{{ nextMatch() method,0,0,0.0005142608
+CodeBERT,5000,21,D1_to_D1,894,// paths on case-insensitive filesystems are stored as lower // case in the hash.,0,0,0.0006094501
+CodeBERT,5000,21,D1_to_D1,895,//PostLoad is needed for EJB3 //TODO: reuse the PostLoadEvent...,1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,896,/* XXX magic number */,1,1,0.9935993
+CodeBERT,5000,21,D1_to_D1,897,// TODO: confirm expected args are IRubyObject (or similar),1,1,0.9979493
+CodeBERT,5000,21,D1_to_D1,898,// ---- emailTextField1 ----,0,0,0.0004373344
+CodeBERT,5000,21,D1_to_D1,899,//{{{ TOCTree constructor,0,0,0.00053161324
+CodeBERT,5000,21,D1_to_D1,900,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,901,// TODO: toLowerCase was not done before. Only used in Template.,1,1,0.99729556
+CodeBERT,5000,21,D1_to_D1,902,"/* * Cached copy of Totals for this instance. * The variables do not need to be synchronised, * as they are not shared between threads * However the contents do need to be synchronized. */",0,0,0.031858858
+CodeBERT,5000,21,D1_to_D1,903,// Slight hack - we need to ensure the TestClass is not reset by the previous call,1,1,0.9982212
+CodeBERT,5000,21,D1_to_D1,904,// ignore path elements which are not valid relative to the // project,0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,905,// init controllers for different parts of the composer,0,0,0.00057254656
+CodeBERT,5000,21,D1_to_D1,906,//GenFeatureImpl,0,0,0.00046826137
+CodeBERT,5000,21,D1_to_D1,907,/** * Get value from current scope or one of its captured scopes. * * FIXME: block variables are not getting primed to nil so we need to null check those * until we prime them properly. Also add assert back in. * * @param offset zero-indexed value that represents where variable lives * @param depth how many captured scopes down this variable should be set * @return the value here */,1,1,0.998606
+CodeBERT,5000,21,D1_to_D1,908,"// TODO: We can't have a global ""current"" language // NotationProviderFactory2.setCurrentLanguage(newLanguage);",1,1,0.9962782
+CodeBERT,5000,21,D1_to_D1,909,"// Although the default is not the same as for the string value, it is only used internally",0,0,0.0010005045
+CodeBERT,5000,21,D1_to_D1,910,"// TODO?? ColumnDisplayDefinition should also have the Type (String, Date, // Double,Integer,Boolean)",1,1,0.996858
+CodeBERT,5000,21,D1_to_D1,911,//only text nodes that are non null after property expansion are added,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,912,"//StyleConstants.setBackground(saSetErrorHistory, Color.pink);",0,0,0.0004907226
+CodeBERT,5000,21,D1_to_D1,913,// N.B. Needs to implement Visualizer so that TestBeanGUI can find the correct GUI class // TODO - remove UnsharedComponent ? Probably does not make sense for a TestBean.,1,1,0.99866986
+CodeBERT,5000,21,D1_to_D1,914,"// Color moOutlinePaint = new Color(0, 0, 0);",0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,915,// TODO implement additional operations in 4.5.3.5,1,1,0.9970765
+CodeBERT,5000,21,D1_to_D1,916,// Should we match using regexes?,0,1,0.9939731
+CodeBERT,5000,21,D1_to_D1,917,//}}} //}}},0,0,0.00053787645
+CodeBERT,5000,21,D1_to_D1,918,/** * TODO: Move this in FigGroup (in GEF). * * @param scb The suppressCalcBounds to set. */,1,1,0.9985619
+CodeBERT,5000,21,D1_to_D1,919,// get presence,0,0,0.0005680935
+CodeBERT,5000,21,D1_to_D1,920,//TODO clazz is probably always the same as testclass,1,1,0.9977743
+CodeBERT,5000,21,D1_to_D1,921,/** * Called when app shutdown. * TODO: Put throws clause back in */,1,1,0.9986646
+CodeBERT,5000,21,D1_to_D1,922,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,923,// TODO: Mark diagram/project as dirty?,1,1,0.9964134
+CodeBERT,5000,21,D1_to_D1,924,"/** * FIXME Per the RegionFactory class Javadoc, this constructor version * should not be necessary. * * @param props The configuration properties */",1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,925,// Should we run a beanshell script on startup? // $NON-NLS-1$,1,1,0.9890765
+CodeBERT,5000,21,D1_to_D1,926,/* * @see org.tigris.gef.presentation.Fig#setLineColor(java.awt.Color) */,0,0,0.00042388475
+CodeBERT,5000,21,D1_to_D1,927,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#buildModelList() */,0,0,0.0004416243
+CodeBERT,5000,21,D1_to_D1,928,// this seems unlikely to happen unless it's a totally bogus fileno // ...so do we even need to bother trying to create one?,1,1,0.9963994
+CodeBERT,5000,21,D1_to_D1,929,// TODO - should check that error has been logged...,1,1,0.9984176
+CodeBERT,5000,21,D1_to_D1,930,"// Load .xmi file before any PGML files // FIXME: the following is loading the model before anything else. // Due to the Zargo containing the profiles, currently we have // removed this hack in UmlFilePersister and I think it should be // removed from here also.",1,1,0.9977787
+CodeBERT,5000,21,D1_to_D1,931,// Make sure they are closed no matter what bad thing happens. //,0,0,0.013742321
+CodeBERT,5000,21,D1_to_D1,932,// draw the outline...,0,0,0.00048785715
+CodeBERT,5000,21,D1_to_D1,933,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,934,// first char must be digit,0,0,0.00052954187
+CodeBERT,5000,21,D1_to_D1,935,//{{{ Static variables,0,0,0.00050530455
+CodeBERT,5000,21,D1_to_D1,936,//{{{ getParentOfPath() method,0,0,0.00048595612
+CodeBERT,5000,21,D1_to_D1,937,"/** * A specialist Selection class for FigPartitions. * This ensures that all swimlanes are the same length (ie height). * TODO: Make sure that all swimlanes appear side by side (UML spec * states ""separated from neighboring swimlanes by vertical solid * lines on both sides"". * TODO: Allow drag of the west and east edge to resize both the selected * Fig and the fig connected to that side. * TODO: Show NorthWest and SouthWest handle only on leftmost swimlane. * TODO: Show NorthEast and SouthEast handle only on rightmost swimlane. * @author Bob */",1,1,0.9984723
+CodeBERT,5000,21,D1_to_D1,938,"// First, validate all the enabled filters... //TODO: this implementation has bad performance",1,1,0.9984573
+CodeBERT,5000,21,D1_to_D1,939,// try a null dataset - should return a null range,0,0,0.00057254656
+CodeBERT,5000,21,D1_to_D1,940,// Add any files,0,0,0.0005614787
+CodeBERT,5000,21,D1_to_D1,941,// TODO: don't require pop,1,1,0.9982993
+CodeBERT,5000,21,D1_to_D1,942,// TODO : most of below was taken verbatim from DotNode; should either delegate this logic or super-type it,1,1,0.99825555
+CodeBERT,5000,21,D1_to_D1,943,//TODO: used to be exprNoParens! was this needed?,1,1,0.99816495
+CodeBERT,5000,21,D1_to_D1,944,"// reorder submenu // TODO: I think this requires I18N, but not sure - tfm",1,1,0.9984603
+CodeBERT,5000,21,D1_to_D1,945,// We don't have a local copy,0,0,0.0006550929
+CodeBERT,5000,21,D1_to_D1,946,// defer argument checking...,1,1,0.99791294
+CodeBERT,5000,21,D1_to_D1,947,/* Primary interpreter set and get variable methods Note: These are squeltching errors... should they? */,1,1,0.9979007
+CodeBERT,5000,21,D1_to_D1,948,"// Cast to int required as Dimension::setSize(double,double) // doesn't appear to do anything in JDK1.2.2.",1,0,0.40518394
+CodeBERT,5000,21,D1_to_D1,949,// NOOP,0,0,0.0006932423
+CodeBERT,5000,21,D1_to_D1,950,/* * @see org.tigris.gef.graph.GraphModel#getInEdges(java.lang.Object) */,0,0,0.00042804275
+CodeBERT,5000,21,D1_to_D1,951,"// field is not nullable, so create a reasonable default value",0,0,0.00054740964
+CodeBERT,5000,21,D1_to_D1,952,"//just to help out during the load (ugly, i know)",1,1,0.99566853
+CodeBERT,5000,21,D1_to_D1,953,// i18n[DBUtil.info.bindclobmem=bindClobVarInMemory: binding '{0}' bytes],0,0,0.00047470425
+CodeBERT,5000,21,D1_to_D1,954,// line 1573,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,955,// Remember to change this when the class changes ...,1,1,0.9979652
+CodeBERT,5000,21,D1_to_D1,956,/* TODO create exception for this */,1,1,0.9984238
+CodeBERT,5000,21,D1_to_D1,957,// TODO // This is faster than many charAt() calls. //,1,1,0.99727964
+CodeBERT,5000,21,D1_to_D1,958,// attempting to expand non-word char,0,0,0.00045297577
+CodeBERT,5000,21,D1_to_D1,959,"// TODO - charset? // TODO this should really be request data, but there is none",1,1,0.9975561
+CodeBERT,5000,21,D1_to_D1,960,/* (non-Javadoc) * @see com.mockobjects.sql.MockDatabaseMetaData#supportsSubqueriesInExists() */,0,0,0.00047009322
+CodeBERT,5000,21,D1_to_D1,961,"// TODO: need to isolate the ""current"" thread from class creation",1,1,0.99850464
+CodeBERT,5000,21,D1_to_D1,962,// No point in keeping garbage. //,0,0,0.0008796062
+CodeBERT,5000,21,D1_to_D1,963,/** * Builds an actor in the same namespace as the given actor. If * the object is not and actor nothing is built.<p> * * TODO: This shouldn't just silently fail if it is passed a bad * argument. This contract will change. - tfm 20070607 * * @param model The namespace. * @param actor the given actor * @return Actor the newly built actor */,1,1,0.99834836
+CodeBERT,5000,21,D1_to_D1,964,"// SampleEvent is not passed JMeterVariables, because they don't make sense for Proxy Recording // TODO - is this the correct threadgroup name?",1,1,0.99816847
+CodeBERT,5000,21,D1_to_D1,965,//}}},0,0,0.000532652
+CodeBERT,5000,21,D1_to_D1,966,// TODO: I18N required,1,1,0.9977083
+CodeBERT,5000,21,D1_to_D1,967,// TODO : this is broke for subqueries in statements other than selects...,1,1,0.99850464
+CodeBERT,5000,21,D1_to_D1,968,"// I hate this so much even before I start writing it. // Re-initialising a global in a place where no-one will see it just // feels wrong. Oh well, here goes.",1,1,0.99366105
+CodeBERT,5000,21,D1_to_D1,969,//$NON-NLS-1$,0,0,0.00047101182
+CodeBERT,5000,21,D1_to_D1,970,"// i18n[LogPanel.logInfoLabel=Logs: Errors {0}, Warnings {1}, Infos {2}]",0,0,0.0004955359
+CodeBERT,5000,21,D1_to_D1,971,// If we have a currentAct object that means have reached the end // of the lifeline with a call or a create not returned. // Add the activation to the list after setting its height to end // at the end of the lifeline.,0,0,0.00064999826
+CodeBERT,5000,21,D1_to_D1,972,"// The following does not seem to work - centered the Fig instead. // getNameFig().setJustificationByName(""center"");",0,1,0.9972045
+CodeBERT,5000,21,D1_to_D1,973,"// since Java 1.4 //return normalizedPath.split(""/""); // workaround for Java 1.2-1.3",1,1,0.7914184
+CodeBERT,5000,21,D1_to_D1,974,// menuitem/toolbar button action,0,0,0.0005072812
+CodeBERT,5000,21,D1_to_D1,975,//??GETRIDOFTHIS,1,1,0.99822825
+CodeBERT,5000,21,D1_to_D1,976,// TODO: Something about pipe buffer length here,1,1,0.99812883
+CodeBERT,5000,21,D1_to_D1,977,// line 952,0,0,0.0004840624
+CodeBERT,5000,21,D1_to_D1,978,//WARNING: We trim the values of all the attributes because //Some extension declarations are badly defined (ie have spaces //after version or vendor),0,1,0.98421544
+CodeBERT,5000,21,D1_to_D1,979,// TODO appears to duplicate the threadName field in SampleResult,1,1,0.9979652
+CodeBERT,5000,21,D1_to_D1,980,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,981,// TODO: handle n-way Associations,1,1,0.9979771
+CodeBERT,5000,21,D1_to_D1,982,/* * @see javax.swing.ComboBoxEditor#setItem(java.lang.Object) */,0,0,0.0004373344
+CodeBERT,5000,21,D1_to_D1,983,// Finish up,0,0,0.000559291
+CodeBERT,5000,21,D1_to_D1,984,// only http and https are supported,0,0,0.00077633
+CodeBERT,5000,21,D1_to_D1,985,/* * @see BaseDataSetViewerDestination#allRowsAdded() */,0,0,0.00045831295
+CodeBERT,5000,21,D1_to_D1,986,// $NON-NLS-1$,0,0,0.00047285447
+CodeBERT,5000,21,D1_to_D1,987,// check for easy mistake,0,1,0.9404625
+CodeBERT,5000,21,D1_to_D1,988,"/////////////////////////////////////////////////////////////////////// // HACK ALERT !!!!!!!!!!!!!!!!!!!!!!!!!!!! // Attempt to work around ""ghost"" ImpliedFromElements that occasionally // show up between the actual things being joined. This consistently // occurs from index nodes (at least against many-to-many). Not sure // if there are other conditions // // Essentially, look-ahead to the next FromElement that actually // writes something to the SQL",1,1,0.99812883
+CodeBERT,5000,21,D1_to_D1,989,// unused in parent,1,1,0.992837
+CodeBERT,5000,21,D1_to_D1,990,// not needed,1,1,0.99805814
+CodeBERT,5000,21,D1_to_D1,991,/* Apparently in some environments you can't catch the security exception at all... e.g. as an applet in IE ... will probably have to work around */,1,1,0.99857855
+CodeBERT,5000,21,D1_to_D1,992,"// TODO: at the point where we are resolving collection references, we don't // know if the uk value has been resolved (depends if it was earlier or // later in the mapping document) - now, we could try and use e.getStatus() // to decide to semiResolve(), trouble is that initializeEntity() reuses // the same array for resolved and hydrated values",1,1,0.9980392
+CodeBERT,5000,21,D1_to_D1,993,// TODO: multiplicity checks,1,1,0.99796116
+CodeBERT,5000,21,D1_to_D1,994,// ENEBO: Very wrong,1,1,0.99675864
+CodeBERT,5000,21,D1_to_D1,995,// todo : should we check the current isolation mode explicitly?,1,1,0.9981067
+CodeBERT,5000,21,D1_to_D1,996,// REVISIT: Remove this code.,1,1,0.9976357
+CodeBERT,5000,21,D1_to_D1,997,// caretLine would have been incremented // since insertNewLineAt <= caretPos,0,0,0.00056588
+CodeBERT,5000,21,D1_to_D1,998,"/* * N.B. to add a new field, remember the following * - static _xyz * - instance xyz=_xyz * - clone s.xyz = xyz (perhaps) * - setXyz(boolean) * - saveXyz() * - update SampleSaveConfigurationConverter to add new fields to marshall() and shouldSerialiseMember() * - update SampleResultConverter and/or HTTPSampleConverter * - update CSVSaveService: CSV_XXXX, makeResultFromDelimitedString, printableFieldNamesToString, static{} * - update messages.properties to add save_xyz entry * - update jmeter.properties to add new property * - update listeners.xml to add new property, CSV and XML names etc. * - take screenshot sample_result_config.png * - update listeners.xml and component_reference.xml with new dimensions (might not change) * */",0,0,0.016199458
+CodeBERT,5000,21,D1_to_D1,999,// Only do verification if debug level logging is on // TODO: Should we leave this on always? - tfm,1,1,0.998242

@@ -1,0 +1,41 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score
+CodeBERT,200,13,D1_to_D1,0,"/** * TODO: The code implementing this method is from 2003 (see issue 2171) - * mechanically integrated by tfmorris in May 2007. Needs to be * reviewed/updated. * * @author Decki,Endi,Yayan, Politechnic of Bandung. Computer Departement * method for changing text of Message * @param newOwner * @param parameter */",1,1,0.651916
+CodeBERT,200,13,D1_to_D1,1,// Hack to allow external control,1,1,0.53324556
+CodeBERT,200,13,D1_to_D1,2,// TODO: ToDoItem stuff should be made an opaque extension,1,1,0.61145806
+CodeBERT,200,13,D1_to_D1,3,//$NON-NLS-1$,0,0,0.4781176
+CodeBERT,200,13,D1_to_D1,4,// IDENT might be the name of a class.,0,1,0.5357968
+CodeBERT,200,13,D1_to_D1,5,// throws // java.io.IOException,0,1,0.5057675
+CodeBERT,200,13,D1_to_D1,6,// TODO @author fdietz: no paging used currently // show only first 5 results,1,1,0.5833925
+CodeBERT,200,13,D1_to_D1,7,// TODO: validate port as numeric,1,1,0.58131796
+CodeBERT,200,13,D1_to_D1,8,//{{{ loadToolButton() method,0,0,0.4985657
+CodeBERT,200,13,D1_to_D1,9,"// TODO: Can we just do this every time, no need for else - Bob",1,1,0.6217993
+CodeBERT,200,13,D1_to_D1,10,// $NON-NLS-1$,0,0,0.4777369
+CodeBERT,200,13,D1_to_D1,11,"// FIXME: if we terminate immediately, this appears to break while in method arguments // we need to push a nil for the cases where we will never enter the body",1,1,0.6097747
+CodeBERT,200,13,D1_to_D1,12,// get source folder,0,0,0.4965821
+CodeBERT,200,13,D1_to_D1,13,// TODO: There is a cyclic dependency between SelectionRerouteEdge // and FigEdgeModelElement,1,1,0.5923313
+CodeBERT,200,13,D1_to_D1,14,// check handling of null key,0,1,0.5046691
+CodeBERT,200,13,D1_to_D1,15,//{{{ needFullRepaint() method,0,0,0.49584967
+CodeBERT,200,13,D1_to_D1,16,//}}},0,0,0.47275954
+CodeBERT,200,13,D1_to_D1,17,//TODO (@author tstich): do something,1,1,0.59036595
+CodeBERT,200,13,D1_to_D1,18,//}}},0,0,0.47275954
+CodeBERT,200,13,D1_to_D1,19,/* * @see org.argouml.uml.ui.UMLModelElementListModel2#buildModelList() */,0,1,0.52821404
+CodeBERT,200,13,D1_to_D1,20,// Struct methods,0,0,0.48322162
+CodeBERT,200,13,D1_to_D1,21,"//System.err.println("" figureOutBase/base="" + base);",0,1,0.5179671
+CodeBERT,200,13,D1_to_D1,22,// TODO: not in UML 2,1,1,0.59103
+CodeBERT,200,13,D1_to_D1,23,// private JPanel constraintsTab = new JPanel();,0,1,0.5188814
+CodeBERT,200,13,D1_to_D1,24,// TODO: implement this properly,1,1,0.5900043
+CodeBERT,200,13,D1_to_D1,25,"// UML 1.4 spec is ambiguous - English says no Association or // Generalization, but OCL only includes Association // || Model.getFacade().isAGeneralization(dm)",1,1,0.59204024
+CodeBERT,200,13,D1_to_D1,26,// this is a hack for the multiline column,1,1,0.5231006
+CodeBERT,200,13,D1_to_D1,27,//TODO: There is a cyclic dependency between this class and FigConcurrentRegion,1,1,0.5957866
+CodeBERT,200,13,D1_to_D1,28,// Some dbs (like McKoi) make -1 the default for scale. Apply the // same hack as above.,1,1,0.598149
+CodeBERT,200,13,D1_to_D1,29,// empty implementation - we only handle mouseClicked,0,1,0.53085977
+CodeBERT,200,13,D1_to_D1,30,"//addRightComponent(taskButton, 30);",0,1,0.5138514
+CodeBERT,200,13,D1_to_D1,31,// TODO should level be more than debug ?,1,1,0.59318036
+CodeBERT,200,13,D1_to_D1,32,//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,1,1,0.60644567
+CodeBERT,200,13,D1_to_D1,33,// shall we switch to SSL?,0,1,0.52571887
+CodeBERT,200,13,D1_to_D1,34,// return the text from the file since it does // represent a valid data value,0,1,0.5363584
+CodeBERT,200,13,D1_to_D1,35,// $NON-NLS-1$,0,0,0.4777369
+CodeBERT,200,13,D1_to_D1,36,// TODO: This is also defined in the MetaClass too...Consolidate somewhere.,1,1,0.6409309
+CodeBERT,200,13,D1_to_D1,37,"/* Implementation notes: Note: we may need some synchronization in here Note on version dependency: This base class is JDK 1.1 compatible, however we are forced to use weak references in the full featured implementation (the optional bsh.classpath package) to accomodate all of the fleeting namespace listeners as they fall out of scope. (NameSpaces must be informed if the class space changes so that they can un-cache names). <p> Perhaps a simpler idea would be to have entities that reference cached types always perform a light weight check with a counter / reference value and use that to detect changes in the namespace. This puts the burden on the consumer to check at appropriate times, but could eliminate the need for the listener system in many places and the necessity of weak references in this package. <p> */",1,1,0.692551
+CodeBERT,200,13,D1_to_D1,38,/* TODO: The above statement also refreshes when * we are not shown (to be verified) - hence * not entirely correct. */,1,1,0.6126139
+CodeBERT,200,13,D1_to_D1,39,// Result column renderers,0,0,0.4928594
