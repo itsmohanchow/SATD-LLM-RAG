@@ -1,0 +1,937 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output
+Prompt_LLM,5000,42,D1_to_D2,0,"Martin, if possible this feature should also supprt the aggregaor as well. They both use BatchProcessor, so I guess it should be possible",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,1,refine the patch as comments from zhangduo,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,2,thakis: are you still planning on fixing this? This is similar to but not quite the same as,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,3,"This doesn't include any stargate stuff, only issues there are the tab issues, reordering, and whether to expose the pools or not. I'm not sure we want to remove the ability to work with HTablePool directly or not. This patch re-publics a bunch of stuff, cuts down on the API quite a bit, and reduces re-instantiation of HBC when getting pools that already exist and will always reuse the original when getting tables. We should definitely keep that. Otherwise the changes are open to discussion, I'm not particularly sold on my own patch, just providing it so we have a point of reference for discussion. The biggest thing to figure out is whether we even expose HTablePool non-statically to the user. If not, we go down the path of a much longer easy-to-use API... /me sleeping on it",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,4,Sure. A new patch only including patches to this issue. :),0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,5,Add OSGi integration for camel-xstream,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,6,"This seems to be a false alarm. If you visit in chromium on OSX, the test passes. If you visit it fails, so I suspect a subtle difference in our run_webkit_tests is to blame for the layout test failure.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,7,32416: Is it possible to see full url in the status bar after hovering a link (at the moment large urls are truncated),1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,8,"Hey , can you remove instances of setting the port to -1 in existing tests? I did a quick grep and there looks to be only a handful. Can you add some class-level javadoc about the minicluster ports going random instead of default. Do you think it might be worth a debug-level logging message too? I could image someone setting a value and in one special case having it fail.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,9,"The only reasonable way to do that is to have an i386 chroot on the amd64 machine, and build inside that (tools like pbuilder and cowbuilder make that sort of thing easier). Can Apache not provide an i386 build machine, though? I have no idea if a pbuilder chroot would even be a viable option under Jenkins.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,10,Support preserving the original message QoS options when a message gets re-sent to a JMS destination,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,11,Remove dead classes in hadoop-streaming,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,12,"* Tagged as 2.0.3RC0 (Pushed later): {{$ git tag -s 2.0.3RC0 -m ""Tag first 2.0.3 RC""}} * Ran the make_rc.sh script. Failed for me on mac osx (HBASE-21513). Did it on linux vm instead (need to make a dockerfile that takes in gpg keys... and settings.xml...) * Tried out the product; made sure I could build from src tarball and checked out bin tarball layout, ran it, loaded it, checked data loaded. * Signed it * Generated compat report: --annotation rel/2.0.2 2.0.3RC0 * Checked out release up on in staging.. then closed the repo. * When testing the release, it looked like it was slow doing pe sequentialRead so compared it to 2.0.1. They are about the same. * Pushed 2.0.3RC0 tag to remote * Sent out VOTE email.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,13,"We cannot distribute Oracle binaries with Impala, but it will be useful to explain to someone how to get Oracle set up (server, client) so that he may use it as a reference db for the query generator.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,14,"I'm happy to give that a try tomorrow if/when it reproduces again. FWIW, I haven't been seeing a beachball during the bug, but I'll see if it's the same thing. Please let me know the best way to get you the traces you need.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,15,427: is failing when attempting to build the war file,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,16,Moving out of 0.92.0. Pull it back in if you think different.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,17,"Actually, if I read correctly the code in HRegion, just marking the operations as success as I do in the v1 is enough:",0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,5000,42,D1_to_D2,18,"No, we have no implementation. We just allow them to delete the repo from underlying storage, and we have a (proprietary) periodic job to reindex all stale changes which knows how to delete documents when the repo disappears. We still discourage users from doing it, but we allow it.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,19,Committed,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,20,"Thanks for the good thoughts. Yes it's often a good question to think about either interface or abstract class in Java. My feeling is that if it's in a framework, subject to be pluggable and implemented by customers, an interface would be good to have. So I guess we could keep {{ErasureCoder}} interface, and convert interface to a class. I'm not sure, as erased indices have to be be computed according to input blocks and output blocks just for decoders, and encoders don't have the related logics. Currently in RS coder the decoding is rather simple but I believe it will be much complicated for codes like LRC and Hitchhiker, so separating encoding class and decoding class is desired.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,21,It's been like this since 2.11; it's not worth trying to fix now when we're about to drop GWT.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,22,"Spring Integration 1.0.0.4 m4 is released, we need to catch up it.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,23,I have committed this. Thanks Joep!,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,24,Attach a 005 patch to fix the whitespace and javadoc warnings.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,25,"I haven't tested on 0.19, but we've been using the Trash feature on our clusters for some time . Could you check if Namenode config also has the non-zero fs.trash.interval? - Client uses 'fs.trash.interval' to determine whether to delete files or move them to Trash. - Namenode uses 'fs.trash.interval' for running the expunge thread to clean up the users' Trash directories. So your files should be deleted between namenode's 'fs.trash.interval to 'fs.trash.interval * 2' period.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,26,"my takeaway from this JIRA's description is to providing metrics regarding failed to recover replication queue. The reason of this failure could be ZK node oversize or other unknown issue. For ZK issue, the only solution is to increase its size via ""jute.maxBuffer"" from both client and server side. So, I am not changing any HBase code to try to handle it. Simply increase the count for this new metric and print out error to log to alert operators. Metrics look like this after this patch: ""name"" : ""modelerType"" : ""tag.Context"" : ""regionserver"", ""tag.Hostname"" : : 0, : 0, ... : 0, ... : 0, (this metric is in global source, so it's resilient to any particular source going down)*",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,27,54986: Wine Project's RSS page will not display in chromium,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,28,Bulk close issues per discussion at,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,29,"No code changes, purely a rename of the file and its test",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,30,"This affects at least version 1.5.0 of the docs. If I look through the xsddocs on the website (starting from the Camel Xml Reference page) for the throwFault element, it's not there even though it _is_ present in the actual xsd. I guess something went wrong with the generation of those pages and it makes it rather difficult to figure out what's valid and what isn't.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,31,Done - a unit test is added.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,32,The Scan objects used to construct AggregateRequest's for aggregates supported by AggregationClient qualify as small scan because response from each region is small. We should utilize small scan for better performance.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,33,"I tried to pick this up again and so far I've been running into several dependencies where we don't depend on it at all, but enforcer plugin complains because it turns out hadoop is internally inconsistent (usually between hadoop-client and hadoop-minicluster having transitive dependancies on things). This might be a bug in the enforcer plugin, or we should push hadoop to be cleaner before we start trying to enforce things on our own side.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,34,Mike can you - attach a zip file with your sample project that fails. - what version of ServiceMix are you using? - and how do you start your sample and see the bug It would get us much faster up to speed how to see the bug,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,35,"We enable shell option live_progress in interactive mode by default. As for in the non-interactive mode, live reporting is not supported. Impala-shell will disable live_progress if the mode is detected. Need to update the doc to reflect the changes.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,36,"Hi, libthrift is deployed with a ""pom"" packaging on maven central, see This is very wrong. ""pom"" means ""no jar, just a list of dependencies to be pulled transitively"". As a consequence, some build tools, such as sbt, don't pull the libthrift jar itself. The pom should be be using a ""jar"" packaging, or even no packaging at all as ""jar"" is the default value.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,37,"oro is a transitive dependency from commons-net. Feel free to remove it from ivy.xml though, as it'll get pulled in anyway :)",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,38,"Patch looks pretty good to me, Tucu. Only one little nit - seems like you've got some excessive indentation in +1 otherwise.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,39,"ExportSnapshot will skip files that are the same (either via checksum or via name+length comparison). We use this to cut down on transfer time. First we snapshot the table, then export that snapshot to the remote DFS. Next run, we instead start by copying the previously exported snapshot into the current snapshot's destination (all on the remote DFS). We then do the snapshot and export dance again, and it dutifully copies only the changed files. Our (fb) HDFS has hard links (last I heard upstream does not) so we can copy backups around pretty cheaply. In the future we may just throw everything into one directory and let the manifest be the decider of what files are involved, but in the mean time it's copy and differential.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,40,"Any chance one of you has the configs laying around from the benchmarks run on the slabcache [announcement I'm attempting to reproduce and slabcache looks pretty unstable. I wonder if I'm exercising some edge-case based on my configuration or if there's some bit-rot happened. Specifically, I'm looking for values for HBASE_HEAPSIZE, and anything else that was using a non-default value. Thanks.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,41,"RemoteException has a number of undocumented behaviors * has no javadocs on getClassName. Reading the source, the String returned is the classname of the wrapped remote exception. * String) is equivalent to calling String, null) * Constructors allow null for all arguments * Some of the test code doesn't check for correct error codes to correspond with the wrapped exception type * methods don't document when they might return null",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,5000,42,D1_to_D2,42,Some WIP -,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,43,"As can be seen in this email message to the users list it is possible for some pre-required packages to be missing, but the traditional method for validating their existence in specfile using ""BuildRequires"" won't work for items that are not commonly available as RPMS. I think that in this user's case the missing bit is the bundler gem, which I have a locally built RPM for, but I have to assume that most folks do not and it is not commonly available in most repos (not that I saw as a Centos6.4 user anyway) The patch I am attaching just checks if ruby subpackage was not disabled at the (at the buildrpm level) and if the results of ./configure have determined that ""make install"" won't build the gem (and so the rpm build of the rubygem-thrift subpackage is bound to fail) abort the build with a clear message An alternative solution MAY be to just dynamically skip that package when it is detected that ./configure excluded ruby (I don't know off hand how to do that)",1,0,,"NON_SATD
+
+Explanation: This"
+Prompt_LLM,5000,42,D1_to_D2,44,"Query contains functions like ""rand(), if()"" could crash Impala. *Workaround:* turning logging down or off should fix it",1,0,,"**SATD**
+
+Explanation: The comment"
+Prompt_LLM,5000,42,D1_to_D2,45,"When profiles are explicitly activated in maven using -P, the <activeByDefault However there is one more blocker I will have to take care before 1.6.1 can be released. During the release:prepare phase the poms are regenerated and the <?xml> decl, the apache license notice is lost and there are issues with white spaces. This seems related to the fact that the <project> element is not on one line as per the new maven release guide. Fixing this may take a day or two as we have so many poms but I'll do it as the highest prio. Once I'll get it to work and release 1.6.1, I'll tackle 2.0-M2. The good news is that once we have this fixed, the release process will be much simplified.",1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,46,Pushed to 0.94,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,47,"I had an enum with a value named ""BLAH.SOMETHING"", which the compiler happily consumed, outputting invalid Java code. Period should not be allowed in names like this.",0,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,48,Removing a peer does not properly clean up the state and metrics,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,49,Commited fix. The flag is named: its a boolean that is *false* by default. Set it to *true* to enable it as it works in Camel 1.4 or older.,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,50,See for some discussion on why it currently uses AND instead of OR.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,51,"Would adding to the throws list of HttpServer::start, and rethrowing, be clearer? should be reserved for, well, interrupted I/O. Have you seen wrapped in logs or other evidence that would support this change? It is difficult to evaluate this without corresponding changes to the callers. What one might do with this is speculative in its current form.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,52,: Normal Reading Using the Google translation feature,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,53,StringCompare is very slow,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,54,We could support to set these parameters through the http4 endpoint uri if we don't specify the connection manager in the http component.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,55,"You should also look at the other types from Hive: * Byte * Timestamp * List * Map * Union Hive includes a standard serialization library that produces serializations that memcmp into the natural sort order, which it uses for MapReduce key serialization.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,56,"looks like jline shows up in the modules now. the rest of the approach looks really good, though! I assume this works both in dev tree and out of a bin tarball?",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,57,"Thanks! Here is the error that I got when making the compiler: I've attached a patch to remove the variable, rather than having more back and forth about that. I'd rather have them in a single solution, where we just don't build all of them. : Do either of you have an opinion on this?",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,58,"Since the test fails if merge references are not cleaned, we can call more than once if needed. runCatalogScan() is the only method exposed by CatalogJanitor, otherwise we can poll CatalogJanitor for the value of mergeCleaned and pass the test when mergeCleaned crosses 1. Patch v2 passes 30 iterations of test runs. Previously the test failed within the first 5 iterations.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,59,Make camel-jms more robust for replyTo,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,60,Applying the @Override annotation to an interface method breaks compile on Java 1.5. Only use this on true class method overrides. compile: [javac] Compiling 80 source files to [javac] method does not override a method from its superclass [javac] @Override [javac] ^ [javac] Note: Some input files use unchecked or unsafe operations. [javac] Note: Recompile with -Xlint:unchecked for details. [javac] 1 error BUILD FAILED Compile failed; see the compiler error output for details.,0,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,61,Currently HttpServer2 loads the JspServlet by default. It should be removed as JSP support is no longer required.,1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,62,Significant performance difference between LIKE = 'x' AND = 'x',1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,63,"I have a problem if I try to use Strings as map keys. Somehow I get two double quotes around the key values, e.g. """"key"""" instead of ""key"": 'a b':'with spaces', 'test':'test', ... }) sends: b"""":""with ... }]}}] I guess it's something wrong on the write methods from compiled JS services... Could someone test this on their machine? Thank you. Cheers, Henrique",0,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,64,Restlet default binding does not acknowledge Fault message in the exchange when creating a response,0,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,65,Resource Leak in thrift struct under,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,5000,42,D1_to_D2,66,pointer subtraction in TMemoryBuffer relies on undefined behavior,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,67,"I tested it locally. The generated code looks like this: throw new field 'myField' has been assigned the invalid value "" + myField); and it does display the value and not the name.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,68,Looks fine. Aren't all those expensive?,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,69,Refreshed workspace and this test passes.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,70,"449.0 It's easy to typo 'v' (switch SBS/unidiff) when you mean 'c' (add comment). This is completely messes up the view, and if you don't realize your typo, you don't know how to get back. A key less close to 'c' would be nicer.",1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,71,No longer this case as some other cleanup corrected the log. Just closing as can not reproduce,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,72,Reward is in the electronic system.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,73,"In the future, attach patch and click 'Submit Patch' button.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,74,"Thanks for comitting THRIFT-1094, I'll update the patch this evening (and attach as _v2) to include testing TZlibTransport wrapping in the code (as a cmdline --zlib argument to both scripts). FYI, currently the hudson(jenkins) build seems to be failing on the javascript jslint tasks, stopped the build tests from progressing past the 'test/js' directory...",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,75,lg e975 problem wpa connect!!!,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,76,"As of HADOOP-2095, InMemoryFileSystem is no longer used. Its design was optimized for a particular application and it is thus not a good general-purpose RAM-based FileSystem implementation, so it ought to be removed.",1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,77,1) const std::string& for path 2) does specifying default params in just the .cpp file really work? seems like the compiler would have trouble understanding that. 3) Document using O_APPEND. Maybe allow overwriting as another option,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,78,"Gerrit v2.15.2 with the high-availability plugin from stable-2.15 1. Install Gerrit v2.15.2 on two nodes with a lot of repos and changes (~ 1M changes overall) and NoteDb enabled 2. Install the high-availability plugin on both nodes, pointing to each other 3. Trigger the on-line reindex of changes on both nodes The two nodes are reindexing their Lucene changes index, without impacting active incoming traffic. Both nodes are collapsing the DB pool because they allocate a connection when not needed. With NoteDb, the call to reindex can even pass potentially a NULL object. Object, because of null checking, we need to ""mimic"" a bit of ReviewDb behaviour but without having to allocate a real DB connection.",1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,79,Was committed some time back. Marking fixed.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,80,"ACK. Sounds simple enough, I'll look into it this evening.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,81,From Robert Gibbon up on hbase-user@: Update the remote init script appropriately.,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,82,I don't know. I've never tried it since it is undocumented. :),1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,83,"Hi, Actually I toyed with this a while ago and it's not hard to implement. It would help in a few ways, one being distributing our own tests on multiple nodes and reduce the ridiculously long building time (but hey, we have some 4000 unit tests, something to brag about). The issue is that gridgain repackaged and distribute their api under ASL2.0 at our own's jstrachan request quite a while ago. The issue is that the nodes are still GPL so I have no idea how we could test such a component unless they would make available a mock or something as ASL2.0 as well. I am willing to bet that they won't relicense the whole thing. I spoke to Nikita some 6 months ago about this and it looks like the GG crowd is not quite happy about the prospect. One alternative would be to implement and host it at the fuse forge and camel extra and depending on the community interest see if we could work something out with GG and move the component later at apache.",1,0,,"NON_SATD
+
+Explanation: This"
+Prompt_LLM,5000,42,D1_to_D2,84,"trunk: 1067682. Don't use thread pool for single threaded reply manager as Spring DMLC is a bit pants as it will keep using new tasks every second when idle, and that just confuses people, as task count will grow very large.",1,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,85,"Ah, I misread Mark's comment, apologies. Let me verify in the Parquet build environment and I will report back to confirm (and add this to the developer documentation).",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,86,"Although distcp allow users to control the parallelism via number of mappers, sometimes it's desirable to run fewer mappers but more threads per mapper. Since distcp is network bound (either by throughput or more frequently by latency of creating connections, opening files, reading/writing files, and closing files), this can make each mapper much more efficient. When WebHDFS protocol is used either as source or target, this MultiThreaded approach can make the HTTP connection reuse (to the NameNode) more efficient as well. In that way, a lot of resources can be shared so we can save memory and connections to NameNode.",1,1,,"SATD
+```python
+def classify"
+Prompt_LLM,5000,42,D1_to_D2,87,We should upgrade Apache RAT to something modern.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,88,Patch looks good. Javadoc is a little bit odd because it seems like it's asking the client to call flushCommits rather than it happening automatically. Can fix on commit. Should we put this into 0.20 branch and trunk?,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,89,"Hi, Thanks community for finding the fix for this. While testing and reviewing the patch, we noticed the createSSLContext() allows for the condition where both the keystore and truststore is set: if && { null); } For the case above where both the keystore and truststore parameters are set, the truststore file input stream should still leak (depend on GC) since it was not implicitly closed before the reference ""fin"" is reused for the keystore. We got around this by allocating a different file input stream reference for the keystore and truststore and closed both in the finally block. Best Regards, T.",1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,90,"Odd, after branching and un-branching I'm suddenly unable to reproduce. Closing as it is probably my issue.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,91,AIX is not an environment we can currently test/verify in our Continuous Integration environment. You will need to make changes like the one your already found in order to use it. I apologize that we cannot assist you further but we have no access to an AIX environment. Perhaps someone on the thrift user mailing list could be of more assistance? It sounds like we're missing headers in some places to cover what's needed. I would prefer to see changes to headers rather than an pre-include.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,92,"Despite this is pretty rare, I mean that variable ""probe_expr_ctxs_"" is added twice while variable ""filter_expr_ctxs_"" is not called by function AddExprCtxsToFree。",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,93,Thanks for the fix. Is there a chance that you can apply a retroactive fix? I mean some of the commit dates in the repo are incorrect but they could be fixed by using the date when the review was submitted (which seems to be available when looking at the review). The reason the commit date is important to us (the GWT project) is that is extensively used in our performance regression monitoring systems. Thanks.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,94,There is just too much intermodule coupling to do this properly without breaking encapsulation.,1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,95,"+1 LGTM, small nit for the future, you can use when checking exception text. Will commit shortly, thanks Arun.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,96,Reopening since HADOOP-14992 upgraded Avro to 1.7.7. This jira requested an upgrade to 1.8.x.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,97,"To send a email you have to follow a pretty specific course. This adds a property (which is poorly named in this patch) to the MailConfiguration that names the header that contains the plaintext version of the email, and adds a property where you can embed images inline. If an attachment has a filename starting with ""cid:"" then this will add the ""Content-ID"" header to that multipart body - which will allow the email client to put the image in the appropriate place when it is viewed. (i.e. the html email has something like <image src=""cid:0001"" /",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,98,This implies that all the blocks that remained under replicated have only one replica and only on this specific datanode. Was that the case?,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,99,"If large block allocation or garbage collection is not efficient in golang, that sounds like a language issue. One is not supposed to have to think about heap or stack in go, from what I understand (I am by no means an expert). The proposed solution sounds like it would create a cyclic dependency.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,100,"Committed to trunk and branch. Thanks for the patch, Mathias.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,101,"Hi, The links from the cluster setup pages to the configuration files are broken. Read-only default configuration should be The same holds for the three configuration : core, hdfs and mapred.",1,0,,"NON_SATD
+
+Explanation: This"
+Prompt_LLM,5000,42,D1_to_D2,102,"OK, sounds good since you've read the docs and you're aware of possible pitfalls. btw, Out of curiosity I've enabled these DCHECKS in my local client and hey it looks like there aren't many places where is called w/o holding a lock. I found no perf-critical places yet (mostly test code and some destructors). I'll try to 'fix' all places with Signal/Broadcast outside a lock locally and if there are not too many - maybe we can enforce the ""signal inside critical section"" w/o significant performance drop? I'll send you a patch when it's green - at least to take a look.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,103,9579 has been merged into this issue.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,104,also fixed Praveen's tests.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,105,Hadoop tarball has 2 versions of stax-api JARs,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,106,Cleanup threading headers / libraries,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,107,"Thanks for the reviews Stack & Ram.. I have to fix the failed test as those were having assert on heapOverhead size after cell addition to Memstore. Now we track heapSize not overhead. Will add more comments as Stack asked Regarding Ram's comment. I have different opinion. I dont think we need change this way. We track dataSize (irrespective of cell data in on heap or off heap area).. This dataSize been used at Segment level for in memory flush decision, Region level for on disk flushes and globally to force flush some regions. At the 1st 2 levels, it is not doubt that we have to track all the cell data size together. Now the point Ram says is when we have off heap configured and max off heap global size is say 12 GB, once the data size globally reaches this level, we will force flush some regions. So his point is for this tracking, we have to consider only off heap Cells and on heap Cell's data size should not get accounted in the data size but only in the heapSize. (At global level. But at region and segment level it has to get applied). 2 reasons why I am not in favor of this 1. This makes the impl so complex. We need to add isOffheap check down the layers. Also at 2 layers we have to consider these on heap cell data size and one level not. 2. When off heap is enabled, (We have the MSLAB pool off heap in place), we will end up in having on heap Cells when the pool is out of BBs. We will create on demand LABs on heap. If we dont consider those cell's data size at global level, we may reach forced flush level a bit late. That is the only gain. But here the on demand LAB creation is a sign that the write load is so high and delaying the flush will add more pressure to the MSLAB and more and more on demand BBs (2 MB sized) need to get created. One aim of the off heap work is to reduce the max heap space need for the servers. So lets consider the cell data size globally also (how we do now) and make global flushes. Now even if MSLAB is used, the append/increment use cases wont use MSLAB. The cells will be on heap then. But for such a use case, enabling MSLAB (and pool) is totally waste. That is a mis configuration. More and more on demand BB creation, when MSLAB pool is a bad sign. We have a WARN log for just one time as of now.. May be we should repeat this log at certain intervals. (Like for every 100th pool miss or so.) We should be able to turn MSLAB usage ON/OFF per table also. Now this is possible? Am not sure. These 2 things need to be checked and done in another jiras IMO.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,108,"Gah, reopening because there's another bug here. Since I removed the extra we did indeed get more signals. What happens is when the DeleteSoon finally executes, the can eventually cause a focus- out-event for the RWHV, which calls host_view- RenderWidgetHost has already been deleted by the time the DeleteTask for the RWHV has run, thereby leading to a seg fault. See the following stack trace: Program received signal SIGSEGV, Segmentation fault. Now, I can work around this by setting the RenderWidgetHost* to NULL in and doing a NULL check in OnFocusOut(), or in I can disconnect that single signal handler, but these all feel like hacks to me. Really, when gets called, we should be disconnecting from all signal handlers by calling I know that this defeats the purpose of OwnedWidgetGtk, but I feel like the other workarounds are fragile. I'd also be happy with not using OwnedWidgetGtk here and doing the g_object_ref_sink() and g_object_unref() calls manually.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,109,"User may get confused, to understanding our HBase configurations which are loaded for replication. Sometimes, User may place source and destination cluster conf under ""/etc/hbase/conf"" directory. It will create uncertainty because our log points that all the configurations are co-located. Existing Logs, But it should be something like, This jira only to change the log-line, no issue with the functionality.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,110,"Use get.setTimeStamp instead of get.setTimeRange This patch rearranges getRowWithColumnsTs a bit, because the original version was unneccessary repetitive.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,111,Feature file of camel does not include cxf-rs for RESTful services,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,112,"When we process topic deletion, we just remove an entry from the backend list without removing the entry from backend_map_. We should remove the entry from backend_map_ if the list is empty.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,113,QUERY: STACK: DB: Functional File Format: Text/None git Hash: 05c3cc5,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,5000,42,D1_to_D2,114,Finally i have all the things that you needed. For detail check the screen shot. There is a dll (gcswf32.dll) that crashes when Chrome is used further in this buggy state. Plus i installed Process Explorer to generate the dump. Check that i hope it would be be useful.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,115,"The following only resides in core-default.xml and doesn't look like its used anywhere at all. At least a grep of the prop name and parts of it does not give me back anything at all. These settings are now configurable via generic Log4J opts, via the shipped log4j.properties file in the distributions.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,116,"When Text input data is used with streaming, every line is expected to end with a newline. Hadoop results are undefined if input files do not end in a newline. (The results will depend on how files are assigned to mappers.) Example: In streaming if mapper = xargs cat reducer = cat and the input is a two line, where each line is symbolic link in HDFS link1\n link2\n EOF link1 points to a file which contains This is line1EOF link2 points to a file which contains This is line2EOF Now running a streaming job such that, there is only one split, will produce results: This is line1This is line2\t\n But if there were two splits, the result will be This is line1\t\n This is line2\t\n So in summary, the output depends on the factor that how many mappers were invoked. As a caution, it should be recorded in Streaming wiki that users always put a new line at the end of each line to get away with such problems.",1,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,117,001 patch for review,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,118,26027: No 'Cookie:' header sent for the second redirected request (needed for OAuth negotiation),0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,119,This seems to be fixed now (tested on I suggest to close it.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,120,"first verifies that the block is valid and then returns the file name corresponding to the block. Doing that it performs the data-node blockMap lookup twice. Only one lookup is needed here. This is important since the data-node blockMap is big. Another observation is that data-nodes do not need the blockMap at all. File names can be derived from the block IDs, there is no need to hold Block to File mapping in memory.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,121,"I haven't encountered this bug again, even on the original profile I was using. I'll mark it WontFix for now, and I'll reopen if I encounter it again.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,122,Camel Hazelcast Queue Producer should use add operation if none is defined.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,123,"We just ran into a production incident with TCP SYN storms on port 2181 (zookeeper). In our case the slave cluster was not running. When we bounced the primary cluster we saw an ""unbounded"" number of failover threads all hammering the hosts on the slave ZK machines (which did not run ZK at the time)... Causing overall degradation of network performance between datacenters. Looking at the code we noticed that the thread pool handling of the Failover workers was probably unintended. Patch coming soon.",0,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,124,"I'm going to go ahead and say this is a non-issue. I find it perfectly believable that all modern OS's do in fact implement accept() in a thread-safe manner, and even if that is not the case, ThreadPoolServer is going to be obsoleted by NonblockingServer very shortly.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,125,Serotek Corporation was able to resolve the issue on their side. The fix is in their dev build currently.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,126,"I'm beginning to think variable-length encoding for anything but char,byte arrays is an unnecessary micro-optimization. Instead of helping a user pack data via encoding, we should encourage the use of compression.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,127,"Due the recent SPI which allows to plugin a different scheduler we can improved this and use a non scheduled thread pool, which avoids the suspend/resume and run for at least one poll ""hack"" we have today in the codebase. Instead we can use a regular thread pool as the scheduler, and then submit the task on demand when receive() is called on the PollingConsumer API.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,128,"Works great for me Owen, thanks!",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,129,"From what I can see, the IndexedDB implementation has been modified in the latest Chrome builds. It is more difficult to use up all space for database names. But the bug should still be there. I also found that this issue is purely related to the filling of all space with long database names (and calling setVersion afterwards). Unicode has nothing to do with it.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,130,Currently we (ab-)use to track the last update time of statistics. Instead we should introduce a separate counter to track the last update. With that we should also remove all occurrences of from and fall back to Hive's default behavior.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,131,"Bookmark menu ""open in"" section has odd ampersands in it. See attached.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,132,Return header with key from update and remove operations,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,133,"Now that KRPC is on by default, we should rename the environment variable to reflect that.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,134,"Reopenend HBASE-20276 instead, duping this",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,135,"Hi Lars, thanks. I think it is specific to hbase in the sense that hbase the hbase jars hosted on maven central have dependencies that just dont ""play nice"" with other libraries. I think that is project specific. I know you are all nice guys. Im just looking for a solution, because I have a demo to give in a finite amount of time. And no one seems interested on SO.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,136,Enable running TPCH on Kudu in our nightly tests,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,137,thanks for review and commit.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,138,committed!,0,0,,"```python
+NON_SATD"
+Prompt_LLM,5000,42,D1_to_D2,139,6683: Reduce flakiness in OsCachesLookupsTest in dns_master_unittest,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,5000,42,D1_to_D2,140,"The method and its associated class have errors and race conditions that cause frequent failures in the test. Some failure modes return to the caller, but others just hang the test forever. The main problem is that the test function relies on indirect indications that its tasks have reached certain known conditions. The indications that it sees are actually caused by the ThreadManager's Workers, and this results in a number of race conditions between the test function and the BlockTasks. There are 2 patch files attached. One patches the file to fix the test. The other patches Tests.cpp so that it will run the blockTest in a loop. In my experience, an unpatched version of generally fails within 100 iterations. After being patched, the test will still fail unless a separate patch is applied to the ThreadManager.cpp file. That patch is part of another issue that I haven't entered yet (because it needs to refer to this one). When I know its number I will add a comment. Anyway, if the patch is applied to but not to ThreadManager.cpp, then the test will still fail, generally with an assert, but sometimes with a Bus Error. Test Procedure: 1) Apply the Tests.cpp patch. This makes the thread-manager portion of the test run ONLY the blockTest in an effectively infinite loop. 2) Run a make in lib/cpp in order to rebuild concurrency-test 3) Run concurrency test with the command line argument ""thread-manager"". This will start the blockTest loop. It should fail in a fairly short time. Repeated runs may fail different ways, including infinite hangs. 4) Apply the patch to 5) Run make in lib/cpp to rebuild concurrency-test 6) Run concurrency_test as before. It should probably run for a longer period of time. I have seen it run for an hour or more after beng patched. Eventually it should fail either with an assert in Monitor.cpp while trying to destroy a pthread_mutex_t, or it will get a Bus Error because it tried to execute invalid memory. I have also seen it hang forever. In order to resolve the remaining issues, a patch needs to be applied to ThreadManager.cpp. I will add a comment about that as soon as the issue is filed and the patch is available.",1,0,,"NON_SATD
+
+Explanation:
+This"
+Prompt_LLM,5000,42,D1_to_D2,141,"Some of the test failures are spurious, the only regression appears to be These tests are failing because the test code is doing an {{assertEquals}} on the expected string; the propagation of the underlying exception message is breaking this comparison. Fix is what could have been done in the first place: use as the probe",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,142,"There is already a utility function to parse the keyversions. As we've discussed in each of the other jiras where you've brought this up, changing the keyversion to a UID is an anti-goal.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,143,"Hi , I agree that the 0.94 RPC is ugly in terms of expansion and it needs much more carefulness and efforts than the PB based one. I believe that the 0.94 series will remain in production for a while (at least for us and for several other users that I know of). Having this back ported to 0.94 will definitely benefit a lot of existing users.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,144,One change from the previously submitted patch: allow the optimization only if the skip-length is within 128KB range. (The TCP receive window size is typically more than this limit).,0,0,,"NON_SATD
+
+Explanation:
+This"
+Prompt_LLM,5000,42,D1_to_D2,145,See Nabble:,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,5000,42,D1_to_D2,146,"Ryan/William We also need to update the mail wiki page with this feature. At least document its possible and give some hints how to do it. And it would be great with a sample how to do it, and you can use the SNIPPETS in the unit test to put it on the wiki pages.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,147,"The original need is the following: Let's say I build a Routing System based on Camel. Of course my System will depend on Camel. But I don't want the end user of my System (who will be responsible for adding routes, converters...) to depend on any camel jar. Your solution is better (and also more time consuming than my simple metaannotation patch :)), will think about it.",1,0,,"NON_SATD
+
+Explanation:
+This"
+Prompt_LLM,5000,42,D1_to_D2,148,"Does this mean that no validation is done at all on address e-mails? Even a minimal regexp? Configurable list of domain seems a good approach. If not, I need to only disable valid domain list.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,149,"HDFS client has a retry on exists. It is likely that it tried and failed the several times. That is perhaps fine for exists call in general. However, for this particular call in getRecordWriter in reduce rask, the cost of failure is too expensive. Thus, reduce task has to do something special. In this sense, I think it is reduce task's responsibility to further re-try. I am open for any suggestions to fix the problem. However, I am not convenced that re-try at rpc level is the right answer.",1,0,,"**SATD**
+
+Explanation: The comment"
+Prompt_LLM,5000,42,D1_to_D2,150,For IT2Me on host sleep we should disconnect cleanly. For Me2Me we should stay connected (or a paused state).,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,151,"I went for debug: 1. to be consistent (similar to isSetsid 2. just like on windows on the other code paths, having these features disabled, on the client, has no impact. On info they would simply add noise and confusion in my opinion.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,152,is fixed within master,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,153,Closing all 2.0M2 tickets,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,154,Thank for the reviews.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,155,"Since we are using 2.13.3 we've thought that it camel-jboss is obsolete. ""From Camel 2.8 onwards there is no longer the need for using this camel-jboss component as Camel is now capable of loading type converters without package scanning. This requires though that all 3rd party components with type converter must define the name of the converter classes as FQN in the file. See more details at Type Converter. One exception is if you are using Bindy component as it still needs this JBoss resolver.""",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,156,71566: Chrome: Crash Report - Stack Signature: `anonymous const const &)-D47334,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,157,The JobTracker can be prone to a denial-of-service attack if a user submits a job that has a very large number of tasks. This has happened once in our cluster. It would be nice to have a configuration setting that limits the maximum tasks that a single job can have.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,158,"2 runs kicked off, normal and rbt.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,159,I polished the camel-elasticsearch codebase a bit:,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,5000,42,D1_to_D2,160,fixed without committing the patch?,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,161,If one removes /root/.opam in the docker image and then try {{opam init -y }} it will fail:,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,5000,42,D1_to_D2,162,"I updated the test suite to include running every valid combination of server, protocol and wrapping transports (both ssl and zlib). For python2.4, this is 30 combinations and runs in about 24 seconds. For python2.7, there is an extra server type (TProcessPool which uses the multiprocessing module) and the SSL transport (unavailable in py2.4), whichadds up to 66 combinations of tests, running in ~95 seconds. The 4 nested for-loops significantly expands the code test coverage. In addition to everything in the _v1 of this patch, the _v2 version also has: Updated test code: * added testing of TSSLServer, an alternate socket transport * added testing of TZlibTransport, a wrapping transport * added a self-signed cert in with a cautionary .readme to allow testing of the TSSLServerSocket (it needs a certificate file) * fixed -q (quiet) and -v (verbose) options to to lower and raise the verbosity Fixed two problems in and one enhancement: * fixed confusing parameters to both client and server constructors, removing the overly ornate \*args and \*\*kwargs which made the constructor behave poorly when used with just (host,port) as arguments. The constructors better match the TSocket and TServerSocket constructor parameters now. * fixed logic in TSSLServerSocket parameter checking, if validate=True and ca_certs=None, now it raises an exception like the docstring claims it should. * made TSSLServerSocket more robust on failed SSL handshake by closing socket connection and returning None from accept() call, which is better than terminating the entire server in some cases I will attach the _v2 patch in a moment.",1,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,163,Removed redundant groupId from Maven modules,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,164,Attached a patch that removes the JNI setting of the remaining field per Ben's analysis above and cleans up the naming re: objects vs. classes in the JNI function arguments.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,165,help of stat is confusing,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,166,exists() not necessary before DFS.open,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,167,Patch for 0.98. Logs (every minute) if we come across a negative index. Outputs the inputs used in the modulo so we can get better understanding.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,168,"Another alternative: test-patch uses a custom configuration that sets to true. Not savory IMHO. What do you think, ?",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,169,2914: Dead release note links,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,170,+1 Looks good to me. Nit: please put @Deprecated for getBlockSize and getLength on their own line to be consistent with the other methods.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,171,"OK -we'll need people on other platforms (linux, windows, power) to make sure that this doesn't break.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,172,Looks like I have some digging to do becuase I think the snapshot export tests are legitimately broken.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,173,Thrift library has some empty files that haven't really been deleted,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,174,"BucketCache implementation of freeBlock has a bad performance / concurrency and affects bulk block evictions from cache on a file close (after split, compactions or region moves).",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,5000,42,D1_to_D2,175,Added a wiki page,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,176,"More generally, in a bunch of hadoop code, only IOException are caught. (eg: same issue on I think a little cleanup is needed, especially while catching an exception in a run() of a Thread...",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,177,"1) experience with the community is that more often than not someone creeps out of the woodwork is relies on the behavior we want to change. 2) In particular, the CLI output is very chatty and produces lots of non-actionable warnings (""commit subject too long""). A message about misspelled reviewer is easily lost, and then the user thinks the change is sent for review, but it's not. They'll find out days later when they wonder why nobody responded. By that time, the console output is long gone, so they'll probably file a bug on us that we mysteriously dropped their reviewer setting, and we have to go on a wild goose chase to find out what went wrong, where nothing went wrong. 3) I see no reason here why we have to add this feature, given that you can check for existence of the account before pushing.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,178,"Sure, new patch with same changes to the yarn script.",0,0,,"```python
+NON_SATD"
+Prompt_LLM,5000,42,D1_to_D2,179,Removed unnecessary changes from the commit.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,180,"How about this one. , it would better if you have chance to take a look at the attached patch as well, since you're the original rpc scheduler and HBASE-10212's author:)",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,181,"Try creating a union with the field name ""value"", and the code won't compile. In writeFields for the generated class, you'll have something like the following: <code case VALUE: String value = return; </code ""String value"" conflicts with the parameter ""Object value"".",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,182,This issue was closed as part of a bulk closing operation on 2015-11-20. All issues that have been resolved and where all fixVersions have been released have been closed (following discussions on the mailing list).,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,183,What's extension ? The crash was on that extension's options page. It'd be handy to be able to see what that HTML looks like,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,184,+1. I can't figure out what the javadoc warning is supposed to be based on looking at the precommit artifacts and the patch.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,185,"This was never completed, I am closing as incomplete.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,186,Was fixed in HBASE-15528.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,187,Useful but patch died. Resolving as later as per suggestion.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,188,Generated exceptions in Python should implement __str__,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,189,Naming convention in C# constructor is not consistent with other fields causes compile errors,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,190,64779: NOTIMPLEMENTED() in for non-Windows,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,191,Below are a few of the exceptions I got running this test against Java 8:,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,5000,42,D1_to_D2,192,I've also had this problem in 0.3.154.9 For further testing I tried the URL listed in the message above in Safari 3 and did not see this behavior. So I don't think it's Webkit.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,193,"11609: ""Download patch"" UI should include an option for also creating a local branch",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,194,Recent changes on Java library break Java JSON protocol,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,195,"Repro: <SCRIPT SVGPathElement = "", ""path""); </SCRIPT In the below code, ""getItem(i, ec).get();"" returns NULL, which is not handled properly, so ""segment- read exception is thrown. unsigned { // FIXME : to be useful this will need to support non-normalized SVGPathSegLists ExceptionCode ec = 0; int len = numberOfItems(); // FIXME: Eventually this will likely move to a ""path applier""-like model, until then PathTraversalState is less useful as we could just use locals PathTraversalState for (int i = 0; i < len; ++i) { SVGPathSeg* segment = getItem(i, ec).get(); float segmentLength = 0; switch (segment- <snip Upstream: Repro:",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,196,"I've attached a sed script that will make the change. I left the PROPERTY_PREFIX alone - if you want to change that too it's easy by hand: String PROPERTY_PREFIX = ""CamelBox.""; String = PROPERTY_PREFIX + String CHUNK_SIZE_PROPERTY = PROPERTY_PREFIX + ""chunkSize""; But the file: should be changed: folderId = + ""folderId"", ""0"", String.class); should now be: folderId = ""0"", String.class); on two occasions. The sed can be invoked by putting it in ~ and running a find from the camel-box folder as: find . -type f -a -exec sed -i -f ~/box.sed ""{}"" \; It builds after this change but will be incompatible with existing users code.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,197,Yes it is the same issue.,0,1,,"SATD
+
+Explanation: The comment """
+Prompt_LLM,5000,42,D1_to_D2,198,Hi Removed from readme and documentation guide..,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,199,Contacted Mashable about this issue as well. Was instructed to clear my browser cache. This remedied the issue. Thanks.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,200,Typos in the book documentation,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,201,"Disabling LongURL makes the pages at least able to render. They still render slowly using a lot of CPU, but at least show up eventually. Disabling Flash doesn't seem to make a difference.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,202,"After discussing with Jim on IRC, there won't be very many additional functions exposed through HTable. It will actually just be one new version of each of: batchUpdate, deleteAll x 2, and deleteFamily. So it would be those 4, plus the lockRow/unlockRow. You think it would be okay to include just those in HTable w/o subclassing it?",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,203,I did see VisibleForTesting annotation. Is it expected that tests may see inconsistent Handler array ?,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,204,"Committed, thank you both!",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,205,"Do you get just black squares instead? Then it may be related to firefox blocking the flash helper due to an outdated flash plugin. And check your preferences, is 'use flash clipboard helper' activated? Björn",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,206,"Looks good, Nick. +1 Would love to see it hit 0.96 and 0.94 as well.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,207,"1. THRIFT-2269 was not fixed properly. Sources are supposed to be deployed using a ""jar"" type. cannot resolve them otherwise and IDEs such as IntelliJ IDEA are unable to resolve or even manually attach sources with a ""src"" extension/type. 2. Between 0.9.1 and 0.9.2, the POM for libthrift was modified to remove a dependency on commons-lang3. As a result, the code generated by libthrift no longer builds as it misses this dependency. The dependency needs to be restored, or whatever reason resulted in its removal re-evaluated to take this requirement into account. Personally, I'd prefer if we could just drop this dependency entirely and use native Java language utilities such as `Objects` to solve the problems `commons-lang3` is trying to solve.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,208,"Hi , the patch introduces a new dependency to boost into the Thrift compiler. Can we avoid that? Have a look into there are some similar functions that may serve as model. Next, the {{to_upper_copy()}} function expects a locale, the default is {{std::locale()}} which is ... Not sure if that is what we want. The generated code should not depend on a particular system locale.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,209,"It's just a weak skeleton. I mean, really, really weak. At the very least, we should point to TRUNK/tutorial/ for where to look at code examples.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,210,"It's occurred to me that, without a current global query view, situations will likely occur where a runaway query sent to another query planner goes unnoticed in administration but users may complain of poor cluster performance and aren't able to see why unless they somehow know to specifically go to the other query planner node which that runaway query was submitted to. One could suggest the best practice of only having clients connect to one node to submit queries and keep that effectively the only query planner in the cluster but it doesn't prevent the problem if they fail to heed such advice, which some users almost certainly will. Also some more advanced admins may load balance the query planners for HA or load distribution. I propose that there is, if not already, a max query time that a query planner will allow a query to run before self terminating the query across all impalad nodes. This will prevent the runaway query from continuously affecting performance and leaving a hard to trace problem. Given that Impala queries should execute in seconds, or minutes at the worst, maybe 300 or 600 seconds would be a reasonable default max query execution time (wall time). This would need to be configurable by the admin/user both globally for the node's query planner default via --switch/flags file and also per session override eg. in impala-shell some kind of ""set max_query_time="" command. Even if the global query view implementation I've asked for happens down the road, this max query time would also alleviate administrator burden of having to kill runaway user queries manually.",1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,211,Fixed at commit,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,212,"It looks like almost all boost timestamp functions can throw. We can either try catch each of those or do it at a higher level up, e.g. scalar fn call. Putting it higher up is a bit tricky since we codegen scalar fn call.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,213,"See for a background. Basically there is inconsistency between a idempotent consumer and the repository. The repository is capable of holding any type, while the consumer is non-parameterized and uses String as it's message type. It would be very handy to have the messageid as a domain type for any application, and thus the consumer should allow for a parameterized type T. This will also probably mean that should allow for any persistent type. If doing this camel would be generic on the type, and allow for supporting application domain types w/o customizations.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,214,Aah yes. Didn't realize this affects everybody.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,215,"It's possible that we don't want to do anything here, but if so, NOTIMPLEMENTED seems wrong (it shows up in everyone's logs with each app launch). #if defined(OS_WIN) rect); #else NOTIMPLEMENTED(); #endif",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,216,in we print logs at info level when we drop responses. This causes lot of noise on the console.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,217,Fixed parameters names. Note that i have found many posts across internet posted by people asking why it doesn't work as they have followed docs/examples etc. Simply it doesn't work because parameter have been renamed. Putting wrong parameter names causes NPE on put method to InitialContext which tells nothing about the real problem making it difficult to solve. This update will save your time as studying ehcache code (wondering what's wrong) is no more needed.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,218,Are you working on a PR?,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,219,Looks like there are other flaky sub-tests.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,220,I would like to upgrade to Jasypt 1.7 as we can lose the JDK1.5 stuff and other dependencies which is no longer needed.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,221,"Thanks Justin, committed.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,222,75001: Come up with a sane plan for -fno-exceptions,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,223,I tried to reproduce this locally but no luck yet. Will revert it and then try to reproduce with the original patch.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,224,broken links in,1,0,,"```python
+NON_SATD"
+Prompt_LLM,5000,42,D1_to_D2,225,"Attaching a new patch merged with current trunk. Plus have removed the variable which I introduced in previous patch, it was not required as we can find out number of waiting jobs directly from size of the jobList instead of having a counter. Also added a note in scheduling information stating that scheduling information can be off at the maximum by polling interval of the job initialization poller which does clean up of the waiting jobs.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,226,"while working on HBASE-12898, hadoop-annotations showed up as an undeclared dependency. Looks like a hand full of hadoop InterfaceAudience annotations made it in through backports.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,227,Performance regression in TPC-H Q2 due to delay in filter arrival,1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,228,currently uses the Apache POM version 18. The latest version is 21.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,229,"There isn't much that streaming can do. In the first case, your application gives the streaming framework: line1line2EOF In the second case you give it: line1EOF in one map and line2EOF in the second map streaming needs line based data, so the entire input is treated as a line. Leading to the differences that you observed.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,230,"Region count description is in config section; region size description is in architecture sections; both of these have a lot of good technical details, but imho we could do better in terms of admin-centric advice. Currently, there's a nearly-empty capacity section; I'd like to rewrite it to consolidate capacity sizing information, and some basic configuration pertaining to it.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,231,Closing all resolved tickets from 2010 or older,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,232,"When rolling-restart.sh script stop master it enters loop trying to detect that master znode is deleted. Since it is unable to execute check command script hangs in infinite loop. Problematic line of script is: while ! bin/hbase zkcli stat $zmaster 2 ""bin/hbase zkcli stat"" can not be executed since script is run from bin directory. My suggestion is that this line should be like this in order to work: while ! ""$bin""/hbase zkcli stat $zmaster 2 After i made this change i was able to execute rolling restart.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,233,"Just to double check here -- From the UI it *looks like* you, the uploader, has used a git push option (e.g. 'l=Code-Review+2'). AFAIK, that's the only way to get a ""Uploaded patch set 1: Code-Review+2."" in one message. Please double check that you haven't set any push options in your git config, e.g.: $ git config --get-all push.pushoption $ git config --get-all remote.`git config --get",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,234,Re-opening with new patch for trunk (0.8),0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,235,"""Do not use type=date if you want to use date formats other than yyyy-MM-dd"" Doesn't type=date become rather redundant if it won't work with the date formats our users use?",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,236,"Yes, it is worth to document this. Could some of you create a patch to update this: Thanks! roger",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,237,"As shown in IMPALA-4532, the build async thread can still be running after the query has completed. This may lead use-after-free issue in IMPALA-4532. A more appropriate design is for to wait for the completion of the build thread.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,238,"This was a single node cluster, so my DFSClient was from same machine. In a terminal I was writing to a HDFS file, while on another terminal deleted the same file. Deletion succeeded, and the write client failed. If the write was still going on, then the next block commit would result in exception saying, the block does not belong to any file. If the write was about to close, then we get an exception in completing a file because getBlocks fails. Should we allow deletion of file? Even if we do, should the write fail?",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,239,@Jon: Can you describe how the cluster got into this state ? I guess a lot of region servers crashed ? Otherwise there should have been better planning for the region size.,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,240,Fix pom so 0.94 can generate site reports,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,241,Obsolete,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,242,Fixed with another patch.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,243,Instead of passing a long[] you should pass a struct that implements Writable. Probably TaskMetrics would be a good name for this.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,244,"I am expecting when employee object is sent to seda:test, it should route to handler method. I am getting below exception. 2015-07-07 20:02:28.372 ERROR 7175 [#4 - customPool] : Failed delivery for (MessageId: on ExchangeId: Exhausted after delivery attempt: 1 caught: No method invocation could be created, no matching method could be found on: Message History RouteId ProcessorId Processor Elapsed (ms) [route1 ] [route1 ] [vm://seda:test ] [ 149] [route1 ] [threads1 ] [threads ] [ 96] [route1 ] [bean1 ] ] [ 2] Exchange Exchange[ Id ExchangePattern InOnly Headers BodyType Body ] Stacktrace No method invocation could be created, no matching method could be found on: Note: If, I am not used generics, it is working perfectly.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,245,MockEndpoint - sleep for empty test doesnt work,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,246,Yes. This feature is yet to release publicly.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,247,I'll have a look at the patch. Thanks for working on this.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,248,fixed since a google apps update i got today!,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,249,Ah... We considered BoundedByteString case there but did not do a check whether that is subclass of LiteralByteString BTW why no 1.5.1 fix version when it says affected at 1.5.0?,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,250,"We'd like more flexibility for routing test configurations to specific servers. Specifically, we'd like simple inclusion and exclusion rules such as: EXCLUDE *.bat.foo.com INCLUDE *.foo.com 1.2.3.4 These rules would cause *.foo.com, with the exception of *.bat.foo.com, to be diverted to host 1.2.3.4. We don't need port mapping; although that might be helpful in the future for other testing. The exact syntax of this feature is completely flexible; it can be as cmdline options or as a file or whatever. It is only for testing.",1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,251,javabean-style generated code is very poorly formatted,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,252,"Although it makes sense to remove an unused parameter, I wonder if the parameter should be honored? It would allow different rpc services to have different proxy superuser configurations as opposed to the current static configuration... It probably made sense when daemons generally had only one rpc service. I don't have a strong opinion because I suppose it could be by another jira.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,253,This got rolled into Chromium trunk at r36893 and I've confirmed that it fixes the bug. We really need some testing of this refcounting voodoo.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,254,Does this fix the spacing of the star too? It needs 2 more pixels. - the nitpicker,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,255,trunk: 798902. TODO: HL7 segment that fails validation and add it to the validate unit test,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,256,Upstream jschuh: The code may emit corrupt JIT code.,1,1,,"SATD
+
+Explanation:
+The comment """
+Prompt_LLM,5000,42,D1_to_D2,257,"These are test base classes that need to be subclassed to run, can mark as abstract.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,258,Yep. We already have the revert going through the pipeline.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,259,"tests/query_test/ contains several tests that use ""hdfs dfs -copyFromLocal"" to fill tables with files that cannot be created with Impala. The current way of doing this looks like ""copy paste"" and adds unnecessary complexity to the test code. The common pattern of ""create a table, copy 1-2 files to it"" could be covered by a single function, or could be moved to the .test files, which support SHELL sections. for an example of SHELL section, see",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,260,Make the class TGUIConsole thread-safe,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,261,In * Touchz.java should be renamed to Touch.java to avoid compilation everytime. * Record IO generated test files which were compiled everytime. We could modify RccTask.java to doCompile only when sourceFile is newer than the destination file These are just 2 seconds of the 24 seconds needed to build hadoop-common. So obviously not substantial. Will keep looking. I'm beginning to think running from JARs might not be the best idea to have a quick dev cycle. Maybe I should try running from the target/classes directories and skip building the jar altogether.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,262,"Patch for 0.98 w/ a log message every time we start a new ReplicationSource and the logs its taking over, at debug level",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,263,"This patch works on my old file system image. Minor comments, please - remove import of UTF8 - provide comments on the 2 new methods *FSEditLog() explaining what they are for.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,264,"Currently, spring parses into a CxfEndpointBean whereas blueprint parses into a CxfEndpoint directly. This mismatch then requires extra casting in the CxfComponent. Also, it means there are features supported by Spring that are not supported yet by blueprint (like configuring interceptors). I'm attaching a patch that removes the spring specific CxfEndpointBean stuff and allows both spring and blueprint to parse directly into the CxfEndpoint (well, subclasses of) so the two approaches can be maintained together. It also reduces the usage of ""Strings"" for properties in CxfEndpoint and uses QNames where appropriate (added a Converter for that) and Class<?",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,265,"Sorry the patch is against a copy of the source that i've mirrored on our own git repo, so the file paths may look funky.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,266,thrift-maven-plugin property error,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,267,"Well, as allen said on HADOOP-6605, ""My technical objection is that there is a high likelihood of getting this wrong."" There's a serious risk of the JAVA_HOME autodetector becoming a major maintenance mess. This is the beginning.",1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,5000,42,D1_to_D2,268,Implement methods,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,269,How about this patch ? TestCredShell passes.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,270,"Reported by The Impala docs entry for the IS DISTINCT FROM operator states: The <= But this expression is not equivalent to A <= (A IS NULL AND B IS NULL) OR ((A IS NOT NULL AND B IS NOT NULL) AND (A = B)) This expression should replace the existing incorrect expression. Another expression that is equivalent to A <= if(A IS NULL OR B IS NULL, A IS NULL AND B IS NULL, A = B) This one is a bit easier to follow. If you use this one in the docs, just replace the following line with: The <=> operator can use a hash join, while the if expression cannot.",1,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,271,"Dfs needs a validation operation similiar to fsck, so that we get to know the files that are corrupted and which data blocks are missing. Dfs namenode also needs to log more specific information such as which block is replication or is deleted. So when something goes wrong, we have a clue what has happened.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,272,"""TConnectedClient died: Could not refill buffer"" message shown when using HTTP Server",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,273,nan,0,0,,"```python
+None
+```
+
+Explanation"
+Prompt_LLM,5000,42,D1_to_D2,274,93896: Browser Suddenly Crash,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,275,version 2 of patch attached (obsoletes the v1 patch),0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,276,"Sure, belated +1",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,277,"In Dart it is desirable to initialize bool (false), int (0), and double (0.0) required properties (those that are not marked optional), instead of leaving them with the value of null.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,278,"- FSDirectory empty line change. - Javadoc for should not remove {{@throws IOException}} but rather replace it with {{@throws - file: "" ...)}} should be does not exist: "" ...)}} I once tried to unify this in the code, but it's now back with all different messages. - Additionally we can remove IOException in FSEditLog.close() and then and then",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,279,From the summary |Operator|| #Hosts|| Avg Time|| Max Time|| #Rows Est.|| #Rows|| Peak Mem|| Est. Peak Mem|| Detail| |03:AGGREGATE |1 |8.668ms |8.668ms |1 |1 |7.79 MB |-1.00 B |FINALIZE| |02:EXCHANGE |1 |4.914ms |4.914ms |480 |1 | 0 |-1.00 B |UNPARTITIONED| |01:AGGREGATE |480 |1s024ms |21s191ms |24 |1 |14.04 MB |-1.00 B | | |00:SCAN HDFS |480 |949.025ms |20s143ms |900.74M |18.00B |136.28 MB |-1.00 B The slowest fragment in the query,0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,5000,42,D1_to_D2,280,"This is as expected. Regular extensions will always run, even if you have no regular browser windows open.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,281,is not thread safe,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,282,"hmm, I am not able to reproduce this issue on my Ubuntu 9.04 32 bit VMWare with latest trunk build 4.0.203.0 (Developer Build 24111).",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,283,Perl CPAN Packaging Improvements,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,284,Check failing test,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,285,"1. Login to Google reader ( google.com/reader ) in Linux 2. Add planet-webgl.org as a subscriptions 3. View the 13 June 2011 entry 4. Click ""three.js now supports procedureal 3D text"" 5. Close ""three.js now supports procedureal 3D text"" 6. Repeat 4,5 until it shows up as white or deadlock occurs. Typically, in the ToT Debug build, the whiteout always occurs. In the Release build, the deadlock occurs, and it's the renderer blocked on a Finish/FlushSync permanently.",0,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,286,"Lukasz, thanks for the contribution. I did commit it to the trunk for now. Will create a placeholder for doc in the wiki, we'd appreciate some documentation. Since it's a new component and 2.12 will not be out anytime soon, I will port it back to the maintenance branch and then close this issue.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,287,"field used - this field could be removed, but by using it code is more consistent",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,288,do you mean to add a comment in the code or just here?,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,289,Thanks for updating the patch. One last nit is that this code: can be simplified to the following so there aren't so many return statements to track:,1,0,,"```python
+# No specific Python code"
+Prompt_LLM,5000,42,D1_to_D2,290,"This is definitely not resolved. There are a lot of tests that are using which is marked deprecated. So far, I haven't found any documentation about an alternative to use. THere are a bunch (22) of tests that use it and I haven't been able to figure out any type of alternative for it. Thus, IMO, if there isn't an alternative and is important enough to be required by a bunch of tests, I have to wonder why it's deprecated. But no details on that either. Similar situation for Deprecated, no alternative. For TryDefinition, I could see a ""rethrow()"" or similar method added to define that behavior (which would match the Java users expectation), but that certainly isn't there right now.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,291,"Also, if I understand this correctly, this would introduce new REST endpoints for bulk transfer.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,292,That is correct. Andrey can you provide a patch with unit test that test this fix?,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,293,.002 is .001 rebased on top of HBASE-16961.,0,1,,"SATD
+
+Explanation: The comment """
+Prompt_LLM,5000,42,D1_to_D2,294,"Excellent catch. Attached is a patch that also includes updated test cases. Please let me know if you have other value permutations you'd like to see tested. It'd be nice to have a more thorough test suite around this code, a la the suite Orderly has. From the commit message",1,1,,"SATD
+
+Explanation: The comment explicitly"
+Prompt_LLM,5000,42,D1_to_D2,295,"Row locks in HRegion are keyed by a int-sized hash of the row key. It's perfectly possible for two rows to hash to the same key. So, if any client tries to lock both rows, it will deadlock with itself. Switching to a 64-bit hash is an improvement but still sketchy.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,296,"All perl packages should have proper namespace, version syntax, and use proper thrift exceptions",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,297,Yet another update to fix checkstyle errors.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,298,Addressed cos comments.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,5000,42,D1_to_D2,299,TBase should implement Cloneable,1,0,,"NON_SATD
+
+Explanation: The"

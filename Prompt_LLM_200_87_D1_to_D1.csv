@@ -1,0 +1,107 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output
+Prompt_LLM,200,87,D1_to_D1,0,// TODO: Perhaps use a HashSet or other collection with faster lookup // performance in case our callers are doing naive .contains() lookups,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,1,// Yuck: TIFFImageEncoder uses Error to report runtime problems,1,0,,"```python
+# This Python function class"
+Prompt_LLM,200,87,D1_to_D1,2,"//at this point there is one trailing space to remove, if the list is not empty.",0,0,,To determine the final label for the given
+Prompt_LLM,200,87,D1_to_D1,3,// [jsd] The fix for HHH-558...,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,87,D1_to_D1,4,"// TODO: We'd like to test this in its new guise as PackageImport, but // we don't have a good way to do it currently",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,5,"// if subject doesn't start already with ""Fwd:"" prepend it",0,0,,"```python
+# The following Python function"
+Prompt_LLM,200,87,D1_to_D1,6,// todo : move this to SF per HHH-3517; also see HHH-1907 and ComponentMetamodel,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,200,87,D1_to_D1,7,"//just to help out during the load (ugly, i know)",1,0,,"```python
+NON_SATD"
+Prompt_LLM,200,87,D1_to_D1,8,// TODO: cache?,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,200,87,D1_to_D1,9,// TODO: opt for 2 and 3 ?,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,200,87,D1_to_D1,10,"// LFH offset,",0,0,,"```json
+{
+  ""label"":"
+Prompt_LLM,200,87,D1_to_D1,11,// TODO: What type of validation can we do here on tagType?,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,12,// ??Need to tell object to display itself in a panel.,1,0,,"```python
+# The comment indicates that"
+Prompt_LLM,200,87,D1_to_D1,13,// TODO: Needs to be tidied up after stable release. Graph model // should be created in constructor,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,14,// -noverwrite,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,15,// don't try this at home,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,16,/* * @see java.awt.Component#getSize() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,17,//{{{ getParentDirectoryList() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,200,87,D1_to_D1,18,"// SSS FIXME: Pick one of bytelist or string, or add internal conversion methods to convert to the default representation",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,19,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,200,87,D1_to_D1,20,// this class has no proxies (so do a shortcut),1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,200,87,D1_to_D1,21,"// ""var"" means untyped, return null class",0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,87,D1_to_D1,22,"/** * Utility function to localize the given string with help text, * and show it in the status bar of the ArgoUML window. * This function is used in favour of the inline call * to enable later improvements; e.g. it would be possible to * show a help-balloon. TODO: Work this out. * One matter to possibly improve: show multiple lines. * * @param s the given string to be localized and shown */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,200,87,D1_to_D1,23,// check arguments...,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,200,87,D1_to_D1,24,"// log.info(""SQL executed: "" + sql);",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,25,// defer argument checking...,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,200,87,D1_to_D1,26,//OK // TODO ??,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,27,// deal with the ResourceCollections,0,0,,"```python
+# This function deals with"
+Prompt_LLM,200,87,D1_to_D1,28,// Mac,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,29,"// private static final String LABEL_DEFAULT = ""JavaTest"";",0,0,,"```python
+# The provided Python code"
+Prompt_LLM,200,87,D1_to_D1,30,// removeIANA2JavaMapping(String):String,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,87,D1_to_D1,31,// TODO: Better if we wrap in a ProfileException and throw that,1,0,,"```python
+# The comment indicates a"
+Prompt_LLM,200,87,D1_to_D1,32,// TODO: Allow .zargo as profile as well?,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,200,87,D1_to_D1,33,"// Essentially: // 1) If we have a local (Hibernate) transaction in progress // and it already has the UserTransaction cached, use that // UserTransaction to determine the status. // 2) If a transaction manager has been located, use // that transaction manager to determine the status. // 3) Finally, as the last resort, try to lookup the // UserTransaction via JNDI and use that to determine the // status.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,34,// defer argument checking...,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,200,87,D1_to_D1,35,"// workaround for Swing's annoying processing of // labels starting with <html>, which often breaks",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,87,D1_to_D1,36,"// TODO: A better implementation would be to batch events into // logical groups and update the tree one time for the entire // group, synchronizing access to the model repository so that // it stays consistent during the query. This would likely // require doing the updates in a different thread than the // event delivery thread to prevent deadlocks, so for right now // we protect ourselves with try/catch blocks.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,87,D1_to_D1,37,// kjc don't have bootclasspath option.,0,0,,"```python
+# Define the function to"
+Prompt_LLM,200,87,D1_to_D1,38,// TODO: Why would this be null?,1,0,,"```python
+NON_SATD"
+Prompt_LLM,200,87,D1_to_D1,39,// Empty.,0,0,,"NON_SATD
+
+Explanation: The"

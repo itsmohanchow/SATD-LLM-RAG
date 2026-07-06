@@ -1,0 +1,110 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output
+Prompt_LLM,200,42,D1_to_D1,0,// all local and columns for the other tables..,0,0,,"```python
+NON_SATD"
+Prompt_LLM,200,42,D1_to_D1,1,//?? Split these 4 functions off into a subclass of BaseFavouriteAction,1,0,,"```python
+# No specific Python code"
+Prompt_LLM,200,42,D1_to_D1,2,// TODO: Why can't we use ActionAddExistingNodes here? Bob.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,3,// TODO: define constants for magic numbers,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,4,//{{{ ok() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,200,42,D1_to_D1,5,"/** * this regular expression should cover anything from a@a.pt or a@a.com to * a@a.info. Permits usage of invalid top domains though. * <p> * [bug] fdietz: added ""."" and ""-"" as regular characters * (example:mail@toplevel.mail.de) * <p> * TODO: see if we can replace the matching code with Ristretto stuff * */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,200,42,D1_to_D1,6,// copy the source and support files,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,7,// real stupid recreation of whole list model // -> replace with id-based listmodel update,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,8,"// TODO What about the instance type name and the fact that we should be matching its type argument structure? // If they match so far, we must assume they are okay and then check all the arguments. //",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,9,// add the listeners to the newOwner,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,10,// I don't know if we should be run this deferred // because we might have to give the editor a chance to process the viewer update events // and hence to update the views first. // //,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,11,/** * TODO: * comment field doesn't include all options yet */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,12,/* * @see org.tigris.gef.presentation.Fig#paint(java.awt.Graphics) */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,13,// TODO I18N,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,14,//overwrite old bundle,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,200,42,D1_to_D1,15,// check that the series visible flag is observed,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,16,// This could be smarter...,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,17,// two jars same version // two jars same version,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,18,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,200,42,D1_to_D1,19,// Category.getRoot().getLoggerRepository().setThreshold(Level.OFF); // TODO: Find the proper implementation in java.util.logging API,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,20,// ORPHAN DELETE (used for programmer error detection),0,0,,"```python
+# The provided Python code"
+Prompt_LLM,200,42,D1_to_D1,21,// this is done here 'cos we might only know the type here (ugly!) // TODO: improve this a lot:,1,0,,"```python
+# This is an example"
+Prompt_LLM,200,42,D1_to_D1,22,// TODO: Why do we clone the return value? This is the only reference // to it (right?) so we shouldn't need a separate copy.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,23,"// TODO : this is a bit dodgy, come up with a better way to check this (plus see above comment)",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,24,"/* Strange, but the Link.getConnection() * returns a Collection, not a List! * This is a bug, compared to the UML standard (IMHO, mvw). * Hence, the LinkEnd is added to the end instead... */",1,1,,"SATD
+```python
+def classify"
+Prompt_LLM,200,42,D1_to_D1,25,//stolen from writeManifest,1,0,,"```python
+# sth that should"
+Prompt_LLM,200,42,D1_to_D1,26,"// TODO: review the tool tips ? // stringField.setToolTipText(Translator.localize(""label.body.tooltip""));",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,200,42,D1_to_D1,27,// update tree model,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,28,// TODO: Replace this with a more elegant solution.,1,0,,"```python
+# The comment ""TODO"
+Prompt_LLM,200,42,D1_to_D1,29,"// value is already on stack, save it for later",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,30,// TODO: This is currently duplicated from MetaDataCache - must find a // common place in model facade,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,31,//i18n[ColumnListDialog.modifyTitle=Select Column To Modify],0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,32,/* static methods only - hide constructor */,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,33,// ----- member variables -----,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,34,//set upperLeft point // x is minor,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,200,42,D1_to_D1,35,// i18n[DatabaseMetaData.nullableTypeNoNulls=false],0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,36,// private DBUtils dbUtils;,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,200,42,D1_to_D1,37,//{{{ mouseDragged() method,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,200,42,D1_to_D1,38,// undocumented hack to allow browser actions to work. // XXX - clean up in 4.3,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,200,42,D1_to_D1,39,/* * @see org.argouml.uml.diagram.ui.FigNodeModelElement#renderingChanged() */,0,0,,"**NON_SATD**
+
+Explanation:"

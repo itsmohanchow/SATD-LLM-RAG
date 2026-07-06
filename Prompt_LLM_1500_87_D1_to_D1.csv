@@ -1,0 +1,821 @@
+model,sample_size,seed,setting,eval_index,text,true_label,predicted_label,positive_score,raw_output
+Prompt_LLM,1500,87,D1_to_D1,0,"// The list of current thread groups; may be setUp, main, or tearDown.",0,0,,"```python
+# Solution to determine if"
+Prompt_LLM,1500,87,D1_to_D1,1,"// this DataType does not limit the data read during the initial load of the table, // so there is no need to re-read the complete data later",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,2,// draw average - SPECIAL AIMS REQUIREMENT,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,3,"/** * Generate the ""intno"" of the given Message. <p> * * If the predecessor of the given message has only one successor, then * we return the string representation of the given integer. <p> * If the predecessor of the given message has more than one successor, then * this is a case of parallel execution of messages, e.g. * Message 3.1a and Message 3.1b are concurrent within activation 3.1. * Hence In this case we use a syntax like: 1a, 1b, 1c. * * This means that the first successor * in the ordered list of successors that has more than one entry * will get the postfix a, the second b, etc. * * TODO: Document exceptional behaviour. * * @param umlMessage the UML message object to generate * the sequence number for * @param umlPredecessor the immediate predecessor message (UML object) * that has the given message as successor * @param position the integer position of the given message * within its sequence * @return the generated sequence expression string, * or null if the given Message was null */",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,4,//{{{ getElementCount() method,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,5,// is it necessary to register %exact since it can only appear in a where clause?,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,6,//{{{ Token types,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,7,// request with a negative index,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,8,// execute resyncing command,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,9,// exit monitor before making call // FIXME: this not being in a finally is a little worrisome,1,0,,"```python
+# The comment contains an"
+Prompt_LLM,1500,87,D1_to_D1,10,// i18n[oracle.displayTriggerDetails=Display trigger details],0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,11,// Do nothing,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,12,// TODO: This probably belongs with the Diagram subsystem,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,13,// Ignore,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,14,// +++ // Helper Methods,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,15,// These may not actually make any difference at present (the code // behind addTrigger needs more work).,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,16,//subList.clear(); // Sublist is supposed to share same backing store as list...TODO in RubyArray. //assertTrue(list.size() == 1);,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,17,"// For NetWare, use the boolean=true mode, so we can use delimiter // information to make a better decision later.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,18,// line 678,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,19,// a redraw should NOT trigger another change event,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,20,// already defined,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,21,//make port invisible unless mouse enters,0,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,22,// general purpose parameters ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,23,// TODO implement OCLExpression,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,24,// dial outline paint,0,0,,"```python
+# No specific label to"
+Prompt_LLM,1500,87,D1_to_D1,25,// namespaceAware = false,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,26,"// The implementations of these are all bonus (see TODO above) I was going // to throw an error from these, but it appears to be the wrong place to // do it.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,27,"// Needed the ""clazz_"" check to work around union-subclasses // TODO : is there a way to tell whether a persister is truly discrim-column based inheritence?",1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,28,"// not sure whether this is clean, but this method is // declared not to throw exceptions.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,29,//{{{ equals() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,30,// TODO: for now we are ignoring the height constraint,1,0,,"```python
+# The comment ""TODO"
+Prompt_LLM,1500,87,D1_to_D1,31,/* * @see junit.framework.TestCase#setUp() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,32,// line 1694,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,33,// normal file descriptor..try to work with it,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,34,"// Method 2: (assign data immediately, see end of file). // TODO: if we ever want to extend PathItemPlacement, // we should modify this, so that we also recognise any // subclass of PathItemPlacement. // Is the class name a PathItemPlacment? // TODO: Use class reference to make this dependency obvious",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,35,"// if we're still in this function, just add it at the end.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,36,// charAt(index-n) may be unknown on a Reader/InputStream. FIXME // Match after a newline if in multiline mode,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,37,// not used,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,38,"//??? For now, use the same renderer as everyone else. //?? //?? IN FUTURE: change this to use a new instance of renederer //?? for this data type.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,39,"//this is almost implausible, but required handling",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,40,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,41,/* TODO: Is this a good way of handling nested notation? */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,42,// ignored - we only care about open/closing,0,0,,"```python
+# The following Python code"
+Prompt_LLM,1500,87,D1_to_D1,43,"// update(observable, null);",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,44,// TODO: Not yet working for UML2,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,45,// Set up proxy details,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,46,//TODO: get SQL rendering out of here,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,47,/* Get variables declared in this namespace. */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,48,// TODO - should this use setFirst() ?,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,49,/* (non-Javadoc) * @see java.net.URLClassLoader#findResource(java.lang.String) */,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,50,// TODO - should the encoding be configurable? // $NON-NLS-1$,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,51,// i18n[oracle.bufferPerExec=Buffer Gets per Exec],0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,52,/* * @see org.tigris.gef.presentation.Fig#setLineColor(java.awt.Color) */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,53,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,54,//TODO - need a lot more tests,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,55,// errors,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,56,// TODO: is this right???,1,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,57,// select,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,58,//{{{ getParentDirectoryList() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,59,// Literals never have line ends,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,60,/** * Register an attribute declaration for later retrieval. * Format: * - String type * - String default value * - int value type * *TODO: do something with attribute types. */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,61,// add a second dataset,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,62,/* FIX: set the application name for Mac OS X */,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,63,// TODO finish marshalling of all available properties,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,64,"/* * TODO: Work out why * KLUDGE: For some reason, I am not able to get the sheet to * size correctly. It always displays with a size that causes * the sub-panels to have their scrollbars showing. Add a bit * of an increase in the size of the panel so the scrollbars * are not displayed. */",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,65,"/* * @see org.argouml.cognitive.Poster#stillValid( * org.argouml.cognitive.ToDoItem, org.argouml.cognitive.Designer) */",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,66,// timeout to retrieve wsdl when server not response,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,67,// //////////////////////////////////////////////////////////// // // Methods to implement the ModelListener. // // ////////////////////////////////////////////////////////////,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,68,// xLOAD or xSTORE,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,69,// TODO: These defaults need to be checked against historical ones,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,70,"// if we are rendering the values as percentages, we need to calculate // the total for the current item. Unfortunately here we end up // repeating the calculation more times than is strictly necessary - // hopefully I'll come back to this and find a way to add the // total(s) to the renderer state. The other problem is we implicitly // assume the dataset has no negative values...perhaps that can be // fixed too.",1,0,,"NON_SATD
+
+Explanation: This"
+Prompt_LLM,1500,87,D1_to_D1,71,/** rb_obj_id * * Return the internal id of an object. * * FIXME: Should this be renamed to match its ruby name? */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,72,// TODO @author fdietz: no paging used currently // show only first 5 results,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,73,/** * Map of which resources are read-only. * <p> * TODO: This needs to be managed per EditingDomain. */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,74,// result.setError(true); // TODO is this the correct strategy? // throw exception; // allow assertion to pass,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,75,// clear message-viewer,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,76,// TODO: We need the project specific diagram settings here,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,77,//XXX // All this to convert source to destination directory according // to weblogic standards Can be written better... this is too hacky!,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,78,"/** * The constructor. * TODO: The ""name"" parameter is used for the icon and for the tooltip. * This makes i18n of the tooltip impossible. * * @param modeClass the next global editor mode * @param arg the name of a new argument for the new mode * @param value the value of a new argument for the new mode * @param name the name of the command that is the tooltip text. */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,79,// This just notifies those things that are affected by the section. //,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,80,// Standard setup,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,81,// create intermediary directories - sometimes zip don't add them,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,82,// TODO: It doesn't matter what these get set to because GEF can't // draw anything except 1 pixel wide lines,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,83,/* TODO: link to the Signal. */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,84,// TODO: This needs to be managed on a per-project or per-model/extent // basis,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,85,//TODO: move to utils class (JMeterUtils?),1,0,,"```python
+# TODO: move to"
+Prompt_LLM,1500,87,D1_to_D1,86,"/** * Removes a listener, eventtype pair from the listener list. * * TODO: replace the listener implementation with a EventListenerList * for better performance * * @param event the event to which the listener will not listen any more * @param listener the listener to be removed */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,87,// create EmptyBorder between components and dialog-frame,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,88,// TODO: Why isn't this calculation for location working?,1,0,,"```python
+# The provided text is"
+Prompt_LLM,1500,87,D1_to_D1,89,"/** * Loads the project file and opens all kinds of error message windows * if it doesn't work for some reason. In those cases it preserves * the old project. * * @param file the file to open. * @param showUI true if an error message may be shown to the user, * false if run in commandline mode * @param pmw the ProgressMonitor to be updated; * if not needed, use null * @return true if the file was successfully opened * * TODO: Separate this into a Swing specific class - tfm */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,90,// necessary to create distance between // the textfield and the icon.,0,0,,"```python
+# The comment does not"
+Prompt_LLM,1500,87,D1_to_D1,91,// Subtracting 100 000 milliseconds from the orgTime of File f1,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,92,//{{{ Private members,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,93,//new Exception().printStackTrace();,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,94,// TODO: Distinguish between deferred resolution and things which // are unresolved at end of load and should be reported to user.,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,95,// TODO translation,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,96,// need to add static block here,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,97,"//System.getProperty(""line.separator"");",0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,98,"// TODO : would be great to have a Mapping#hasNonIdentifierPropertyNamedId method // I don't believe that Mapping#getReferencedPropertyType accounts for the identifier property; so // if it returns for a property named 'id', then we should have a non-id field named id",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,99,"// this needs to be split, since conditional calling #inherited doesn't fit standard ruby semantics",1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,100,//TODO: split into one critic for inherited problems and //one for problems directly in this class.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,101,/** * Get ElementResidences. * * TODO: Unused. Should be added to Facade? - tfm * * @param handle A modelElement * @return Collection The ElementResidence for this model element */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,102,//TODO: this requires that the collection is defined after the // referenced property in the mapping file (ok?),1,0,,"```python
+# The provided text is"
+Prompt_LLM,1500,87,D1_to_D1,103,// TODO: I18N required,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,104,//TODO (@author fdietz): i18n,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,105,// Make sure the contents match what we expect,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,106,//{{{ Private members,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,107,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,108,// TODO: synchronized is required here as there can be some // concurrent modification problems when drawing a call message and // having that automatically draw the reply. Maybe fixing the TODO // below will resolve this and the synch can go.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,109,//{{{ UnixWorkaround class,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,110,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,111,"// while its broken to have a null // symlinkPath, some older plugins // might...",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,112,// search the src folder with the src uid array,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,113,// TODO (@author fdietz): i18n,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,114,// FIXME: This doesn't actually support anything but String,1,0,,"```python
+# The comment ""FIXME"
+Prompt_LLM,1500,87,D1_to_D1,115,//{{{ getRowCount() method,0,0,,"```python
+# Solution
+```"
+Prompt_LLM,1500,87,D1_to_D1,116,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.fw.sql.ISQLDatabaseMetaData#getDriverName() */,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,117,// init progressbar,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,118,/* * First we have the methods for in-cell and Text-table operations */,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,119,//{{{ isSelected() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,120,// TODO: don't require pop,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,121,// defer argument checking...,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,122,// TODO: Use this event mechanism to update // the checkmark on the Presentation Tab:,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,123,"/* First try for an accessible version of the exact match. This first lookup seems redundant with below, but is apparently needed. This whole thing is messy. */",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,124,// this class has no proxies (so do a shortcut),1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,125,"// normal case, create a new label",0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,126,"// 'hibernate.temp.use_jdbc_metadata_defaults' is a temporary magic value. // The need for it is intended to be alleviated with future developement, thus it is // not defined as an Environment constant... // // it is used to control whether we should consult the JDBC metadata to determine // certain Settings default values; it is useful to *not* do this when the database // may not be available (mainly in tools usage).",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,127,"// have to handle this case specially on windows. // insert \ between, eg A: and myfile.txt.",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,128,"//put() has nowait semantics, is this really appropriate? //note that it needs to be async replication, never local or sync",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,129,// here we tweak the notify flag on the plot so that only // one notification happens even though we update multiple // axes...,1,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,130,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,131,//yyLhs 542,0,0,,"```python
+# This function calculates the"
+Prompt_LLM,1500,87,D1_to_D1,132,// moved to GUIUtilities as it makes no sense being here.,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,133,"// log.info(""SQL executed: "" + sql);",0,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,134,// Set the editors selection based on the current viewer's selection. //,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,135,"// The target list is empty, re-emptying it again // should not generate any events:",0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,136,/* This is a temporary hack until the notation provider * for a SD Message will be able to parse successfully when the sequence * number is missing. * Remove this method completely then.*/,1,1,,"SATD
+To determine whether the given"
+Prompt_LLM,1500,87,D1_to_D1,137,// REVIEW How do we resolve this discrepancy?!,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,138,"// this is the wrong test if the remote OS is OpenVMS, // but there doesn't seem to be a way to detect it.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,139,"// TODO: Perhaps we can tell the user when they click ""Copy Table"" // if the source session is Axion and they want primary keys that // it's not possible.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,140,// defer argument checking...,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,141,"/* * TODO: This transformation is Java specific. We need a more * language/notation scheme for specifying qualified names. * Possible algorithm - replace all punctuation with our * internal separator, replace multiple separators with a single * instance (for languages like C++). What about I18N? - tfm */",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,142,"/* * the model structure has changed significantly, eg a new project. * @see org.argouml.ui.explorer.TreeModelUMLEventListener#structureChanged() */",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,143,// fall through to normal processing of this key stroke,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,144,//{{{ getParentOfPath() method,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,145,//yukky! Don't you have subclasses for that! //TODO race conditions can happen here,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,146,"// TODO: replace all this url2 mess with a proper method // ""areEquivalent(url1, url2)"" that // would also ignore case in protocol and host names, etc. -- use that // method in the CookieManager too.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,147,// TODO: pass this in?,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,148,// TODO: not implemented,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,149,// Don't try to find it if we have already created it.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,150,// Some databases cannot order by LONG/LOB columns.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,151,// convert only fields of the same type as parent,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,152,"//note that this method could easily be moved up to BasicEntityPersister, //if we ever needed to reuse it from other subclasses",1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,153,/* * We use a LinkedBlockingQueue (rather than a ConcurrentLinkedQueue) because it has a * poll-with-wait method that avoids the need to use a polling loop. */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,154,// SSS FIXME: To be done,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,155,// TODO: This is a part implementation of well-formedness rule // UML1.4.2 - 4.5.3.20 [3] Circular inheritance is not allowed. // not self.allParents->includes(self),1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,156,"// SSS FIXME: I could make IR_Loop a scope too ... semantically, it is a scope, but, functionally, not sure if this is required yet ...",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,157,// Set tableSP's preferred height to 0 so that details height // is used in pack(),0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,158,// TODO Part of this is copied from ActionDeleteModelElement. We // maybe need some subclass for common code.,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,159,/** * Create an empty but initialized instance of a UML Permission. * * @return an initialized UML Permission instance. * TODO: This needs an extra parameter to specify the model/extent where * the new element should be created. */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,160,// SSS FIXME: Where does this go? // m.setLinePosition(arrayNode.getPosition());,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,161,// includes last '.',0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,162,"// should the next two be public, maybe?",1,0,,"```python
+# No specific prediction made"
+Prompt_LLM,1500,87,D1_to_D1,163,/* * run the function test */,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,164,//{{{ contentRemoved() method,0,0,,"```python
+""NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,165,// how to handle empty target lists? // probably the wizstep should only show an empty pane in that case,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,166,/* (non-Javadoc) * @see net.sourceforge.squirrel_sql.plugins.dbcopy.event.CopyTableListener#recordCopied(net.sourceforge.squirrel_sql.plugins.dbcopy.event.RecordEvent) */,0,0,,"**SATD**
+
+Explanation: The comment"
+Prompt_LLM,1500,87,D1_to_D1,167,/* * (non-Javadoc) * * @see org.columba.mail.folder.event.IFolderListener#messageRemoved(org.columba.mail.folder.event.IFolderEvent) */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,168,//eteTextForeground( Color.blue );,0,0,,To determine whether the given developer comment contains
+Prompt_LLM,1500,87,D1_to_D1,169,"// TODO: Someday, enable.",1,0,,"```python
+# The provided text is"
+Prompt_LLM,1500,87,D1_to_D1,170,// TODO: Bob says the reflective code following should be replaced // with something more specific like this commented out code. // This would mean we need sType changed to a meta type Object // rather than a String.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,171,"// Both primitives, do primitive cast",0,0,,"```python
+# This comment does not"
+Prompt_LLM,1500,87,D1_to_D1,172,//TODO: this is temporary in that the end result will probably not take a Property reference per-se.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,173,// TODO: is it really neceassry to provide Configuration to CollectionPersisters ? Should it not be enough with associated class ? // or why does EntityPersister's not get access to configuration ? // // The only reason I could see that Configuration gets passed to collection persisters // is so that they can look up the dom4j node name of the entity element in case // no explicit node name was applied at the collection element level. Are you kidding me? // Trivial to fix then. Just store and expose the node name on the entity persister // (which the collection persister looks up anyway via other means...).,1,1,,"SATD
+```python
+def classify"
+Prompt_LLM,1500,87,D1_to_D1,174,// Validate now since the call we make after will skip validating.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,175,// get references to selected folder and message,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,176,// wait to add shutdown hook as needed,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,177,// end of inner class,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,178,// kjc don't have bootclasspath option.,0,0,,"```python
+# Define the function to"
+Prompt_LLM,1500,87,D1_to_D1,179,// TODO: This should fetch the stereotype from our profile,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,180,/* * @see org.tigris.gef.graph.MutableGraphModel#addNode(java.lang.Object) */,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,181,// TODO: consider inherited attributes?,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,182,"// index for the item // this could probably be more efficient, bailing out on assigning args past the end?",1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,183,//$NON-NLS-1$ //$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,184,// can check against path characters because the set // is the same except for '/' which we've already excluded.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,185,//{{{ _save() method,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,186,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,187,"/** * Reroutes the connection to the old node to be connected to * the new node. * * delegates to rerouteXXX(,,,) for each of the 4 possible edges in * a class diagram: Association, Dependency, Generalization, Link. * TODO: This should probably be in superclass. Many Figs can be on * several diagram types. * * @param newNode this is the new node that one of the ends is dragged to. * @param oldNode this is the existing node that is already connected. * @param edge this is the edge that is being dragged/rerouted * @param isSource tells us which end is being rerouted. */",1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,188,// FIXME: Can get optimized for IEqlNode,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,189,// TODO ought to be a FileChooser ...,1,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,190,/* * Checks for LAST or LASTsuffix. * Returns the LAST name with .JMX replaced by suffix. */,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,191,"// we are done - clear status text with a delay // (if this is not done, the initial text will stay in // case no messages were sent)",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,192,// TODO is it possible to use more than one variable?,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,193,"/* Catch the mismatch and continue to try the next Note: this is innefficient, should have an isAssignableFrom() that doesn't throw */",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,194,"//TODO: bad implementation, cos it depends upon ordering of mapping doc // fixing this requires that Collection/PersistentClass gain access // to the Mappings reference from Configuration (or the filterDefinitions // map directly) sometime during Configuration.buildSessionFactory // (after all the types/filter-defs are known and before building // persisters).",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,195,// FIXME: set up a call configuration for this,1,0,,"```python
+# The comment ""FIXME"
+Prompt_LLM,1500,87,D1_to_D1,196,// try zero length array,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,197,// if blocked that means that it doesn't help anymore // Or an error dialog is shown or the connection is made // and the SessionFrame is being constructed/shown.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,198,"// results.setResponseCode(""???""); TODO what code should be set here?",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,199,// Note: It would be nice to pre-calculate this per series,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,200,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,201,// TODO: Count/report unresolved references,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,202,// Server based authority.,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,203,// TODO: This should not be an instance variable. It should just be // created and discarded as needed.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,204,//To change body of implemented methods use File | Settings | File Templates.,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,205,"// hack for to do items only, should check isLeaf(node), but that // includes empty folders. Really I need alwaysLeaf(node).",1,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,206,// Check old values don't hang around: // fewer matches,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,207,// Perhaps here we would want to guard with // a property for parallel backups or not.,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,208,"// XXX: hypotheses for AFeatureCall: fwd = op, val = head",0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,209,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,210,/** * A ChangeCommand that updates its label. * <p> * The label of this command can contain the character '#' that will be replaced * with information about an object when the label is returned. * <p> * TODO: Switch this to use Java string formatting instead of private # notation? * * @author Bogdan Pistol */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,211,"/* Notes: It would not be hard to eliminate the use of org.objectweb.asm.Type from this class, making the distribution a tiny bit smaller. */",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,212,// TODO: we can probably release our references to the constantFields // array and static/instance callback hashes at this point.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,213,// Actor,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,214,// BAR X,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,215,// TODO only called by UserParameterXMLParser.getXMLParameters which is a deprecated class,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,216,// iconst_i,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,217,// Add any remaining object-index pairs from either set. //,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,218,// rotationAnchor,0,0,,"```python
+# No Python code provided"
+Prompt_LLM,1500,87,D1_to_D1,219,"// Instead of passing these around to each method, we just store them // as instance variables. Note that this is not thread-safe.",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,220,// this is called by SessionFactory irregardless; we just disregard here; // could also add a check to SessionFactory to only conditionally call stop,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,221,"// Walk up the scope tree right now as much as possible, to avoid run-time walking // SSS FIXME: Any reason why this might break in the presence of ruby's dynamic resolution? What might break?",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,222,/* * @see org.argouml.ui.explorer.rules.PerspectiveRule#getRuleName() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,223,// TODO implement iterate() // TODO implement sortedBy() // TODO implement subSequence(),1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,224,"// here's a quirk - the API has been defined in terms of a plain // TimePeriod, which cannot make use of the timezone and locale // specified in the constructor...so we only do the time zone // pegging if the period is an instanceof RegularTimePeriod",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,225,// superclass does not use types,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,226,// already handled,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,227,// its maybe better to leave this option out of the dialog // -> make it configurable in the xml file anyway,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,228,// how to handle empty target lists? // probably the wizstep should only show an empty pane in that case,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,229,// i18n[HibernateConfigPanel.applyConfigChanges=Apply changes to this configuration],0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,230,/* * DataBase-related functions */,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,231,"// TODO: with new reference resolving scheme, the model sub-system will // cache the systemId of the profile, open it and resolve the profile // on its own. Thus, the java.util.List will be found and the return // value will be present again... //assertNotNull(returnParamType);",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,232,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,233,// TODO: don't require pop,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,234,// line 552,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,235,// TODO: This is going to cause the color to be reset on a refresh,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,236,// Nothing to do.,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,237,"// DB delete worked correctly, so now delete from table //IMPORTANT: The user and the creator both work through the // SortableTableModel, not the Actual model. Thus the row // indexes to delete are given in the SortableTableModel row numbers, // so we must work through that model model to actually do the delete.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,238,"// TODO: The following handling of multiselection is just a local // solution for the fill color, better find a more general solution: // (I don't know if it's undoable this way - thn)",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,239,// establish the coordinates of the top left corner of the drawing area,0,0,,"```python
+# Establishing the coordinates"
+Prompt_LLM,1500,87,D1_to_D1,240,//{{{ getRowCount() method,0,0,,"```python
+# Solution
+```"
+Prompt_LLM,1500,87,D1_to_D1,241,"/* * Finds all classes that extend the classes in the listSuperClasses * ArrayList, searching in the listAllClasses ArrayList. * * @param superClasses * the base classes to find subclasses for * @param listAllClasses * the collection of classes to search in * @param innerClasses * indicate whether to include inner classes in the search * @return ArrayList of the subclasses */",0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,242,/* * view.setLeadSelectionPath(path); view.setAnchorSelectionPath(path); */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,243,// Mark the contain FigPoly as complete. // TODO: I think more work is needed in GEF to either do this // automatically when both ends are set or at the very least // Give a setComplete method on FigPolyEdge that calls its // contained poly,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,244,/** * Get value from current scope or one of its captured scopes. * * FIXME: block variables are not getting primed to nil so we need to null check those * until we prime them properly. Also add assert back in. * * @param offset zero-indexed value that represents where variable lives * @param depth how many captured scopes down this variable should be set * @return the value here */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,245,// FIrst make sure we save the content of the current GUI (since we // will flush it away):,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,246,"// tell caller that the underlying data was not updated //?? is this always true, or could the data be updated with a warning?",1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,247,// Give it all back to the garbage collector. //,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,248,"//DMS Why not this? //new SubProgressMonitor(progressMonitor, 1));",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,249,"// TODO: number formatting here, MRI uses ""%-.10g"", 1.4 API is a must?",1,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,250,//main classpath,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,251,"// standard constructor that accepts Ruby, RubyClass",0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,252,// TODO: This is well-formedness rule from UML1.4.2 // 4.5.3.20 [2] No GeneralizableElement can have a parent // Generalization to an element that is a leaf. // self.parent->forAll(s | not s.isLeaf),1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,253,// don't try this at home,1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,254,//}}},0,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,255,// stupid scrollbar policy is an attempt to work around // bugs people have been seeing with IBM's JDK -- 7 Sep 2000,1,0,,"```python
+# Solution: 
+#"
+Prompt_LLM,1500,87,D1_to_D1,256,// Atomic ?,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,257,"/* * Have we reached the reporting boundary? * Need to allow for a margin of error, otherwise can miss the slot. * Also need to check we've not hit the window already */",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,258,// Only do verification if debug level logging is on // TODO: Should we leave this on always? - tfm,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,259,// we need to wrtap the param in a cast(),0,0,,"```python
+""NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,260,"// convert backslashes to slashes, otherwise jjtree will // put this as comments and this seems to confuse javacc",0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,261,//TODO: put this stuff back in to read snapshot from // the second-level cache (needs some extra work),1,0,,"```python
+# TODO: put this"
+Prompt_LLM,1500,87,D1_to_D1,262,// TODO: Performance. Consider instantiating this just // once outside the for loops and clear at this point // instead.,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,263,// Should we use java.naming.security.[principal|credentials] to create the QueueConnection?,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,264,"// TODO: figure out how to get then name of the table that the trigger // is on. //""and tables.name = ? "" +",1,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,265,/* * @see org.tigris.gef.presentation.Fig#calcBounds() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,266,/** * TODO: Bob says - This is a really nasty horrible hack. * ShadowFig should not extend FigNodeModelElement. Instead * we require a base class FigNode with common behaviour of ALL * nodes in ArgoUML. ShadowFig should extend that and * FigNodeModelElement should extend that same base class adding * common functionality for FigNode that represent model element. * @see org.argouml.uml.diagram.ui.FigNodeModelElement#setShadowSize(int) */,1,0,,"**NON_SATD**
+
+Explanation:"
+Prompt_LLM,1500,87,D1_to_D1,267,/* * @see java.awt.Component#getSize() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,268,// Fill 5 of value (byte) -19 // Fill 2 of value (byte) 33,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,269,// wrong outcome,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,270,"//TODO: ideally we need the construction of PropertyAccessor to take the following: // 1) EntityMode // 2) EntityMode-specific data (i.e., the classname for pojo entities) // 3) Property-specific data based on the EntityMode (i.e., property-name or dom4j-node-name) // The easiest way, with the introduction of the new runtime-metamodel classes, would be the // the following predicates: // 1) PropertyAccessorFactory.getPropertyAccessor() takes references to both a // org.hibernate.metadata.EntityModeMetadata and org.hibernate.metadata.Property // 2) What is now termed a ""PropertyAccessor"" stores any values needed from those two // pieces of information // 3) Code can then simply call PropertyAccess.getGetter() with no parameters; likewise with // PropertyAccessor.getSetter()",1,1,,"SATD
+
+Explanation:
+The comment explicitly"
+Prompt_LLM,1500,87,D1_to_D1,271,// try lookup again under lock,0,0,,"```python
+NON_SATD"
+Prompt_LLM,1500,87,D1_to_D1,272,//set the property values // Note: this may have already been done by another instance of // this DataType created to handle a different column.,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,273,"// This doesn't seem very correct, but it fixes a problem // when setting the initial caret position for a buffer // (eg, from the recent file list)",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,274,// fetch once; must be done under lock // (also protects against null),0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,275,//$NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,276,"// TODO: it might be a good idea to keep a reference to the color // specified in setPaint() or setColor(), rather than creating a // new object every time getPaint() is called.",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,277,// convert region enum to flexdock string,0,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,278,// TODO: This looks backwards. Left over from issue 2034?,1,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,279,// TODO: This should only be checking for the top level package // (if anything at all),1,0,,"```python
+# The comment does not"
+Prompt_LLM,1500,87,D1_to_D1,280,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,281,// 1. Remember current message paths,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,282,"// TODO: the namespace of enlisted events is currently the model. // I think this is wrong, they should be // in the namespace of the activitygraph! // vec.addAll(Model.getModelManagementHelper().getAllModelElementsOfKind( // Model.getFacade().getNamespace(getTarget()), // Model.getMetaTypes().getEvent()));",1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,283,// Clear the associated ID maps & reset starting collection,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,284,"// FIXME (@author fdietz): Do we need this implementation in a TempFolder? // If not, just put an empty method here, just like in VirtualFolder.",1,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,285,// Surely this is always null in the constructor?,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,286,// TODO: An Iterator filter would be nice here instead of the // mucking around with the Collection.,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,287,/* * @see org.argouml.ui.GUISettingsTabInterface#getTabKey() */,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,288,// notify folder tree model,0,0,,"```python
+# The final label based"
+Prompt_LLM,1500,87,D1_to_D1,289,// For classifiers,0,0,,"```python
+# The provided Python code"
+Prompt_LLM,1500,87,D1_to_D1,290,/** * Creates a new OCL critic * * @param oclConstraint ocl expression * @param headline headline * @param description description * @param moreInfoURL the info url * @param knowledgeTypes the knowledge types * @param supportedDecisions the decisions * @param priority the priority * @throws InvalidOclException if the ocl is not valid * * TODO: Do these need to be Lists or can they be simple Collections? */,1,0,,"NON_SATD
+
+Explanation:
+The"
+Prompt_LLM,1500,87,D1_to_D1,291,//TBD return (user selected subset?) of referenced packages that contain super classes of classes in this package.,1,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,292,// Mix-ins are everything after the base class. //,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,293,// not reached,0,0,,"```python
+# No specific Python code"
+Prompt_LLM,1500,87,D1_to_D1,294,// TODO: Remove the casting to DiagramFactoryInterface2 // as soon as DiagramFactoryInterface is removed.,1,0,,"```python
+# The comment indicates that"
+Prompt_LLM,1500,87,D1_to_D1,295,// attribute set.,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,296,// try a null key - should throw an exception,0,0,,"```python
+def classify_comment(comment):"
+Prompt_LLM,1500,87,D1_to_D1,297,// defer argument checking...,1,0,,"```python
+def classify_comment(comment:"
+Prompt_LLM,1500,87,D1_to_D1,298,// $NON-NLS-1$,0,0,,"NON_SATD
+
+Explanation: The"
+Prompt_LLM,1500,87,D1_to_D1,299,// Resize events,0,0,,"```python
+def classify_comment(comment):"
